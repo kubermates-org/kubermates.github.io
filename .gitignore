@@ -24,3 +24,10 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+.venv/
+venv/
+**/*/venv/
+**/*/.venv/
+**/venv/
+**/.venv/

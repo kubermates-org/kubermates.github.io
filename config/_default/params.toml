@@ -1,0 +1,11 @@
+# config/_default/params.toml
+[params.ui]
+sidebar_menu_compact = true
+navbar_logo = "/images/logo.png"
+
+[params]
+theme_color = "#2563eb"
+font_awesome_version = "6"
+
+[params.links]
+github = "https://github.com/kubermates-org"

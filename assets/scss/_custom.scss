@@ -1,7 +1,239 @@
-.navbar { box-shadow: 0 2px 12px rgba(0,0,0,.06); }
-.btn-primary { border: 0; border-radius: .6rem; }
-.td-content a { text-decoration: none; border-bottom: 1px solid rgba(0,188,212,.35); }
-.td-content a:hover { border-bottom-color: rgba(0,188,212,.8); }
-.highlight pre, pre.chroma { background: #f5f7fb !important; border-radius: .6rem; padding: 1rem 1.2rem; border: 1px solid #e6ecf2; }
-.footer { border-top: 1px solid #e6ecf2; }
-.alert-info { background: rgba(0,188,212,.08); border-color: rgba(0,188,212,.4); color: #0f6b78; }
+// @import "variables_project";
+// @import "tokens";
+// @import "overrides-docsy";
+// @import "components";
+// @import "utilities";
+
+/* assets/scss/_custom.scss */
+.container,
+.td-content {
+  scroll-margin-top: 96px;
+}
+
+.section {
+  padding: 3rem 0;
+}
+
+/* Hero with logo colors */
+.km-hero {
+  background: linear-gradient(135deg, #0b2849, #326CE5);
+  border-radius: 1.25rem;
+  padding: 3.5rem 2rem;
+  color: #fff;
+}
+
+.km-hero h1 {
+  color: #10b981; // mates green
+}
+
+.km-hero p {
+  color: #fff;
+}
+
+/* Keep outline buttons white inside the cover */
+.td-cover-block .btn-outline-light {
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+.td-cover-block .btn-outline-light:hover,
+.td-cover-block .btn-outline-light:focus {
+  color: #0b2849 !important;
+  /* your dark navy */
+  background-color: #fff !important;
+  border-color: #fff !important;
+}
+
+/* ==== Palette aux couleurs du logo ==== */
+:root {
+  --km-brand-1: #00D1B2;
+  /* turquoise logo */
+  --km-brand-2: #6C63FF;
+  /* violet logo */
+  --km-code-bg-light: #f8fafc;
+  --km-code-border: 1px solid rgba(0, 0, 0, .06);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --km-code-bg-dark: #0f1117;
+    --km-code-border: 1px solid rgba(255, 255, 255, .08);
+  }
+}
+
+/* ==== Bloc global ==== */
+.km-code {
+  margin: 1.25rem 0;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, .08);
+  border: 0;
+  /* on met la bordure sur le header */
+}
+
+/* Header avec léger dégradé bordure */
+.km-code__hdr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .55rem .75rem;
+  border-bottom: var(--km-code-border);
+  background:
+    linear-gradient(90deg, var(--km-brand-1), var(--km-brand-2)) top/100% 2px no-repeat,
+    var(--km-code-bg-light);
+}
+
+@media (prefers-color-scheme: dark) {
+  .km-code__hdr {
+    background:
+      linear-gradient(90deg, var(--km-brand-1), var(--km-brand-2)) top/100% 2px no-repeat,
+      var(--km-code-bg-dark);
+  }
+}
+
+/* Badge langage */
+.km-code__lang {
+  font: 600 12px/1.2 ui-sans-serif, system-ui;
+  padding: .25rem .5rem;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, .08);
+  background: rgba(0, 0, 0, .04);
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+@media (prefers-color-scheme: dark) {
+  .km-code__lang {
+    border-color: rgba(255, 255, 255, .12);
+    background: rgba(255, 255, 255, .06);
+  }
+}
+
+/* Bouton Copy */
+.km-code__copy {
+  font-size: .8rem;
+  padding: .25rem .6rem;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, .12);
+  background: white;
+  cursor: pointer;
+}
+
+.km-code__copy:hover {
+  transform: translateY(-1px);
+}
+
+@media (prefers-color-scheme: dark) {
+  .km-code__copy {
+    background: #1b1f27;
+    color: #e5e7eb;
+    border-color: rgba(255, 255, 255, .12);
+  }
+}
+
+/* Zone code */
+.td-content pre.chroma {
+  margin: 0;
+  /* géré par .km-code */
+  padding: 1rem 1.25rem;
+  border: none;
+  background: var(--km-code-bg-light);
+  font-family: "Fira Code", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  overflow: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+  .td-content pre.chroma {
+    background: var(--km-code-bg-dark);
+  }
+}
+
+/* Inline code */
+.td-content :not(pre)>code {
+  font-family: "Fira Code", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: .92em;
+  padding: .15rem .35rem;
+  border-radius: .45rem;
+  background: rgba(127, 127, 127, .12);
+  border: 1px solid rgba(127, 127, 127, .18);
+}
+
+/* Lignes & numéros */
+.chroma .lnt,
+.chroma .ln {
+  opacity: .65;
+  padding-right: .75rem;
+}
+
+/* Thème sombre forcé pour Chroma (Dracula) */
+@media (prefers-color-scheme: dark) {
+  .chroma {
+    color: #f8f8f2;
+  }
+
+  .chroma .k {
+    color: #ff79c6
+  }
+
+  /* keywords */
+  .chroma .s {
+    color: #f1fa8c
+  }
+
+  /* strings  */
+  .chroma .n {
+    color: #f8f8f2
+  }
+
+  .chroma .c {
+    color: #6272a4
+  }
+
+  /* comments */
+  .chroma .o,
+  .chroma .p {
+    color: #ffb86c
+  }
+}
+
+/* Scrollbar douce */
+.td-content pre::-webkit-scrollbar {
+  height: 10px;
+}
+
+.td-content pre::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+}
+
+/* Soft glow + depth behind the logo */
+.km-hero-logo {
+  max-width: 220px;
+  /* adjust to taste */
+  height: auto;
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, .25));
+  position: relative;
+  z-index: 1;
+}
+
+/* Soft brand-colored halo behind it */
+.km-hero-logo::after {
+  display: none;
+}
+
+/* keeps validators happy */
+
+.km-hero-logo-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.km-hero-logo-wrap::before {
+  content: "";
+  position: absolute;
+  inset: -18% -14% -10% -14%;
+  background: radial-gradient(60% 60% at 50% 50%, rgba(0, 209, 178, .28), rgba(0, 209, 178, 0));
+  filter: blur(18px);
+  z-index: 0;
+}

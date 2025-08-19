@@ -3,15 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:css": "stylelint 'assets/**/*.scss' 'static/**/*.css'",
+    "fix:css": "stylelint 'assets/**/*.scss' 'static/**/*.css' --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
+  "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
-    "postcss-cli": "^11.0.1"
+    "postcss-cli": "^11.0.1",
+    "prettier": "^3.6.2",
+    "stylelint": "^16.23.1",
+    "stylelint-config-recommended-scss": "^16.0.0",
+    "stylelint-config-standard": "^39.0.0",
+    "stylelint-scss": "^6.12.1"
   }
 }

@@ -1,0 +1,16 @@
+<h5 class="card-title">
+  {{ if .Params.external_url }}
+    <a href="{{ .Params.external_url }}" target="_blank" rel="noopener">{{ .Title }} ↗</a>
+  {{ else }}
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  {{ end }}
+</h5>
+
+<p class="card-subtitle text-muted">
+  {{ .Date.Format "2006-01-02" }}
+  {{ with .Params.tags }} · {{ delimit . ", " }}{{ end }}
+</p>
+
+{{ with .Params.external_url }}
+  <a class="btn btn-sm btn-primary mt-2" href="{{ . }}" target="_blank" rel="noopener">Open Original ↗</a>
+{{ end }}

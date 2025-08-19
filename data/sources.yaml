@@ -1,0 +1,68 @@
+events:
+  - name: "CNCF Events"
+    type: rss
+    url: "https://www.cncf.io/feed/"
+    category: "conference"
+
+  - name: "Kubernetes Community Days"
+    type: rss
+    url: "https://www.cncf.io/kcds/feed/"
+    category: "community"
+
+docs:
+  - name: "AKS What's new"
+    type: rss
+    url: "https://learn.microsoft.com/api/feeds/aks/whats-new"
+    tags: ["aks","azure"]
+
+  - name: "AWS Containers Blog (EKS)"
+    type: rss
+    url: "https://aws.amazon.com/blogs/containers/feed/"
+    filter: "EKS"
+    tags: ["eks","aws"]
+
+  - name: "Google Cloud Blog (GKE)"
+    type: rss
+    url: "https://cloud.google.com/blog/topics/kubernetes/rss/"
+    tags: ["gke","gcp"]
+
+  - name: "OpenShift Blog"
+    type: rss
+    url: "https://cloud.redhat.com/blog/tag/openshift/rss"
+    tags: ["openshift"]
+
+  - name: "Rancher (RKE/K3s)"
+    type: rss
+    url: "https://www.suse.com/c/rancher/blog/category/kubernetes/feed/"
+    tags: ["rke","rke2","k3s"]
+
+  - name: "Kubernetes Blog"
+    type: rss
+    url: "https://kubernetes.io/feed.xml"
+    tags: ["kubernetes"]
+
+releases:
+  - name: "Kubernetes Releases"
+    type: rss
+    url: "https://github.com/kubernetes/kubernetes/releases.atom"
+    tags: ["kubernetes"]
+
+  - name: "AKS Release Notes"
+    type: rss
+    url: "https://learn.microsoft.com/api/feeds/aks/release-notes"
+    tags: ["aks"]
+
+  - name: "EKS Release Notes"
+    type: rss
+    url: "https://docs.aws.amazon.com/eks/latest/userguide/doc-history.rss"
+    tags: ["eks"]
+
+  - name: "GKE Release Notes"
+    type: rss
+    url: "https://cloud.google.com/feeds/kubernetes-engine-release-notes.xml"
+    tags: ["gke"]
+
+  - name: "OpenShift Docs feed"
+    type: rss
+    url: "https://access.redhat.com/documentation/en-us/openshift_container_platform/atom.xml"
+    tags: ["openshift"]

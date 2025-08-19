@@ -1,6 +1,5 @@
 ---
-title: "events"
+title: "Events"
+description: "Kubernetes, Platform Engineering & Cloud events (filterable) — with a world map."
 weight: 1
 ---
-
-upcoming webinars meetups and workshops will appear here

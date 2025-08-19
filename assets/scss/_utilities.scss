@@ -1,0 +1,3 @@
+// Small helpers; prefer Bootstrap utilities if possible
+.u-shadow-sm { box-shadow: $box-shadow-sm !important; }
+.u-rounded   { border-radius: $border-radius !important; }

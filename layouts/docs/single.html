@@ -1,0 +1,27 @@
+{{ define "main" }}
+<main class="td-main">
+  <article class="container my-4">
+    <header class="mb-3">
+      <h1 class="h2">{{ .Title }}</h1>
+      <p class="text-muted">
+        {{ .Date.Format "2006-01-02" }}
+        {{ with .Params.tags }} · {{ delimit . ", " }}{{ end }}
+      </p>
+
+      {{ with .Params.external_url }}
+        <a class="btn btn-primary btn-sm" href="{{ . }}" target="_blank" rel="noopener">Open Original ↗</a>
+      {{ end }}
+    </header>
+
+    <div class="td-content">
+      {{ .Content }}  <!-- render full body -->
+    </div>
+
+    {{ with .Params.external_url }}
+      <div class="mt-4">
+        <a class="btn btn-outline-primary btn-sm" href="{{ . }}" target="_blank" rel="noopener">Open Original ↗</a>
+      </div>
+    {{ end }}
+  </article>
+</main>
+{{ end }}

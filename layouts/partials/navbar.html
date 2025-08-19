@@ -3,8 +3,11 @@
 
     <!-- Logo and Brand -->
     <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-      <img src="{{ "images/logo.png" | relURL }}" alt="Kubermates Logo" height="40" class="d-inline-block align-text-top">
-      {{ .Site.Title }}
+      <img
+        src="/images/nav-logo-white.png"
+        srcset="/images/nav-logo-white.png 1x, /images/nav-logo-white@2x.png 2x"
+        alt="Kubermates"
+        width="auto" height="48">
     </a>
 
     <!-- Mobile toggle -->
@@ -15,7 +18,7 @@
 
     <!-- Navbar items -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         <li class="nav-item">

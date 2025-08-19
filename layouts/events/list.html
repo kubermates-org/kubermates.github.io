@@ -1,0 +1,299 @@
+{{ define "main" }}
+<div class="container">
+  <h1 class="mb-2">{{ .Title }}</h1>
+  {{ with .Params.description }}<p class="lead">{{ . }}</p>{{ end }}
+
+  <!-- Map container -->
+  <div id="map" style="height: 420px;" class="mb-4 rounded shadow-sm border"></div>
+
+  <!-- Filters -->
+  <div id="filters" class="card p-3 mb-4">
+    <div class="row g-3 align-items-end">
+      <div class="col-12 col-md-3">
+        <label class="form-label mb-1">Provider</label>
+        <div class="d-flex flex-wrap gap-2">
+          {{ $providers := slice "cncf" "platform" "aws" "azure" "gcp" "ovh" }}
+          {{ range $p := $providers }}
+            <div class="form-check form-check-inline">
+              <input class="form-check-input provider" type="checkbox" id="p-{{ $p }}" value="{{ $p }}">
+              <label class="form-check-label" for="p-{{ $p }}">{{ upper $p }}</label>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <label class="form-label mb-1" for="mode">Format</label>
+        <select id="mode" class="form-select">
+          <option value="">Any</option>
+          <option value="in-person">In‑person</option>
+          <option value="online">Online</option>
+          <option value="hybrid">Hybrid</option>
+        </select>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <label class="form-label mb-1" for="region">Region</label>
+        <select id="region" class="form-select">
+          <option value="">Any</option>
+          <option value="eu">EU</option>
+          <option value="na">NA</option>
+          <option value="apac">APAC</option>
+          <option value="latam">LATAM</option>
+          <option value="mea">MEA</option>
+        </select>
+      </div>
+
+      {{/* Build country chips dynamically from events */}}
+      {{ $countries := slice }}
+      {{ range .Pages }}
+        {{ with .Params.country }}
+          {{ if not (in $countries .) }}{{ $countries = $countries | append . }}{{ end }}
+        {{ end }}
+      {{ end }}
+      {{ $countries = sort $countries }}
+
+      <div class="col-12 col-md-3">
+        <label class="form-label mb-1">Country</label>
+        <div class="d-flex flex-wrap gap-2" id="country-group">
+          {{ range $c := $countries }}
+          <div class="form-check form-check-inline">
+            <input class="form-check-input country" type="checkbox" id="c-{{ $c }}" value="{{ $c }}">
+            <label class="form-check-label" for="c-{{ $c }}">{{ upper $c }}</label>
+          </div>
+          {{ end }}
+        </div>
+        <small class="text-muted">Pick zero, one, or many</small>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <label class="form-label mb-1" for="from">From</label>
+        <input id="from" class="form-control" type="date">
+      </div>
+      <div class="col-6 col-md-2">
+        <label class="form-label mb-1" for="to">To</label>
+        <input id="to" class="form-control" type="date">
+      </div>
+      <div class="col-12 col-md-3">
+        <label class="form-label mb-1" for="q">Search</label>
+        <input id="q" class="form-control" type="search" placeholder="Title, city, tags…">
+      </div>
+      <div class="col-12 col-md-1 d-grid">
+        <button id="clear" class="btn btn-outline-secondary">Reset</button>
+      </div>
+    </div>
+  </div>
+
+  {{/* ---- Collect pages and bucket by date (parse strings -> time) ---- */}}
+  {{ $now := now }}
+  {{ $upcoming := slice }}
+  {{ $past := slice }}
+  {{ range .Pages }}
+    {{ if .Params.eventDate }}
+      {{ $t := time .Params.eventDate }}
+      {{ if ge $t $now }}
+        {{ $upcoming = $upcoming | append (dict "page" . "t" $t) }}
+      {{ else }}
+        {{ $past = $past | append (dict "page" . "t" $t) }}
+      {{ end }}
+    {{ else }}
+      {{ $past = $past | append (dict "page" . "t" $now) }}
+    {{ end }}
+  {{ end }}
+
+  <h2 class="h4 mt-4">Upcoming</h2>
+  <ul id="upcoming" class="list-unstyled">
+    {{ range sort $upcoming "t" }}
+      {{ $p := .page }}
+      <li class="event-item my-3"
+          data-title="{{ $p.Title | urlize }}"
+          data-provider="{{ $p.Params.provider }}"
+          data-mode="{{ $p.Params.mode }}"
+          data-region="{{ $p.Params.region }}"
+          data-country="{{ $p.Params.country }}"
+          data-city="{{ $p.Params.city }}"
+          data-tags="{{ delimit $p.Params.tags "," }}"
+          data-date="{{ $p.Params.eventDate }}"
+          {{ with $p.Params.lat }}data-lat="{{ . }}"{{ end }}
+          {{ with $p.Params.lon }}data-lon="{{ . }}"{{ end }}>
+        <div class="card">
+          <div class="card-body">
+            <div class="d-flex justify-content-between flex-wrap gap-2">
+              <h3 class="h5 mb-0"><a href="{{ $p.Params.link }}">{{ $p.Title }}</a></h3>
+              <div>
+                {{ with $p.Params.provider }}<span class="badge bg-primary me-1">{{ upper . }}</span>{{ end }}
+                {{ with $p.Params.mode }}<span class="badge bg-secondary me-1">{{ . }}</span>{{ end }}
+                {{ range $p.Params.tags }}<span class="badge bg-light text-dark me-1">{{ . }}</span>{{ end }}
+              </div>
+            </div>
+            <small class="text-muted">
+              {{ time.Format "Mon, Jan 2, 2006 15:04" (index . "t") }}
+              {{ with $p.Params.city }} · {{ . }}{{ end }}{{ with $p.Params.country }}{{ if . }} ({{ upper . }}){{ end }}{{ end }}
+            </small>
+            <p class="mb-2 mt-2">{{ with $p.Summary }}{{ . }}{{ else }}&nbsp;{{ end }}</p>
+            <div>
+              {{ with $p.Params.link }}<a class="btn btn-sm btn-outline-secondary ms-2" href="{{ . }}" target="_blank" rel="noopener">Register</a>{{ end }}
+            </div>
+          </div>
+        </div>
+      </li>
+    {{ end }}
+  </ul>
+
+  <h2 class="h4 mt-5">Past</h2>
+  <ul id="past" class="list-unstyled">
+    {{ range sort $past "t" "desc" }}
+      {{ $p := .page }}
+      <li class="event-item my-2"
+          data-title="{{ $p.Title | urlize }}"
+          data-provider="{{ $p.Params.provider }}"
+          data-mode="{{ $p.Params.mode }}"
+          data-region="{{ $p.Params.region }}"
+          data-country="{{ $p.Params.country }}"
+          data-city="{{ $p.Params.city }}"
+          data-tags="{{ delimit $p.Params.tags "," }}"
+          data-date="{{ $p.Params.eventDate }}"
+          {{ with $p.Params.lat }}data-lat="{{ . }}"{{ end }}
+          {{ with $p.Params.lon }}data-lon="{{ . }}"{{ end }}>
+        <a href="{{ $p.Params.external_url }}">{{ $p.Title }}</a>
+        <span class="text-muted"> · {{ time.Format "Jan 2, 2006" (index . "t") }}</span>
+      </li>
+    {{ end }}
+  </ul>
+</div>
+
+<script>
+(function() {
+  const $  = (s) => document.querySelector(s);
+  const $$ = (s) => Array.from(document.querySelectorAll(s));
+  const qs = new URLSearchParams(location.search);
+
+  // --- Load Leaflet dynamically, then init
+  function loadLeaflet(cb){
+    const css = document.createElement("link");
+    css.rel = "stylesheet";
+    css.href = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+    document.head.appendChild(css);
+
+    const js = document.createElement("script");
+    js.src = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+    js.onload = cb;
+    js.onerror = () => {
+      const map = document.getElementById("map");
+      if (map) map.innerHTML = '<div class="p-3 text-muted">Map failed to load. The list below still works.</div>';
+      initFilters(); // still enable filters even without map
+    };
+    document.head.appendChild(js);
+  }
+
+  function buildMapAndMarkers(){
+    const map = L.map('map').setView([20,0], 2);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    const markers = [];
+    $$(".event-item").forEach(li => {
+      const lat = parseFloat(li.dataset.lat), lon = parseFloat(li.dataset.lon);
+      if (!isNaN(lat) && !isNaN(lon)) {
+        const a = li.querySelector("a");
+        const title = a?.innerText || li.dataset.title || "Event";
+        const link  = a?.href || "#";
+        const date  = (li.dataset.date || "").slice(0,10);
+        const m = L.marker([lat, lon]).addTo(map)
+          .bindPopup(`<b>${title}</b><br>${date}${link?`<br><a href="${link}" target="_blank" rel="noopener">Details</a>`:""}`);
+        markers.push({ marker: m, li });
+      }
+    });
+
+    function syncMarkers() {
+      markers.forEach(({marker, li}) => {
+        const visible = li.style.display !== "none";
+        if (visible && !map.hasLayer(marker)) marker.addTo(map);
+        if (!visible && map.hasLayer(marker)) map.removeLayer(marker);
+      });
+    }
+    return { syncMarkers };
+  }
+
+  function initFilters(syncCb){
+    // Restore from URL
+    $$(".provider").forEach(cb => cb.checked = qs.getAll("provider").includes(cb.value));
+    $$(".country").forEach(cb => cb.checked = qs.getAll("country").includes(cb.value));
+    ["mode","region","from","to","q"].forEach(id => { if (qs.get(id)) $("#"+id).value = qs.get(id); });
+
+    function selected(nodes){ return nodes.filter(n => n.checked).map(n => n.value); }
+
+    window.applyFilters = function(pushUrl=true) {
+      const pickProv = selected($$(".provider"));
+      const pickCountries = selected($$(".country")).map(c => c.toLowerCase());
+      const selMode = $("#mode").value;
+      const selRegion = $("#region").value;
+      const from = $("#from").value ? new Date($("#from").value) : null;
+      const to   = $("#to").value ? new Date($("#to").value) : null;
+      const q = $("#q").value.trim().toLowerCase();
+
+      $$(".event-item").forEach(li => {
+        const prov   = (li.dataset.provider || "");
+        const mode   = (li.dataset.mode || "");
+        const region = (li.dataset.region || "");
+        const country= (li.dataset.country || "").toLowerCase();
+        const title  = (li.dataset.title || "");
+        const tags   = (li.dataset.tags  || "").toLowerCase();
+        const city   = (li.dataset.city  || "").toLowerCase();
+        const date   = li.dataset.date ? new Date(li.dataset.date) : null;
+
+        let ok = true;
+        if (pickProv.length && !pickProv.includes(prov)) ok = false;
+        if (ok && selMode && mode !== selMode) ok = false;
+        if (ok && selRegion && region !== selRegion) ok = false;
+        if (ok && pickCountries.length && !pickCountries.includes(country)) ok = false;
+        if (ok && from && date && date < from) ok = false;
+        if (ok && to && date && date > new Date(to.getTime() + 24*60*60*1000 - 1)) ok = false;
+        if (ok && q && !(title.includes(q) || tags.includes(q) || city.includes(q))) ok = false;
+
+        li.style.display = ok ? "" : "none";
+      });
+
+      if (pushUrl){
+        const params = new URLSearchParams();
+        selected($$(".provider")).forEach(p => params.append("provider", p));
+        selected($$(".country")).forEach(c => params.append("country", c));
+        if ($("#mode").value) params.set("mode", $("#mode").value);
+        if ($("#region").value) params.set("region", $("#region").value);
+        if ($("#from").value) params.set("from", $("#from").value);
+        if ($("#to").value) params.set("to", $("#to").value);
+        if ($("#q").value) params.set("q", $("#q").value);
+        history.replaceState(null, "", params.toString() ? "?" + params.toString() : location.pathname);
+        try { localStorage.setItem("kubermates.events.filters", params.toString()); } catch(e){}
+      }
+
+      if (typeof syncCb === "function") syncCb();
+    };
+
+    $$(".provider, .country").forEach(cb => cb.addEventListener("change", () => applyFilters()));
+    ["mode","region","from","to"].forEach(id => $("#"+id).addEventListener("change", () => applyFilters()));
+    $("#q").addEventListener("input", () => applyFilters());
+    $("#clear").addEventListener("click", () => {
+      $$(".provider, .country").forEach(cb => cb.checked = false);
+      ["mode","region","from","to","q"].forEach(id => { const el=$("#"+id); if (el) el.value=""; });
+      applyFilters();
+    });
+
+    // Initial render (restore URL or localStorage)
+    if (![...qs.keys()].length) {
+      try {
+        const saved = localStorage.getItem("kubermates.events.filters");
+        if (saved) location.replace(location.pathname + "?" + saved);
+      } catch(e){}
+    }
+    applyFilters(false);
+  }
+
+  loadLeaflet(() => {
+    const { syncMarkers } = buildMapAndMarkers();
+    initFilters(syncMarkers);
+  });
+})();
+</script>
+{{ end }}

@@ -6,6 +6,10 @@ enableRobotsTXT = true
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+buildFuture = true
+buildDrafts = true     # optional; you can keep false if your files have draft: false
+buildExpired = true    # harmless; future-proofing
+
 # docsy is loaded via module imports
 [module]
   proxy = "direct"
@@ -14,13 +18,40 @@ defaultContentLanguageInSubdir = false
   unsafe = true
 
 [params]
-  copyright = "Kubermates"
+  copyright = "Kubermates powered by Kapheira"
+  description = "Cloud, Kubernetes & CI/CD—hands-on guides"
   landingPage = true
   logo = "/images/logo.png"
   brand = "Kubermates"
   github_repo = "https://github.com/kubermates-org/kubermates-site"
   prism_syntax_highlighting = true
-  version_menu = false
+  version_menu = false  
+  # images = ["/images/og-default.png"]   # used by social previews
+
+
+[params.ui]
+  navbar_logo = "/images/logo.png"      # your logo path
+  # Optional: load custom plain CSS instead of SCSS pipeline
+  # custom_css = ["css/custom.css"]
+  sidebar_menu_compact = true          # tidier sidebar
+  showLightDarkModeToggle = true       # Docsy ≥ 0.11 supports this
+  navbar_translucent = true            # some Docsy builds use this flag
+
+[params.social]
+  github = "https://github.com/kubermates-org"
+  linkedin = "https://www.linkedin.com/company/kubermates"
+  youtube = "https://www.youtube.com/@Kubermates"
+  slack    = "https://kubermates.slack.com" 
+
+
+[markup]
+  [markup.highlight]
+    noClasses = false       # use CSS classes instead of inline styles
+    style = "github"
+    guessSyntax = true
+    lineNos = false
+    lineNumbersInTable = false
+    tabWidth = 2
 
 [menu]
   [[menu.main]]
@@ -30,19 +61,25 @@ defaultContentLanguageInSubdir = false
     weight = 1
 
   [[menu.main]]
-    identifier = "docs"
-    name = "Docs"
-    url = "/docs/"
-    weight = 2
-
-  [[menu.main]]
     identifier = "events"
     name = "Events"
     url = "/events/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Docs"
+    url  = "/docs/"
     weight = 3
+    identifier = "docs"
+
+  [[menu.main]]
+    name = "Releases"
+    url  = "/releases/"
+    weight = 4
+    identifier = "releases"
 
   [[menu.main]]
     identifier = "contribute"
     name = "Contribute"
     url = "/contribute/"
-    weight = 4
+    weight = 5
