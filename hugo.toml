@@ -1,0 +1,48 @@
+baseURL = "https://kubermates.org/"
+title = "Kubermates"
+languageCode = "en-us"
+enableRobotsTXT = true
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+# docsy is loaded via module imports
+[module]
+  proxy = "direct"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  copyright = "Kubermates"
+  landingPage = true
+  logo = "/images/logo.png"
+  brand = "Kubermates"
+  github_repo = "https://github.com/kubermates-org/kubermates-site"
+  prism_syntax_highlighting = true
+  version_menu = false
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Articles"
+    url = "/blog/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "docs"
+    name = "Docs"
+    url = "/docs/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "events"
+    name = "Events"
+    url = "/events/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "contribute"
+    name = "Contribute"
+    url = "/contribute/"
+    weight = 4

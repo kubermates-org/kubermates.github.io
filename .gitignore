@@ -1,0 +1,26 @@
+# Hugo build output
+public/
+resources/_gen/
+
+# Hugo cache
+**/.hugo_build.lock
+
+# Node modules (if using PostCSS / Docsy)
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code / IDE configs
+.vscode/
+.idea/
+*.swp

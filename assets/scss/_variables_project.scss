@@ -1,0 +1,14 @@
+$kubermates-blue:   #326ce5;
+$kubermates-cyan:   #00bcd4;
+$kubermates-orange: #f57c00;
+$kubermates-bg:     #f9fafb;
+
+$primary:   $kubermates-blue;
+$secondary: $kubermates-cyan;
+$info:      $kubermates-cyan;
+$warning:   $kubermates-orange;
+
+$link-color: $kubermates-cyan;
+$link-hover-color: darken($link-color, 10%);
+$font-family-sans-serif: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+$body-bg: $kubermates-bg;
