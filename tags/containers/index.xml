@@ -8,10 +8,10 @@
 &lt;p>&lt;strong>Create a Kubernetes Cluster&lt;/strong>:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Example&lt;/strong>: Use Minikube to create a local cluster. Run:
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>minikube start --kubernetes-version&lt;span style="color:#f92672">=&lt;/span>v1.31.0
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">minikube start --kubernetes-version&lt;span class="o">=&lt;/span>v1.31.0
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>This command sets up a Kubernetes 1.31 cluster locally, allowing you to test the new features and changes in a controlled environment.&lt;/li>
 &lt;li>&lt;strong>Cloud-Based Testing&lt;/strong>: For cloud environments, use a tool like &lt;code>eksctl&lt;/code> for Amazon EKS:
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>eksctl create cluster --version 1.31 --name test-cluster
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">eksctl create cluster --version 1.31 --name test-cluster
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>This command creates an Amazon EKS cluster with Kubernetes 1.31, suitable for more extensive testing scenarios.&lt;/li>
 &lt;/ul>
 &lt;/li>
