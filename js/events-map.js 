@@ -1,0 +1,16 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const map = L.map("map").setView([20, 0], 2);
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: "© OpenStreetMap contributors"
+  }).addTo(map);
+
+  document.querySelectorAll(".event-item").forEach(el => {
+    const lat = el.dataset.lat, lon = el.dataset.lon;
+    if (lat && lon) {
+      L.marker([parseFloat(lat), parseFloat(lon)])
+        .addTo(map)
+        .bindPopup(el.textContent);
+    }
+  });
+});
