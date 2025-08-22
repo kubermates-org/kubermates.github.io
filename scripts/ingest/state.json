@@ -669,6 +669,21 @@
       "title": "May 13, 2025",
       "date": "2025-05-13T00:00:00-07:00",
       "source": "GKE Release Notes"
+    },
+    "09aa68c2d262": {
+      "title": "Migrate to Amazon EKS: Data plane cost modeling with Karpenter and KWOK",
+      "date": "2025-08-21T18:18:42+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "38ef91ffcf82": {
+      "title": "August 21, 2025",
+      "date": "2025-08-21T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "b2555f92f675": {
+      "title": "Celebrating 100 Golden Kubestronauts",
+      "date": "2025-08-21T13:59:00+00:00",
+      "source": "CNCF Events"
     }
   }
 }
