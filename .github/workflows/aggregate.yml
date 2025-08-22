@@ -34,30 +34,25 @@ jobs:
           python scripts/ingest/ingest_releases.py
           python scripts/ingest/ingest_events.py
 
-      - name: Commit to a temp branch
+      - name: Remove pycache noise
         run: |
-          set -euo pipefail
-          git config user.name "kubermates-bot"
-          git config user.email "bot@kubermates.org"
-          git checkout -B bot/ingest-update
-          git add content/ scripts/ingest/state.json
-          if ! git diff --cached --quiet; then
-            git commit -m "chore(ingest): update aggregated content"
-            git push --force-with-lease origin HEAD:bot/ingest-update
-          else
-            echo "No changes"
-            exit 0
-          fi
+          find . -type d -name __pycache__ -prune -exec rm -rf {} + || true
+          find . -type f \( -name '*.pyc' -o -name '*.pyo' -o -name '*.pyd' \) -delete || true
 
-      - name: Switch back to main
-        run: git checkout main
+      - name: Make branch name
+        id: vars
+        run: |
+          echo "branch=bot/ingest-$(TZ=Europe/Paris date +%Y-%m-%d-%H)h-$(date +%s)" >> "$GITHUB_OUTPUT"
 
       - name: Create PR
         uses: peter-evans/create-pull-request@v6
         with:
           base: main
-          branch: bot/ingest-update
-          title: chore ingest update aggregated content
-          commit-message: chore ingest update aggregated content
+          branch: ${{ steps.vars.outputs.branch }}
+          title: "chore: ingest update aggregated content"
+          commit-message: "chore: ingest update aggregated content"
           body: Automated content aggregation
           delete-branch: true
+          add-paths: |
+            content/**
+            scripts/ingest/state.json
