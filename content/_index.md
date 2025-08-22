@@ -14,10 +14,10 @@ title: Kubermates
 <h1 class="display-4 fw-bold">
   <span style="color:white;">Kuber</span><span style="color:#00D1B2;">mates</span>
 </h1>
-<p class="lead">Cloud Kubernetes and CI CD - practical guides and tools.</p>
+<p class="lead">Cloud Kubernetes and CI/CD - practical guides and tools.</p>
 
 <a class="btn btn-secondary text-white btn-lg mt-3" href="/tags/kubernetes/">Start with Kubernetes</a>
-<a class="btn btn-outline-light text-white border-white btn-lg mt-3 ms-2" href="/tags/ci-cd/">Explore CI CD</a>
+<a class="btn btn-outline-light text-blue border-white btn-lg mt-3 ms-2" href="/tags/cicd/">Explore CI/CD</a>
 
 {{< /blocks/cover >}}
 
