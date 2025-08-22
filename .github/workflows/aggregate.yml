@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   aggregate:
@@ -33,13 +34,30 @@ jobs:
           python scripts/ingest/ingest_releases.py
           python scripts/ingest/ingest_events.py
 
-      - name: Commit changes
+      - name: Commit to a temp branch
         run: |
+          set -euo pipefail
           git config user.name "kubermates-bot"
           git config user.email "bot@kubermates.org"
-          git add content/ scripts/ingest/state.json || true
+          git checkout -B bot/ingest-update
+          git add content/ scripts/ingest/state.json
           if ! git diff --cached --quiet; then
             git commit -m "chore(ingest): update aggregated content"
-            git push
+            git push --force-with-lease origin HEAD:bot/ingest-update
           else
             echo "No changes"
+            exit 0
+          fi
+
+      - name: Switch back to main
+        run: git checkout main
+
+      - name: Create PR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          base: main
+          branch: bot/ingest-update
+          title: chore ingest update aggregated content
+          commit-message: chore ingest update aggregated content
+          body: Automated content aggregation
+          delete-branch: true
