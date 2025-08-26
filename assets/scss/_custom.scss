@@ -237,3 +237,73 @@
   filter: blur(18px);
   z-index: 0;
 }
+
+/* Compact, classy badges for tags */
+.km-badge {
+  background: rgba(16,185,129,.12); /* tailwind emerald-ish */
+  border: 1px solid rgba(16,185,129,.35);
+  color: #0f5132 !important;
+}
+
+/* Callouts */
+.km-callout {
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(15,23,42,.08);
+  box-shadow: 0 6px 16px rgba(2,6,23,.06);
+  background: #fff;
+}
+
+.km-callout-head {
+  display: flex; align-items: center; gap: .5rem;
+  padding: .6rem .9rem;
+  background: linear-gradient(180deg, rgba(2,6,23,.04), rgba(2,6,23,.02));
+  border-bottom: 1px solid rgba(15,23,42,.06);
+}
+
+.km-callout-icon { font-size: 1rem; line-height: 1; }
+
+.km-callout-body { padding: .85rem .95rem; }
+
+/* Variants */
+.km-callout-info {
+  border-left: 4px solid #0ea5e9; /* cyan/sky */
+}
+.km-callout-neutral {
+  border-left: 4px solid #10b981; /* kubermates green */
+}
+
+/* Anchor focus: smooth jump target spacing */
+#tldr, #summary { scroll-margin-top: 96px; }
+
+/* Section block styling */
+.km-section-block {
+  border-radius: 10px;
+  border: 1px solid rgba(15,23,42,.08);
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(2,6,23,.05);
+  padding: 1rem 1.25rem;
+}
+
+.km-section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-bottom: .75rem;
+  border-bottom: 2px solid rgba(15,23,42,.08);
+  padding-bottom: .25rem;
+}
+
+.km-section-title::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid rgba(15,23,42,.05);
+  margin-left: .5rem;
+}
+
+.km-section-body {
+  font-size: 1rem;
+  line-height: 1.6;
+}

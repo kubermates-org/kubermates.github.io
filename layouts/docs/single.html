@@ -1,47 +1,121 @@
 {{ define "main" }}
 <main class="td-main">
   <article class="container my-4">
-    <header class="mb-3">
-      <h1 class="h2">{{ .Title }}</h1>
-      <p class="text-muted">
-        {{ .Date.Format "2006-01-02" }}
-        {{ with .Params.tags }} · {{ delimit . ", " }}{{ end }}
-      </p>
 
-      {{ with .Params.external_url }}
-        <a class="btn btn-primary btn-sm" href="{{ . }}" target="_blank" rel="noopener">Open Original ↗</a>
+    {{/* ——— Header ——— */}}
+    <header class="mb-4">
+      <div class="d-flex align-items-start gap-3 flex-wrap">
+        <h1 class="h2 mb-0 flex-grow-1">{{ .Title }}</h1>
+        {{ with .Params.post_kind }}<span class="badge text-bg-success align-self-center">{{ . | title }}</span>{{ end
+        }}
+      </div>
+
+      <div class="text-muted small d-flex flex-wrap align-items-center gap-2 mt-2">
+        <span class="d-inline-flex align-items-center gap-1">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M7 2v2H5a2 2 0 0 0-2 2v2h18V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2H7zm14 8H3v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V10zM5 14h4v4H5v-4z" />
+          </svg>
+          {{ .Date.Format "2006-01-02" }}
+        </span>
+
+        <span class="d-inline-flex align-items-center gap-1">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 1a11 11 0 1 0 11 11A11.013 11.013 0 0 0 12 1zm1 11h6v2h-8V6h2z" />
+          </svg>
+          ~{{ .ReadingTime }} min read
+        </span>
+
+        {{ with .Params.external_url }}{{ $u := urls.Parse . }}
+        <span class="d-inline-flex align-items-center gap-2">
+          <img src="https://www.google.com/s2/favicons?domain={{ $u.Host }}&sz=64" width="16" height="16" alt=""
+            class="rounded">
+          <a class="link-secondary text-decoration-none" href="{{ . }}" target="_blank"
+            rel="nofollow noopener noreferrer">{{ $u.Host }}</a>
+        </span>
+        {{ end }}
+
+        {{ with .Params.tags }}
+        <span class="vr mx-1 d-none d-sm-inline"></span>
+        <span class="d-inline-flex flex-wrap gap-1">
+          {{ range . }}
+          <a class="badge km-badge text-decoration-none" href="{{ " tags" | relURL }}{{ . | urlize }}/">#{{ . }}</a>
+          {{ end }}
+        </span>
+        {{ end }}
+      </div>
+
+      {{ $hasTLDR := .Params.tldr }}
+      {{ $hasSummary := .Params.summary }}
+      {{ if or $hasTLDR $hasSummary }}
+      <div class="mt-3 d-flex flex-wrap gap-2 small">
+        {{ if $hasTLDR }}<a class="btn btn-outline-secondary btn-sm" href="#tldr">Jump to TL;DR</a>{{ end }}
+        {{ if $hasSummary }}<a class="btn btn-outline-secondary btn-sm" href="#summary">Jump to Summary</a>{{ end }}
+        {{ with .Params.external_url }}
+        <a class="btn btn-primary btn-sm" href="{{ . }}" target="_blank" rel="nofollow noopener noreferrer">Open
+          Original ↗</a>
+        {{ end }}
+      </div>
       {{ end }}
     </header>
 
-    {{/* --- TL;DR & Summary blocks (only render if provided) --- */}}
-    {{ if or .Params.tldr .Params.summary }}
-      <div class="mb-3">
-        {{ with .Params.tldr }}
-          <div class="alert alert-info py-2 mb-2" role="note">
-            <strong class="me-1">TL;DR:</strong> {{ . }}
-          </div>
-        {{ end }}
+    {{/* ——— TL;DR + Summary as separate sections with heading style ——— */}}
+    {{ $hasTLDR := .Params.tldr }}
+    {{ $hasSummary := .Params.summary }}
 
-        {{ with .Params.summary }}
-          <div class="card mb-3">
-            <div class="card-body py-2">
-              <strong class="d-block mb-1">Summary</strong>
-              <p class="mb-0">{{ . }}</p>
-            </div>
-          </div>
-        {{ end }}
+    {{ if or $hasTLDR $hasSummary }}
+    <section class="mb-4">
+      {{ if $hasTLDR }}
+      <div id="tldr" class="km-section-block mb-4">
+        <h2 class="km-section-title">
+          ⚡ TL;DR
+        </h2>
+        <div class="km-section-body">
+          {{ .Params.tldr }}
+        </div>
       </div>
+      {{ end }}
+
+      {{ if $hasSummary }}
+      <div id="summary" class="km-section-block mb-4">
+        <h2 class="km-section-title">
+          📝 Summary
+        </h2>
+        <div class="km-section-body">
+          <p class="mb-0">{{ .Params.summary }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </section>
     {{ end }}
 
+    {{/* ——— Content ——— */}}
     <div class="td-content">
-      {{ .Content }}  <!-- render full body -->
+      {{ .Content }}
     </div>
 
-    {{ with .Params.external_url }}
-      <div class="mt-4">
-        <a class="btn btn-outline-primary btn-sm" href="{{ . }}" target="_blank" rel="noopener">Open Original ↗</a>
+    {{/* ——— Bottom toolbar ——— */}}
+    <footer class="mt-4 pt-3 border-top d-flex flex-wrap gap-2 align-items-center">
+      {{ with .Params.external_url }}
+      <a class="btn btn-outline-primary btn-sm" href="{{ . }}" target="_blank" rel="nofollow noopener noreferrer">Open
+        Original ↗</a>
+      <button class="btn btn-outline-secondary btn-sm" type="button" data-copy="{{ . }}"
+        onclick="navigator.clipboard.writeText(this.dataset.copy); this.textContent='Copied!'; setTimeout(()=>this.textContent='Copy link',1100)">Copy
+        link</button>
+      {{ end }}
+
+      <div class="ms-auto d-flex gap-2">
+        {{ $shareTitle := .Title | urlquery }}
+        {{ $shareURL := cond (isset .Params "external_url") .Params.external_url .Permalink }}
+        {{ $shareU := $shareURL | urlquery }}
+        <a class="btn btn-light btn-sm border"
+          href="https://twitter.com/intent/tweet?text={{ $shareTitle }}&url={{ $shareU }}" target="_blank"
+          rel="noopener">Share on X</a>
+        <a class="btn btn-light btn-sm border" href="https://www.linkedin.com/sharing/share-offsite/?url={{ $shareU }}"
+          target="_blank" rel="noopener">LinkedIn</a>
       </div>
-    {{ end }}
+    </footer>
+
   </article>
 </main>
 {{ end }}

@@ -147,11 +147,12 @@ def _prompt_reduce(title: Optional[str], url: Optional[str], lang_hint: Optional
     You are creating FINAL summaries from aggregated bullet points that cover ALL parts of the article.
 
     Output STRICT JSON with keys ONLY:
-    "tldr": string  (about 1–2 sentences, target ~300 characters, ultra concise.)
-    "summary": string (about 3–6 sentences, target ~1000 characters, crisp and complete.)
+    "tldr": string  (about 1–2 sentences, target ~350 characters, ultra concise.)
+    "summary": string (about 3–6 sentences, target ~1200 characters, crisp and complete.)
 
     Rules:
     - Keep the SAME LANGUAGE as the source (use the hint/title if needed).
+    - Add some emojis to add some fun and engagement.
     - Be faithful; use only information present in the bullets.
     - Prefer concrete details (versions, flags, concepts) over generic advice.
     - Do NOT include any list markers, section headers, or "# Chunk" text in either field.
