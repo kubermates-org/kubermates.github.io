@@ -7,5 +7,29 @@ source: EKS Release Notes
 external_url: https://docs.aws.amazon.com/eks/latest/userguide/hybrid-nodes-cluster-update.html
 post_kind: release
 draft: false
+tldr: Help improve this page To contribute to this user guide, choose the Edit this
+  page on GitHub link that is located in the right pane of every page. This topic
+  provides an overview of the available options and describes what to consider when
+  you add, change, or remove the hybrid nodes configuration for an Amazon EKS cluster.
+summary: 'Help improve this page To contribute to this user guide, choose the Edit
+  this page on GitHub link that is located in the right pane of every page. This topic
+  provides an overview of the available options and describes what to consider when
+  you add, change, or remove the hybrid nodes configuration for an Amazon EKS cluster.
+  To enable an Amazon EKS cluster to use hybrid nodes, add the IP address CIDR ranges
+  of your on-premises node and optionally pod network in the RemoteNetworkConfig configuration.
+  EKS uses this list of CIDRs to enable connectivity between the cluster and your
+  on-premises networks. For a full list of options when updating your cluster configuration,
+  see the UpdateClusterConfig in the Amazon EKS API Reference. You can do any of the
+  following actions to the EKS Hybrid Nodes networking configuration in a cluster:
+  Add remote network configuration to enable EKS Hybrid Nodes in an existing cluster.
+  Add, change, or remove the remote node networks or the remote pod networks in an
+  existing cluster. Remove all remote node network CIDR ranges to disable EKS Hybrid
+  Nodes in an existing cluster. Before enabling your Amazon EKS cluster for hybrid
+  nodes, ensure your environment meets the requirements outlined at Prerequisite setup
+  for hybrid nodes , and detailed at Prepare networking for hybrid nodes , Prepare
+  operating system for hybrid nodes , and Prepare credentials for hybrid nodes. Your
+  cluster must use IPv4 address family. Your cluster must use either API or API_AND_CONFIG_MAP
+  for the cluster authentication mode. The process for modifying the cluster authentication
+  mode is described at Change authentication mode to use access entries.'
 ---
 Open the original post ↗ https://docs.aws.amazon.com/eks/latest/userguide/hybrid-nodes-cluster-update.html

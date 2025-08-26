@@ -7,5 +7,7 @@ source: EKS Release Notes
 external_url: https://docs.aws.amazon.com/eks/latest/userguide/#IPv6_access_control_for_dual-stack_public_endpoints_for_new_IPv6_clusters_2025-06-05
 post_kind: release
 draft: false
+tldr: ''
+summary: ''
 ---
 Open the original post ↗ https://docs.aws.amazon.com/eks/latest/userguide/#IPv6_access_control_for_dual-stack_public_endpoints_for_new_IPv6_clusters_2025-06-05

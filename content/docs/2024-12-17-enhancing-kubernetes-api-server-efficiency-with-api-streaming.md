@@ -8,7 +8,8 @@ external_url: https://kubernetes.io/blog/2024/12/17/kube-apiserver-api-streaming
 post_kind: link
 draft: false
 tldr: Managing Kubernetes clusters efficiently is critical, especially as their size
-  is growing.
+  is growing. A significant challenge with large clusters is the memory overhead caused
+  by list requests.
 summary: Managing Kubernetes clusters efficiently is critical, especially as their
   size is growing. A significant challenge with large clusters is the memory overhead
   caused by list requests. In the existing implementation, the kube-apiserver processes
@@ -17,6 +18,16 @@ summary: Managing Kubernetes clusters efficiently is critical, especially as the
   megabytes? Additionally, imagine a scenario where multiple list requests flood in
   simultaneously, perhaps after a brief network outage. While API Priority and Fairness
   has proven to reasonably protect kube-apiserver from CPU overload, its impact is
-  visibly smaller for memory protection. T...
+  visibly smaller for memory protection. This can be explained by the differing nature
+  of resource consumption by a single API request - the CPU usage at any given time
+  is capped by a constant, whereas memory, being uncompressible, can grow proportionally
+  with the number of processed objects and is unbounded. This situation poses a genuine
+  risk, potentially overwhelming and crashing any kube-apiserver within seconds due
+  to out-of-memory (OOM) conditions. To better visualize the issue, let's consider
+  the below graph. The graph shows the memory usage of a kube-apiserver during a synthetic
+  test. (see the synthetic test section for more details). The results clearly show
+  that increasing the number of informers significantly boosts the server's memory
+  consumption. Notably, at approximately 16:40, the server crashed when serving only
+  16 informers.
 ---
 Open the original post ↗ https://kubernetes.io/blog/2024/12/17/kube-apiserver-api-streaming/
