@@ -11,6 +11,10 @@
   {{ with .Params.tags }} · {{ delimit . ", " }}{{ end }}
 </p>
 
+{{ with .Params.tldr }}
+  <p class="card-text mt-2">{{ . }}</p>
+{{ end }}
+
 {{ with .Params.external_url }}
   <a class="btn btn-sm btn-primary mt-2" href="{{ . }}" target="_blank" rel="noopener">Open Original ↗</a>
 {{ end }}

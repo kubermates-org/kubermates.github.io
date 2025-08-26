@@ -13,6 +13,26 @@
       {{ end }}
     </header>
 
+    {{/* --- TL;DR & Summary blocks (only render if provided) --- */}}
+    {{ if or .Params.tldr .Params.summary }}
+      <div class="mb-3">
+        {{ with .Params.tldr }}
+          <div class="alert alert-info py-2 mb-2" role="note">
+            <strong class="me-1">TL;DR:</strong> {{ . }}
+          </div>
+        {{ end }}
+
+        {{ with .Params.summary }}
+          <div class="card mb-3">
+            <div class="card-body py-2">
+              <strong class="d-block mb-1">Summary</strong>
+              <p class="mb-0">{{ . }}</p>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+
     <div class="td-content">
       {{ .Content }}  <!-- render full body -->
     </div>

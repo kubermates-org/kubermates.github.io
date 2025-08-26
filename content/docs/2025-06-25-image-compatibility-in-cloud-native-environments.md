@@ -7,5 +7,36 @@ source: Kubernetes Blog
 external_url: https://kubernetes.io/blog/2025/06/25/image-compatibility-in-cloud-native-environments/
 post_kind: link
 draft: false
+tldr: In industries where systems must run very reliably and meet strict performance
+  criteria such as telecommunication, high-performance or AI computing, containerized
+  applications often need specific operating system configuration or hardware presence.
+  It is common practice to require the use of specific versions of the kernel, its
+  configuration, device drivers, or system components.
+summary: 'In industries where systems must run very reliably and meet strict performance
+  criteria such as telecommunication, high-performance or AI computing, containerized
+  applications often need specific operating system configuration or hardware presence.
+  It is common practice to require the use of specific versions of the kernel, its
+  configuration, device drivers, or system components. Despite the existence of the
+  Open Container Initiative (OCI) , a governing community to define standards and
+  specifications for container images, there has been a gap in expression of such
+  compatibility requirements. The need to address this issue has led to different
+  proposals and, ultimately, an implementation in Kubernetes'' Node Feature Discovery
+  (NFD). NFD is an open source Kubernetes project that automatically detects and reports
+  hardware and system features of cluster nodes. This information helps users to schedule
+  workloads on nodes that meet specific system requirements, which is especially useful
+  for applications with strict hardware or operating system dependencies. A container
+  image is built on a base image, which provides a minimal runtime environment, often
+  a stripped-down Linux userland, completely empty or distroless. When an application
+  requires certain features from the host OS, compatibility issues arise. These dependencies
+  can manifest in several ways: While containers in Kubernetes are the most likely
+  unit of abstraction for these needs, the definition of compatibility can extend
+  further to include other container technologies such as Singularity and other OCI
+  artifacts such as binaries from a spack binary cache. Containerized applications
+  are deployed across various Kubernetes distributions and cloud providers, where
+  different host operating systems introduce compatibility challenges. Often those
+  have to be pre-configured before workload deployment or are immutable. For instance,
+  different cloud providers will include different operating systems like: Each OS
+  comes with unique kernel versions, configurations, and drivers, making compatibility
+  a non-trivial issue for applications requiring specific features.'
 ---
 Open the original post ↗ https://kubernetes.io/blog/2025/06/25/image-compatibility-in-cloud-native-environments/
