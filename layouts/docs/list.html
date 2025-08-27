@@ -1,0 +1,115 @@
+{{ define "main" }}
+<main class="td-main">
+  <div class="container my-4">
+
+    <!-- Header -->
+    <header class="mb-3">
+      <h1 class="h2 mb-1">{{ .Title }}</h1>
+      {{ with .Description }}<p class="text-muted">{{ . }}</p>{{ end }}
+    </header>
+
+    <!-- Search + Tag filter (Bootstrap only) -->
+    <div class="card p-3 mb-4">
+      <div class="row g-2 align-items-center">
+        <div class="col-12 col-md-8">
+          <input id="km-search" class="form-control" type="search"
+                 placeholder="Search titles, summaries, sources or tags…" aria-label="Search">
+        </div>
+        <div class="col-12 col-md-4">
+          <select id="km-tag" class="form-select">
+            <option value="">Filter by tag…</option>
+            {{ $all := slice }}
+            {{ range .Pages }}
+              {{ range .Params.tags }}{{ $all = $all | append . }}{{ end }}
+            {{ end }}
+            {{ range (uniq $all | sort) }}
+              <option value="{{ . }}">{{ . }}</option>
+            {{ end }}
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Media/List layout -->
+    <ul id="km-list" class="list-group list-group-flush">
+      {{ range .Paginator.Pages }}
+        {{ $isNew := lt (sub now.Unix .Date.Unix) 604800 }} {{/* < 7 days */}}
+        <li class="list-group-item px-0 km-item">
+          <div class="d-flex flex-column flex-md-row">
+            <!-- Meta column -->
+            <div class="me-md-4 text-muted small mb-2 mb-md-0" style="min-width: 140px;">
+              <div>{{ .Date.Format "2006-01-02" }}</div>
+              {{ with .Params.source }}<div>{{ . }}</div>{{ end }}
+            </div>
+
+            <!-- Main content -->
+            <div class="flex-grow-1">
+              <h2 class="h5 mb-1">
+                <a class="text-decoration-none" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                {{ if $isNew }}<span class="badge bg-success ms-2 align-middle">New</span>{{ end }}
+              </h2>
+
+              {{ with .Params.tldr }}
+                <p class="mb-1">{{ . }}</p>
+              {{ else }}
+                {{ with .Params.summary }}<p class="mb-1">{{ . }}</p>{{ end }}
+              {{ end }}
+
+              {{ with .Params.tags }}
+                <div class="mt-1">
+                  {{ range . }}
+                    <span class="badge bg-light text-dark border me-1 mb-1 km-tag">#{{ . }}</span>
+                  {{ end }}
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </li>
+      {{ end }}
+    </ul>
+
+    <!-- Pagination -->
+    {{ if gt .Paginator.TotalPages 1 }}
+      <nav class="mt-4" aria-label="Page navigation">
+        <ul class="pagination">
+          {{ with .Paginator.Prev }}<li class="page-item"><a class="page-link" href="{{ .URL }}">&laquo; Prev</a></li>{{ end }}
+          {{ range .Paginator.Pagers }}
+            <li class="page-item {{ if eq . .Paginator }}active{{ end }}">
+              <a class="page-link" href="{{ .URL }}">{{ .PageNumber }}</a>
+            </li>
+          {{ end }}
+          {{ with .Paginator.Next }}<li class="page-item"><a class="page-link" href="{{ .URL }}">Next &raquo;</a></li>{{ end }}
+        </ul>
+      </nav>
+    {{ end }}
+
+  </div>
+</main>
+
+<!-- Tiny filter (no extra CSS/JS libs) -->
+<script>
+(function () {
+  const q = document.getElementById('km-search');
+  const tagSelect = document.getElementById('km-tag');
+  const items = Array.from(document.querySelectorAll('#km-list .km-item'));
+
+  function txt(el){ return (el.textContent||'').toLowerCase(); }
+  function hasTag(item, tag){
+    if(!tag) return true;
+    return Array.from(item.querySelectorAll('.km-tag'))
+      .some(b => txt(b).replace('#','') === tag.toLowerCase());
+  }
+  function match(item, query, tag){
+    const okQ = !query || txt(item).includes(query);
+    return okQ && hasTag(item, tag);
+  }
+  function apply(){
+    const query = (q.value||'').trim().toLowerCase();
+    const tag = (tagSelect.value||'').trim();
+    items.forEach(i => i.style.display = match(i, query, tag) ? '' : 'none');
+  }
+  q.addEventListener('input', apply);
+  tagSelect.addEventListener('change', apply);
+})();
+</script>
+{{ end }}
