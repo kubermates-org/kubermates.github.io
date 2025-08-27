@@ -28,7 +28,7 @@ docs:
 
   - name: "OpenShift Blog"
     type: rss
-    url: "https://cloud.redhat.com/blog/tag/openshift/rss"
+    url: "https://www.redhat.com/en/rss/blog/channel/red-hat-openshift"
     tags: ["openshift"]
 
   - name: "Rancher (RKE/K3s)"
@@ -40,6 +40,36 @@ docs:
     type: rss
     url: "https://kubernetes.io/feed.xml"
     tags: ["kubernetes"]
+
+  - name: "Kubernetes.dev Blog"
+    type: rss
+    url: "https://www.kubernetes.dev/blog/index.xml"
+    tags: ["kubernetes","community"]
+
+  - name: "Kubeflow Blog"
+    type: rss
+    url: "https://blog.kubeflow.org/feed.xml"
+    tags: ["kubeflow","kubernetes"]
+
+  - name: "Grafana Kubernetes"
+    type: rss
+    url: "https://grafana.com/tags/kubernetes/index.xml"
+    tags: ["grafana","kubernetes"]
+
+  - name: "Nirmata Blog"
+    type: rss
+    url: "https://nirmata.com/feed/"
+    tags: ["nirmata","kubernetes"]
+
+  - name: "VMware Cloud Foundation Blog"
+    type: rss
+    url: "https://blogs.vmware.com/cloud-foundation/feed/"
+    tags: ["vmware","cloud-foundation","kubernetes"]
+
+  - name: "KodeKloud Blog (Kubernetes)"
+    type: rss
+    url: "https://kodekloud.com/blog/tag/kubernetes/rss/"
+    tags: ["kodekloud","kubernetes"]
 
 releases:
   - name: "Kubernetes Releases"
@@ -62,7 +92,27 @@ releases:
     url: "https://cloud.google.com/feeds/kubernetes-engine-release-notes.xml"
     tags: ["gke"]
 
-  - name: "OpenShift Docs feed"
+  - name: "OKD/OpenShift Docs feed"
     type: rss
-    url: "https://access.redhat.com/documentation/en-us/openshift_container_platform/atom.xml"
+    url: "https://github.com/okd-project/okd/releases.atom"
     tags: ["openshift"]
+
+  - name: "Rancher (Manager) Releases"
+    type: rss
+    url: "https://github.com/rancher/rancher/releases.atom"
+    tags: ["rancher"]
+
+  - name: "RKE Releases"
+    type: rss
+    url: "https://github.com/rancher/rke/releases.atom"
+    tags: ["rke"]
+
+  - name: "RKE2 Releases"
+    type: rss
+    url: "https://github.com/rancher/rke2/releases.atom"
+    tags: ["rke2"]
+
+  - name: "K3s Releases"
+    type: rss
+    url: "https://github.com/k3s-io/k3s/releases.atom"
+    tags: ["k3s"]
