@@ -670,6 +670,11 @@
       "date": "2025-08-14T19:30:22+00:00",
       "source": "CNCF Events"
     },
+    "e431b0c1a7ec": {
+      "title": "IPv6 access control for dual-stack public endpoints for new IPv6 clusters",
+      "date": "2025-06-05T19:00:00+00:00",
+      "source": "EKS Release Notes"
+    },
     "7d5d7a40c484": {
       "title": "Use Envoy Gateway as the Unified Ingress Gateway and Waypoint Proxy for Ambient Mesh",
       "date": "2025-08-26T13:09:00+00:00",
