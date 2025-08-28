@@ -1,15 +1,15 @@
 events:
-  - name: "CNCF Events"
-    type: rss
-    url: "https://www.cncf.io/feed/"
-    category: "conference"
-
   - name: "Kubernetes Community Days"
     type: rss
     url: "https://www.cncf.io/kcds/feed/"
     category: "community"
 
 docs:
+  - name: "CNCF"
+    type: rss
+    url: "https://www.cncf.io/feed/"
+    tags: ["cncf"]
+
   - name: "AKS What's new"
     type: rss
     url: "https://learn.microsoft.com/api/feeds/aks/whats-new"
@@ -25,6 +25,11 @@ docs:
     type: rss
     url: "https://cloud.google.com/blog/topics/kubernetes/rss/"
     tags: ["gke","gcp"]
+
+  - name: "Redhat Blog"
+    type: rss
+    url: "https://www.redhat.com/en/rss/blog"
+    tags: ["kubernetes"]
 
   - name: "OpenShift Blog"
     type: rss
@@ -70,6 +75,26 @@ docs:
     type: rss
     url: "https://kodekloud.com/blog/tag/kubernetes/rss/"
     tags: ["kodekloud","kubernetes"]
+
+  - name: Digital Ocean
+    type: rss
+    url: "https://www.digitalocean.com/blog.atom"
+    tags: ["kubernetes"]
+
+  - name: Aqua Security
+    type: rss
+    url: "https://blog.aquasec.com/rss.xml"
+    tags: ["security"]
+
+  - name: Tigera 
+    type: rss
+    url: "https://www.tigera.io/feed/"
+    tags: ["tigera"]
+
+  - name: Jenkins X
+    type: rss
+    url: "https://jenkins-x.io/blog/index.xml"
+    tags: ["jenkins-x"]
 
 releases:
   - name: "Kubernetes Releases"

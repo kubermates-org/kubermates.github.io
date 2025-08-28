@@ -1,6 +1,9 @@
 # ingest_events.py (self-contained)
 import importlib
 import pathlib
+import hashlib
+import math
+
 import feedparser, requests
 from bs4 import BeautifulSoup
 from ics import Calendar
@@ -12,6 +15,7 @@ PROVIDERS = [
     "kcds", "kubecon", "k8s_calendar",
     "platform_engineering",
     "aws", "azure", "gcp", "ovhcloud",
+    "cncf_api",  # ← new built-in provider using Bevy public API
 ]
 
 OUT_DIR = CONTENT / "events"
@@ -37,7 +41,7 @@ def simple_enrich_location(loc: str):
         country = parts[-1].lower()
         return city, country, None, None, None
     # Only one token -> assume city; no country
-    return parts[0], None, None, None, None if parts else (None, None, None, None, None)
+    return (parts[0], None, None, None, None) if parts else (None, None, None, None, None)
 
 def normalize_geo(md: dict) -> dict:
     loc_hint = (md.get("location") or md.get("city") or "").strip()
@@ -89,7 +93,7 @@ def write_event_md(fm: dict, title: str, start_dt: datetime, body: str = ""):
     fname = f"{start_dt.date()}-{slugify(title)}.md"
     write_md(OUT_DIR, fname, fm, body or (title[:300]))
 
-# ---- Existing handlers (kept, but geo-enrich via simple parser) ----
+# ---- RSS handler (unchanged) ----
 def handle_rss(source, state):
     feed = feedparser.parse(source["url"])
     for e in feed.entries[:50]:
@@ -124,6 +128,7 @@ def handle_rss(source, state):
         write_event_md(fm, title, start, body)
         mark_seen(state, uid, {"title": title, "date": start.isoformat(), "source": source["name"]})
 
+# ---- iCal handler (unchanged) ----
 def handle_ical(source, state):
     text = requests.get(source["url"], timeout=30).text
     cal = Calendar(text)
@@ -160,18 +165,117 @@ def handle_ical(source, state):
         write_event_md(fm, title, start, body)
         mark_seen(state, uid, {"title": title, "date": start.isoformat(), "source": source["name"]})
 
-# ---- New: Providers handler (no external deps) ----
+# ---- CNCF via Bevy Public API (built-in provider) ----
+BEVY_BASE = "https://community.cncf.io"
+BEVY_SEARCH = f"{BEVY_BASE}/api/search/"
+
+def _iso_utc(s: str | None) -> str | None:
+    if not s:
+        return None
+    try:
+        dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+        return dt.astimezone(timezone.utc).isoformat()
+    except Exception:
+        return s  # keep original if unexpected
+
+def _uid_hash(*parts: str) -> str:
+    return hashlib.sha256("|".join(p or "" for p in parts).encode()).hexdigest()[:16]
+
+def _cncf_pick_location(ev: dict) -> tuple[str | None, str | None, str | None]:
+    # Prefer venue address; fallback to chapter location
+    loc = (
+        (ev.get("venue") or {}).get("address")
+        or (ev.get("chapter") or {}).get("chapter_location")
+        or ev.get("location")
+        or None
+    )
+    city = country = None
+    if isinstance(loc, str) and "," in loc:
+        parts = [p.strip() for p in loc.split(",")]
+        if len(parts) >= 2:
+            city = ", ".join(parts[:-1]) or None
+            country = (parts[-1] or "").lower() or None
+    return loc, city, country
+
+def _cncf_map_event(e: dict) -> dict:
+    title = (e.get("title") or "CNCF Event").strip()
+    start = _iso_utc(e.get("start_date")) or _iso_utc(e.get("start_time"))
+    end = _iso_utc(e.get("end_date")) or _iso_utc(e.get("end_time"))
+    link = e.get("public_url") or e.get("event_url") or e.get("url") or f"{BEVY_BASE}/events/{e.get('id','')}"
+    desc = (e.get("description_short") or e.get("description") or "").strip()
+    loc, city, country = _cncf_pick_location(e)
+    return {
+        "title": title,
+        "link": link,
+        "eventDate": start,
+        "endDate": end,
+        "description": desc,
+        "location": loc,
+        "city": city,
+        "country": country,
+        "provider": "cncf",
+        "source": "bevy-search-api",
+        "tags": ["cncf", "event"],
+        "uid": _uid_hash(link or title, start or ""),
+    }
+
+def fetch_cncf_api(session: requests.Session) -> list[dict]:
+    """
+    Calls the Bevy public search API for all upcoming CNCF events.
+    Endpoint: /api/search/?result_types=upcoming_event&country_code=Earth
+    """
+    headers = {"Accept": "application/json"}
+    params = {
+        "result_types": "upcoming_event",
+        "country_code": "Earth",
+        "page": 1,
+    }
+    out = []
+
+    r = session.get(BEVY_SEARCH, params=params, headers=headers, timeout=30)
+    r.raise_for_status()
+    data = r.json()
+    results = data.get("results") or []
+    out.extend(_cncf_map_event(e) for e in results if isinstance(e, dict))
+
+    total = data.get("total") or len(results)
+    per_page = data.get("per_page") or data.get("page_size") or len(results) or 1
+    pages = data.get("total_pages") or (math.ceil(total / per_page) if per_page else 1)
+
+    for page in range(2, int(pages) + 1):
+        params["page"] = page
+        r = session.get(BEVY_SEARCH, params=params, headers=headers, timeout=30)
+        r.raise_for_status()
+        data = r.json()
+        results = data.get("results") or []
+        out.extend(_cncf_map_event(e) for e in results if isinstance(e, dict))
+
+    return out
+
+# Registry of built-in providers (resolved before dynamic imports)
+INTERNAL_PROVIDERS = {
+    "cncf_api": fetch_cncf_api,
+}
+
+# ---- Providers handler (now checks built-ins first) ----
 def handle_providers(state):
     seen_count = 0
     session = requests.Session()
     for name in PROVIDERS:
+        # 1) Built-in providers first
+        if name in INTERNAL_PROVIDERS:
+            fetch_fn = INTERNAL_PROVIDERS[name]
+        else:
+            # 2) Fallback to dynamic provider module import (unchanged behavior)
+            try:
+                mod = importlib.import_module(f"scripts.events.providers.{name}")
+                fetch_fn = getattr(mod, "fetch")
+            except Exception as e:
+                print(f"[warn] provider {name} import failed: {e}")
+                continue
+
         try:
-            mod = importlib.import_module(f"scripts.events.providers.{name}")
-        except Exception as e:
-            print(f"[warn] provider {name} import failed: {e}")
-            continue
-        try:
-            events = mod.fetch(session)
+            events = fetch_fn(session)
         except Exception as e:
             print(f"[warn] provider {name} fetch failed: {e}")
             continue
