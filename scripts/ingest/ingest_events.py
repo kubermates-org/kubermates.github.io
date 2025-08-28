@@ -1,8 +1,14 @@
 # ingest_events.py (self-contained)
+from __future__ import annotations
+
 import importlib
+import importlib.util
 import pathlib
+import sys
 import hashlib
 import math
+import re
+from zoneinfo import ZoneInfo
 
 import feedparser, requests
 from bs4 import BeautifulSoup
@@ -15,7 +21,7 @@ PROVIDERS = [
     "kcds", "kubecon", "k8s_calendar",
     "platform_engineering",
     "aws", "azure", "gcp", "ovhcloud",
-    "cncf_api",  # ← new built-in provider using Bevy public API
+    "cncf_api",  # built-in Bevy API provider for CNCF community events
 ]
 
 OUT_DIR = CONTENT / "events"
@@ -56,7 +62,9 @@ def normalize_geo(md: dict) -> dict:
 
 def provider_event_to_frontmatter(ev: dict, source_name: str):
     title = (ev.get("title") or "Kubernetes event").strip()
-    start = parse_date(ev.get("eventDate")) or datetime.now(timezone.utc)
+
+    # IMPORTANT: do NOT fall back to "now" for provider events.
+    start = parse_date(ev.get("eventDate")) if ev.get("eventDate") else None
     end = parse_date(ev.get("endDate")) if ev.get("endDate") else None
     link = (ev.get("link") or "").strip()
 
@@ -70,7 +78,7 @@ def provider_event_to_frontmatter(ev: dict, source_name: str):
 
     fm = {
         "title": title,
-        "date": start.isoformat(),
+        "date": start.isoformat() if start else None,
         "endDate": end.isoformat() if end else None,
         "location": (ev.get("location") or "").strip() or None,
         "city": ev.get("city") or None,
@@ -84,7 +92,7 @@ def provider_event_to_frontmatter(ev: dict, source_name: str):
         "source": ev.get("source") or source_name,
         "external_url": link or None,
         "draft": False,
-        "uid": ev.get("uid") or hash_id((link or title) + start.isoformat()),
+        "uid": ev.get("uid") or hash_id((link or title) + (start.isoformat() if start else "")),
         "provider": ev.get("provider") or None,
     }
     return fm, start, title
@@ -93,7 +101,7 @@ def write_event_md(fm: dict, title: str, start_dt: datetime, body: str = ""):
     fname = f"{start_dt.date()}-{slugify(title)}.md"
     write_md(OUT_DIR, fname, fm, body or (title[:300]))
 
-# ---- RSS handler (unchanged) ----
+# ---- RSS handler (unchanged logic) ----
 def handle_rss(source, state):
     feed = feedparser.parse(source["url"])
     for e in feed.entries[:50]:
@@ -128,7 +136,7 @@ def handle_rss(source, state):
         write_event_md(fm, title, start, body)
         mark_seen(state, uid, {"title": title, "date": start.isoformat(), "source": source["name"]})
 
-# ---- iCal handler (unchanged) ----
+# ---- iCal handler (unchanged logic) ----
 def handle_ical(source, state):
     text = requests.get(source["url"], timeout=30).text
     cal = Calendar(text)
@@ -169,17 +177,58 @@ def handle_ical(source, state):
 BEVY_BASE = "https://community.cncf.io"
 BEVY_SEARCH = f"{BEVY_BASE}/api/search/"
 
-def _iso_utc(s: str | None) -> str | None:
+_DATE_ONLY_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+def _iso_utc_from_str(s: str | None) -> str | None:
+    """
+    Normalize an incoming date/time string to ISO-8601 UTC.
+    - If date-only (YYYY-MM-DD) => 'YYYY-MM-DDT00:00:00+00:00'
+    - If ISO with tz => convert to UTC
+    - If ISO naive => assume UTC
+    """
     if not s:
         return None
+    s = s.strip()
+    if _DATE_ONLY_RE.match(s):
+        return f"{s}T00:00:00+00:00"
     try:
         dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
         return dt.astimezone(timezone.utc).isoformat()
     except Exception:
-        return s  # keep original if unexpected
+        return None
 
-def _uid_hash(*parts: str) -> str:
-    return hashlib.sha256("|".join(p or "" for p in parts).encode()).hexdigest()[:16]
+def _iso_utc_from_local(s_local: str | None, tzname: str | None) -> str | None:
+    """
+    Convert a local naive ISO string with a tz name (e.g., 'Europe/Bucharest')
+    into a UTC ISO string.
+    """
+    if not s_local or not tzname:
+        return None
+    try:
+        dt_local = datetime.fromisoformat(s_local)
+    except Exception:
+        if _DATE_ONLY_RE.match(s_local):
+            dt_local = datetime.fromisoformat(s_local + "T00:00:00")
+        else:
+            return None
+    try:
+        tz = ZoneInfo(tzname)
+    except Exception:
+        return None
+    if dt_local.tzinfo is None:
+        dt_local = dt_local.replace(tzinfo=tz)
+    else:
+        dt_local = dt_local.astimezone(tz)
+    return dt_local.astimezone(timezone.utc).isoformat()
+
+def _first(e: dict, *keys):
+    for k in keys:
+        v = e.get(k)
+        if v is not None:
+            return v
+    return None
 
 def _cncf_pick_location(ev: dict) -> tuple[str | None, str | None, str | None]:
     # Prefer venue address; fallback to chapter location
@@ -198,12 +247,42 @@ def _cncf_pick_location(ev: dict) -> tuple[str | None, str | None, str | None]:
     return loc, city, country
 
 def _cncf_map_event(e: dict) -> dict:
+    """
+    Build our normalized event dict with robust date picking.
+    Preferred order:
+      1) start_time_utc / end_time_utc
+      2) start_time / end_time (tz-aware)
+      3) start_time_local + timezone
+      4) start_date / end_date (date-only)
+    """
     title = (e.get("title") or "CNCF Event").strip()
-    start = _iso_utc(e.get("start_date")) or _iso_utc(e.get("start_time"))
-    end = _iso_utc(e.get("end_date")) or _iso_utc(e.get("end_time"))
-    link = e.get("public_url") or e.get("event_url") or e.get("url") or f"{BEVY_BASE}/events/{e.get('id','')}"
+    tzname = _first(e, "timezone", "time_zone", "timeZone")
+
+    start = (
+        _iso_utc_from_str(_first(e, "start_time_utc"))
+        or _iso_utc_from_str(_first(e, "start_time"))
+        or _iso_utc_from_local(_first(e, "start_time_local"), tzname)
+        or _iso_utc_from_str(_first(e, "start_datetime", "startDateTime", "start"))
+        or _iso_utc_from_str(_first(e, "start_date", "startDate"))
+    )
+
+    end = (
+        _iso_utc_from_str(_first(e, "end_time_utc"))
+        or _iso_utc_from_str(_first(e, "end_time"))
+        or _iso_utc_from_local(_first(e, "end_time_local"), tzname)
+        or _iso_utc_from_str(_first(e, "end_datetime", "endDateTime", "end"))
+        or _iso_utc_from_str(_first(e, "end_date", "endDate"))
+    )
+
+    link = (
+        e.get("public_url")
+        or e.get("event_url")
+        or e.get("url")
+        or f"{BEVY_BASE}/events/{e.get('id','')}"
+    )
     desc = (e.get("description_short") or e.get("description") or "").strip()
     loc, city, country = _cncf_pick_location(e)
+
     return {
         "title": title,
         "link": link,
@@ -216,7 +295,7 @@ def _cncf_map_event(e: dict) -> dict:
         "provider": "cncf",
         "source": "bevy-search-api",
         "tags": ["cncf", "event"],
-        "uid": _uid_hash(link or title, start or ""),
+        "uid": hashlib.sha256(("|".join([link or title, start or ""])).encode()).hexdigest()[:16],
     }
 
 def fetch_cncf_api(session: requests.Session) -> list[dict]:
@@ -257,22 +336,51 @@ INTERNAL_PROVIDERS = {
     "cncf_api": fetch_cncf_api,
 }
 
-# ---- Providers handler (now checks built-ins first) ----
+# ---- Provider loader that works with or without packages ----
+def _resolve_fetch_fn(name: str):
+    # 1) built-ins
+    if name in INTERNAL_PROVIDERS:
+        return INTERNAL_PROVIDERS[name]
+
+    # 2) try as a package import (legacy layout)
+    try:
+        mod = importlib.import_module(f"scripts.events.providers.{name}")
+        fn = getattr(mod, "fetch", None)
+        if callable(fn):
+            return fn
+    except Exception:
+        pass
+
+    # 3) try loading directly from a file path (no packages needed)
+    here = pathlib.Path(__file__).resolve().parent               # scripts/ingest/
+    candidates = [
+        here.parent / "events" / "providers" / f"{name}.py",     # scripts/events/providers/name.py
+        pathlib.Path.cwd() / "scripts" / "events" / "providers" / f"{name}.py",
+        here / "providers" / f"{name}.py",                       # scripts/ingest/providers/name.py (fallback)
+    ]
+    for p in candidates:
+        if p.exists():
+            spec = importlib.util.spec_from_file_location(f"prov_{name}", str(p))
+            mod = importlib.util.module_from_spec(spec)
+            assert spec and spec.loader, f"Cannot load spec for provider {name}"
+            spec.loader.exec_module(mod)  # type: ignore[attr-defined]
+            fn = getattr(mod, "fetch", None)
+            if callable(fn):
+                return fn
+
+    # 4) nothing worked
+    raise ImportError(f"provider '{name}' not found at package or file path")
+
+# ---- Providers handler (checks built-ins first; SKIPS events without a valid start) ----
 def handle_providers(state):
     seen_count = 0
     session = requests.Session()
     for name in PROVIDERS:
-        # 1) Built-in providers first
-        if name in INTERNAL_PROVIDERS:
-            fetch_fn = INTERNAL_PROVIDERS[name]
-        else:
-            # 2) Fallback to dynamic provider module import (unchanged behavior)
-            try:
-                mod = importlib.import_module(f"scripts.events.providers.{name}")
-                fetch_fn = getattr(mod, "fetch")
-            except Exception as e:
-                print(f"[warn] provider {name} import failed: {e}")
-                continue
+        try:
+            fetch_fn = _resolve_fetch_fn(name)
+        except Exception as e:
+            print(f"[info] skipping provider {name}: {e}")
+            continue
 
         try:
             events = fetch_fn(session)
@@ -281,16 +389,22 @@ def handle_providers(state):
             continue
 
         for ev in events:
+            # ensure there is a parsable start; if missing -> skip (NO 'now' fallback)
+            start_dt = parse_date(ev.get("eventDate")) if ev.get("eventDate") else None
+            if not start_dt:
+                print(f"[warn] provider {name} dropped event without valid start: {ev.get('title')}")
+                continue
+
             candidate_uid = ev.get("uid")
             if not candidate_uid:
-                base = (ev.get("link") or ev.get("title") or "") + (ev.get("eventDate") or "")
+                base = (ev.get("link") or ev.get("title") or "") + ev.get("eventDate")
                 candidate_uid = hash_id(base or repr(ev))
                 ev["uid"] = candidate_uid
 
             if already_seen(state, candidate_uid):
                 continue
 
-            fm, start_dt, title = provider_event_to_frontmatter(ev, source_name=name)
+            fm, _, title = provider_event_to_frontmatter(ev, source_name=name)
             body = (ev.get("description") or ev.get("summary") or title)[:300]
             write_event_md(fm, title, start_dt, body)
             mark_seen(state, candidate_uid, {"title": title, "date": start_dt.isoformat(), "source": name})
