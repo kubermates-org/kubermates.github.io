@@ -13,13 +13,13 @@ tldr: 'Spotlight on SIG Docs Introduction A summary of the conversation Could yo
   blogs and localization. How has the community benefited from it and are there some
   interesting contributions by those teams you want to highlight? Recently there has
   been a lot of buzz around the Kubernetes ecosystem as well as the industry regarding
-  the removal of dockershim in the latest 1.'
+  the removal of dockershim in the latest 1.24 release.'
 summary: 'Spotlight on SIG Docs Introduction A summary of the conversation Could you
   tell us a little bit about what SIG Docs does? There are 2 subprojects under Docs:
   blogs and localization. How has the community benefited from it and are there some
   interesting contributions by those teams you want to highlight? Recently there has
   been a lot of buzz around the Kubernetes ecosystem as well as the industry regarding
-  the removal of dockershim in the latest 1. 24 release. How has SIG Docs helped the
+  the removal of dockershim in the latest 1.24 release. How has SIG Docs helped the
   project to ensure a smooth change among the end-users? Why should new and existing
   contributors consider joining this SIG? How do you help new contributors get started?
   Are there any prerequisites to join? Any SIG related accomplishment that you’re
@@ -44,6 +44,7 @@ summary: 'Spotlight on SIG Docs Introduction A summary of the conversation Could
   Kubernetes enhancements, community reports, SIG updates or any relevant news to
   the Kubernetes community such as thought leadership, tutorials and project updates,
   such as the Dockershim removal and removal of PodSecurityPolicy, which is upcoming
-  in the 1.'
+  in the 1.25 release. Tim Bannister, one of the SIG Docs tech leads, does awesome
+  work and is a major force when pushing contributions through to the docs and blogs.'
 ---
 Open the original post ↗ https://www.kubernetes.dev/blog/2022/08/02/sig-docs-spotlight-2022/

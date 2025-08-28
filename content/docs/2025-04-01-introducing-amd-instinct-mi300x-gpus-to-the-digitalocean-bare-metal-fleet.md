@@ -26,7 +26,7 @@ summary: "Introducing AMD Instinct MI300X GPUs to the DigitalOcean Bare Metal fl
   \ DigitalOcean customers now have access to AMD Instinct MI300X GPUs with ROCm Software\
   \ to power their AI workloads. At DigitalOcean, weâ\x80\x99re committed to bringing\
   \ you even more options to power your projects. One of the highest-bandwith GPUs\
-  \ (5. 3 TB/s of HBM3 memory), AMD Instinct MI300X offers significant benefits like\
+  \ (5.3 TB/s of HBM3 memory), AMD Instinct MI300X offers significant benefits like\
   \ faster deployments and much more for AI, machine learning, and high-performance\
   \ computing (HPC) workloads. Along with expanding access to GPUs, we continue to\
   \ improve on our existing offerings for developers like you. Whether youâ\x80\x99\
@@ -40,6 +40,9 @@ summary: "Introducing AMD Instinct MI300X GPUs to the DigitalOcean Bare Metal fl
   \ node, leading compute unit counts, and HBM3 capacity. With MI300X, you can accelerate\
   \ your deployment efforts with ROCm developer resources that support multiple AI\
   \ and HPC frameworks, leading software platforms and models, and networking infrastructure\
-  \ within an open, proven software ecosystem."
+  \ within an open, proven software ecosystem. By enhancing computational throughput\
+  \ and simplifying programming and deployment, MI300X and DigitalOcean give you the\
+  \ power to improve data center efficiencies, tackle budget and sustainability concerns,\
+  \ and unleash a highly programmable GPU software platform to quickly build AI projects."
 ---
 Open the original post ↗ https://www.digitalocean.com/blog/now-available-bare-metal-amd-instinct-mi300x-gpus

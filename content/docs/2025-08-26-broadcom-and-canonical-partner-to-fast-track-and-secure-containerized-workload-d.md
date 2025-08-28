@@ -29,7 +29,7 @@ summary: 'Related Articles Broadcom and Canonical Partner to Fast-track and Secu
   on VMware Cloud Foundation (VCF). It brings together the #1 Private Cloud platform
   with the #1 Cloud OS to help customers who are building Kubernetes-based modern
   applications streamline support, improve developer efficiency, manage security risks,
-  and simplify AI workload deployment. VCF 9. 0 delivers a unified, AI-ready private
+  and simplify AI workload deployment. VCF 9.0 delivers a unified, AI-ready private
   cloud platform to manage traditional as well as modern containerized applications.
   Customers get a unified cloud experience reducing friction and significantly increasing
   developer productivity and experience. This partnership will further streamline
@@ -40,6 +40,8 @@ summary: 'Related Articles Broadcom and Canonical Partner to Fast-track and Secu
   upgrade, scale, and manage as a multi-cluster deployment delivering a seamless self-service
   experience. Centralized policy management for access control, networking, security,
   image registries, and runtime configurations across diverse Kubernetes environments
-  simplifies compliance and governance at scale.'
+  simplifies compliance and governance at scale. Broadcom’s expanded partnership with
+  Canonical, a trusted leader in open-source innovation, will accelerate the deployment
+  of modern containerized and AI workloads with greater efficiency and security.'
 ---
 Open the original post ↗ https://blogs.vmware.com/cloud-foundation/2025/08/26/broadcom-canonical-partnership/

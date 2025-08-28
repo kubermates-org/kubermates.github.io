@@ -33,8 +33,14 @@ summary: "Choosing the Right GPU Droplet for your AI/ML Workload DigitalOcean Gr
   \ hold models with hundreds of billions of parameters, reducing the need for model\
   \ splitting across multiple GPUs Memory performance: High memory capacity to hold\
   \ models with hundreds of billions of parameters, reducing the need for model splitting\
-  \ across multiple GPUs Value: Offered at a competitive price point ($1. 69/GPU/hr/contract)\
+  \ across multiple GPUs Value: Offered at a competitive price point ($1.69/GPU/hr/contract)\
   \ for a HPC GPU. Contact us to reserve capacity. Value: Offered at a competitive\
-  \ price point ($1. 69/GPU/hr/contract) for a HPC GPU. Contact us to reserve capacity."
+  \ price point ($1.69/GPU/hr/contract) for a HPC GPU. Contact us to reserve capacity.\
+  \ Key performance benchmark: With 256 GB of HBM3E memory (vs. MI300Xâ\x80\x99s 192\
+  \ GB), MI325X can handle significantly larger models and datasets entirely on a\
+  \ single GPU AMD Instinctâ\x84¢ MI300X Use cases: Generative AI LLM training, fine-tuning,\
+  \ inference, and HPC Why choose: AMD Instinctâ\x84¢ MI300Xâ\x80\x99s large memory\
+  \ capacity allows it to hold models with hundreds of billions of parameters entirely\
+  \ in memory, reducing the need for model splitting across multiple GPUs."
 ---
 Open the original post ↗ https://www.digitalocean.com/blog/choosing-the-right-gpu-droplet-for-your-ai-ml-workload

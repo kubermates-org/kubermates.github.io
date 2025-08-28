@@ -16,7 +16,10 @@ summary: 'Jenkins X 3 - February 2021 LTS What’s the difference? Anything else
   on: community feedback following the Beta release general helm chart upgrades improved
   developer UX when editing Tekton pipelines here support for in-repo and shared Tekton
   pipeline libraries including git URI support, e. g. uses:jenkins-x/jx3-pipeline-catalog/packs/javascript/.
-  lighthouse/jenkins-x/pullrequest. yaml@v1. 2. 3 ` uses:jenkins-x/jx3-pipeline-catalog/packs/javascript/.
-  lighthouse/jenkins-x/pullrequest. yaml@v1.'
+  lighthouse/jenkins-x/pullrequest. yaml@v1.2.3 ` uses:jenkins-x/jx3-pipeline-catalog/packs/javascript/.
+  lighthouse/jenkins-x/pullrequest. yaml@v1.2.3 ` more documentation and examples
+  can be found here Because Jenkins X uses GitOps we can see the git diff of changes
+  that will be brought in with a cluster upgrade. Here is the Pull Request that has
+  been verified for February LTS release. https://github.'
 ---
 Open the original post ↗ https://jenkins-x.io/blog/2021/02/01/jx3-lts-feb-21/

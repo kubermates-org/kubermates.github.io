@@ -36,6 +36,6 @@ summary: 'Spotlight on SIG Instrumentation About SIG Instrumentation Current sta
   some issues with label joins where Kubernetes metrics didn’t match kube-state-metrics
   ( KSM ) and started participating in SIG meetings to improve things. I helped test
   performance improvements to kube-state-metrics and ultimately coauthored a KEP for
-  overhauling metrics in the 1.'
+  overhauling metrics in the 1.14 release to improve usability.'
 ---
 Open the original post ↗ https://www.kubernetes.dev/blog/2023/02/03/sig-instrumentation-spotlight-2023/

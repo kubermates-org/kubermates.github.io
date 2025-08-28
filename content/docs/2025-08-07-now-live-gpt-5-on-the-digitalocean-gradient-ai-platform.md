@@ -31,13 +31,15 @@ summary: "Now Live: GPT-5 on the DigitalOcean Gradientâ\x84¢ AI Platform Get s
   \ https://inference. do-ai. run/v1/chat/completions \\ -H \"Authorization: Bearer\
   \ YOUR_API_KEY\" \\ -H \"Content-Type: application/json\" \\ -d ' { \"model\": \"\
   openai-gpt-5\", \"messages\": [ { \"role\": \"user\", \"content\": \"Explain quantum\
-  \ computing in simple terms\" } ], \"temperature\": 0. 7, \"max_tokens\": 1000 }\
+  \ computing in simple terms\" } ], \"temperature\": 0.7, \"max_tokens\": 1000 }\
   \ ' curl https://inference. do-ai. run/v1/chat/completions \\ -H \"Authorization:\
   \ Bearer YOUR_API_KEY\" \\ -H \"Content-Type: application/json\" \\ -d ' { \"model\"\
   : \"openai-gpt-5\", \"messages\": [ { \"role\": \"user\", \"content\": \"Explain\
-  \ quantum computing in simple terms\" } ], \"temperature\": 0. 7, \"max_tokens\"\
+  \ quantum computing in simple terms\" } ], \"temperature\": 0.7, \"max_tokens\"\
   : 1000 } ' Gradient AI Platform SDK from gradient import Gradient inference_key\
   \ = \"YOUR_GRADIENT_INFERENCE_KEY\" inference_client = Gradient( inference_key=inference_key,\
-  \ ) inference_response = inference_client. chat. completions."
+  \ ) inference_response = inference_client. chat. completions. create( messages=[\
+  \ { \"role\": \"user\", \"content\": \"What is the capital of France?\", } ], model=\"\
+  openai-gpt-5\", ) print(inference_response. choices[0]."
 ---
 Open the original post ↗ https://www.digitalocean.com/blog/gpt-5-now-on-digitalocean-gradient-ai-platform

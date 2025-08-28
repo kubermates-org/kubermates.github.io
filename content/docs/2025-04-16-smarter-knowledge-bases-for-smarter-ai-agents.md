@@ -8,17 +8,19 @@ external_url: https://www.digitalocean.com/blog/genai-platform-knowledge-base-im
 post_kind: link
 draft: false
 tldr: "Smarter Knowledge Bases for Smarter AI Agents Web crawling for knowledge bases\
-  \ RAG Improvements Bonus: new Anthropic model availableâ\x80\x94Claude 3. 7 Unlocking\
+  \ RAG Improvements Bonus: new Anthropic model availableâ\x80\x94Claude 3.7 Unlocking\
   \ more possibilities for AI developers About the author Try DigitalOcean for free\
   \ Related Articles Announcing OpenAI gpt-oss Models on the DigitalOcean Gradientâ\x84\
   ¢ AI Platform Build smarter AI agents: new tools now available for the DigitalOcean\
   \ Gradientâ\x84¢ AI Platform Introducing GPU Droplets accelerated by NVIDIA HGX\
   \ H200 By Grace Morgan Published: April 16, 2025 3 min read Weâ\x80\x99re rolling\
   \ out new features to the GenAI Platform that make it easier to build, manage, and\
-  \ improve the knowledge bases behind your AI agents."
+  \ improve the knowledge bases behind your AI agents. With web crawling, custom crawling\
+  \ rules, and one-click reindexing, you can keep your agents up to date with relevant,\
+  \ real-world information, without manual data collection or external storage."
 summary: "Smarter Knowledge Bases for Smarter AI Agents Web crawling for knowledge\
-  \ bases RAG Improvements Bonus: new Anthropic model availableâ\x80\x94Claude 3.\
-  \ 7 Unlocking more possibilities for AI developers About the author Try DigitalOcean\
+  \ bases RAG Improvements Bonus: new Anthropic model availableâ\x80\x94Claude 3.7\
+  \ Unlocking more possibilities for AI developers About the author Try DigitalOcean\
   \ for free Related Articles Announcing OpenAI gpt-oss Models on the DigitalOcean\
   \ Gradientâ\x84¢ AI Platform Build smarter AI agents: new tools now available for\
   \ the DigitalOcean Gradientâ\x84¢ AI Platform Introducing GPU Droplets accelerated\
@@ -42,6 +44,7 @@ summary: "Smarter Knowledge Bases for Smarter AI Agents Web crawling for knowled
   \ simplifying setup and reducing overhead. With web crawling, your AI agent can\
   \ stay informed by pulling in real-time information. To help your agents make the\
   \ most of that knowledge, weâ\x80\x99ve significantly upgraded our Retrieval-Augmented\
-  \ Generation (RAG) system."
+  \ Generation (RAG) system. Accuracy on text-based questions has nearly doubled,\
+  \ reaching up to 95 percent accuracy*."
 ---
 Open the original post ↗ https://www.digitalocean.com/blog/genai-platform-knowledge-base-improvements

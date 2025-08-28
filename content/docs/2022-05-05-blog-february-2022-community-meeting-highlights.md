@@ -20,13 +20,15 @@ summary: 'February 2022 Community Meeting Highlights Author: Nigel Brown (VMware
   calendar if you’re subscribed to the k-dev mailing list. Community meetings are
   an opportunity for you to meet synchronously with other members of the Kubernetes
   community to talk about issues of general appeal. This meeting kicked off with an
-  update on the 1. 24 release with Xander Grzywinski, who is one of the shadows for
+  update on the 1.24 release with Xander Grzywinski, who is one of the shadows for
   the release team leads. This release is scheduled for April 19, 2022 with a code
   freeze scheduled for March 30th. At the time of the meeting there were 66 individual
   enhancements included, as well as bug fixes. You can join the conversation on Slack
-  in #sig-release. Update: Kubernetes 1. 24 was delayed and released on May 3, 2022.
+  in #sig-release. Update: Kubernetes 1.24 was delayed and released on May 3, 2022.
   From there, the discussion moved to the dockershim removal and the docs updates
   we need to make around that, with the discussion led by Kat Cosgrove. The main takeaway
-  was that if you have a platform, talk to folks about this change.'
+  was that if you have a platform, talk to folks about this change. To most interacting
+  with Kubernetes, it is probably not as impactful as it sounds. We have a helpful
+  FAQ if you need.'
 ---
 Open the original post ↗ https://www.kubernetes.dev/blog/2022/05/05/community-meeting-februrary-2022/

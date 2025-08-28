@@ -7,11 +7,14 @@ source: Kubernetes Blog
 external_url: https://kubernetes.io/blog/2025/05/09/kubernetes-v1-33-streaming-list-responses/
 post_kind: link
 draft: false
-tldr: 'Kubernetes v1. 33: Streaming List responses The problem: unnecessary memory
+tldr: 'Kubernetes v1.33: Streaming List responses The problem: unnecessary memory
   consumption with large resources Streaming encoder for List responses Performance
   gains you''ll notice Benchmark results Managing Kubernetes cluster stability becomes
-  increasingly critical as your infrastructure grows.'
-summary: 'Kubernetes v1. 33: Streaming List responses The problem: unnecessary memory
+  increasingly critical as your infrastructure grows. One of the most challenging
+  aspects of operating large-scale clusters has been handling List requests that fetch
+  substantial datasets - a common operation that could unexpectedly impact your cluster''s
+  stability.'
+summary: 'Kubernetes v1.33: Streaming List responses The problem: unnecessary memory
   consumption with large resources Streaming encoder for List responses Performance
   gains you''ll notice Benchmark results Managing Kubernetes cluster stability becomes
   increasingly critical as your infrastructure grows. One of the most challenging
@@ -30,6 +33,8 @@ summary: 'Kubernetes v1. 33: Streaming List responses The problem: unnecessary m
   release during transmission. Imagining that when network congestion occurs, that
   large response body’s memory block stays active for tens of seconds or even minutes.
   This limitation leads to unnecessarily high and prolonged memory consumption in
-  the kube-apiserver process.'
+  the kube-apiserver process. If multiple large List requests occur simultaneously,
+  the cumulative memory consumption can escalate rapidly, potentially leading to an
+  Out-of-Memory (OOM) situation that compromises cluster stability.'
 ---
 Open the original post ↗ https://kubernetes.io/blog/2025/05/09/kubernetes-v1-33-streaming-list-responses/

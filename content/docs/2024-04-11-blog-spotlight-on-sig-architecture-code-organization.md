@@ -29,7 +29,7 @@ summary: 'Spotlight on SIG Architecture: Code Organization Introducing the Code 
   in terms of code organization – is this a fair assumption? If so, what would you
   pick as some of the main challenges that are specific to Kubernetes? MJ : That’s
   a fair assumption! The first interesting challenge comes from the sheer size of
-  the Kubernetes codebase. We have ≅2. 2 million lines of Go code (which is steadily
+  the Kubernetes codebase. We have ≅2.2 million lines of Go code (which is steadily
   decreasing thanks to dims and other folks in this sub-project!), and a little over
   240 dependencies that we rely on either directly or indirectly, which is why having
   a sub-project dedicated to helping out with dependency management is crucial: we
@@ -47,6 +47,7 @@ summary: 'Spotlight on SIG Architecture: Code Organization Introducing the Code 
   main things they should consider in terms of code organization? How would you sum
   up the key concepts? MJ : I think one of the key things to keep in mind at least
   as you’re starting off is the concept of staging directories. In the kubernetes/kubernetes
-  repository, you will come across a directory called staging/.'
+  repository, you will come across a directory called staging/. The sub-folders in
+  this directory serve as a bunch of pseudo-repositories.'
 ---
 Open the original post ↗ https://www.kubernetes.dev/blog/2024/04/11/sig-architecture-code-spotlight-2024/

@@ -23,6 +23,11 @@ summary: Document history Help improve this page To contribute to this user guid
   EKS accepts the aws:SourceArn and aws:SourceAccount conditions in the trust policy
   of an EKS cluster role. aws:SourceArn aws:SourceAccount August 19, 2025 Amazon EKS
   platform version update This is a new platform version with security fixes and enhancements.
-  This includes new patch versions of Kubernetes 1. 33. 2 , 1. 32.
+  This includes new patch versions of Kubernetes 1.33.2 , 1.32.6 , 1.31.10 , and 1.30.14.
+  1.33.2 1.32.6 1.31.10 1.30.14 July 30, 2025 VPC CNI Multi-NIC feature for multi-homed
+  pods Amazon EKS adds multi-homed pods to the VPC CNI. Now you can configure a workload
+  and the VPC CNI assigned IP addresses from every NIC on the EC2 instance to each
+  pod. The application can make concurrent connections to use the bandwidth from each
+  NIC.
 ---
 Open the original post ↗ https://docs.aws.amazon.com/eks/latest/userguide/doc-history.html

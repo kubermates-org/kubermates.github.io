@@ -15,12 +15,12 @@ summary: 'Calico iptables – DNS Inline policy The outcome NFTABLES Conclusion 
   Enterprise lets users write network policies using domain names instead of IP addresses.
   This is done by dynamically mapping domain names to IP addresses and matching the
   egress traffic against these IPs. We have discussed this feature in detail when
-  we introduced the Inline mode for the eBPF data plane in Calico Enterprise 3. 20
+  we introduced the Inline mode for the eBPF data plane in Calico Enterprise 3.20
   release! It addresses the latency and performance issues of the various modes used
   by Calico in iptables/nftables data planes. It is a shame that Calico users who
   are not yet ready to switch completely to eBPF would miss out on this big DNS policy
   improvement. Don’t worry! We found a way to port it to iptables to enhance our users’
-  experience without forcing users to make a huge leap. In Calico Enterprise v3. 21,
+  experience without forcing users to make a huge leap. In Calico Enterprise v3.21,
   we have extended the Inline DNS policy mode to iptables. In this mode, DNS policies
   are updated in real time as DNS responses are parsed by eBPF within the data plane,
   thus improving the performance. In all the existing modes in the iptables data plane,
@@ -31,6 +31,10 @@ summary: 'Calico iptables – DNS Inline policy The outcome NFTABLES Conclusion 
   eBPF data plane! xt_bpf An iptables rule that allows it may look something like
   this: iptables -A INPUT -m bpf –object-pinned /sys/fs/bpf/dns_parser -j ACCEPT The
   iptables rule calls the eBPF DNS parser program on the response packet and updates
-  the data plane inline.'
+  the data plane inline. When the client connects for the first time, the policy is
+  enforced without any delays, thus avoiding any retransmits or any impact on application
+  performance. The parser program is the exact same as in the case of the eBPF data
+  plane and is called in the exact spot in which the packets were formerly sent to
+  userspace.'
 ---
 Open the original post ↗ https://www.tigera.io/blog/switching-to-ebpf-one-step-at-a-time-with-calico-dns-inline-policy/

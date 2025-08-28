@@ -8,10 +8,11 @@ source: Kubernetes Blog
 external_url: https://kubernetes.io/blog/2025/05/07/kubernetes-v1-33-wi-for-image-pulls/
 post_kind: link
 draft: false
-tldr: 'Kubernetes v1. 33: From Secrets to Service Accounts: Kubernetes Image Pulls
+tldr: 'Kubernetes v1.33: From Secrets to Service Accounts: Kubernetes Image Pulls
   Evolved The problem with image pull secrets The solution: Service Account token
-  integration for Kubelet credential providers How it works 1.'
-summary: 'Kubernetes v1. 33: From Secrets to Service Accounts: Kubernetes Image Pulls
+  integration for Kubelet credential providers How it works 1. Service Account tokens
+  for credential providers 2.'
+summary: 'Kubernetes v1.33: From Secrets to Service Accounts: Kubernetes Image Pulls
   Evolved The problem with image pull secrets The solution: Service Account token
   integration for Kubelet credential providers How it works 1. Service Account tokens
   for credential providers 2. Image registry authentication flow Benefits of this
@@ -31,6 +32,7 @@ summary: 'Kubernetes v1. 33: From Secrets to Service Accounts: Kubernetes Image 
   which kubelet can then use for image pulls — eliminating the need for long-lived
   image pull secrets. Currently, Kubernetes administrators have two primary options
   for handling private container image pulls: Image pull secrets stored in the Kubernetes
-  API These secrets are often long-lived because they are hard to rotate.'
+  API These secrets are often long-lived because they are hard to rotate. They must
+  be explicitly attached to a service account or pod.'
 ---
 Open the original post ↗ https://kubernetes.io/blog/2025/05/07/kubernetes-v1-33-wi-for-image-pulls/

@@ -8,14 +8,15 @@ source: Kubernetes Blog
 external_url: https://kubernetes.io/blog/2025/04/30/kubernetes-v1-33-storage-capacity-scoring-feature/
 post_kind: link
 draft: false
-tldr: 'Kubernetes v1. 33: Storage Capacity Scoring of Nodes for Dynamic Provisioning
+tldr: 'Kubernetes v1.33: Storage Capacity Scoring of Nodes for Dynamic Provisioning
   (alpha) About this feature How to use Enabling the feature Configuration changes
   Further reading Additional note: Relationship with VolumeCapacityPriority Kubernetes
-  v1.'
-summary: 'Kubernetes v1. 33: Storage Capacity Scoring of Nodes for Dynamic Provisioning
+  v1.33 introduces a new alpha feature called StorageCapacityScoring. This feature
+  adds a scoring method for pod scheduling with the topology-aware volume provisioning.'
+summary: 'Kubernetes v1.33: Storage Capacity Scoring of Nodes for Dynamic Provisioning
   (alpha) About this feature How to use Enabling the feature Configuration changes
   Further reading Additional note: Relationship with VolumeCapacityPriority Kubernetes
-  v1. 33 introduces a new alpha feature called StorageCapacityScoring. This feature
+  v1.33 introduces a new alpha feature called StorageCapacityScoring. This feature
   adds a scoring method for pod scheduling with the topology-aware volume provisioning.
   This feature eases to schedule pods on nodes with either the most or least available
   storage capacity. StorageCapacityScoring This feature extends the kube-scheduler''s
@@ -30,6 +31,8 @@ summary: 'Kubernetes v1. 33: Storage Capacity Scoring of Nodes for Dynamic Provi
   environments by choosing the least storage capacity node. This feature helps maximize
   resource utilization by filling up nodes more sequentially, starting with the most
   utilized nodes first that still have enough storage capacity for the requested volume
-  size.'
+  size. In the alpha phase, StorageCapacityScoring is disabled by default. To use
+  this feature, add StorageCapacityScoring=true to the kube-scheduler command line
+  option --feature-gates.'
 ---
 Open the original post ↗ https://kubernetes.io/blog/2025/04/30/kubernetes-v1-33-storage-capacity-scoring-feature/

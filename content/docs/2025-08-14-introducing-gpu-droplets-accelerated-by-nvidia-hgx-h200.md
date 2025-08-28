@@ -31,7 +31,7 @@ summary: "Introducing GPU Droplets accelerated by NVIDIA HGX H200 NVIDIA H200s o
   \ on-demand machines). NVIDIA HGX H200 GPU Droplets offer significant performance\
   \ improvements - up to 2x faster inference speeds and double the memory capacity\
   \ - compared to the H100. NVIDIA H200 GPU Droplets are designed for simplicity,\
-  \ scalability, and cost-effectiveness, with on-demand pricing at just $3. 44/GPU/hr.\
+  \ scalability, and cost-effectiveness, with on-demand pricing at just $3.44/GPU/hr.\
   \ Weâ\x80\x99re expanding our AI/ML offerings with the introduction of new DigitalOcean\
   \ Gradientâ\x84¢ AI GPU Droplets , virtual machines accelerated by NVIDIA HGX H200.\
   \ This is a significant step forward in our mission to provide the simplest, most\
@@ -44,6 +44,8 @@ summary: "Introducing GPU Droplets accelerated by NVIDIA HGX H200 NVIDIA H200s o
   \ to the table: Iterate and deploy faster: H200 GPU offers up to 2x faster inference\
   \ speeds than the NVIDIA H100 on large language models like Llama 2 70B. Iterate\
   \ and deploy faster: H200 GPU offers up to 2x faster inference speeds than the NVIDIA\
-  \ H100 on large language models like Llama 2 70B."
+  \ H100 on large language models like Llama 2 70B. Access larger memory capacity:\
+  \ First GPU to feature HBM3e memory, delivering a substantial increase in memory\
+  \ bandwidth and capacity for better inference performance."
 ---
 Open the original post ↗ https://www.digitalocean.com/blog/now-available-gpu-dropletsl-nvidia-h200s

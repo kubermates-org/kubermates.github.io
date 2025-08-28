@@ -9,12 +9,13 @@ post_kind: link
 draft: false
 tldr: Enhancing Kubernetes API Server Efficiency with API Streaming Why does kube-apiserver
   allocate so much memory for list requests? Streaming list requests Enabling API
-  Streaming for your component What's next? The synthetic test Kubernetes 1. 33 update
+  Streaming for your component What's next? The synthetic test Kubernetes 1.33 update
   Managing Kubernetes clusters efficiently is critical, especially as their size is
-  growing.
+  growing. A significant challenge with large clusters is the memory overhead caused
+  by list requests.
 summary: Enhancing Kubernetes API Server Efficiency with API Streaming Why does kube-apiserver
   allocate so much memory for list requests? Streaming list requests Enabling API
-  Streaming for your component What's next? The synthetic test Kubernetes 1. 33 update
+  Streaming for your component What's next? The synthetic test Kubernetes 1.33 update
   Managing Kubernetes clusters efficiently is critical, especially as their size is
   growing. A significant challenge with large clusters is the memory overhead caused
   by list requests. In the existing implementation, the kube-apiserver processes list
@@ -32,6 +33,7 @@ summary: Enhancing Kubernetes API Server Efficiency with API Streaming Why does 
   the below graph. The graph shows the memory usage of a kube-apiserver during a synthetic
   test. (see the synthetic test section for more details). The results clearly show
   that increasing the number of informers significantly boosts the server's memory
-  consumption.
+  consumption. Notably, at approximately 16:40, the server crashed when serving only
+  16 informers.
 ---
 Open the original post ↗ https://kubernetes.io/blog/2024/12/17/kube-apiserver-api-streaming/

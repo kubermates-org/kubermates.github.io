@@ -19,10 +19,14 @@ summary: 'Incident: Kaniko and ACR So what happened? So what are you going to do
   going to put into place. Azure users started reporting seeing the following error
   within the build step: error checking push permissions -- make sure you entered
   the correct tag name, and that you are authenticated correctly, and try again: checking
-  push permission for "xyz. azurecr. io/myorg/myrepo:0. 0. 1": resolving authorization
+  push permission for "xyz. azurecr. io/myorg/myrepo:0.0.1": resolving authorization
   for xyz. azurecr. io failed: error getting credentials - err: exec: "docker-credential-acr-env":
   executable file not found in $PATH error checking push permissions -- make sure
   you entered the correct tag name, and that you are authenticated correctly, and
-  try again: checking push permission for "xyz. azurecr. io/myorg/myrepo:0. 0.'
+  try again: checking push permission for "xyz. azurecr. io/myorg/myrepo:0.0.1": resolving
+  authorization for xyz. azurecr. io failed: error getting credentials - err: exec:
+  "docker-credential-acr-env": executable file not found in $PATH This seemed to be
+  indicating to an authorization issues with the terraform module. Other users were
+  seemingly unaffected by this issue.'
 ---
 Open the original post ↗ https://jenkins-x.io/blog/2021/12/28/kanikoacrandjenkinsx/

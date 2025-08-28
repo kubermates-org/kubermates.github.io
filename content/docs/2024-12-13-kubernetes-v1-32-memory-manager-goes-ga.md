@@ -7,14 +7,18 @@ source: Kubernetes Blog
 external_url: https://kubernetes.io/blog/2024/12/13/memory-manager-goes-ga/
 post_kind: link
 draft: false
-tldr: 'Kubernetes v1. 32: Memory Manager Goes GA Observability improvements Improving
+tldr: 'Kubernetes v1.32: Memory Manager Goes GA Observability improvements Improving
   memory manager reliability and consistency Future development Getting involved With
-  Kubernetes 1.'
-summary: 'Kubernetes v1. 32: Memory Manager Goes GA Observability improvements Improving
-  memory manager reliability and consistency Future development Getting involved With
-  Kubernetes 1. 32, the memory manager has officially graduated to General Availability
+  Kubernetes 1.32, the memory manager has officially graduated to General Availability
   (GA), marking a significant milestone in the journey toward efficient and predictable
-  memory allocation for containerized applications. Since Kubernetes v1. 22, where
+  memory allocation for containerized applications. Since Kubernetes v1.22, where
+  it graduated to beta, the memory manager has proved itself reliable, stable and
+  a good complementary feature for the CPU Manager.'
+summary: 'Kubernetes v1.32: Memory Manager Goes GA Observability improvements Improving
+  memory manager reliability and consistency Future development Getting involved With
+  Kubernetes 1.32, the memory manager has officially graduated to General Availability
+  (GA), marking a significant milestone in the journey toward efficient and predictable
+  memory allocation for containerized applications. Since Kubernetes v1.22, where
   it graduated to beta, the memory manager has proved itself reliable, stable and
   a good complementary feature for the CPU Manager. As part of kubelet''s workload
   admission process, the memory manager provides topology hints to optimize memory
@@ -27,6 +31,10 @@ summary: 'Kubernetes v1. 32: Memory Manager Goes GA Observability improvements I
   patterns. memory_manager_pinning_requests_total - tracks the number of times the
   pod spec required the memory manager to pin memory pages. memory_manager_pinning_errors_total
   - tracks the number of times the pod spec required the memory manager to pin memory
-  pages, but the allocation failed.'
+  pages, but the allocation failed. The kubelet does not guarantee pod ordering when
+  admitting pods after a restart or reboot. In certain edge cases, this behavior could
+  cause the memory manager to reject some pods, and in more extreme cases, it may
+  cause kubelet to fail upon restart. Previously, the beta implementation lacked certain
+  checks and logic to prevent these issues.'
 ---
 Open the original post ↗ https://kubernetes.io/blog/2024/12/13/memory-manager-goes-ga/

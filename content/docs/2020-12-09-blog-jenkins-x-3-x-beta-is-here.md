@@ -7,10 +7,12 @@ source: Jenkins X
 external_url: https://jenkins-x.io/blog/2020/12/09/jx-v3-beta/
 post_kind: link
 draft: false
-tldr: Jenkins X 3. x beta is here! User Changes Platform Changes Getting started Final
-  thoughts I’m super excited to announce the 3.
+tldr: 'Jenkins X 3. x beta is here! User Changes Platform Changes Getting started
+  Final thoughts I’m super excited to announce the 3.0 beta of Jenkins X! Christmas
+  has come early this year! the main documentation of the changes are: the new architecture
+  with modular plugins and improved extension points what has changed since 3.'
 summary: 'Jenkins X 3. x beta is here! User Changes Platform Changes Getting started
-  Final thoughts I’m super excited to announce the 3. 0 beta of Jenkins X! Christmas
+  Final thoughts I’m super excited to announce the 3.0 beta of Jenkins X! Christmas
   has come early this year! the main documentation of the changes are: the new architecture
   with modular plugins and improved extension points what has changed since 3. x started
   how 3. x compares to 2. x but here’s a brief summary of the differences: As a user
@@ -41,6 +43,8 @@ summary: 'Jenkins X 3. x beta is here! User Changes Platform Changes Getting sta
   in a GitOps way. Secrets built in TLS and DNS support along with Heath reporting
   and visualising via kuberhealthy we now have an LTS distribution which lets you
   switch to a much more slower cadence of releases of Jenkins X We have been using
-  Jenkins X 3. x in production now for many months (for CI/CD of all of the 3.'
+  Jenkins X 3. x in production now for many months (for CI/CD of all of the 3. x codebase
+  and continuously upgrading our cluster in the standard way and it’s been much simpler
+  and easier to use, operate and configure.'
 ---
 Open the original post ↗ https://jenkins-x.io/blog/2020/12/09/jx-v3-beta/
