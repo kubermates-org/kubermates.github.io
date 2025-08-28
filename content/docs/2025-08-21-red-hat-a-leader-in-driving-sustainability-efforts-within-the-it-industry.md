@@ -2,8 +2,8 @@
 title: 'Red Hat: a leader in driving sustainability efforts within the IT industry'
 date: '2025-08-21T00:00:00+00:00'
 tags:
-- openshift
-source: OpenShift Blog
+- kubernetes
+source: Redhat Blog
 external_url: https://www.redhat.com/en/blog/red-hat-energy-efficient-it-solutions-sustainability
 post_kind: link
 draft: false

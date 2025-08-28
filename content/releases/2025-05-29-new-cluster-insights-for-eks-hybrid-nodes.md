@@ -20,12 +20,12 @@ summary: 'Help improve this page To contribute to this user guide, choose the Ed
   findings. Configuration insights : Identifies misconfigurations in your EKS Hybrid
   Nodes setup that could impair functionality of your cluster or workloads. Upgrade
   insights : Identifies issues that could impact your ability to upgrade to new versions
-  of Kubernetes. Frequency : Amazon EKS refreshes cluster insights every 24 hours.
-  You cannot manually refresh cluster insights. If you fix a cluster issue, it will
-  take some time for cluster insights to update. To determine if a fix was successful,
-  compare the time that the change deployed to the "last refresh time" of the insight
-  check. Permissions : Amazon EKS automatically creates a cluster access entry for
-  cluster insights in every EKS cluster. This entry gives EKS permission to view information
-  about your cluster.'
+  of Kubernetes. Frequency : Amazon EKS refreshes cluster insights every 24 hours,
+  or you can manually refresh them to see the latest status. For example, you can
+  manually refresh cluster insights after addressing an issue to see if the issue
+  was resolved. Permissions : Amazon EKS automatically creates a cluster access entry
+  for cluster insights in every EKS cluster. This entry gives EKS permission to view
+  information about your cluster. Amazon EKS uses this information to generate the
+  insights. For more information, see AmazonEKSClusterInsightsPolicy.'
 ---
 Open the original post ↗ https://docs.aws.amazon.com/eks/latest/userguide/cluster-insights.html
