@@ -1,0 +1,32 @@
+---
+title: Introducing ERNIE 4.5-21B-A3B-Base
+date: '2025-07-22T14:51:42.608000+00:00'
+tags:
+- kubernetes
+source: Digital Ocean
+external_url: https://www.digitalocean.com/blog/now-available-ernie-on-gpu-droplets
+post_kind: link
+draft: false
+tldr: 'By Waverly Swinton and Quinn Eckart TL;DR: Baidu recently released ERNIE 4.
+  5-21B-A3B-Base, a powerful open-source LLM You can launch ERNIE 4.'
+summary: "By Waverly Swinton and Quinn Eckart TL;DR: Baidu recently released ERNIE\
+  \ 4. 5-21B-A3B-Base, a powerful open-source LLM You can launch ERNIE 4. 5-21B directly\
+  \ on DigitalOcean GPU Droplets with only 1-click - deploy in the cloud console We\
+  \ put ERNIE 4. 5-21B to the test for translation and it outperformed models like\
+  \ Qwen3 - check out our demo ERNIE (Enhanced Representation through kNowledge IntEgration)\
+  \ 4. 5-21B-A3B-Base represents a significant leap in large language model development.\
+  \ Originating from Baiduâ\x80\x99s extensive research, this model is celebrated\
+  \ for its unique knowledge-enhanced architecture, which allows for robust performance\
+  \ across complex natural language processing tasks, including sophisticated text\
+  \ generation, nuanced conversational AI, and comprehensive summarization. Its ability\
+  \ to integrate real-world knowledge into its understanding sets it apart, making\
+  \ it a compelling choice for intricate AI applications. Deploying ERNIE 4. 5-21B\
+  \ on DigitalOcean empowers you to rapidly prototype and scale applications powered\
+  \ by a model that goes beyond surface-level text processing, without the overhead\
+  \ of intricate infrastructure configuration. ERNIE 4. 5-21B is praised for its advanced\
+  \ multimodal capabilities, handling text, images, audio, and video, as well as its\
+  \ remarkable computational efficiency, allowing you to save significantly on AI\
+  \ infrastructure deployment costs while achieving high performance. We specifically\
+  \ put it to the test for translation, using an ERNIE 4."
+---
+Open the original post ↗ https://www.digitalocean.com/blog/now-available-ernie-on-gpu-droplets
