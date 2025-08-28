@@ -7,27 +7,15 @@ source: OpenShift Blog
 external_url: https://www.redhat.com/en/blog/top-10-articles-red-hat-customers-are-reading-right-now
 post_kind: link
 draft: false
-tldr: Share Staying on top of the latest advancements in open source technology is
-  more critical than ever. At Red Hat, we're at the forefront of this innovation,
-  continuously delivering solutions that empower enterprises to navigate complex challenges,
-  encourage efficiency, and build a more secure future.
-summary: Share Staying on top of the latest advancements in open source technology
-  is more critical than ever. At Red Hat, we're at the forefront of this innovation,
-  continuously delivering solutions that empower enterprises to navigate complex challenges,
-  encourage efficiency, and build a more secure future. In this roundup, our customers
-  and communities have been particularly drawn to topics spanning the future of AI
-  in IT, the ongoing evolution of our core platforms, and the strategic shifts in
-  critical industries like telecommunications. From groundbreaking product releases
-  that enhance virtualization and accelerate AI workloads to essential insights on
-  security, developer productivity, and sovereign cloud, these articles offer a pulse
-  on what's driving the open hybrid cloud. Explore the top stories that are shaping
-  the future of enterprise IT and empowering you to innovate with confidence. Red
-  Hat OpenShift 4. 19, now generally available, is designed to propel your enterprise
-  forward in the AI era while offering enhanced flexibility for virtualization and
-  security. This release, built on Kubernetes 1. 32 and CRI-O 1. 32, brings powerful
-  capabilities to the trusted OpenShift application platform. From dynamic GPU slicing
-  to accelerated expertise with Red Hat OpenShift Lightspeed, OpenShift 4. 19 provides
-  the comprehensive and consistent foundation needed to innovate faster across your
-  hybrid cloud environment without compromising on security.
+tldr: Top 10 articles Red Hat customers are reading right now 1. Red Hat OpenShift
+  4.
+summary: 'Top 10 articles Red Hat customers are reading right now 1. Red Hat OpenShift
+  4. 19 accelerates virtualization and enterprise AI innovation 2. What''s new in
+  Red Hat Enterprise Linux 9. 6? 3. Top 10 Linux blog posts that deserve a spot on
+  your reading list 4. Ansible Automation Platform and HashiCorp Terraform integration
+  for infrastructure lifecycle management 5. Red Hat’s commitments for sovereign cloud:
+  Your cloud, your rules 6. Announcing OLM v1: Next-Generation Operator Lifecycle
+  Management 7. What''s new in Red Hat OpenShift Virtualization 4. 19 8. The 2024
+  Red Hat Product Security Risk Report: CVEs, XZ Backdoor, SSCAs, AI…oh my! 9.'
 ---
 Open the original post ↗ https://www.redhat.com/en/blog/top-10-articles-red-hat-customers-are-reading-right-now

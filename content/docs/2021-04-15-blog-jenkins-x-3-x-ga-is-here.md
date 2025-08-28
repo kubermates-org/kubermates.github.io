@@ -7,27 +7,49 @@ source: Jenkins X
 external_url: https://jenkins-x.io/blog/2021/04/15/jx-v3-ga/
 post_kind: link
 draft: false
-tldr: 'I’m super excited to announce the 3. 0 GA (General Availability) release of
-  Jenkins X! Jenkins X automates your CI/CD on kubernetes to help you accelerate :
-  Here’s a demo of how to develop code with Jenkins X the main documentation of the
-  changes are: here’s a brief summary of the differences: The following improvements
-  have been made since the first beta : As a user the high level UX of Jenkins X is
-  similar: We have been using Jenkins X 3.'
-summary: 'I’m super excited to announce the 3. 0 GA (General Availability) release
-  of Jenkins X! Jenkins X automates your CI/CD on kubernetes to help you accelerate
-  : Here’s a demo of how to develop code with Jenkins X the main documentation of
-  the changes are: here’s a brief summary of the differences: The following improvements
-  have been made since the first beta : As a user the high level UX of Jenkins X is
-  similar: We have been using Jenkins X 3. x in production now for many months (for
-  CI/CD of all of the 3. x codebase and continuously upgrading our cluster in the
-  standard way and it’s been much simpler and easier to use, operate and configure.
-  We have also been continuously delivering changes from Jenkins X into our production
-  cluster for many months now and it’s been working great - GitOps FTW! In general
-  Jenkins X 3. x is now much simpler and more flexible. It supports lots more platforms
-  than before and should be easy to extend and configure for other platforms too.
-  If you have never tried 3. x before then please follow the Admin Guide to get Jenkins
-  X installed on your cloud provider, on-premises kubernetes cluster or minikube.
-  If you previously tried the 3. x alpha then the migration instructions are here.
-  For folks on older 2.'
+tldr: Jenkins X 3. x GA is here! Demo Documentation Changes since the 3.
+summary: 'Jenkins X 3. x GA is here! Demo Documentation Changes since the 3. x beta
+  User Changes since 2. x Platform Changes Getting started Final thoughts I’m super
+  excited to announce the 3. 0 GA (General Availability) release of Jenkins X! Jenkins
+  X automates your CI/CD on kubernetes to help you accelerate : Automated CI/CD pipelines
+  lets you focus on your actually application code while Jenkins X automatically creates
+  battle tested Tekton CI/CD pipelines for your project which are managed via GitOps
+  so that its super easy to keep your pipelines up to date across your repositories
+  or to upgrade or override pipelines or steps for specific repositories. Automatic
+  promotion of versioned artifacts via GitOps through your Environments such as Staging
+  , Pre-production and Production whether they are running in the same kubernetes
+  cluster or you are using multiple clusters for your environments Staging Pre-production
+  Production Preview Environments lets you propose code changes via Pull Requests
+  and have a Preview Environment automatically created, running your code in kubernetes
+  to get fast feedback from your team before agreeing to merge changes to the main
+  branch ChatOps comment on Pull Requests to give feedback, approve/hold changes,
+  trigger optional pipelines for additional testing and other ChatOps commands Here’s
+  a demo of how to develop code with Jenkins X the main documentation of the changes
+  are: the new architecture with modular plugins and improved extension points what
+  has changed since 3. x started how 3. x compares to 2. x DevOps Guides and DevOps
+  Patterns provides an overview of our learnings in the DevOps space here’s a brief
+  summary of the differences: The following improvements have been made since the
+  first beta : Integrated observability and monitoring with Pipeline Tracing Auto
+  scale preview environments with Osiris Enable auto upgrade to keep your cluster
+  up to date As a user the high level UX of Jenkins X is similar: automated Continuous
+  Delivery pipelines for using tekton for your repositories with automatic promotion
+  between your environments pull requests on your repositories create separate Preview
+  Environments where your team can review your changes and give fast feedback before
+  your changes are approved and merged into the main trunk. we now default to vanilla
+  tekton YAML for defining pipelines while accelerating your tekton with tekton catalog
+  we include an open source dashboard for visualising pipelines and logs which you
+  can invoke via: jx dash jx dash we now use helm (3. x) and helmfile along with optionally
+  kustomize in a GitOps style to define and configure both Jenkins X itself, your
+  tools and applications in any namespace support multi cluster out of the box so
+  you can keep Staging and Production in separate clusters to your development cluster
+  where your pipelines run, you create and release immutable container images and
+  other artifacts. Staging Production to setup or upgrade Jenkins X we use terraform
+  to setup your cloud resources on Azure , Amazon or Google while also supporting
+  on-premises, minkube and OpenShift - see the Admin Guides for more detail the actual
+  installation of kubernetes resources takes place using the git operator so it runs
+  reliably inside the cluster itself the actual installation of kubernetes resources
+  takes place using the git operator so it runs reliably inside the cluster itself
+  we default to using Kubernetes External Secrets to manage all secrets for Jenkins
+  X itself, development tools and your applications too.'
 ---
 Open the original post ↗ https://jenkins-x.io/blog/2021/04/15/jx-v3-ga/

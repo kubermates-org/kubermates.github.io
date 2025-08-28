@@ -8,14 +8,16 @@ source: Kubernetes.dev Blog
 external_url: https://www.kubernetes.dev/blog/2022/08/15/meet-our-contributors-china-ep-03/
 post_kind: link
 draft: false
-tldr: 'Authors & Interviewers: Avinesh Tripathi , Debabrata Panigrahi , Jayesh Srivastava
-  , Priyanka Saggu , Purneswar Prasad , Vedant Kakde Hello, everyone 👋 Welcome back
-  to the third edition of the “Meet Our Contributors” blog post series for APAC. This
-  post features four outstanding contributors from China, who have played diverse
-  leadership and community roles in the upstream Kubernetes project.'
-summary: 'Authors & Interviewers: Avinesh Tripathi , Debabrata Panigrahi , Jayesh
+tldr: 'Meet Our Contributors - APAC (China region) Andy Zhang Shiming Zhang Paco Xu
+  Jintao Zhang Authors & Interviewers: Avinesh Tripathi , Debabrata Panigrahi , Jayesh
   Srivastava , Priyanka Saggu , Purneswar Prasad , Vedant Kakde Hello, everyone 👋
   Welcome back to the third edition of the “Meet Our Contributors” blog post series
+  for APAC. This post features four outstanding contributors from China, who have
+  played diverse leadership and community roles in the upstream Kubernetes project.'
+summary: 'Meet Our Contributors - APAC (China region) Andy Zhang Shiming Zhang Paco
+  Xu Jintao Zhang Authors & Interviewers: Avinesh Tripathi , Debabrata Panigrahi ,
+  Jayesh Srivastava , Priyanka Saggu , Purneswar Prasad , Vedant Kakde Hello, everyone
+  👋 Welcome back to the third edition of the “Meet Our Contributors” blog post series
   for APAC. This post features four outstanding contributors from China, who have
   played diverse leadership and community roles in the upstream Kubernetes project.
   So, without further ado, let’s get straight to the article. Andy Zhang currently

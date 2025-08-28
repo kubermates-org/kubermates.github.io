@@ -8,18 +8,19 @@ source: Kubernetes.dev Blog
 external_url: https://www.kubernetes.dev/blog/2023/05/09/sig-network-spotlight-2023/
 post_kind: link
 draft: false
-tldr: Networking is one of the core pillars of Kubernetes, and the Special Interest
-  Group for Networking (SIG Network) is responsible for developing and maintaining
-  the networking features of Kubernetes. It covers all aspects to ensure Kubernetes
-  provides a reliable and scalable network infrastructure for containerized applications.
-summary: 'Networking is one of the core pillars of Kubernetes, and the Special Interest
-  Group for Networking (SIG Network) is responsible for developing and maintaining
-  the networking features of Kubernetes. It covers all aspects to ensure Kubernetes
-  provides a reliable and scalable network infrastructure for containerized applications.
-  In this SIG Network spotlight, Sujay Dey talked with Shane Utt , Software Engineer
-  at Kong, chair of SIG Network and maintainer of Gateway API, on different aspects
-  of the SIG, what are the exciting things going on and how anyone can get involved
-  and contribute here. Sujay : Hello, and first of all, thanks for the opportunity
+tldr: Spotlight on SIG Network Networking is one of the core pillars of Kubernetes,
+  and the Special Interest Group for Networking (SIG Network) is responsible for developing
+  and maintaining the networking features of Kubernetes. It covers all aspects to
+  ensure Kubernetes provides a reliable and scalable network infrastructure for containerized
+  applications.
+summary: 'Spotlight on SIG Network Networking is one of the core pillars of Kubernetes,
+  and the Special Interest Group for Networking (SIG Network) is responsible for developing
+  and maintaining the networking features of Kubernetes. It covers all aspects to
+  ensure Kubernetes provides a reliable and scalable network infrastructure for containerized
+  applications. In this SIG Network spotlight, Sujay Dey talked with Shane Utt , Software
+  Engineer at Kong, chair of SIG Network and maintainer of Gateway API, on different
+  aspects of the SIG, what are the exciting things going on and how anyone can get
+  involved and contribute here. Sujay : Hello, and first of all, thanks for the opportunity
   of learning more about SIG Network. I would love to hear your story, so could you
   please tell us a bit about yourself, your role, and how you got involved in Kubernetes,
   especially in SIG Network? Shane : Hello! Thank you for reaching out. My Kubernetes

@@ -7,19 +7,23 @@ source: Kubernetes Blog
 external_url: https://kubernetes.io/blog/2024/12/12/scheduler-queueinghint/
 post_kind: link
 draft: false
-tldr: The Kubernetes scheduler is the core component that selects the nodes on which
-  new Pods run. The scheduler processes these new Pods one by one.
-summary: 'The Kubernetes scheduler is the core component that selects the nodes on
-  which new Pods run. The scheduler processes these new Pods one by one. Therefore,
-  the larger your clusters, the more important the throughput of the scheduler becomes.
-  Over the years, Kubernetes SIG Scheduling has improved the throughput of the scheduler
-  in multiple enhancements. This blog post describes a major improvement to the scheduler
-  in Kubernetes v1. 32: a scheduling context element named QueueingHint. This page
-  provides background knowledge of the scheduler and explains how QueueingHint improves
-  scheduling throughput. The scheduler stores all unscheduled Pods in an internal
-  component called the scheduling queue. The scheduling queue consists of the following
-  data structures: The Kubernetes scheduler is implemented following the Kubernetes
-  scheduling framework. And, all scheduling features are implemented as plugins (e.
-  g. , Pod affinity is implemented in the InterPodAffinity plugin.'
+tldr: 'Kubernetes v1. 32: QueueingHint Brings a New Possibility to Optimize Pod Scheduling
+  Scheduling queue Scheduling framework and plugins Improvements to retrying Pod scheduling
+  with QueuingHint QueueingHint''s history and what''s new in v1.'
+summary: 'Kubernetes v1. 32: QueueingHint Brings a New Possibility to Optimize Pod
+  Scheduling Scheduling queue Scheduling framework and plugins Improvements to retrying
+  Pod scheduling with QueuingHint QueueingHint''s history and what''s new in v1. 32
+  Getting involved How can I learn more? The Kubernetes scheduler is the core component
+  that selects the nodes on which new Pods run. The scheduler processes these new
+  Pods one by one. Therefore, the larger your clusters, the more important the throughput
+  of the scheduler becomes. Over the years, Kubernetes SIG Scheduling has improved
+  the throughput of the scheduler in multiple enhancements. This blog post describes
+  a major improvement to the scheduler in Kubernetes v1. 32: a scheduling context
+  element named QueueingHint. This page provides background knowledge of the scheduler
+  and explains how QueueingHint improves scheduling throughput. The scheduler stores
+  all unscheduled Pods in an internal component called the scheduling queue. The scheduling
+  queue consists of the following data structures: ActiveQ : holds newly created Pods
+  or Pods that are ready to be retried for scheduling. BackoffQ : holds Pods that
+  are ready to be retried but are waiting for a backoff period to end.'
 ---
 Open the original post ↗ https://kubernetes.io/blog/2024/12/12/scheduler-queueinghint/

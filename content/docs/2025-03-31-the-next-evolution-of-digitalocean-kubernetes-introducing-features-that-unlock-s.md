@@ -8,22 +8,46 @@ source: Digital Ocean
 external_url: https://www.digitalocean.com/blog/introducing-doks-1k-nodes
 post_kind: link
 draft: false
-tldr: "By Nicole Ghalwash Kubernetes is the foundation of many modern applications,\
-  \ providing the scalability and resilience needed for todayâ\x80\x99s dynamic workloads.\
-  \ However, as applications grow, so do their infrastructure and scaling requirements."
-summary: "By Nicole Ghalwash Kubernetes is the foundation of many modern applications,\
-  \ providing the scalability and resilience needed for todayâ\x80\x99s dynamic workloads.\
-  \ However, as applications grow, so do their infrastructure and scaling requirements.\
-  \ Managing multiple clusters to handle large-scale workloads introduces operational\
-  \ complexity, increased network management, and challenges for the DevOps teams.\
-  \ These challenges can include greater resource fragmentation, increased latency\
-  \ due to inter-cluster communication, and the manual burden of maintaining security\
-  \ and compliance across multiple clusters. These challenges are particularly pronounced\
-  \ for data-intensive workloads like video streaming, large-scale data analytics,\
-  \ and security operations. Thatâ\x80\x99s why weâ\x80\x99re excited to announce\
-  \ a major evolution of DigitalOcean Kubernetes Service (DOKS), which consists of\
-  \ four features: Increased cluster capacity to 1,000 worker nodes per cluster Optimized\
-  \ networking with VPC-native Kubernetes Improved performance with eBPF-powered networking\
+tldr: "The Next Evolution of DigitalOcean Kubernetes: Introducing Features that Unlock\
+  \ Superior Scalability for Growing Businesses The Next Evolution of DigitalOcean\
+  \ Kubernetes: Introducing Features that Unlock Superior Scalability for Growing\
+  \ Businesses An overview of each new feature, and what it means for your business\
+  \ Increased cluster capacity Optimized networking with VPC-native Kubernetes Improved\
+  \ performance with eBPF-powered networking Managed Cilium for high-performance networking\
+  \ What this means for your business Get started today About the author Try DigitalOcean\
+  \ for free Related Articles Stop Building SaaS from Scratch: Meet the SeaNotes Starter\
+  \ Kit Announcing OpenAI gpt-oss Models on the DigitalOcean Gradientâ\x84¢ AI Platform\
+  \ Introducing langchain-gradient: Seamless LangChain Integration with DigitalOcean\
+  \ Gradientâ\x84¢ AI Platform By Nicole Ghalwash Published: March 31, 2025 4 min\
+  \ read Kubernetes is the foundation of many modern applications, providing the scalability\
+  \ and resilience needed for todayâ\x80\x99s dynamic workloads. However, as applications\
+  \ grow, so do their infrastructure and scaling requirements."
+summary: "The Next Evolution of DigitalOcean Kubernetes: Introducing Features that\
+  \ Unlock Superior Scalability for Growing Businesses The Next Evolution of DigitalOcean\
+  \ Kubernetes: Introducing Features that Unlock Superior Scalability for Growing\
+  \ Businesses An overview of each new feature, and what it means for your business\
+  \ Increased cluster capacity Optimized networking with VPC-native Kubernetes Improved\
+  \ performance with eBPF-powered networking Managed Cilium for high-performance networking\
+  \ What this means for your business Get started today About the author Try DigitalOcean\
+  \ for free Related Articles Stop Building SaaS from Scratch: Meet the SeaNotes Starter\
+  \ Kit Announcing OpenAI gpt-oss Models on the DigitalOcean Gradientâ\x84¢ AI Platform\
+  \ Introducing langchain-gradient: Seamless LangChain Integration with DigitalOcean\
+  \ Gradientâ\x84¢ AI Platform By Nicole Ghalwash Published: March 31, 2025 4 min\
+  \ read Kubernetes is the foundation of many modern applications, providing the scalability\
+  \ and resilience needed for todayâ\x80\x99s dynamic workloads. However, as applications\
+  \ grow, so do their infrastructure and scaling requirements. Managing multiple clusters\
+  \ to handle large-scale workloads introduces operational complexity, increased network\
+  \ management, and challenges for the DevOps teams. These challenges can include\
+  \ greater resource fragmentation, increased latency due to inter-cluster communication,\
+  \ and the manual burden of maintaining security and compliance across multiple clusters.\
+  \ These challenges are particularly pronounced for data-intensive workloads like\
+  \ video streaming, large-scale data analytics, and security operations. Thatâ\x80\
+  \x99s why weâ\x80\x99re excited to announce a major evolution of DigitalOcean Kubernetes\
+  \ Service (DOKS), which consists of four features: Increased cluster capacity to\
+  \ 1,000 worker nodes per cluster Increased cluster capacity to 1,000 worker nodes\
+  \ per cluster Optimized networking with VPC-native Kubernetes Optimized networking\
+  \ with VPC-native Kubernetes Improved performance with eBPF-powered networking Improved\
+  \ performance with eBPF-powered networking Managed Cilium for high-performance networking\
   \ Managed Cilium for high-performance networking These updates help to empower businesses\
   \ to run larger workloads within a single DOKS cluster, reducing the need for complex\
   \ multi-cluster management and unlocking new levels of performance, reliability,\

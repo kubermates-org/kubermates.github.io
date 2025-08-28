@@ -7,9 +7,23 @@ source: Digital Ocean
 external_url: https://www.digitalocean.com/blog/now-available-amd-instinct-mi300x-gpus
 post_kind: link
 draft: false
-tldr: By Waverly Swinton GPU Droplets are now DigitalOcean GradientAI GPU Droplets.
-  Learn more about DigitalOcean GradientAI , our suite of AI products.
-summary: "By Waverly Swinton GPU Droplets are now DigitalOcean GradientAI GPU Droplets.\
+tldr: "Introducing AMD Instinctâ\x84¢ MI300X GPU Droplets What are AMD Instinct â\x84\
+  ¢ MI300X GPUs? What are the benefits of AMD Instinct MI300X â\x84¢ GPUs? What are\
+  \ the benefits of accessing GPU Droplets with DigitalOcean? What happens next? About\
+  \ the author Try DigitalOcean for free Related Articles Announcing OpenAI gpt-oss\
+  \ Models on the DigitalOcean Gradientâ\x84¢ AI Platform Build smarter AI agents:\
+  \ new tools now available for the DigitalOcean Gradientâ\x84¢ AI Platform Introducing\
+  \ GPU Droplets accelerated by NVIDIA HGX H200 By Waverly Swinton Updated: June 11,\
+  \ 2025 2 min read GPU Droplets are now DigitalOcean GradientAI GPU Droplets. Learn\
+  \ more about DigitalOcean GradientAI , our suite of AI products."
+summary: "Introducing AMD Instinctâ\x84¢ MI300X GPU Droplets What are AMD Instinct\
+  \ â\x84¢ MI300X GPUs? What are the benefits of AMD Instinct MI300X â\x84¢ GPUs?\
+  \ What are the benefits of accessing GPU Droplets with DigitalOcean? What happens\
+  \ next? About the author Try DigitalOcean for free Related Articles Announcing OpenAI\
+  \ gpt-oss Models on the DigitalOcean Gradientâ\x84¢ AI Platform Build smarter AI\
+  \ agents: new tools now available for the DigitalOcean Gradientâ\x84¢ AI Platform\
+  \ Introducing GPU Droplets accelerated by NVIDIA HGX H200 By Waverly Swinton Updated:\
+  \ June 11, 2025 2 min read GPU Droplets are now DigitalOcean GradientAI GPU Droplets.\
   \ Learn more about DigitalOcean GradientAI , our suite of AI products. At DigitalOcean,\
   \ weâ\x80\x99re committed to giving you even more options to power your AI/ML workloads.\
   \ Today, weâ\x80\x99re excited to announce that DigitalOcean customers now have\

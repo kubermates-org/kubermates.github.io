@@ -8,13 +8,19 @@ source: Kubernetes.dev Blog
 external_url: https://www.kubernetes.dev/blog/2024/09/30/cncf-deaf-and-hard-of-hearing-working-group-spotlight/
 post_kind: link
 draft: false
-tldr: In recognition of Deaf Awareness Month and the importance of inclusivity in
-  the tech community, we are spotlighting Catherine Paganini , facilitator and one
-  of the founding members of CNCF Deaf and Hard-of-Hearing Working Group (DHHWG).
+tldr: Spotlight on CNCF Deaf and Hard-of-hearing Working Group (DHHWG) Introduction
+  Motivation and early milestones Overcoming challenges and addressing misconceptions
+  Impact and the role of allies Expanding DEI efforts and future vision Call to action
+  Wrapping up In recognition of Deaf Awareness Month and the importance of inclusivity
+  in the tech community, we are spotlighting Catherine Paganini , facilitator and
+  one of the founding members of CNCF Deaf and Hard-of-Hearing Working Group (DHHWG).
   In this interview, Sandeep Kanabar , a deaf member of the DHHWG and part of the
   Kubernetes SIG ContribEx Communications team , sits down with Catherine to explore
   the impact of the DHHWG on cloud native projects like Kubernetes.
-summary: 'In recognition of Deaf Awareness Month and the importance of inclusivity
+summary: 'Spotlight on CNCF Deaf and Hard-of-hearing Working Group (DHHWG) Introduction
+  Motivation and early milestones Overcoming challenges and addressing misconceptions
+  Impact and the role of allies Expanding DEI efforts and future vision Call to action
+  Wrapping up In recognition of Deaf Awareness Month and the importance of inclusivity
   in the tech community, we are spotlighting Catherine Paganini , facilitator and
   one of the founding members of CNCF Deaf and Hard-of-Hearing Working Group (DHHWG).
   In this interview, Sandeep Kanabar , a deaf member of the DHHWG and part of the

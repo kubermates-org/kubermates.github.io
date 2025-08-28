@@ -7,23 +7,33 @@ source: Redhat Blog
 external_url: https://www.redhat.com/en/blog/simplify-linux-management-across-your-systems-lifecycles-red-hat-insights
 post_kind: link
 draft: false
-tldr: Share As a system administrator, keeping a Linux fleet running efficiently and
-  securely can feel like you’re constantly putting out fires. Just when you address
-  one issue, another one pops up, often because of a lack of visibility across your
-  environment and too many manual, repetitive tasks.
-summary: Share As a system administrator, keeping a Linux fleet running efficiently
-  and securely can feel like you’re constantly putting out fires. Just when you address
-  one issue, another one pops up, often because of a lack of visibility across your
-  environment and too many manual, repetitive tasks. But what if you could spend less
-  time reacting to problems and more time on the work that drives your business forward?
-  That's why we're committed to building and improving new capabilities in Red Hat
-  Insights for Red Hat Enterprise Linux (RHEL) to help you stay ahead of the curve.
-  Insights for RHEL helps you proactively manage your environment across the entire
-  system lifecycle. With exciting new features – some you may have already heard about
-  at Red Hat Summit this past May - you can make better decisions, access targeted
-  information when you need it, and automate repetitive tasks to increase efficiency.
-  Planning for new systems can be difficult when you don't have a clear, centralized
-  view of the future. The new Insights planning for RHEL capability provides a centralized
+tldr: Simplify Linux management across your systems’ lifecycles with Red Hat Insights
+  Build more robust systems from the start Move away from a "break-fix" approach Simplify
+  day-to-day operations About the authors Mary Mackey McKibbin Brady More like this
+  Blog post Blog post Blog post Browse by channel Automation Artificial intelligence
+  Open hybrid cloud Security Edge computing Infrastructure Applications Virtualization
+  Share As a system administrator, keeping a Linux fleet running efficiently and securely
+  can feel like you’re constantly putting out fires. Just when you address one issue,
+  another one pops up, often because of a lack of visibility across your environment
+  and too many manual, repetitive tasks.
+summary: Simplify Linux management across your systems’ lifecycles with Red Hat Insights
+  Build more robust systems from the start Move away from a "break-fix" approach Simplify
+  day-to-day operations About the authors Mary Mackey McKibbin Brady More like this
+  Blog post Blog post Blog post Browse by channel Automation Artificial intelligence
+  Open hybrid cloud Security Edge computing Infrastructure Applications Virtualization
+  Share As a system administrator, keeping a Linux fleet running efficiently and securely
+  can feel like you’re constantly putting out fires. Just when you address one issue,
+  another one pops up, often because of a lack of visibility across your environment
+  and too many manual, repetitive tasks. But what if you could spend less time reacting
+  to problems and more time on the work that drives your business forward? That's
+  why we're committed to building and improving new capabilities in Red Hat Insights
+  for Red Hat Enterprise Linux (RHEL) to help you stay ahead of the curve. Insights
+  for RHEL helps you proactively manage your environment across the entire system
+  lifecycle. With exciting new features – some you may have already heard about at
+  Red Hat Summit this past May - you can make better decisions, access targeted information
+  when you need it, and automate repetitive tasks to increase efficiency. Planning
+  for new systems can be difficult when you don't have a clear, centralized view of
+  the future. The new Insights planning for RHEL capability provides a centralized
   view of future roadmap details, package lifecycle information, and deprecations.
   This helps you proactively plan system builds, anticipate potential impacts of updates,
   and align your infrastructure with your long-term strategy. You can build new images

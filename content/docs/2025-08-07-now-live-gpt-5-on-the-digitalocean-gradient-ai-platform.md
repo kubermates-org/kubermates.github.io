@@ -7,27 +7,37 @@ source: Digital Ocean
 external_url: https://www.digitalocean.com/blog/gpt-5-now-on-digitalocean-gradient-ai-platform
 post_kind: link
 draft: false
-tldr: "By Grace Morgan , Yogesh Sharma , and Amit Jotwani Weâ\x80\x99re excited to\
-  \ announce that GPT-5 is now available on the DigitalOcean Gradientâ\x84¢ AI Platform.\
-  \ With this update, developers can start using GPT-5 immediately via serverless\
-  \ inference APIs or the Gradient AI Platform SDK."
-summary: "By Grace Morgan , Yogesh Sharma , and Amit Jotwani Weâ\x80\x99re excited\
-  \ to announce that GPT-5 is now available on the DigitalOcean Gradientâ\x84¢ AI\
-  \ Platform. With this update, developers can start using GPT-5 immediately via serverless\
-  \ inference APIs or the Gradient AI Platform SDK. Alternatively, you can bring your\
-  \ own OpenAI API key to integrate the new model into your Gradient AI Platform agent\
-  \ workflow. Curl command Gradient AI Platform SDK The latest model from OpenAI,\
-  \ GPT-5 brings major improvements in reasoning, specialization, and overall performance.\
-  \ It excels at complex tasks like financial planning, medical document analysis,\
-  \ code generation, and creative content creation. Whether youâ\x80\x99re building\
-  \ advanced copilots, research tools, or generative experiences, GPT-5 makes it easier\
-  \ to deliver high-quality, domain-aware results, faster and with greater accuracy.\
-  \ This release is ideal for developers who need production-ready access to cutting-edge\
-  \ models without GPU setup or model management. You can start using GPT-5 on the\
-  \ Gradient AI Platform now: -> New to DigitalOcean? Create an account and then generate\
-  \ your model access key. -> Existing customers can start using GPT-5 immediately\
-  \ via serverless inference APIs , the Gradient AI Platform SDK , or by bringing\
-  \ your own OpenAI Key for your Gradient AI Platform agent workflow. Share Read more\
-  \ Read more Read more."
+tldr: "Now Live: GPT-5 on the DigitalOcean Gradientâ\x84¢ AI Platform Get started\
+  \ now Why GPT-5? Whatâ\x80\x99s New Deploy today About the author(s) Try DigitalOcean\
+  \ for free Related Articles Announcing OpenAI gpt-oss Models on the DigitalOcean\
+  \ Gradientâ\x84¢ AI Platform Build smarter AI agents: new tools now available for\
+  \ the DigitalOcean Gradientâ\x84¢ AI Platform Introducing GPU Droplets accelerated\
+  \ by NVIDIA HGX H200 By Grace Morgan , Yogesh Sharma , and Amit Jotwani Updated:\
+  \ August 11, 2025 2 min read Weâ\x80\x99re excited to announce that GPT-5 is now\
+  \ available on the DigitalOcean Gradientâ\x84¢ AI Platform. With this update, developers\
+  \ can start using GPT-5 immediately via serverless inference APIs or the Gradient\
+  \ AI Platform SDK."
+summary: "Now Live: GPT-5 on the DigitalOcean Gradientâ\x84¢ AI Platform Get started\
+  \ now Why GPT-5? Whatâ\x80\x99s New Deploy today About the author(s) Try DigitalOcean\
+  \ for free Related Articles Announcing OpenAI gpt-oss Models on the DigitalOcean\
+  \ Gradientâ\x84¢ AI Platform Build smarter AI agents: new tools now available for\
+  \ the DigitalOcean Gradientâ\x84¢ AI Platform Introducing GPU Droplets accelerated\
+  \ by NVIDIA HGX H200 By Grace Morgan , Yogesh Sharma , and Amit Jotwani Updated:\
+  \ August 11, 2025 2 min read Weâ\x80\x99re excited to announce that GPT-5 is now\
+  \ available on the DigitalOcean Gradientâ\x84¢ AI Platform. With this update, developers\
+  \ can start using GPT-5 immediately via serverless inference APIs or the Gradient\
+  \ AI Platform SDK. Alternatively, you can bring your own OpenAI API key to integrate\
+  \ the new model into your Gradient AI Platform agent workflow. Curl command curl\
+  \ https://inference. do-ai. run/v1/chat/completions \\ -H \"Authorization: Bearer\
+  \ YOUR_API_KEY\" \\ -H \"Content-Type: application/json\" \\ -d ' { \"model\": \"\
+  openai-gpt-5\", \"messages\": [ { \"role\": \"user\", \"content\": \"Explain quantum\
+  \ computing in simple terms\" } ], \"temperature\": 0. 7, \"max_tokens\": 1000 }\
+  \ ' curl https://inference. do-ai. run/v1/chat/completions \\ -H \"Authorization:\
+  \ Bearer YOUR_API_KEY\" \\ -H \"Content-Type: application/json\" \\ -d ' { \"model\"\
+  : \"openai-gpt-5\", \"messages\": [ { \"role\": \"user\", \"content\": \"Explain\
+  \ quantum computing in simple terms\" } ], \"temperature\": 0. 7, \"max_tokens\"\
+  : 1000 } ' Gradient AI Platform SDK from gradient import Gradient inference_key\
+  \ = \"YOUR_GRADIENT_INFERENCE_KEY\" inference_client = Gradient( inference_key=inference_key,\
+  \ ) inference_response = inference_client. chat. completions."
 ---
 Open the original post ↗ https://www.digitalocean.com/blog/gpt-5-now-on-digitalocean-gradient-ai-platform

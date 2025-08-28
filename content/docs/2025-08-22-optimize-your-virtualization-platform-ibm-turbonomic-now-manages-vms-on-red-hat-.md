@@ -8,12 +8,24 @@ source: Redhat Blog
 external_url: https://www.redhat.com/en/blog/optimize-your-virtualization-platform-ibm-turbonomic-now-manages-vms-red-hat-openshift
 post_kind: link
 draft: false
-tldr: Share With many businesses rethinking their reliance on their traditional virtualization
+tldr: 'Optimize your virtualization platform: IBM Turbonomic now manages VMs on Red
+  Hat OpenShift What is IBM Turbonomic? What is OpenShift Virtualization? How Turbonomic
+  enhances OpenShift Virtualization Key business drivers Red Hat OpenShift Virtualization
+  Engine | Product Trial About the author Simon Seagrave More like this Blog post
+  Blog post Blog post Keep exploring Browse by channel Automation Artificial intelligence
+  Open hybrid cloud Security Edge computing Infrastructure Applications Virtualization
+  Share With many businesses rethinking their reliance on their traditional virtualization
   platform, IT teams are looking for ways to manage costs without compromising performance
   or control. For organizations migrating VM workloads or running them side by side
   with containers, IBM Turbonomic and Red Hat OpenShift Virtualization now offer a
-  unified, intelligent platform to optimize and enable innovation.
-summary: Share With many businesses rethinking their reliance on their traditional
+  unified, intelligent platform to optimize and enable innovation.'
+summary: 'Optimize your virtualization platform: IBM Turbonomic now manages VMs on
+  Red Hat OpenShift What is IBM Turbonomic? What is OpenShift Virtualization? How
+  Turbonomic enhances OpenShift Virtualization Key business drivers Red Hat OpenShift
+  Virtualization Engine | Product Trial About the author Simon Seagrave More like
+  this Blog post Blog post Blog post Keep exploring Browse by channel Automation Artificial
+  intelligence Open hybrid cloud Security Edge computing Infrastructure Applications
+  Virtualization Share With many businesses rethinking their reliance on their traditional
   virtualization platform, IT teams are looking for ways to manage costs without compromising
   performance or control. For organizations migrating VM workloads or running them
   side by side with containers, IBM Turbonomic and Red Hat OpenShift Virtualization
@@ -37,6 +49,6 @@ summary: Share With many businesses rethinking their reliance on their tradition
   your entire environment, from applications to infrastructure, and maps the dependencies
   between them. Using real-time analytics and AI-driven decision making, it determines
   the exact resources each application needs and takes action to ensure those needs
-  are met.
+  are met.'
 ---
 Open the original post ↗ https://www.redhat.com/en/blog/optimize-your-virtualization-platform-ibm-turbonomic-now-manages-vms-red-hat-openshift

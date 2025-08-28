@@ -7,11 +7,13 @@ source: Jenkins X
 external_url: https://jenkins-x.io/blog/2020/09/16/cdcon2020/
 post_kind: link
 draft: false
-tldr: There will be six Jenkins X talks given by various speakers at the first-ever
+tldr: Jenkins X Talks at CDCon Wednesday, October 7 Thursday, October 8 Register for
+  CDCon There will be six Jenkins X talks given by various speakers at the first-ever
   CDCon on October 7-8. The two-day virtual event, hosted by the Continuous Delivery
   Foundation, will focus on improving the world’s capacity to deliver software with
   security and speed.
-summary: 'There will be six Jenkins X talks given by various speakers at the first-ever
+summary: 'Jenkins X Talks at CDCon Wednesday, October 7 Thursday, October 8 Register
+  for CDCon There will be six Jenkins X talks given by various speakers at the first-ever
   CDCon on October 7-8. The two-day virtual event, hosted by the Continuous Delivery
   Foundation, will focus on improving the world’s capacity to deliver software with
   security and speed. Register to attend the virtual event for only 25 USD and get

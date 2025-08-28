@@ -8,9 +8,13 @@ source: Kubernetes.dev Blog
 external_url: https://www.kubernetes.dev/blog/2024/04/11/sig-architecture-code-spotlight-2024/
 post_kind: link
 draft: false
-tldr: 'This is the third interview of a SIG Architecture Spotlight series that will
-  cover the different subprojects. We will cover SIG Architecture: Code Organization.'
-summary: 'This is the third interview of a SIG Architecture Spotlight series that
+tldr: 'Spotlight on SIG Architecture: Code Organization Introducing the Code Organization
+  subproject Code organization and Kubernetes Release cycle and current priorities
+  Wrapping up This is the third interview of a SIG Architecture Spotlight series that
+  will cover the different subprojects. We will cover SIG Architecture: Code Organization.'
+summary: 'Spotlight on SIG Architecture: Code Organization Introducing the Code Organization
+  subproject Code organization and Kubernetes Release cycle and current priorities
+  Wrapping up This is the third interview of a SIG Architecture Spotlight series that
   will cover the different subprojects. We will cover SIG Architecture: Code Organization.
   In this SIG Architecture spotlight I talked with Madhav Jivrajani (VMware), a member
   of the Code Organization subproject. Frederico (FSM) : Hello Madhav, thank you for
@@ -38,11 +42,11 @@ summary: 'This is the third interview of a SIG Architecture Spotlight series tha
   of using a monorepo, like atomic commits… so, because of this, code organization
   works with other SIGs (like SIG Release) to automate the process of publishing code
   from the monorepo to downstream individual repositories which are much easier to
-  consume, and this way you won’t have to import the entire Kubernetes codebase! FSM
-  : For someone just starting contributing to Kubernetes code-wise, what are the main
-  things they should consider in terms of code organization? How would you sum up
-  the key concepts? MJ : I think one of the key things to keep in mind at least as
-  you’re starting off is the concept of staging directories. In the kubernetes/kubernetes
+  consume, and this way you won’t have to import the entire Kubernetes codebase! client-go
+  FSM : For someone just starting contributing to Kubernetes code-wise, what are the
+  main things they should consider in terms of code organization? How would you sum
+  up the key concepts? MJ : I think one of the key things to keep in mind at least
+  as you’re starting off is the concept of staging directories. In the kubernetes/kubernetes
   repository, you will come across a directory called staging/.'
 ---
 Open the original post ↗ https://www.kubernetes.dev/blog/2024/04/11/sig-architecture-code-spotlight-2024/

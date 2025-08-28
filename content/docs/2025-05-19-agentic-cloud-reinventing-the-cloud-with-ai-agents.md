@@ -7,18 +7,29 @@ source: Digital Ocean
 external_url: https://www.digitalocean.com/blog/agentic-cloud-ai-agents
 post_kind: link
 draft: false
-tldr: "By Bratin Saha, Chief Product & Technology Officer AI is shaping up to be one\
-  \ of the most transformational technologies of our lifetimes and will change how\
-  \ we live and work just like the PC, the internet, and the smartphone did. The launch\
-  \ of ChatGPT was a seminal moment in the evolution of AI, and since then, AIâ\x80\
-  \x99s adoption has accelerated."
-summary: "By Bratin Saha, Chief Product & Technology Officer AI is shaping up to be\
-  \ one of the most transformational technologies of our lifetimes and will change\
-  \ how we live and work just like the PC, the internet, and the smartphone did. The\
-  \ launch of ChatGPT was a seminal moment in the evolution of AI, and since then,\
-  \ AIâ\x80\x99s adoption has accelerated. According to â\x80\x9C The rapid adoption\
-  \ of Generative AI. Bick, Blandin, & Deming (2024 )â\x80\x9D, AI is being adopted\
-  \ at twice the rate of the PC and internet at a similar point in their evolution.\
+tldr: "Agentic Cloud: Reinventing the Cloud with AI Agents What are AI agents? AI\
+  \ agents will transform businesses Agentic Cloud - AI agents transforming the cloud\
+  \ About the author Try DigitalOcean for free Related Articles Introducing langchain-gradient:\
+  \ Seamless LangChain Integration with DigitalOcean Gradientâ\x84¢ AI Platform How\
+  \ to optimize your cloud architecture for business growth Choosing the Right DigitalOcean\
+  \ Offering for Your AI/ML Workload By Bratin Saha, Chief Product & Technology Officer\
+  \ Published: May 19, 2025 5 min read AI is shaping up to be one of the most transformational\
+  \ technologies of our lifetimes and will change how we live and work just like the\
+  \ PC, the internet, and the smartphone did. The launch of ChatGPT was a seminal\
+  \ moment in the evolution of AI, and since then, AIâ\x80\x99s adoption has accelerated."
+summary: "Agentic Cloud: Reinventing the Cloud with AI Agents What are AI agents?\
+  \ AI agents will transform businesses Agentic Cloud - AI agents transforming the\
+  \ cloud About the author Try DigitalOcean for free Related Articles Introducing\
+  \ langchain-gradient: Seamless LangChain Integration with DigitalOcean Gradientâ\x84\
+  ¢ AI Platform How to optimize your cloud architecture for business growth Choosing\
+  \ the Right DigitalOcean Offering for Your AI/ML Workload By Bratin Saha, Chief\
+  \ Product & Technology Officer Published: May 19, 2025 5 min read AI is shaping\
+  \ up to be one of the most transformational technologies of our lifetimes and will\
+  \ change how we live and work just like the PC, the internet, and the smartphone\
+  \ did. The launch of ChatGPT was a seminal moment in the evolution of AI, and since\
+  \ then, AIâ\x80\x99s adoption has accelerated. According to â\x80\x9C The rapid\
+  \ adoption of Generative AI. Bick, Blandin, & Deming (2024 )â\x80\x9D, AI is being\
+  \ adopted at twice the rate of the PC and internet at a similar point in their evolution.\
   \ Not just adoption, the rate of innovation in AI has been faster than anything\
   \ we have seen before. So where is AI headed? To answer this question, let us start\
   \ by looking at how other transformational technologies have evolved throughout\

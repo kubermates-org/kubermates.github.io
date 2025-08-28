@@ -7,12 +7,23 @@ source: Tigera
 external_url: https://www.tigera.io/blog/securing-kubernetes-traffic-with-calico-ingress-gateway/
 post_kind: link
 draft: false
-tldr: If you’ve managed traffic in Kubernetes, you’ve likely navigated the world of
-  Ingress controllers. For years, Ingress has been the standard way of getting our
-  HTTP/S services exposed.
-summary: 'If you’ve managed traffic in Kubernetes, you’ve likely navigated the world
-  of Ingress controllers. For years, Ingress has been the standard way of getting
-  our HTTP/S services exposed. But let’s be honest, it often felt like a compromise.
+tldr: Wait a second, is this the ‘Ingress vs. Gateway API’ debate? What makes Gateway
+  API different? The Ingress Rut The purpose of this blog post Requirements Spin up
+  a Kubernetes Cluster Install Calico with Operator Deploy a Demo Application Enable
+  Calico Ingress Gateway Deploy Gateway API Resources Gateway HTTPRoute SSL Certificate
+  and Automated Certification Process with Cert-Manager Gateway API integration ClusterIssuer
+  Enabling HTTPS using Calico Ingress Gateway Force Redirect to HTTPS Clean up Conclusion
+  If you’ve managed traffic in Kubernetes, you’ve likely navigated the world of Ingress
+  controllers.
+summary: 'Wait a second, is this the ‘Ingress vs. Gateway API’ debate? What makes
+  Gateway API different? The Ingress Rut The purpose of this blog post Requirements
+  Spin up a Kubernetes Cluster Install Calico with Operator Deploy a Demo Application
+  Enable Calico Ingress Gateway Deploy Gateway API Resources Gateway HTTPRoute SSL
+  Certificate and Automated Certification Process with Cert-Manager Gateway API integration
+  ClusterIssuer Enabling HTTPS using Calico Ingress Gateway Force Redirect to HTTPS
+  Clean up Conclusion If you’ve managed traffic in Kubernetes, you’ve likely navigated
+  the world of Ingress controllers. For years, Ingress has been the standard way of
+  getting our HTTP/S services exposed. But let’s be honest, it often felt like a compromise.
   We wrestled with controller-specific annotations to unlock critical features, blurred
   the lines between infrastructure and application concerns, and sometimes wished
   for richer protocol support or a more standardized approach. This “pile of vendor
@@ -22,16 +33,12 @@ summary: 'If you’ve managed traffic in Kubernetes, you’ve likely navigated t
   API isn’t just an Ingress v2; it’s a fundamental redesign, the “future” of Kubernetes
   ingress, built by the community to address these very challenges head-on. There
   are three main points that I came across while evaluating GatewayAPI and Ingress
-  controllers: The Ingress controller landscape is a mishmash of vendors with cool
-  ideas. While they all can route HTTP/S traffic into your cluster, expanding your
-  services to include other protocols puts you at the mercy of that vendor and the
-  capabilities that they implement. On top of that, if you try to migrate from your
-  old Ingress Controller to a new one at some point, there is that sweet conversation
-  of vendor lock-in which ties your hands. If you are wondering how vendor lock-in
-  plays a role here, then take a closer look at your Ingress resources, don’t they
-  all share some sort of annotation? That “pile of vendor annotations,” while functional,
-  is specific to that one great solution you are currently using, highlighting the
-  limitations of a standard that struggled to keep pace and even led to security vulnerabilities.
-  While Ingress isn’t disappearing tomorrow, the direction is clear.'
+  controllers: Standardization & Portability: It aims to provide a core, standard
+  way to manage ingress, reducing reliance on vendor-specific hacks and making it
+  easier to switch implementations – change the class, and it should “just work. ”
+  Role-Based Architecture: Its biggest win is arguably the separation of concerns.
+  Infrastructure teams can manage the Gateway (the entry point, TLS, ports), while
+  application teams manage their HTTPRoutes (or TCPRoutes, etc. ), defining where
+  their specific traffic should go.'
 ---
 Open the original post ↗ https://www.tigera.io/blog/securing-kubernetes-traffic-with-calico-ingress-gateway/

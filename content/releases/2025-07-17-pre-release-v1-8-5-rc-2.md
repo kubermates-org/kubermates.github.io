@@ -7,8 +7,8 @@ source: RKE Releases
 external_url: https://github.com/rancher/rke/releases/tag/v1.8.5-rc.2
 post_kind: release
 draft: false
-tldr: There was an error while loading. Please reload this page.
-summary: There was an error while loading. Please reload this page. There was an error
-  while loading. Please reload this page.
+tldr: RKE Kubernetes versions v1. 30.
+summary: RKE Kubernetes versions v1. 30. 14-rancher1-1 v1. 30. 14-rancher1-1 v1. 31.
+  10-rancher1-1 v1. 31. 10-rancher1-1 v1. 32. 6-rancher1-1 (default) v1. 32.
 ---
 Open the original post ↗ https://github.com/rancher/rke/releases/tag/v1.8.5-rc.2

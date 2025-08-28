@@ -26,9 +26,10 @@ summary: 'Posted on August 20, 2025 by Lisa-Marie Namphy and Matthew Cascio, CNC
   to the museum’s fascinating exhibits, allowing you to explore the history of technology
   during your breaks. The KCD SF Bay Area event boasts an incredible lineup of speakers
   and visionaries. You’ll have the chance to hear directly from some of the most influential
-  minds in the cloud native space. Confirmed speakers include: These are just a few
-  of the thought leaders you can expect to learn from. The full schedule, which you
-  can view at https://schedule. kcdsfbayarea. com , is packed with sessions designed
-  to expand your knowledge and inspire new ideas.'
+  minds in the cloud native space. Confirmed speakers include: Solomon Hykes , the
+  founder of Docker and Dagger. io, whose work has fundamentally changed the way we
+  build and deploy applications. Jim Bugwadia , founder of Nirmata and a key maintainer
+  of the popular policy engine Kyverno. Ramiro Berrelleza , founder of Okteto, who
+  is dedicated to simplifying cloud native development workflows.'
 ---
 Open the original post ↗ https://www.cncf.io/blog/2025/08/20/uniting-the-cloud-native-community-at-the-inaugural-kcd-sf-bay-area/

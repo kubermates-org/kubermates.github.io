@@ -7,11 +7,24 @@ source: Tigera
 external_url: https://www.tigera.io/blog/kubernetes-is-powerful-but-not-secure-at-least-not-by-default/
 post_kind: link
 draft: false
-tldr: Kubernetes has transformed how we deploy and manage applications. It gives us
-  the ability to spin up a virtual data center in minutes, scaling infrastructure
-  with ease.
-summary: Kubernetes has transformed how we deploy and manage applications. It gives
-  us the ability to spin up a virtual data center in minutes, scaling infrastructure
+tldr: 'Why Is Microsegmentation So Hard? 🛡️Securing the Default Cluster Posture with
+  Kubernetes Network Policy 🔐 What Makes Admin Network Policy (ANP) So Special? 🛡️Reach
+  Even Further with Calico Network Policies 🧩 Delegating Policy Ownership with Kubernetes
+  RBAC 🧪 Safely Testing and Troubleshooting Policies 👀 Calico Whisker: Observe Before
+  You Act 🧪 Staged Network Policies: Test Without Breaking Things 🤖 Policy Recommendation
+  Engine (Free with Calico Cloud Free Tier) 🗺️ Bonus: Visual Tools in Calico Cloud
+  Free Tier Conclusion: Microsegmentation Doesn’t Have to Be a Nightmare Kubernetes
+  has transformed how we deploy and manage applications. It gives us the ability to
+  spin up a virtual data center in minutes, scaling infrastructure with ease.'
+summary: 'Why Is Microsegmentation So Hard? 🛡️Securing the Default Cluster Posture
+  with Kubernetes Network Policy 🔐 What Makes Admin Network Policy (ANP) So Special?
+  🛡️Reach Even Further with Calico Network Policies 🧩 Delegating Policy Ownership
+  with Kubernetes RBAC 🧪 Safely Testing and Troubleshooting Policies 👀 Calico Whisker:
+  Observe Before You Act 🧪 Staged Network Policies: Test Without Breaking Things 🤖
+  Policy Recommendation Engine (Free with Calico Cloud Free Tier) 🗺️ Bonus: Visual
+  Tools in Calico Cloud Free Tier Conclusion: Microsegmentation Doesn’t Have to Be
+  a Nightmare Kubernetes has transformed how we deploy and manage applications. It
+  gives us the ability to spin up a virtual data center in minutes, scaling infrastructure
   with ease. But with great power comes great complexities, and in the case of Kubernetes,
   that complexity is security. By default, Kubernetes permits all traffic between
   workloads in a cluster. This “allow by default” stance is convenient during development,
@@ -25,6 +38,6 @@ summary: Kubernetes has transformed how we deploy and manage applications. It gi
   used to provide multiple teams with their infrastructural needs or host multiple
   workloads for different tenants. With that, you would think network policies are
   first citizens of clusters. However, when we dig into implementing them, three operational
-  challenges make most practitioners reluctant about implementing policies.
+  challenges make most practitioners reluctant about implementing policies.'
 ---
 Open the original post ↗ https://www.tigera.io/blog/kubernetes-is-powerful-but-not-secure-at-least-not-by-default/

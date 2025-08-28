@@ -7,12 +7,24 @@ source: Digital Ocean
 external_url: https://www.digitalocean.com/blog/introducing-kafka-schema-registry
 post_kind: link
 draft: false
-tldr: "By Nicole Ghalwash Weâ\x80\x99re excited to announce support for Kafka Schema\
+tldr: "Introducing Kafka Schema Registry for DigitalOcean Managed Kafka Why use Schema\
+  \ Registry? Features of Kafka Schema Registry Common Developer Use Cases Getting\
+  \ Started About the author Try DigitalOcean for free Related Articles Announcing\
+  \ OpenAI gpt-oss Models on the DigitalOcean Gradientâ\x84¢ AI Platform Build smarter\
+  \ AI agents: new tools now available for the DigitalOcean Gradientâ\x84¢ AI Platform\
+  \ Introducing GPU Droplets accelerated by NVIDIA HGX H200 By Nicole Ghalwash Published:\
+  \ July 7, 2025 3 min read Weâ\x80\x99re excited to announce support for Kafka Schema\
   \ Registry in DigitalOceanâ\x80\x99s Managed Kafka service, giving developers a\
   \ powerful way to manage and validate schemas in their event-driven applications.\
   \ Kafka Schema Registry, also referred to as Karapace, is a centralized service\
   \ for managing and validating schemas for Kafka messages."
-summary: "By Nicole Ghalwash Weâ\x80\x99re excited to announce support for Kafka Schema\
+summary: "Introducing Kafka Schema Registry for DigitalOcean Managed Kafka Why use\
+  \ Schema Registry? Features of Kafka Schema Registry Common Developer Use Cases\
+  \ Getting Started About the author Try DigitalOcean for free Related Articles Announcing\
+  \ OpenAI gpt-oss Models on the DigitalOcean Gradientâ\x84¢ AI Platform Build smarter\
+  \ AI agents: new tools now available for the DigitalOcean Gradientâ\x84¢ AI Platform\
+  \ Introducing GPU Droplets accelerated by NVIDIA HGX H200 By Nicole Ghalwash Published:\
+  \ July 7, 2025 3 min read Weâ\x80\x99re excited to announce support for Kafka Schema\
   \ Registry in DigitalOceanâ\x80\x99s Managed Kafka service, giving developers a\
   \ powerful way to manage and validate schemas in their event-driven applications.\
   \ Kafka Schema Registry, also referred to as Karapace, is a centralized service\

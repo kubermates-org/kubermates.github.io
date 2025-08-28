@@ -7,13 +7,15 @@ source: Jenkins X
 external_url: https://jenkins-x.io/blog/2020/09/23/jx-pipelines-visualizer/
 post_kind: link
 draft: false
-tldr: 'Welcome to the Jenkins X Pipelines Visualizer : a new open-source read-only
-  UI for Jenkins X, with a very specific goal and scope: visualize the pipelines and
-  logs. This project was started at Dailymotion and quickly shared with the Jenkins
+tldr: 'New UI to visualize your pipelines and logs Why a new UI? Features Roadmap
+  Demo Next steps Welcome to the Jenkins X Pipelines Visualizer : a new open-source
+  read-only UI for Jenkins X, with a very specific goal and scope: visualize the pipelines
+  and logs. This project was started at Dailymotion and quickly shared with the Jenkins
   X community.'
-summary: 'Welcome to the Jenkins X Pipelines Visualizer : a new open-source read-only
-  UI for Jenkins X, with a very specific goal and scope: visualize the pipelines and
-  logs. This project was started at Dailymotion and quickly shared with the Jenkins
+summary: 'New UI to visualize your pipelines and logs Why a new UI? Features Roadmap
+  Demo Next steps Welcome to the Jenkins X Pipelines Visualizer : a new open-source
+  read-only UI for Jenkins X, with a very specific goal and scope: visualize the pipelines
+  and logs. This project was started at Dailymotion and quickly shared with the Jenkins
   X community. There is already the Octant-based UI , so why a new UI? The main reason
   is that Octant “is an application and is intended as a single client tool and at
   this time there are no plans to support hosted versions of Octant” - see this thread
@@ -24,13 +26,10 @@ summary: 'Welcome to the Jenkins X Pipelines Visualizer : a new open-source read
   the specific use-case covered by the Pipelines Visualizer. We want to keep it small,
   focused, and fast. It’s a read-only UI, so there won’t be “actions” to trigger a
   pipeline - because it can already be done using “chatops” commands in the Pull Request
-  for example. But there are a few interesting features already: This project was
-  shared very early with the community, after just a few hours of work. So our short-term
-  goal is to improve the UI - make it beautiful. We did a demo of jx-pipelines-visualizer
-  at the last office hours : Check out the jx-pipelines-visualizer github repository
-  if you want to install it in your cluster - there is a Helm Chart which can be added
-  to your Jenkins X Dev Environment. And any contributions are welcomed - either create
-  an issue or pull request in the project’s github repository, or come in the #jenkins-x-dev
-  Slack Channel.'
+  for example. But there are a few interesting features already: first, it’s very
+  fast to get the logs. Much faster than the old JXUI. it can retrieve the logs from
+  pipelines that have been garbage-collected - if you configure the URL of the buckets
+  where the logs are stored. it has URLs compatible with the old JXUI - so it’s very
+  easy to replace the old JXUI with this new UI and keep all the links working.'
 ---
 Open the original post ↗ https://jenkins-x.io/blog/2020/09/23/jx-pipelines-visualizer/

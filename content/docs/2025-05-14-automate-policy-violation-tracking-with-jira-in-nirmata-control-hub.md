@@ -8,11 +8,17 @@ source: Nirmata Blog
 external_url: https://nirmata.com/2025/05/14/automate-policy-violation-tracking-with-jira-in-nirmata-control-hub/
 post_kind: link
 draft: false
-tldr: Keeping track of Kubernetes policy violations across namespaces and clusters
-  can be tedious, especially when teams rely on disconnected tools and manual workflows.
-  With Nirmata Control Hub’s Jira integration, you can automatically or manually create
-  Jira tickets for policy violations directly from the platform.
-summary: Keeping track of Kubernetes policy violations across namespaces and clusters
+tldr: 'Automate Policy Violation Tracking with Jira in Nirmata Control Hub Why This
+  Matters How It Works Manual Ticket Creation Where It Matters Automate What Should
+  Be Automated The Real Value: Moving from Visibility to Action Try It Out Today Keeping
+  track of Kubernetes policy violations across namespaces and clusters can be tedious,
+  especially when teams rely on disconnected tools and manual workflows. With Nirmata
+  Control Hub’s Jira integration, you can automatically or manually create Jira tickets
+  for policy violations directly from the platform.'
+summary: 'Automate Policy Violation Tracking with Jira in Nirmata Control Hub Why
+  This Matters How It Works Manual Ticket Creation Where It Matters Automate What
+  Should Be Automated The Real Value: Moving from Visibility to Action Try It Out
+  Today Keeping track of Kubernetes policy violations across namespaces and clusters
   can be tedious, especially when teams rely on disconnected tools and manual workflows.
   With Nirmata Control Hub’s Jira integration, you can automatically or manually create
   Jira tickets for policy violations directly from the platform. This ensures accountability,
@@ -27,6 +33,6 @@ summary: Keeping track of Kubernetes policy violations across namespaces and clu
   a Jira issue for violations. Simply click “Create Jira Issue” and fill in the ticket
   details, such as project, title, issue type, priority, and assignee. This creates
   traceability right at the source of the ossie, whether it;s a misconfigured deployment,
-  a missing securityContext, or a policy deviation.
+  a missing securityContext, or a policy deviation.'
 ---
 Open the original post ↗ https://nirmata.com/2025/05/14/automate-policy-violation-tracking-with-jira-in-nirmata-control-hub/

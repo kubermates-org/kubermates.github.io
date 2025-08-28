@@ -7,15 +7,31 @@ source: Digital Ocean
 external_url: https://www.digitalocean.com/blog/shark-tales-ali-munir-staff-technical-account-manager
 post_kind: link
 draft: false
-tldr: "By Sujatha R Technical Writer Ali Munir, a Staff Technical Account Manager\
-  \ at DigitalOcean, is driven by one core mission: helping customers succeed. From\
-  \ day one, heâ\x80\x99s embraced a culture rooted in honesty, collaboration, and\
-  \ a deep commitment to putting customers first."
-summary: "By Sujatha R Technical Writer Ali Munir, a Staff Technical Account Manager\
-  \ at DigitalOcean, is driven by one core mission: helping customers succeed. From\
-  \ day one, heâ\x80\x99s embraced a culture rooted in honesty, collaboration, and\
-  \ a deep commitment to putting customers first. DigitalOcean stood out to me in\
-  \ a crowded cloud industry of enterprise giants. Here, we lead with simplicity,\
+tldr: "Sharks of DigitalOcean: Ali Munir, Staff Technical Account Manager Why did\
+  \ you choose DigitalOcean? What makes DigitalOcean unique in the tech industry?\
+  \ What does customer-centricity mean at DigitalOcean? What excites you about the\
+  \ work you do? How would you describe DigitalOceanâ\x80\x99s work and collaboration\
+  \ style? Dive into the future with DigitalOcean About the author Try DigitalOcean\
+  \ for free Related Articles Sharks of DigitalOcean: Darian Wilkin, Senior Manager,\
+  \ Solutions Engineering Sharks of DigitalOcean: Laura Schaffer, VP, Growth Sharks\
+  \ of DigitalOcean: Jason Dobry, Staff IT Project Specialist By Sujatha R Technical\
+  \ Writer Published: June 6, 2025 3 min read Ali Munir, a Staff Technical Account\
+  \ Manager at DigitalOcean, is driven by one core mission: helping customers succeed.\
+  \ From day one, heâ\x80\x99s embraced a culture rooted in honesty, collaboration,\
+  \ and a deep commitment to putting customers first."
+summary: "Sharks of DigitalOcean: Ali Munir, Staff Technical Account Manager Why did\
+  \ you choose DigitalOcean? What makes DigitalOcean unique in the tech industry?\
+  \ What does customer-centricity mean at DigitalOcean? What excites you about the\
+  \ work you do? How would you describe DigitalOceanâ\x80\x99s work and collaboration\
+  \ style? Dive into the future with DigitalOcean About the author Try DigitalOcean\
+  \ for free Related Articles Sharks of DigitalOcean: Darian Wilkin, Senior Manager,\
+  \ Solutions Engineering Sharks of DigitalOcean: Laura Schaffer, VP, Growth Sharks\
+  \ of DigitalOcean: Jason Dobry, Staff IT Project Specialist By Sujatha R Technical\
+  \ Writer Published: June 6, 2025 3 min read Ali Munir, a Staff Technical Account\
+  \ Manager at DigitalOcean, is driven by one core mission: helping customers succeed.\
+  \ From day one, heâ\x80\x99s embraced a culture rooted in honesty, collaboration,\
+  \ and a deep commitment to putting customers first. DigitalOcean stood out to me\
+  \ in a crowded cloud industry of enterprise giants. Here, we lead with simplicity,\
   \ transparency, and a genuine commitment to customer experience. I was most impressed\
   \ with the companyâ\x80\x99s ability to offer powerful technology without overwhelming\
   \ users with complexity. When I researched DO, I immediately knew it was the right\

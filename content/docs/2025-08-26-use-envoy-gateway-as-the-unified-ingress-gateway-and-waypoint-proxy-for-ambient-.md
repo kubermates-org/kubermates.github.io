@@ -8,15 +8,21 @@ source: CNCF
 external_url: https://www.cncf.io/blog/2025/08/26/use-envoy-gateway-as-the-unified-ingress-gateway-and-waypoint-proxy-for-ambient-mesh/
 post_kind: link
 draft: false
-tldr: Posted on August 26, 2025 by Huabing (Robin) Zhao, Software Engineer & Ric Hincapié,
-  DevOps and Support Engineer at Tetrate In this article, we’ll look at how you can
-  use Envoy Gateway , an Envoy project open source solution, together with Istio when
-  running in Ambient mode. This allows you to easily leverage the power of Envoy’s
-  L7 capabilities for Ingress and east-west traffic in your mesh with easy-to-use
-  CRDs.
-summary: 'Posted on August 26, 2025 by Huabing (Robin) Zhao, Software Engineer & Ric
-  Hincapié, DevOps and Support Engineer at Tetrate In this article, we’ll look at
-  how you can use Envoy Gateway , an Envoy project open source solution, together
+tldr: Why use Envoy Gateway with Ambient Mesh? How Envoy Gateway Works in Ambient
+  Mesh? Setting Up Envoy Gateway as the Ingress Gateway Enabling Envoy Gateway as
+  the Waypoint Proxy Should You Use Envoy Gateway with Ambient Mesh? What’s Next?
+  References Posted on August 26, 2025 by Huabing (Robin) Zhao, Software Engineer
+  & Ric Hincapié, DevOps and Support Engineer at Tetrate In this article, we’ll look
+  at how you can use Envoy Gateway , an Envoy project open source solution, together
+  with Istio when running in Ambient mode. This allows you to easily leverage the
+  power of Envoy’s L7 capabilities for Ingress and east-west traffic in your mesh
+  with easy-to-use CRDs.
+summary: 'Why use Envoy Gateway with Ambient Mesh? How Envoy Gateway Works in Ambient
+  Mesh? Setting Up Envoy Gateway as the Ingress Gateway Enabling Envoy Gateway as
+  the Waypoint Proxy Should You Use Envoy Gateway with Ambient Mesh? What’s Next?
+  References Posted on August 26, 2025 by Huabing (Robin) Zhao, Software Engineer
+  & Ric Hincapié, DevOps and Support Engineer at Tetrate In this article, we’ll look
+  at how you can use Envoy Gateway , an Envoy project open source solution, together
   with Istio when running in Ambient mode. This allows you to easily leverage the
   power of Envoy’s L7 capabilities for Ingress and east-west traffic in your mesh
   with easy-to-use CRDs. To understand how this integration works, let’s first take
