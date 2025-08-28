@@ -1499,6 +1499,66 @@
       "title": "v1.33.3-rc1+k3s1",
       "date": "2025-07-16T22:15:37+00:00",
       "source": "K3s Releases"
+    },
+    "e57f17ec520c": {
+      "title": "Introducing Seekable OCI Parallel Pull mode for Amazon EKS",
+      "date": "2025-08-27T19:13:44+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "7f04c90bcfc7": {
+      "title": "Kubernetes v1.34: Of Wind & Will (O' WaW)",
+      "date": "2025-08-27T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "c05a2f71d87a": {
+      "title": "Extreme Performance Series 2025: VMware Cloud Foundation 9.0 in the Hands-On Labs",
+      "date": "2025-08-27T21:29:32+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "64588df0dfa4": {
+      "title": "Kubernetes v1.34.0",
+      "date": "2025-08-27T17:19:17+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "b80ac2e530e8": {
+      "title": "Refresh cluster insights",
+      "date": "2025-08-27T19:00:00+00:00",
+      "source": "EKS Release Notes"
+    },
+    "5436737aca04": {
+      "title": "Pre-release v2.11.5-rc1",
+      "date": "2025-08-27T20:04:54+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "9c9604f713b0": {
+      "title": "v2.10.9",
+      "date": "2025-08-27T23:00:47+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "f459b870d47d": {
+      "title": "Pre-release v2.10.9-rc1",
+      "date": "2025-08-27T17:13:31+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "72da5c6b05ab": {
+      "title": "v2.9.11",
+      "date": "2025-08-27T21:37:32+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "cf43570dddea": {
+      "title": "Pre-release v2.9.11-rc1",
+      "date": "2025-08-27T17:32:18+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "49403bae5f68": {
+      "title": "Metal3.io becomes a CNCF incubating project",
+      "date": "2025-08-27T19:00:00+00:00",
+      "source": "CNCF Events"
+    },
+    "7324fcd6424f": {
+      "title": "How OCI Artifacts Will Drive Future AI Use Cases",
+      "date": "2025-08-27T14:24:00+00:00",
+      "source": "CNCF Events"
     }
   }
 }
