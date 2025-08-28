@@ -2,8 +2,8 @@
 title: 'From core to tactical edge: A unified platform for defense innovation'
 date: '2025-08-25T00:00:00+00:00'
 tags:
-- openshift
-source: OpenShift Blog
+- kubernetes
+source: Redhat Blog
 external_url: https://www.redhat.com/en/blog/core-tactical-edge-unified-platform-defense-innovation
 post_kind: link
 draft: false

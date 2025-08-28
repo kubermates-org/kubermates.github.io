@@ -3,8 +3,8 @@ title: 'Accelerating 5G standalone rollout: continuous testing to enhance robust
   interoperability and efficiency'
 date: '2025-08-26T00:00:00+00:00'
 tags:
-- openshift
-source: OpenShift Blog
+- kubernetes
+source: Redhat Blog
 external_url: https://www.redhat.com/en/blog/accelerating-5g-red-hats-autonomous-continuous-testing-framework
 post_kind: link
 draft: false

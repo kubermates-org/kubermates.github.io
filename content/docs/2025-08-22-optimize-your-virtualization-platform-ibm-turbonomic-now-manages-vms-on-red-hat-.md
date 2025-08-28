@@ -3,8 +3,8 @@ title: 'Optimize your virtualization platform: IBM Turbonomic now manages VMs on
   Hat OpenShift'
 date: '2025-08-22T00:00:00+00:00'
 tags:
-- openshift
-source: OpenShift Blog
+- kubernetes
+source: Redhat Blog
 external_url: https://www.redhat.com/en/blog/optimize-your-virtualization-platform-ibm-turbonomic-now-manages-vms-red-hat-openshift
 post_kind: link
 draft: false
