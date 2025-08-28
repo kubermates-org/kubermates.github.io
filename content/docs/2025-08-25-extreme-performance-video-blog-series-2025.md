@@ -9,13 +9,14 @@ source: VMware Cloud Foundation Blog
 external_url: https://blogs.vmware.com/cloud-foundation/2025/08/25/extreme-performance-video-blog-series-2025/
 post_kind: link
 draft: false
-tldr: 'Related Articles Extreme Performance Series 2025: VMware Cloud Foundation 9.
-  0 in the Hands-On Labs Extreme Performance Series 2025: vSAN ESA vs Traditional
-  Storage Array Extreme Performance Video Blog Series 2025 Back for a fifth year,
-  the Extreme Performance Series will continue the tradition of exploring some of
-  the exciting work being done at Broadcom.'
+tldr: 'Related Articles Extreme Performance Series 2025: VMware Cloud Foundation 9.0
+  in the Hands-On Labs Extreme Performance Series 2025: vSAN ESA vs Traditional Storage
+  Array Extreme Performance Video Blog Series 2025 Back for a fifth year, the Extreme
+  Performance Series will continue the tradition of exploring some of the exciting
+  work being done at Broadcom. The following series of blog posts is all new for 2025
+  and will be released starting during the week of VMware Explore.'
 summary: 'Related Articles Extreme Performance Series 2025: VMware Cloud Foundation
-  9. 0 in the Hands-On Labs Extreme Performance Series 2025: vSAN ESA vs Traditional
+  9.0 in the Hands-On Labs Extreme Performance Series 2025: vSAN ESA vs Traditional
   Storage Array Extreme Performance Video Blog Series 2025 Back for a fifth year,
   the Extreme Performance Series will continue the tradition of exploring some of
   the exciting work being done at Broadcom. The following series of blog posts is

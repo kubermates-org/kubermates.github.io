@@ -8,14 +8,19 @@ source: Nirmata Blog
 external_url: https://nirmata.com/2025/05/29/leveling-up-policy-enforcement-in-kubernetes-a-look-at-kyverno-1-14-and-cel/
 post_kind: link
 draft: false
-tldr: 'Leveling Up Policy Enforcement in Kubernetes: A Look at Kyverno 1. 14 and CEL
+tldr: 'Leveling Up Policy Enforcement in Kubernetes: A Look at Kyverno 1.14 and CEL
   What is Kyverno? Evolving Challenges and the Rise of CEL Introducing New Policy
-  Types in Kyverno 1.'
-summary: 'Leveling Up Policy Enforcement in Kubernetes: A Look at Kyverno 1. 14 and
-  CEL What is Kyverno? Evolving Challenges and the Rise of CEL Introducing New Policy
-  Types in Kyverno 1. 14 Validating Policy Image Validating Policy Future Directions
+  Types in Kyverno 1.14 Validating Policy Image Validating Policy Future Directions
   Kyverno’s Strengths Recently, Cloud Native Live featured a session diving into the
-  powerful integration of Common Expression Language (CEL) in Kyverno 1. 14. Hosted
+  powerful integration of Common Expression Language (CEL) in Kyverno 1.14. Hosted
+  by Eric Durmishi and presented by Kyverno maintainers Mariam Fahmy and Charles Edward,
+  the session introduced exciting new capabilities that enhance Kyverno’s flexibility
+  and consistency as a policy engine for Kubernetes.'
+summary: 'Leveling Up Policy Enforcement in Kubernetes: A Look at Kyverno 1.14 and
+  CEL What is Kyverno? Evolving Challenges and the Rise of CEL Introducing New Policy
+  Types in Kyverno 1.14 Validating Policy Image Validating Policy Future Directions
+  Kyverno’s Strengths Recently, Cloud Native Live featured a session diving into the
+  powerful integration of Common Expression Language (CEL) in Kyverno 1.14. Hosted
   by Eric Durmishi and presented by Kyverno maintainers Mariam Fahmy and Charles Edward,
   the session introduced exciting new capabilities that enhance Kyverno’s flexibility
   and consistency as a policy engine for Kubernetes. At its core, Kyverno is a policy
@@ -29,6 +34,11 @@ summary: 'Leveling Up Policy Enforcement in Kubernetes: A Look at Kyverno 1. 14 
   such as the Reports Controller, which generates policy reports to visualize policy
   results, and a Cleanup Controller, which manages unused resources based on cleanup
   policies. Traditionally, Kyverno used a single policy type with different rule types
-  nested within it, such as validate, mutate, generate, and verifyImages.'
+  nested within it, such as validate, mutate, generate, and verifyImages. Policies
+  could define rules to match or exclude specific resources. For validation, you could
+  use patterns, deny rules, Pod Security subrules, or assertion trees. If a resource
+  violated a policy, Kyverno’s action was determined by the failureAction field, which
+  could be set to enforce (reject the request) or audit (allow the request, generating
+  a warning and a policy report).'
 ---
 Open the original post ↗ https://nirmata.com/2025/05/29/leveling-up-policy-enforcement-in-kubernetes-a-look-at-kyverno-1-14-and-cel/

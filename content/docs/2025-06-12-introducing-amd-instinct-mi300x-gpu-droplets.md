@@ -38,8 +38,22 @@ summary: "Introducing AMD Instinctâ\x84¢ MI300X GPU Droplets What are AMD Inst
   \ GPUs. By combining powerful AMD AI compute engines and DigitalOceanâ\x80\x99s\
   \ cloud technologies, we aim to empower the massive community of developers like\
   \ you to integrate AI into your applications and support your most demanding AI\
-  \ workloads at scale. Memory performance : High memory bandwidth (3. 35 TB/s) and\
+  \ workloads at scale. Memory performance : High memory bandwidth (3.35 TB/s) and\
   \ capacity (192 GB of HBM3) to efficiently handle larger models and datasets. Value:\
-  \ Offered at a competitive price point ($1."
+  \ Offered at a competitive price point ($1.99 GPU/hr/on-demand) Value: Offered at\
+  \ a competitive price point ($1.99 GPU/hr/on-demand) Customization: AMD Instinctâ\x84\
+  ¢ MI300X is available both as single and eight GPU configurations and in bare metal\
+  \ configurations Customization: AMD Instinctâ\x84¢ MI300X is available both as single\
+  \ and eight GPU configurations and in bare metal configurations Virtual instances\
+  \ to manage cost Virtual instances to manage cost Seamless integration with the\
+  \ broader DigitalOcean ecosystem, including access to our Kubernetes service Seamless\
+  \ integration with the broader DigitalOcean ecosystem, including access to our Kubernetes\
+  \ service Pre-installed Python and Deep Learning software packages Pre-installed\
+  \ Python and Deep Learning software packages HIPAA-eligibility and SOC 2 compliance\
+  \ (all GPU Droplets) HIPAA-eligibility and SOC 2 compliance (all GPU Droplets) Later\
+  \ this year, weâ\x80\x99ll also offer AMD Instinctâ\x84¢ MI325X GPUs, further expanding\
+  \ access to powerful and affordable GPU models. AMD Instinctâ\x84¢ MI325X GPU accelerators\
+  \ set new AI performance standards, delivering incredible performance and efficiency\
+  \ for training and inference."
 ---
 Open the original post ↗ https://www.digitalocean.com/blog/now-available-amd-instinct-mi300x-gpus

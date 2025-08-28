@@ -7,20 +7,24 @@ source: Kubernetes Blog
 external_url: https://kubernetes.io/blog/2025/04/24/endpoints-deprecation/
 post_kind: link
 draft: false
-tldr: 'Kubernetes v1. 33: Continuing the transition from Endpoints to EndpointSlices
+tldr: 'Kubernetes v1.33: Continuing the transition from Endpoints to EndpointSlices
   Notes on migrating from Endpoints to EndpointSlices Consuming EndpointSlices rather
   than Endpoints Generating EndpointSlices rather than Endpoints Since the addition
-  of EndpointSlices ( KEP-752 ) as alpha in v1.'
-summary: 'Kubernetes v1. 33: Continuing the transition from Endpoints to EndpointSlices
+  of EndpointSlices ( KEP-752 ) as alpha in v1.15 and later GA in v1.21, the Endpoints
+  API in Kubernetes has been gathering dust. New Service features like dual-stack
+  networking and traffic distribution are only supported via the EndpointSlice API,
+  so all service proxies, Gateway API implementations, and similar controllers have
+  had to be ported from using Endpoints to using EndpointSlices.'
+summary: 'Kubernetes v1.33: Continuing the transition from Endpoints to EndpointSlices
   Notes on migrating from Endpoints to EndpointSlices Consuming EndpointSlices rather
   than Endpoints Generating EndpointSlices rather than Endpoints Since the addition
-  of EndpointSlices ( KEP-752 ) as alpha in v1. 15 and later GA in v1. 21, the Endpoints
+  of EndpointSlices ( KEP-752 ) as alpha in v1.15 and later GA in v1.21, the Endpoints
   API in Kubernetes has been gathering dust. New Service features like dual-stack
   networking and traffic distribution are only supported via the EndpointSlice API,
   so all service proxies, Gateway API implementations, and similar controllers have
   had to be ported from using Endpoints to using EndpointSlices. At this point, the
   Endpoints API is really only there to avoid breaking end user workloads and scripts
-  that still make use of it. As of Kubernetes 1. 33, the Endpoints API is now officially
+  that still make use of it. As of Kubernetes 1.33, the Endpoints API is now officially
   deprecated, and the API server will return warnings to users who read or write Endpoints
   resources rather than using EndpointSlices. Eventually, the plan (as documented
   in KEP-4974 ) is to change the Kubernetes Conformance criteria to no longer require
@@ -33,6 +37,11 @@ summary: 'Kubernetes v1. 33: Continuing the transition from Endpoints to Endpoin
   that while every Service with a selector has exactly 1 Endpoints object (with the
   same name as the Service), a Service may have any number of EndpointSlices associated
   with it: selector $ kubectl get endpoints myservice Warning: v1 Endpoints is deprecated
-  in v1. 33+; use discovery.'
+  in v1.33+; use discovery. k8s. io/v1 EndpointSlice NAME ENDPOINTS AGE myservice
+  10.180.3.17:443 1h $ kubectl get endpointslice -l kubernetes. io/service-name =
+  myservice NAME ADDRESSTYPE PORTS ENDPOINTS AGE myservice-7vzhx IPv4 443 10.180.3.17
+  21s myservice-jcv8s IPv6 443 2001:db8:0123::5 21s $ kubectl get endpoints myservice
+  Warning: v1 Endpoints is deprecated in v1.33+; use discovery. k8s. io/v1 EndpointSlice
+  NAME ENDPOINTS AGE myservice 10.180.3.17:443 1h $ kubectl get endpointslice -l kubernetes.'
 ---
 Open the original post ↗ https://kubernetes.io/blog/2025/04/24/endpoints-deprecation/

@@ -11,13 +11,15 @@ tldr: 'Tuning Linux Swap for Kubernetes: A Deep Dive Introduction to Linux swap 
   vs File-backed memory Key kernel parameters for swap tuning Swap tests and results
   Test setup Test methodology Findings Risks and recommendations Kubernetes context
   Recommended starting point The Kubernetes NodeSwap feature , likely to graduate
-  to stable in the upcoming Kubernetes v1. 34 release, allows swap usage: a significant
-  shift from the conventional practice of disabling swap for performance predictability.'
+  to stable in the upcoming Kubernetes v1.34 release, allows swap usage: a significant
+  shift from the conventional practice of disabling swap for performance predictability.
+  This article focuses exclusively on tuning swap on Linux nodes, where this feature
+  is available.'
 summary: 'Tuning Linux Swap for Kubernetes: A Deep Dive Introduction to Linux swap
   Anonymous vs File-backed memory Key kernel parameters for swap tuning Swap tests
   and results Test setup Test methodology Findings Risks and recommendations Kubernetes
   context Recommended starting point The Kubernetes NodeSwap feature , likely to graduate
-  to stable in the upcoming Kubernetes v1. 34 release, allows swap usage: a significant
+  to stable in the upcoming Kubernetes v1.34 release, allows swap usage: a significant
   shift from the conventional practice of disabling swap for performance predictability.
   This article focuses exclusively on tuning swap on Linux nodes, where this feature
   is available. By allowing Linux nodes to use secondary storage for additional virtual
@@ -33,6 +35,10 @@ summary: 'Tuning Linux Swap for Kubernetes: A Deep Dive Introduction to Linux sw
   optimal settings for stable and high-performing Kubernetes clusters. At a high level,
   the Linux kernel manages memory through pages, typically 4KiB in size. When physical
   memory becomes constrained, the kernel''s page replacement algorithm decides which
-  pages to move to swap space.'
+  pages to move to swap space. While the exact logic is a sophisticated optimization,
+  this decision-making process is influenced by certain key factors: Page access patterns
+  (how recently pages are accessed) Page dirtyness (whether pages have been modified)
+  Memory pressure (how urgently the system needs free memory) It is important to understand
+  that not all memory pages are the same.'
 ---
 Open the original post ↗ https://kubernetes.io/blog/2025/08/19/tuning-linux-swap-for-kubernetes-a-deep-dive/

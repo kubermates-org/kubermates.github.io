@@ -20,7 +20,7 @@ summary: 'The Situation: The Ingress Rut Kubernetes Gateway API vs. Ingress: The
   annotations to unlock critical features, blurred the lines between infrastructure
   and application concerns, this complexity didn’t just make portability more difficult,
   it sometimes led to security vulnerabilities and other complications. As part of
-  Calico Open Source v3. 30 , we have released a free and open source Calico Ingress
+  Calico Open Source v3.30 , we have released a free and open source Calico Ingress
   Gateway that implements a custom built Envoy proxy with the Kubernetes Gateway API
   standard to help you navigate Ingress complexities with style. This blog post is
   designed to get you up to speed on why such a change might be the missing link in
@@ -29,6 +29,7 @@ summary: 'The Situation: The Ingress Rut Kubernetes Gateway API vs. Ingress: The
   lack of a unified, expressive, and role-aware standard. Existing ingress controllers
   were capable, implemented advanced features, however at the same time tied you to
   a specific project/vendor. This meant: Vendor Lock-In: Migrating from one ingress
-  controller to another became a painful exercise in translating a web of custom annotations.'
+  controller to another became a painful exercise in translating a web of custom annotations.
+  Configurations were tied to the implementation, not the intent.'
 ---
 Open the original post ↗ https://www.tigera.io/blog/is-it-time-to-migrate-a-practical-look-at-kubernetes-ingress-vs-gateway-api/

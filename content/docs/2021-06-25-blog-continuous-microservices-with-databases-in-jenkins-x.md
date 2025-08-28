@@ -29,8 +29,8 @@ summary: 'Continuous microservices with databases in Jenkins X Before you start 
   use this quickstart you will need to install this operator into your cluster. You
   can add charts to your cluster via the CLI. From inside a git clone of your cluster
   git repository run the following command: jx gitops helmfile add --chart commonground/postgres-operator
-  --repository https://charts. commonground. nl/ --namespace postgres --version 1.
-  6. 2 jx gitops helmfile add --chart commonground/postgres-operator --repository
-  https://charts.'
+  --repository https://charts. commonground. nl/ --namespace postgres --version 1.6.2
+  jx gitops helmfile add --chart commonground/postgres-operator --repository https://charts.
+  commonground. nl/ --namespace postgres --version 1.6.2 This will modify the helmfile.'
 ---
 Open the original post ↗ https://jenkins-x.io/blog/2021/06/25/jx-cd-databases-2021/

@@ -26,7 +26,7 @@ summary: 'CalicoCon North America 2025 Happy Hour with Calico KubeCon + CloudNat
   event for the latest in Kubernetes networking, security, and observability. Hosted
   by the Calico team, this hybrid event is your chance to hear directly from Calico
   engineers and leadership, get hands-on with new features, and take an in-depth look
-  at the state of Project Calico. We’ll dive into Calico 3. 30, Calico eBPF, and Calico
+  at the state of Project Calico. We’ll dive into Calico 3.30, Calico eBPF, and Calico
   Whisker: open source observability for Kubernetes. Add CalicoCon to your existing
   KubeCon + CloudNativeCon registration ‌to secure your spot. If you are not attending
   KubeCon + CloudNativeCon North America but would still like to attend CalicoCon,
@@ -39,6 +39,8 @@ summary: 'CalicoCon North America 2025 Happy Hour with Calico KubeCon + CloudNat
   drinks, and great company as we celebrate the cloud-native community. Event Details
   Date : November 10, 2025 Time : 5:00pm to 7:00pm EST Location : The Sun Dial Restaurant,
   Atlanta, GA Register Now Be sure to stop by booth #521 to discuss Calico’s latest
-  Kubernetes network security and observability advancements.'
+  Kubernetes network security and observability advancements. Our experts will be
+  on hand to provide demos of Calico’s leading capabilities in Kubernetes network
+  security and observability.'
 ---
 Open the original post ↗ https://www.tigera.io/blog/calico-at-kubecon-cloudnativecon-north-america-2025/

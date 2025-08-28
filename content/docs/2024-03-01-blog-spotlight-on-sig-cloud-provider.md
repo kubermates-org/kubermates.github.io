@@ -30,7 +30,7 @@ summary: 'Spotlight on SIG Cloud Provider Introduction Functioning and working I
   the workings of this group. Arujjwal : Let’s start by getting to know you. Can you
   give us a small intro about yourself and how you got into Kubernetes? Michael :
   Hi, I’m Michael McCune, most people around the community call me by my handle, elmiko.
-  I’ve been a software developer for a long time now (Windows 3. 1 was popular when
+  I’ve been a software developer for a long time now (Windows 3.1 was popular when
   I started!), and I’ve been involved with open-source software for most of my career.
   I first got involved with Kubernetes as a developer of machine learning and data
   science applications; the team I was on at the time was creating tutorials and examples
@@ -39,6 +39,8 @@ summary: 'Spotlight on SIG Cloud Provider Introduction Functioning and working I
   arose to join a team working directly on Kubernetes, I jumped at it! Arujjwal :
   Can you give us an insight into what SIG Cloud Provider does and how it functions?
   Michael : SIG Cloud Provider was formed to help ensure that Kubernetes provides
-  a neutral integration point for all infrastructure providers.'
+  a neutral integration point for all infrastructure providers. Our largest task to
+  date has been the extraction and migration of in-tree cloud controllers to out-of-tree
+  components.'
 ---
 Open the original post ↗ https://www.kubernetes.dev/blog/2024/03/01/sig-cloud-provider-spotlight-2024/

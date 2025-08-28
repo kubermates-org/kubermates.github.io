@@ -8,9 +8,19 @@ external_url: https://github.com/rancher/rancher/releases/tag/v2.12.1-alpha3
 post_kind: release
 draft: false
 tldr: Images with -rc Components with -rc Min version components with -rc Chart/KDM
-  sources rancher/fleet-agent:v0. 13.
-summary: Images with -rc Components with -rc Min version components with -rc Chart/KDM
-  sources rancher/fleet-agent:v0. 13. 1-rc. 6 rancher/fleet:v0. 13. 1-rc. 6 rancher/prometheus-federator:v4.
-  1. 0-rc. 3 rancher/rancher-agent:v2. 12. 1-alpha3 rancher/rancher-webhook:v0.
+  sources rancher/fleet-agent:v0.13.1-rc. 6 rancher/fleet:v0.13.1-rc.
+summary: 'Images with -rc Components with -rc Min version components with -rc Chart/KDM
+  sources rancher/fleet-agent:v0.13.1-rc. 6 rancher/fleet:v0.13.1-rc. 6 rancher/prometheus-federator:v4.1.0-rc.
+  3 rancher/rancher-agent:v2.12.1-alpha3 rancher/rancher-webhook:v0.8.1-rc. 1 rancher/rancher:v2.12.1-alpha3
+  rancher/rke2-cloud-provider:v1.30.13-rc1. 0.20250516172343-e77f78ee9466-build20250613
+  rancher/rke2-cloud-provider:v1.31.9-rc1. 0.20250516171836-812206503b28-build20250612
+  rancher/rke2-cloud-provider:v1.32.0-rc3. 0.20241220224140-68fbd1a6b543-build20250101
+  rancher/rke2-cloud-provider:v1.32.5-rc1. 0.20250516182639-8e8f2a4726fd-build20250612
+  rancher/rke2-cloud-provider:v1.33.0-rc1. 0.20250430074337-dc03cb4b3faa-build20250430
+  rancher/scc-operator:v0.1.0-alpha. 2 DASHBOARD_UI_VERSION v2.12.1-alpha3 UI_VERSION
+  2.12.1-alpha3 CHART_DEFAULT_BRANCH: dev-v2.12 ( scripts/package-env ) scripts/package-env
+  CHART_DEFAULT_BRANCH: dev-v2.12 ( package/Dockerfile ) package/Dockerfile CATTLE_KDM_BRANCH:
+  dev-v2.12 ( package/Dockerfile ) package/Dockerfile CATTLE_KDM_BRANCH: dev-v2.12
+  ( Dockerfile. dapper ) Dockerfile.'
 ---
 Open the original post ↗ https://github.com/rancher/rancher/releases/tag/v2.12.1-alpha3

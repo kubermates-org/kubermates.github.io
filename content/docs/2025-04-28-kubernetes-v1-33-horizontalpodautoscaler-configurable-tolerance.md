@@ -7,14 +7,16 @@ source: Kubernetes Blog
 external_url: https://kubernetes.io/blog/2025/04/28/kubernetes-v1-33-hpa-configurable-tolerance/
 post_kind: link
 draft: false
-tldr: 'Kubernetes v1. 33: HorizontalPodAutoscaler Configurable Tolerance What is it?
+tldr: 'Kubernetes v1.33: HorizontalPodAutoscaler Configurable Tolerance What is it?
   How do I use it? I want all the details! This post describes configurable tolerance
   for horizontal Pod autoscaling , a new alpha feature first available in Kubernetes
-  1.'
-summary: 'Kubernetes v1. 33: HorizontalPodAutoscaler Configurable Tolerance What is
+  1.33. Horizontal Pod Autoscaling is a well-known Kubernetes feature that allows
+  your workload to automatically resize by adding or removing replicas based on resource
+  utilization.'
+summary: 'Kubernetes v1.33: HorizontalPodAutoscaler Configurable Tolerance What is
   it? How do I use it? I want all the details! This post describes configurable tolerance
   for horizontal Pod autoscaling , a new alpha feature first available in Kubernetes
-  1. 33. Horizontal Pod Autoscaling is a well-known Kubernetes feature that allows
+  1.33. Horizontal Pod Autoscaling is a well-known Kubernetes feature that allows
   your workload to automatically resize by adding or removing replicas based on resource
   utilization. Let''s say you have a web application running in a Kubernetes cluster
   with 50 replicas. You configure the HorizontalPodAutoscaler (HPA) to scale based
@@ -29,6 +31,9 @@ summary: 'Kubernetes v1. 33: HorizontalPodAutoscaler Configurable Tolerance What
   applies a form of hysteresis: it only changes the number of replicas when the current
   and desired metric values differ by more than 10%. In the example above, since the
   ratio between the current and desired metric values is \(90/75\), or 20% above target,
-  exceeding the 10% tolerance, the scale-up action will proceed.'
+  exceeding the 10% tolerance, the scale-up action will proceed. This default tolerance
+  of 10% is cluster-wide; in older Kubernetes releases, it could not be fine-tuned.
+  It''s a suitable value for most usage, but too coarse for large deployments, where
+  a 10% tolerance represents tens of pods.'
 ---
 Open the original post ↗ https://kubernetes.io/blog/2025/04/28/kubernetes-v1-33-hpa-configurable-tolerance/

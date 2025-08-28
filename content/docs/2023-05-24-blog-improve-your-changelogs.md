@@ -32,7 +32,8 @@ summary: 'Improve your changelogs Background Overview of major improvements Exam
   completely lacking is in cluster repositories. But using the functionality for propagation
   of changelogs and some changes in jx boot job you can now a get a changelog for
   every successful application of changes in a cluster. An example of what this functionality
-  achieves can be seen in a release of jx: https://github. com/jenkins-x/jx/releases/tag/v3.
-  10.'
+  achieves can be seen in a release of jx: https://github. com/jenkins-x/jx/releases/tag/v3.10.81
+  If you scroll past the boilerplate installation instructions you first see the changelog
+  of jx itself generated from commit messages: https://github. com/jenkins-x/jx/compare/v3.10.80.'
 ---
 Open the original post ↗ https://jenkins-x.io/blog/2023/05/24/propagate-changelogs/

@@ -31,16 +31,20 @@ summary: 'IngressNightmare Vulnerabilities: All You Need to Know What is the Ing
   via HTTP or HTTPS. The ingress NGINX Controller, built on the NGINX web server ,
   is widely used to route incoming traffic to the appropriate backend services based
   on defined rules. HTTP HTTPS NGINX web server The disclosed vulnerabilities include:
-  CVE-2025-1974 (CVSS Score 9. 8 Critical) Allows unauthenticated attackers with pod
+  CVE-2025-1974 (CVSS Score 9.8 Critical) Allows unauthenticated attackers with pod
   network access to execute arbitrary code in the ingress-nginx controller, potentially
   leading to full cluster takeover. CVE-2025-24514, CVE-2025-1097, CVE-2025-1098 (CVSS
-  Score 8. 8 High) Involve improper handling of Ingress annotations that can lead
-  to code execution or unauthorized data access. CVE-2025-24513 (CVSS Score 4. 8 Medium)
+  Score 8.8 High) Involve improper handling of Ingress annotations that can lead to
+  code execution or unauthorized data access. CVE-2025-24513 (CVSS Score 4.8 Medium)
   Involves directory traversal that can lead to DoS or limited secret disclosure.
   The researchers who found these vulnerabilities indicated that over 40% of cloud
   environments were vulnerable to these remote code execution (RCE) risks. Their analysis
   discovered over 6,500 clusters, including those of Fortune 500 companies, that publicly
   expose the admission controllers of vulnerable Kubernetes ingress controllers to
-  the public internet, placing them at immediate critical risk.'
+  the public internet, placing them at immediate critical risk. The most critical
+  issue, CVE-2025-1974, affects the admission controller component of the Ingress
+  NGINX Controller. It allows remote code execution through a malicious Ingress object,
+  potentially exposing secrets and compromising the entire cluster. An exploit was
+  published on GitHub.'
 ---
 Open the original post ↗ https://blog.aquasec.com/ingress-nginx-vulnerabilities-what-you-need-to-know

@@ -23,8 +23,11 @@ summary: Using Go workspaces in Kubernetes GOPATH and Go modules The problems En
   are great. Our codebase is simpler and less error-prone, and we’re no longer off
   on our own technology island. Kubernetes is one of the most visible open source
   projects written in Go. The earliest versions of Kubernetes, dating back to 2014,
-  were built with Go 1. 3. Today, 10 years later, Go is up to version 1. 22 — and
-  let’s just say that a whole lot has changed. In 2014, Go development was entirely
-  based on GOPATH. As a Go project, Kubernetes lived by the rules of GOPATH.
+  were built with Go 1.3. Today, 10 years later, Go is up to version 1.22 — and let’s
+  just say that a whole lot has changed. In 2014, Go development was entirely based
+  on GOPATH. As a Go project, Kubernetes lived by the rules of GOPATH. In the buildup
+  to Kubernetes 1.4 (mid 2016), we introduced a directory tree called staging. This
+  allowed us to pretend to be multiple projects, but still exist within one git repository
+  (which had advantages for development velocity).
 ---
 Open the original post ↗ https://www.kubernetes.dev/blog/2024/03/19/go-workspaces-in-kubernetes/

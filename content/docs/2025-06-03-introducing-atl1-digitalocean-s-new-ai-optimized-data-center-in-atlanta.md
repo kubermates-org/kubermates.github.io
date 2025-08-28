@@ -30,7 +30,7 @@ summary: "Introducing ATL1: DigitalOceanâ\x80\x99s new AI-optimized data center
   \ applications. ATL1 isnâ\x80\x99t just another data centerâ\x80\x94itâ\x80\x99\
   s built to power the next generation of AI/ML, providing the infrastructure needed\
   \ for the worldâ\x80\x99s most advanced workloads. Key highlights about the new\
-  \ data center: Massive capacity Two data halls, each offering 4. 5 MW of power (9\
+  \ data center: Massive capacity Two data halls, each offering 4.5 MW of power (9\
   \ MW total) Designed for high-density GPU deployments with flexible, scalable expansion\
   \ capabilities Cutting-edge hardware Over 300 GPUs deployed in the first data hallâ\x80\
   \x94including NVIDIA H200 and AMD Instinct MI300X clustersâ\x80\x94for high-performance\
@@ -42,6 +42,9 @@ summary: "Introducing ATL1: DigitalOceanâ\x80\x99s new AI-optimized data center
   \ enterprises across the Southern U. S. region. By adding local cloud and AI infrastructure\
   \ in Atlanta, weâ\x80\x99re making it easier for customers to access the high-performance\
   \ compute, storage, and GPU resources they need, with lower latency, greater reliability,\
-  \ and the same simplicity and cost-effectiveness they expect from DigitalOcean."
+  \ and the same simplicity and cost-effectiveness they expect from DigitalOcean.\
+  \ Located at Flexentialâ\x80\x99s Atlanta-Douglasville campus , ATL1 benefits from\
+  \ a high-density, enterprise-grade facility optimized for AI/ML workloads, further\
+  \ enhancing performance, scalability, and security for our customers."
 ---
 Open the original post ↗ https://www.digitalocean.com/blog/introducing-new-atlanta-data-center

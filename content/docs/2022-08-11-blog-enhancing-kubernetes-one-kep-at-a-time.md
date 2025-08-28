@@ -11,12 +11,13 @@ draft: false
 tldr: 'Enhancing Kubernetes one KEP at a Time What’s the enhancements subteam? What
   does the enhancements subteam do? How can I get involved with the release team?
   How can I find out more? Author: Ryler Hockenbury (Mastercard) Did you know that
-  Kubernetes v1. 24 has 46 enhancements ? That’s a lot of new functionality packed
-  into a 4-month release cycle.'
+  Kubernetes v1.24 has 46 enhancements ? That’s a lot of new functionality packed
+  into a 4-month release cycle. The Kubernetes release team coordinates the logistics
+  of the release, from remediating test flakes to publishing updated docs.'
 summary: 'Enhancing Kubernetes one KEP at a Time What’s the enhancements subteam?
   What does the enhancements subteam do? How can I get involved with the release team?
   How can I find out more? Author: Ryler Hockenbury (Mastercard) Did you know that
-  Kubernetes v1. 24 has 46 enhancements ? That’s a lot of new functionality packed
+  Kubernetes v1.24 has 46 enhancements ? That’s a lot of new functionality packed
   into a 4-month release cycle. The Kubernetes release team coordinates the logistics
   of the release, from remediating test flakes to publishing updated docs. It’s a
   ton of work, but they always deliver. The release team comprises around 30 people
@@ -28,6 +29,7 @@ summary: 'Enhancing Kubernetes one KEP at a Time What’s the enhancements subte
   - KEP for short. KEPs are small structured design documents that provide a way to
   propose and coordinate new features. The KEP author describes the motivation, design
   (and alternatives), risks, and tests - then community members provide feedback to
-  build consensus.'
+  build consensus. KEPs are submitted and updated through a pull request (PR) workflow
+  on the k/enhancements repo.'
 ---
 Open the original post ↗ https://www.kubernetes.dev/blog/2022/08/11/enhancing-kubernetes-one-kep-at-a-time/

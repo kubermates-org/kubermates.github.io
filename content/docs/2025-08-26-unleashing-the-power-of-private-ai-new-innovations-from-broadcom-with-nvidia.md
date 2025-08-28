@@ -36,7 +36,7 @@ summary: VMware Private AI Services Now Included in VCF Subscription New Capabil
   Building your GenAI Agents on VCF with Private AI Services Enterprises can get tremendous
   productivity and business transformation from AI. With VMware Private AI Foundation
   with NVIDIA , Broadcom and NVIDIA aim to unlock AI and unleash productivity with
-  lower TCO. Recently with VCF 9. 0 , Broadcom and NVIDIA released several features
+  lower TCO. Recently with VCF 9.0 , Broadcom and NVIDIA released several features
   in VMware Private AI Foundation with NVIDIA to further our mission of providing
   private and secure AI models for enterprises. Today we are happy to announce additional
   capabilities to help enterprises in this mission. Previously sold separately, VCF
@@ -50,6 +50,6 @@ summary: VMware Private AI Services Now Included in VCF Subscription New Capabil
   unlock the potential of generative, agentic and physical AI by delivering exceptional
   performance, efficiency and scale for enterprises. VCF will now support the NVIDIA
   Blackwell architecture, enabling enterprises to get the industry-leading AI training
-  and inference capabilities at unprecedented scale.
+  and inference capabilities at unprecedented scale. Let’s look at the supported GPUs.
 ---
 Open the original post ↗ https://blogs.vmware.com/cloud-foundation/2025/08/26/vmware-private-ai-foundation-with-nvidia-explore25/

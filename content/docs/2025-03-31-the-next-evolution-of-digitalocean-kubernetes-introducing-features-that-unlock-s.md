@@ -55,11 +55,12 @@ summary: "The Next Evolution of DigitalOcean Kubernetes: Introducing Features th
   \ seen significant improvements in scalability and security when deploying DOKS.\
   \ â\x80\x9CDigitalOcean Kubernetes provides NoBid with a powerful platform for our\
   \ containerized workloads,\" said Shawn Petersen, CIO at NoBid. â\x80\x9CAdditionally,\
-  \ the ability to rapidly scale based on business demand, handle 1. 3 PB/month in\
+  \ the ability to rapidly scale based on business demand, handle 1.3 PB/month in\
   \ data egress, along with better security controls were all key differentiators\
   \ for us to partner with DigitalOcean. \" If you want to learn more about NoBidâ\x80\
   \x99s use case, check out their case study. Also, you can learn more about their\
   \ migration from AWS to DigitalOcean and their subsequent 30% cost-savings by watching\
-  \ the testimonial they gave at Deploy 2025."
+  \ the testimonial they gave at Deploy 2025. This announcement consists of four features\
+  \ that are new and coming to DOKS."
 ---
 Open the original post ↗ https://www.digitalocean.com/blog/introducing-doks-1k-nodes

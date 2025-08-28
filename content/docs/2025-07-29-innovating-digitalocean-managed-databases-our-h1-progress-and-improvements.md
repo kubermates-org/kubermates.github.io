@@ -49,12 +49,16 @@ summary: "Innovating DigitalOcean Managed Databases: Our H1 Progress and Improve
   \ about all of the new features, such as indexing improvements and expanding monitoring\
   \ and analysis tools, check out our blog post from this past February. Continuing\
   \ the theme of database upgrades, as of March 13, DigitalOcean Managed MongoDB supports\
-  \ MongoDB v8 (8. 0. 12). This latest release brings significant improvements in\
-  \ performance, scalability, and security, including faster replication through improved\
-  \ concurrent writes, optimized time-series data handling, and enhanced client-side\
-  \ encryption with support for range queries. Developers also gain greater control\
-  \ over performance with features like persistent query settings and default maximum\
-  \ execution times. To learn more about this release and our Managed MongoDB service,\
-  \ check out our blog or visit the MongoDB homepage."
+  \ MongoDB v8 (8.0.12). This latest release brings significant improvements in performance,\
+  \ scalability, and security, including faster replication through improved concurrent\
+  \ writes, optimized time-series data handling, and enhanced client-side encryption\
+  \ with support for range queries. Developers also gain greater control over performance\
+  \ with features like persistent query settings and default maximum execution times.\
+  \ To learn more about this release and our Managed MongoDB service, check out our\
+  \ blog or visit the MongoDB homepage. Both Managed MySQL and PostgreSQL have doubled\
+  \ the amount of storage they support, with MySQL now supporting up to 20TB and PostgreSQL\
+  \ supporting up to 30TB. As of March 19, these expanded storage options are currently\
+  \ available in Singapore (SGP1), San Francisco (SFO2), Toronto (TOR1), New York\
+  \ City (NYC2, NYC3), and Frankfurt (FRA1), with more regions to come."
 ---
 Open the original post ↗ https://www.digitalocean.com/blog/managed-databases-updates-h1

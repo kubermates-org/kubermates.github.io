@@ -34,13 +34,14 @@ summary: 'VMware Cloud Foundation – The Platform For What’s Next Infrastruct
   businesses reimagine their infrastructure, applications, and data strategies. Each
   new innovation isn’t a reaction to where the industry is going—it sets the pace
   for what’s possible in the private cloud – whether it’s in a central datacenter,
-  edge or in the hyperscaler environment. VCF 9. 0 set the benchmark for the modern
+  edge or in the hyperscaler environment. VCF 9.0 set the benchmark for the modern
   private cloud: Sovereign by Design – Data residency tags, geo-fencing, and automated
   certificate rotation to embed compliance into the platform. Operational Simplicity
   – New installer, unified fleet management, and streamlined lifecycle operations
   reduce deployment and maintenance overhead. Modern App Platform – vSphere Kubernetes
   Service and VM Service deliver VMs and containers side by side with GitOps-driven
   automation. Performance & Efficiency – NVMe memory tiering and global vSAN deduplication
-  boost scale and flash efficiency at lower cost.'
+  boost scale and flash efficiency at lower cost. Cost Transparency – Built-in showback/chargeback
+  with predictive modeling turns infrastructure consumption into clear financial insight.'
 ---
 Open the original post ↗ https://blogs.vmware.com/cloud-foundation/2025/08/26/vcf-customer-momentum-and-new-innovations/

@@ -24,7 +24,7 @@ summary: Related Articles Broadcom and Canonical Partner to Fast-track and Secur
   Alex discuss all things FinOps and show you how to implement cost controls in your
   VMware Cloud Foundation environment. Want to learn more about VCF Operations? Check
   out the VCF Operations web page for more resources. Read blog post Operations in
-  VMware Cloud Foundation 9. 0. About the VCF Breakroom Chat Series This webinar series
+  VMware Cloud Foundation 9.0. About the VCF Breakroom Chat Series This webinar series
   focuses on VMware Cloud Foundation. In this series, we share conversations with
   industry-recognized experts from Broadcom and with solution partners and customers.
   You’ll gain relevant insights whether you’re an IT practitioner, IT admin, cloud

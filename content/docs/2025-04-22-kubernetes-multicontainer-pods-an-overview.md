@@ -35,7 +35,8 @@ summary: 'Kubernetes Multicontainer Pods: An Overview The origins of the sidecar
   containers operate within the same Pod as the main application, enabling communication
   and resource sharing. Does this sound just like defining multiple containers along
   each other inside the Pod? It actually does, and this is how sidecar containers
-  had to be implemented before Kubernetes v1. 29. 0, which introduced native support
-  for sidecars.'
+  had to be implemented before Kubernetes v1.29.0, which introduced native support
+  for sidecars. Sidecar containers can now be defined within a Pod manifest using
+  the spec. initContainers field.'
 ---
 Open the original post ↗ https://kubernetes.io/blog/2025/04/22/multi-container-pods-overview/

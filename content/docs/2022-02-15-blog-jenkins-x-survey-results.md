@@ -18,7 +18,7 @@ summary: Jenkins X Survey Results The Jenkins X survey was active for four weeks
   collected here According to the survey, a typical Jenkinx X user works with Devops
   and Software Engineering This person is using Jenkins X version 3 on Amazon working
   in a company of 1-50 people. She finds it somewhat difficult to find documentation,
-  average 2. 9 out of 5 The Jenkins X user tries to find information mainly on the
+  average 2.9 out of 5 The Jenkins X user tries to find information mainly on the
   main web site, sometimes on slack and less often on github. What he enjoys most
   about Jenkins X is that it is an easy way to learn, play around and work with Kubernetes.
   The git(ops(ish)) style of configuration, the preview environments, and the staging

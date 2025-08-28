@@ -29,12 +29,13 @@ summary: 'Meet Our Contributors - APAC (India region) Arsh Sharma Kunal Kushwaha
   Arsh is currently employed with Okteto as a Developer Experience engineer. As a
   new contributor, he realised that 1:1 mentorship opportunities were quite beneficial
   in getting him started with the upstream project. He is presently a CI Signal shadow
-  on the Kubernetes 1. 23 release team. He is also contributing to the SIG Testing
+  on the Kubernetes 1.23 release team. He is also contributing to the SIG Testing
   and SIG Docs projects, as well as to the cert-manager tools development work that
   is being done under the aegis of SIG Architecture. To the newcomers, Arsh helps
   plan their early contributions sustainably. I would encourage folks to contribute
   in a way that’s sustainable. What I mean by that is that it’s easy to be very enthusiastic
   early on and take up more stuff than one can actually handle. This can often lead
-  to burnout in later stages. It’s much more sustainable to work on things iteratively.'
+  to burnout in later stages. It’s much more sustainable to work on things iteratively.
+  Kunal Kushwaha is a core member of the Kubernetes marketing council.'
 ---
 Open the original post ↗ https://www.kubernetes.dev/blog/2022/01/10/meet-our-contributors-india-ep-01/

@@ -8,16 +8,22 @@ source: Kubernetes Blog
 external_url: https://kubernetes.io/blog/2025/05/05/kubernetes-v1-33-prevent-persistentvolume-leaks-when-deleting-out-of-order-graduate-to-ga/
 post_kind: link
 draft: false
-tldr: 'Kubernetes v1. 33: Prevent PersistentVolume Leaks When Deleting out of Order
+tldr: 'Kubernetes v1.33: Prevent PersistentVolume Leaks When Deleting out of Order
   graduates to GA How did reclaim work in previous Kubernetes releases? PV reclaim
-  policy with Kubernetes v1.'
-summary: 'Kubernetes v1. 33: Prevent PersistentVolume Leaks When Deleting out of Order
-  graduates to GA How did reclaim work in previous Kubernetes releases? PV reclaim
-  policy with Kubernetes v1. 33 How does it work? Important note How to enable new
+  policy with Kubernetes v1.33 How does it work? Important note How to enable new
   behavior? References How do I get involved? I am thrilled to announce that the feature
   to prevent PersistentVolume (or PVs for short) leaks when deleting out of order
-  has graduated to General Availability (GA) in Kubernetes v1. 33! This improvement,
-  initially introduced as a beta feature in Kubernetes v1. 31, ensures that your storage
+  has graduated to General Availability (GA) in Kubernetes v1.33! This improvement,
+  initially introduced as a beta feature in Kubernetes v1.31, ensures that your storage
+  resources are properly reclaimed, preventing unwanted leaks. PersistentVolumeClaim
+  (or PVC for short) is a user''s request for storage.'
+summary: 'Kubernetes v1.33: Prevent PersistentVolume Leaks When Deleting out of Order
+  graduates to GA How did reclaim work in previous Kubernetes releases? PV reclaim
+  policy with Kubernetes v1.33 How does it work? Important note How to enable new
+  behavior? References How do I get involved? I am thrilled to announce that the feature
+  to prevent PersistentVolume (or PVs for short) leaks when deleting out of order
+  has graduated to General Availability (GA) in Kubernetes v1.33! This improvement,
+  initially introduced as a beta feature in Kubernetes v1.31, ensures that your storage
   resources are properly reclaimed, preventing unwanted leaks. PersistentVolumeClaim
   (or PVC for short) is a user''s request for storage. A PV and PVC are considered
   Bound if a newly created PV or a matching PV is found. The PVs themselves are backed
@@ -26,6 +32,12 @@ summary: 'Kubernetes v1. 33: Prevent PersistentVolume Leaks When Deleting out of
   are no restrictions on deleting a PV before deleting a PVC. For a Bound PV-PVC pair,
   the ordering of PV-PVC deletion determines whether the PV reclaim policy is honored.
   The reclaim policy is honored if the PVC is deleted first; however, if the PV is
-  deleted prior to deleting the PVC, then the reclaim policy is not exercised.'
+  deleted prior to deleting the PVC, then the reclaim policy is not exercised. As
+  a result of this behavior, the associated storage asset in the external infrastructure
+  is not removed. Bound With the graduation to GA in Kubernetes v1.33, this issue
+  is now resolved. Kubernetes now reliably honors the configured Delete reclaim policy,
+  even when PVs are deleted before their bound PVCs. This is achieved through the
+  use of finalizers, ensuring that the storage backend releases the allocated storage
+  resource as intended.'
 ---
 Open the original post ↗ https://kubernetes.io/blog/2025/05/05/kubernetes-v1-33-prevent-persistentvolume-leaks-when-deleting-out-of-order-graduate-to-ga/

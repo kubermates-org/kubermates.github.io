@@ -29,13 +29,15 @@ summary: 'Kubernetes Contributor Summit: Behind-the-scenes The Contributor Summi
   in the right place at the right time) and having good mentors to pull me into those
   places (thanks, Tim!), that I ended up at a startup called Apprenda in 2016. While
   I was there, they pivoted into Kubernetes, and it was the best thing that could
-  have happened to my career. It was around v1. 2 and someone asked me if I could
-  give a presentation on Kubernetes concepts at “my local meetup” in Las Vegas. The
-  meetup didn’t exist yet, so I created it, and got involved in the wider community.
-  One thing led to another, and soon I was involved in ContribEx, joined the release
-  team, was doing booth duty for the CNCF, became an ambassador, and here we are today.
+  have happened to my career. It was around v1.2 and someone asked me if I could give
+  a presentation on Kubernetes concepts at “my local meetup” in Las Vegas. The meetup
+  didn’t exist yet, so I created it, and got involved in the wider community. One
+  thing led to another, and soon I was involved in ContribEx, joined the release team,
+  was doing booth duty for the CNCF, became an ambassador, and here we are today.
   FM : Before leading the organisation of the KCSEU 2023, how many other Contributor
   Summits were you a part of? NA : I was involved in four or five before taking the
-  lead.'
+  lead. If I’m recalling correctly, I attended the summit in Copenhagen, then sometime
+  in 2018 I joined the wrong meeting, because the summit staff meeting was listed
+  on the ContribEx calendar.'
 ---
 Open the original post ↗ https://www.kubernetes.dev/blog/2023/11/03/k8s-contributor-summit-behind-the-scenes/

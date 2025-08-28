@@ -10,12 +10,14 @@ draft: false
 tldr: 'The Cloud Controller Manager Chicken and Egg Problem Examples of the dependency
   problem Example: Cloud controller manager not scheduling due to uninitialized taint
   Example: Cloud controller manager not scheduling due to not-ready taint Our Recommendations
-  Example Kubernetes 1. 31 completed the largest migration in Kubernetes history ,
-  removing the in-tree cloud provider.'
+  Example Kubernetes 1.31 completed the largest migration in Kubernetes history ,
+  removing the in-tree cloud provider. While the component migration is now done,
+  this leaves some additional complexity for users and installer projects (for example,
+  kOps or Cluster API).'
 summary: 'The Cloud Controller Manager Chicken and Egg Problem Examples of the dependency
   problem Example: Cloud controller manager not scheduling due to uninitialized taint
   Example: Cloud controller manager not scheduling due to not-ready taint Our Recommendations
-  Example Kubernetes 1. 31 completed the largest migration in Kubernetes history ,
+  Example Kubernetes 1.31 completed the largest migration in Kubernetes history ,
   removing the in-tree cloud provider. While the component migration is now done,
   this leaves some additional complexity for users and installer projects (for example,
   kOps or Cluster API). We will go over those additional steps and failure points
@@ -34,6 +36,13 @@ summary: 'The Cloud Controller Manager Chicken and Egg Problem Examples of the d
   Labels with the cloud provider specific information like the Node, Region and Instance
   type information. Chicken and egg problem sequence diagram This new initialization
   process adds some latency to the node readiness. Previously, the kubelet was able
-  to initialize the node at the same time it created the node.'
+  to initialize the node at the same time it created the node. Since the logic has
+  moved to the cloud-controller-manager, this can cause a chicken and egg problem
+  during the cluster bootstrapping for those Kubernetes architectures that do not
+  deploy the controller manager as the other components of the control plane, commonly
+  as static pods, standalone binaries or daemonsets/deployments with tolerations to
+  the taints and using hostNetwork (more on this below) hostNetwork As noted above,
+  it is possible during bootstrapping for the cloud-controller-manager to be unschedulable
+  and as such the cluster will not initialize properly.'
 ---
 Open the original post ↗ https://kubernetes.io/blog/2025/02/14/cloud-controller-manager-chicken-egg-problem/

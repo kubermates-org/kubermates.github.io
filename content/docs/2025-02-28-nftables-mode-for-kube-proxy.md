@@ -10,12 +10,12 @@ draft: false
 tldr: 'NFTables mode for kube-proxy Why nftables? Part 1: data plane latency Why nftables?
   Part 2: control plane latency Why not nftables? Trying out nftables mode Future
   plans Learn more A new nftables mode for kube-proxy was introduced as an alpha feature
-  in Kubernetes 1. 29.'
+  in Kubernetes 1.29. Currently in beta, it is expected to be GA as of 1.33.'
 summary: 'NFTables mode for kube-proxy Why nftables? Part 1: data plane latency Why
   nftables? Part 2: control plane latency Why not nftables? Trying out nftables mode
   Future plans Learn more A new nftables mode for kube-proxy was introduced as an
-  alpha feature in Kubernetes 1. 29. Currently in beta, it is expected to be GA as
-  of 1. 33. The new mode fixes long-standing performance problems with the iptables
+  alpha feature in Kubernetes 1.29. Currently in beta, it is expected to be GA as
+  of 1.33. The new mode fixes long-standing performance problems with the iptables
   mode and all users running on systems with reasonably-recent kernels are encouraged
   to try it out. (For compatibility reasons, even once nftables becomes GA, iptables
   will still be the default. ) The iptables API was designed for implementing simple
@@ -24,9 +24,26 @@ summary: 'NFTables mode for kube-proxy Why nftables? Part 1: data plane latency 
   kube-proxy in iptables mode has a number of iptables rules proportional to the sum
   of the number of Services and the total number of endpoints. In particular, at the
   top level of the ruleset, there is one rule to test each possible Service IP (and
-  port) that a packet might be addressed to: # If the packet is addressed to 172.
-  30. 0. 41:80, then jump to the chain # KUBE-SVC-XPGD46QRK7WJZT7O for further processing
-  -A KUBE-SERVICES -m comment --comment "namespace1/service1:p80 cluster IP" -m tcp
-  -p tcp -d 172.'
+  port) that a packet might be addressed to: # If the packet is addressed to 172.30.0.41:80,
+  then jump to the chain # KUBE-SVC-XPGD46QRK7WJZT7O for further processing -A KUBE-SERVICES
+  -m comment --comment "namespace1/service1:p80 cluster IP" -m tcp -p tcp -d 172.30.0.41
+  --dport 80 -j KUBE-SVC-XPGD46QRK7WJZT7O # If the packet is addressed to 172.30.0.42:443,
+  then. -A KUBE-SERVICES -m comment --comment "namespace2/service2:p443 cluster IP"
+  -m tcp -p tcp -d 172.30.0.42 --dport 443 -j KUBE-SVC-GNZBNJ2PO5MGZ6GT # etc. -A
+  KUBE-SERVICES -m comment --comment "namespace3/service3:p80 cluster IP" -m tcp -p
+  tcp -d 172.30.0.43 --dport 80 -j KUBE-SVC-X27LE4BHSL4DOUIK # If the packet is addressed
+  to 172.30.0.41:80, then jump to the chain # KUBE-SVC-XPGD46QRK7WJZT7O for further
+  processing -A KUBE-SERVICES -m comment --comment "namespace1/service1:p80 cluster
+  IP" -m tcp -p tcp -d 172.30.0.41 --dport 80 -j KUBE-SVC-XPGD46QRK7WJZT7O # If the
+  packet is addressed to 172.30.0.42:443, then. -A KUBE-SERVICES -m comment --comment
+  "namespace2/service2:p443 cluster IP" -m tcp -p tcp -d 172.30.0.42 --dport 443 -j
+  KUBE-SVC-GNZBNJ2PO5MGZ6GT # etc. -A KUBE-SERVICES -m comment --comment "namespace3/service3:p80
+  cluster IP" -m tcp -p tcp -d 172.30.0.43 --dport 80 -j KUBE-SVC-X27LE4BHSL4DOUIK
+  This means that when a packet comes in, the time it takes the kernel to check it
+  against all of the Service rules is O(n) in the number of Services. As the number
+  of Services increases, both the average and the worst-case latency for the first
+  packet of a new connection increases (with the difference between best-case, average,
+  and worst-case being mostly determined by whether a given Service IP address appears
+  earlier or later in the KUBE-SERVICES chain).'
 ---
 Open the original post ↗ https://kubernetes.io/blog/2025/02/28/nftables-kube-proxy/

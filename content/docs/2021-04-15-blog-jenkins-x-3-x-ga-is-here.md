@@ -10,7 +10,7 @@ draft: false
 tldr: Jenkins X 3. x GA is here! Demo Documentation Changes since the 3.
 summary: 'Jenkins X 3. x GA is here! Demo Documentation Changes since the 3. x beta
   User Changes since 2. x Platform Changes Getting started Final thoughts I’m super
-  excited to announce the 3. 0 GA (General Availability) release of Jenkins X! Jenkins
+  excited to announce the 3.0 GA (General Availability) release of Jenkins X! Jenkins
   X automates your CI/CD on kubernetes to help you accelerate : Automated CI/CD pipelines
   lets you focus on your actually application code while Jenkins X automatically creates
   battle tested Tekton CI/CD pipelines for your project which are managed via GitOps
@@ -50,6 +50,11 @@ summary: 'Jenkins X 3. x GA is here! Demo Documentation Changes since the 3. x b
   reliably inside the cluster itself the actual installation of kubernetes resources
   takes place using the git operator so it runs reliably inside the cluster itself
   we default to using Kubernetes External Secrets to manage all secrets for Jenkins
-  X itself, development tools and your applications too.'
+  X itself, development tools and your applications too. This means we can support
+  various secret backends such as Alibaba Cloud KMS Secret Manager, Amazon Secret
+  Manager, Azure Key Vault, Hashicorp Vault or GCP Secret Manager It also means we
+  can then check in all kubernetes resources and custom resources directly into git
+  (apart from Kubernetes Secrets ) so that it super easy to version, review and reason
+  about your kubernetes resources in a GitOps way.'
 ---
 Open the original post ↗ https://jenkins-x.io/blog/2021/04/15/jx-v3-ga/

@@ -7,8 +7,11 @@ source: RKE Releases
 external_url: https://github.com/rancher/rke/releases/tag/v1.7.9-rc.3
 post_kind: release
 draft: false
-tldr: RKE Kubernetes versions v1. 28.
-summary: RKE Kubernetes versions v1. 28. 15-rancher1-1 v1. 28. 15-rancher1-1 v1. 29.
-  15-rancher1-1 v1. 29. 15-rancher1-1 v1. 30. 14-rancher1-1 v1. 30.
+tldr: RKE Kubernetes versions v1.28.15-rancher1-1 v1.28.15-rancher1-1 v1.29.15-rancher1-1
+  v1.29.15-rancher1-1 v1.30.14-rancher1-1 v1.30.14-rancher1-1 v1.31.10-rancher1-1
+  (default) v1.31.10-rancher1-1.
+summary: RKE Kubernetes versions v1.28.15-rancher1-1 v1.28.15-rancher1-1 v1.29.15-rancher1-1
+  v1.29.15-rancher1-1 v1.30.14-rancher1-1 v1.30.14-rancher1-1 v1.31.10-rancher1-1
+  (default) v1.31.10-rancher1-1.
 ---
 Open the original post ↗ https://github.com/rancher/rke/releases/tag/v1.7.9-rc.3
