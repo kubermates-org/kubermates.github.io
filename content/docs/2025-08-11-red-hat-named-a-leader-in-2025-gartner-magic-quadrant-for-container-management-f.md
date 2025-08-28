@@ -8,14 +8,28 @@ source: OpenShift Blog
 external_url: https://www.redhat.com/en/blog/red-hat-named-leader-2025-container-management
 post_kind: link
 draft: false
-tldr: Share This week we announced that for the third consecutive year, Red Hat has
-  been named a Leader in the Gartner® Magic Quadrant™ for Container Management. We’re
-  thrilled by this recognition and believe it represents continued validation of Red
-  Hat OpenShift’s strong execution and strategy for delivering an industry leading
-  application platform across hybrid environments from the data center, to the cloud,
-  and to the edge.
-summary: 'Share This week we announced that for the third consecutive year, Red Hat
-  has been named a Leader in the Gartner® Magic Quadrant™ for Container Management.
+tldr: Red Hat Named a Leader in 2025 Gartner® Magic Quadrant™ for Container Management
+  for the Third Consecutive Year What is the Gartner Magic Quadrant? How was the Magic
+  Quadrant judged? What criteria were used? Why is this significant to us? Learn more
+  about Red Hat OpenShift for Container Management Red Hat OpenShift Container Platform
+  | Product Trial About the authors Sara Buffington Debbie Margulies More like this
+  Blog post Blog post Blog post Keep exploring Browse by channel Automation Artificial
+  intelligence Open hybrid cloud Security Edge computing Infrastructure Applications
+  Virtualization Share This week we announced that for the third consecutive year,
+  Red Hat has been named a Leader in the Gartner® Magic Quadrant™ for Container Management.
+  We’re thrilled by this recognition and believe it represents continued validation
+  of Red Hat OpenShift’s strong execution and strategy for delivering an industry
+  leading application platform across hybrid environments from the data center, to
+  the cloud, and to the edge.
+summary: 'Red Hat Named a Leader in 2025 Gartner® Magic Quadrant™ for Container Management
+  for the Third Consecutive Year What is the Gartner Magic Quadrant? How was the Magic
+  Quadrant judged? What criteria were used? Why is this significant to us? Learn more
+  about Red Hat OpenShift for Container Management Red Hat OpenShift Container Platform
+  | Product Trial About the authors Sara Buffington Debbie Margulies More like this
+  Blog post Blog post Blog post Keep exploring Browse by channel Automation Artificial
+  intelligence Open hybrid cloud Security Edge computing Infrastructure Applications
+  Virtualization Share This week we announced that for the third consecutive year,
+  Red Hat has been named a Leader in the Gartner® Magic Quadrant™ for Container Management.
   We’re thrilled by this recognition and believe it represents continued validation
   of Red Hat OpenShift’s strong execution and strategy for delivering an industry
   leading application platform across hybrid environments from the data center, to

@@ -7,11 +7,13 @@ source: EKS Release Notes
 external_url: https://docs.aws.amazon.com/eks/latest/userguide/hybrid-nodes-overview.html
 post_kind: release
 draft: false
-tldr: Help improve this page To contribute to this user guide, choose the Edit this
-  page on GitHub link that is located in the right pane of every page. With Amazon
-  EKS Hybrid Nodes , you can use your on-premises and edge infrastructure as nodes
-  in Amazon EKS clusters.
-summary: 'Help improve this page To contribute to this user guide, choose the Edit
+tldr: Amazon EKS Hybrid Nodes overview Features Limits Considerations Additional resources
+  Help improve this page To contribute to this user guide, choose the Edit this page
+  on GitHub link that is located in the right pane of every page. With Amazon EKS
+  Hybrid Nodes , you can use your on-premises and edge infrastructure as nodes in
+  Amazon EKS clusters.
+summary: 'Amazon EKS Hybrid Nodes overview Features Limits Considerations Additional
+  resources Help improve this page To contribute to this user guide, choose the Edit
   this page on GitHub link that is located in the right pane of every page. With Amazon
   EKS Hybrid Nodes , you can use your on-premises and edge infrastructure as nodes
   in Amazon EKS clusters. AWS manages the AWS-hosted Kubernetes control plane of the

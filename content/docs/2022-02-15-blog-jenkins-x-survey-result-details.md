@@ -7,28 +7,28 @@ source: Jenkins X
 external_url: https://jenkins-x.io/blog/2022/02/15/survey-1-result-details-2022/
 post_kind: link
 draft: false
-tldr: For more information on the Jenkins X survey see Survey results Some highlights
-  from the free text answers. run it against a local running cluster to test changes
-  to Jenkins-X before updated in GitHub.
-summary: For more information on the Jenkins X survey see Survey results Some highlights
-  from the free text answers. run it against a local running cluster to test changes
+tldr: Jenkins X Survey Result Details What do you enjoy the most with Jenkins X? What
+  do you believe should be improved with Jenkins X? For more information on the Jenkins
+  X survey see Survey results Some highlights from the free text answers. Cloud-native
+  feel, “you know Kubernetes, you know how to use JX”, plugins-based architecture
+  Complete CI/CD platform in a k8s cluster Configuration as code, auto generation
+  of k8s files, flexibility easy to create preview/dev/staging/prod environments.
+summary: Jenkins X Survey Result Details What do you enjoy the most with Jenkins X?
+  What do you believe should be improved with Jenkins X? For more information on the
+  Jenkins X survey see Survey results Some highlights from the free text answers.
+  Cloud-native feel, “you know Kubernetes, you know how to use JX”, plugins-based
+  architecture Complete CI/CD platform in a k8s cluster Configuration as code, auto
+  generation of k8s files, flexibility easy to create preview/dev/staging/prod environments.
+  modularity and ease to extend/change Everything works out of the box. Very intuitive
+  Lightweight and easy to manage. The community is incredible. I really like how everything
+  works together. love the community. scalability and how fast it is! Integration
+  with different secret backends is easy. Also love the community. It’s opinionated
+  No vendor lock in run it against a local running cluster to test changes to Jenkins-X
+  before updated in GitHub. run it against a local running cluster to test changes
   to Jenkins-X before updated in GitHub. Integration with on-premise (Gitlab) as a
-  lot of organizations are not using public cloud due to security policies, Proper
-  guide on installing into existing cluster without using terraform. Give us back
-  something like jx compliance , jx boot. Would be nice to not be tied to terraform
-  to boot jenkins-x. Just like kubernetes, it would be great to have a jenkins-x the
-  hard way where everything needs to be installed manually. it’s very difficult to
-  just dive in without previous knowledge of the system extreme lack of quality documentation.
-  Many conversations take place in slack and users cannot find information that somebody
-  had the same problem beforehand and how it was solved More documentation and guides,
-  making sure quickstart guides work without hassle Making it easier to get started
-  Very hard to find any information on how people solve a similar problem before I
-  very much enjoy your documentation, but it is very hard to find anything on google
-  that is a huge disadvantage. Documents need to be clear about what works, and what
-  does not work (kubernetes versions for example, bitbucket etc. ) Could also be nice
-  with an arcitecture illustration or video that could compare jenkins with jenkins
-  X I find that when I’m looking for information I get a lot of mixed results (v3
-  vs v2). Integration with vault is confused. Why install vault in docker in k3s environment?
-  I strongly believe in this project! I use Jenkins X as a learning tool.
+  lot of organizations are not using public cloud due to security policies, Integration
+  with on-premise (Gitlab) as a lot of organizations are not using public cloud due
+  to security policies, Proper guide on installing into existing cluster without using
+  terraform.
 ---
 Open the original post ↗ https://jenkins-x.io/blog/2022/02/15/survey-1-result-details-2022/

@@ -7,13 +7,17 @@ source: Tigera
 external_url: https://www.tigera.io/blog/dry-run-your-kubernetes-network-policies-with-calico-staged-network-policies/
 post_kind: link
 draft: false
-tldr: Kubernetes Network Policies (KNP) are powerful resources that help secure and
-  isolate workloads in a cluster. By defining what traffic is allowed to and from
-  specific pods, KNPs provide the foundation for zero-trust networking and least-privilege
+tldr: Impact Resolution Let’s Set the Scene The Power of Staged Network Policies Where
+  to Observe Staged Policies? Go Even Further With Calico Cloud Free Tier Outcome
+  Kubernetes Network Policies (KNP) are powerful resources that help secure and isolate
+  workloads in a cluster. By defining what traffic is allowed to and from specific
+  pods, KNPs provide the foundation for zero-trust networking and least-privilege
   access in cloud-native environments.
-summary: 'Kubernetes Network Policies (KNP) are powerful resources that help secure
-  and isolate workloads in a cluster. By defining what traffic is allowed to and from
-  specific pods, KNPs provide the foundation for zero-trust networking and least-privilege
+summary: 'Impact Resolution Let’s Set the Scene The Power of Staged Network Policies
+  Where to Observe Staged Policies? Go Even Further With Calico Cloud Free Tier Outcome
+  Kubernetes Network Policies (KNP) are powerful resources that help secure and isolate
+  workloads in a cluster. By defining what traffic is allowed to and from specific
+  pods, KNPs provide the foundation for zero-trust networking and least-privilege
   access in cloud-native environments. But there’s a problem: KNPs are risky, and
   applying them without a clear game plan can be potentially disruptive. Without deep
   insight into existing traffic flows, applying a restrictive policy can instantly

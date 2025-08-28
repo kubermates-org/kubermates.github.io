@@ -8,12 +8,14 @@ source: Kubernetes.dev Blog
 external_url: https://www.kubernetes.dev/blog/2022/02/04/sig-multicluster-spotlight-2022/
 post_kind: link
 draft: false
-tldr: 'Authors: Dewan Ahmed (Aiven) and Chris Short (AWS) SIG Multicluster is the
+tldr: 'Spotlight on SIG Multicluster Introduction A summary of their conversation
+  Wrap up Authors: Dewan Ahmed (Aiven) and Chris Short (AWS) SIG Multicluster is the
   Special Interest Group (SIG) focused on how Kubernetes concepts are expanded and
   used beyond the cluster boundary. Historically, Kubernetes resources only interacted
   within that boundary - KRU or Kubernetes Resource Universe (not an actual Kubernetes
   concept).'
-summary: 'Authors: Dewan Ahmed (Aiven) and Chris Short (AWS) SIG Multicluster is the
+summary: 'Spotlight on SIG Multicluster Introduction A summary of their conversation
+  Wrap up Authors: Dewan Ahmed (Aiven) and Chris Short (AWS) SIG Multicluster is the
   Special Interest Group (SIG) focused on how Kubernetes concepts are expanded and
   used beyond the cluster boundary. Historically, Kubernetes resources only interacted
   within that boundary - KRU or Kubernetes Resource Universe (not an actual Kubernetes

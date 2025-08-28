@@ -7,17 +7,20 @@ source: CNCF
 external_url: https://www.cncf.io/blog/2025/08/21/celebrating-100-golden-kubestronauts/
 post_kind: link
 draft: false
-tldr: 'Posted on August 21, 2025 by Christophe Sauthier, Cloud Native Training and
-  Certification Lead The Kubestronauts program has been growing at an incredible pace.
-  We recently celebrated over 2000 kubestronauts across the globe, and today we’re
-  excited to celebrate another milestone: over 100 Golden Kubestronauts have achieved
-  Golden status in less than five months, thanks to their dedication and hard work.'
-summary: 'Posted on August 21, 2025 by Christophe Sauthier, Cloud Native Training
-  and Certification Lead The Kubestronauts program has been growing at an incredible
-  pace. We recently celebrated over 2000 kubestronauts across the globe, and today
-  we’re excited to celebrate another milestone: over 100 Golden Kubestronauts have
-  achieved Golden status in less than five months, thanks to their dedication and
-  hard work. One of the most inspiring aspects of the Golden Kubestronauts community
+tldr: 'What is a Golden Kubestronaut? Once a Golden, Always a Golden Growing Together
+  as a Community Thank You! Posted on August 21, 2025 by Christophe Sauthier, Cloud
+  Native Training and Certification Lead The Kubestronauts program has been growing
+  at an incredible pace. We recently celebrated over 2000 kubestronauts across the
+  globe, and today we’re excited to celebrate another milestone: over 100 Golden Kubestronauts
+  have achieved Golden status in less than five months, thanks to their dedication
+  and hard work.'
+summary: 'What is a Golden Kubestronaut? Once a Golden, Always a Golden Growing Together
+  as a Community Thank You! Posted on August 21, 2025 by Christophe Sauthier, Cloud
+  Native Training and Certification Lead The Kubestronauts program has been growing
+  at an incredible pace. We recently celebrated over 2000 kubestronauts across the
+  globe, and today we’re excited to celebrate another milestone: over 100 Golden Kubestronauts
+  have achieved Golden status in less than five months, thanks to their dedication
+  and hard work. One of the most inspiring aspects of the Golden Kubestronauts community
   is its global reach. With more than 100 Golden badges earned so far, we see representation
   from every corner of the world—spanning North and South America, Europe, Asia, and
   beyond. From Austria, Brazil, and Canada to India, Japan, and Singapore , and from

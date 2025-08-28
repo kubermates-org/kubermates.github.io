@@ -8,15 +8,18 @@ source: Kubernetes.dev Blog
 external_url: https://www.kubernetes.dev/blog/2022/02/16/sig-node-ci-subproject-celebrates-two-years-of-test-improvements/
 post_kind: link
 draft: false
-tldr: 'Authors: Sergey Kanzhelev (Google), Elana Hashman (Red Hat) Ensuring the reliability
-  of SIG Node upstream code is a continuous effort that takes a lot of behind-the-scenes
-  effort from many contributors. There are frequent releases of Kubernetes, base operating
-  systems, container runtimes, and test infrastructure that result in a complex matrix
-  that requires attention and steady investment to “keep the lights on.'
-summary: 'Authors: Sergey Kanzhelev (Google), Elana Hashman (Red Hat) Ensuring the
+tldr: 'SIG Node CI Subproject Celebrates Two Years of Test Improvements Timeline Statistics
+  Future Authors: Sergey Kanzhelev (Google), Elana Hashman (Red Hat) Ensuring the
   reliability of SIG Node upstream code is a continuous effort that takes a lot of
   behind-the-scenes effort from many contributors. There are frequent releases of
   Kubernetes, base operating systems, container runtimes, and test infrastructure
+  that result in a complex matrix that requires attention and steady investment to
+  “keep the lights on.'
+summary: 'SIG Node CI Subproject Celebrates Two Years of Test Improvements Timeline
+  Statistics Future Authors: Sergey Kanzhelev (Google), Elana Hashman (Red Hat) Ensuring
+  the reliability of SIG Node upstream code is a continuous effort that takes a lot
+  of behind-the-scenes effort from many contributors. There are frequent releases
+  of Kubernetes, base operating systems, container runtimes, and test infrastructure
   that result in a complex matrix that requires attention and steady investment to
   “keep the lights on. ” In May 2020, the Kubernetes node special interest group (“SIG
   Node”) organized a new subproject for continuous integration (CI) for node-related

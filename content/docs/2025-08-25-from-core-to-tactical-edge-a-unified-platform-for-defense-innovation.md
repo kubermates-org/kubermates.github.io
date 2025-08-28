@@ -7,16 +7,27 @@ source: Redhat Blog
 external_url: https://www.redhat.com/en/blog/core-tactical-edge-unified-platform-defense-innovation
 post_kind: link
 draft: false
-tldr: Share Driven by the need for agility, security, and sovereignty, the defence
-  sector is undergoing a rapid digital transformation. Military organizations are
-  increasingly operating across a hybrid infrastructure, spanning the strategic core,
-  deployed edge, and tactical edge, while maintaining absolute control over their
-  systems.
-summary: Share Driven by the need for agility, security, and sovereignty, the defence
-  sector is undergoing a rapid digital transformation. Military organizations are
-  increasingly operating across a hybrid infrastructure, spanning the strategic core,
-  deployed edge, and tactical edge, while maintaining absolute control over their
-  systems. However, this evolution presents significant challenges, from siloed technologies
+tldr: 'From core to tactical edge: A unified platform for defense innovation The rise
+  of edge computing Key challenges in defence digital transformation Proven use cases
+  in defence Sovereignty, systems security, and speed Red Hat Learning Subscription
+  | Product Trial About the author Giuseppe Magnotta More like this Blog post Blog
+  post Blog post Keep exploring Browse by channel Automation Artificial intelligence
+  Open hybrid cloud Security Edge computing Infrastructure Applications Virtualization
+  Share Driven by the need for agility, security, and sovereignty, the defence sector
+  is undergoing a rapid digital transformation. Military organizations are increasingly
+  operating across a hybrid infrastructure, spanning the strategic core, deployed
+  edge, and tactical edge, while maintaining absolute control over their systems.'
+summary: 'From core to tactical edge: A unified platform for defense innovation The
+  rise of edge computing Key challenges in defence digital transformation Proven use
+  cases in defence Sovereignty, systems security, and speed Red Hat Learning Subscription
+  | Product Trial About the author Giuseppe Magnotta More like this Blog post Blog
+  post Blog post Keep exploring Browse by channel Automation Artificial intelligence
+  Open hybrid cloud Security Edge computing Infrastructure Applications Virtualization
+  Share Driven by the need for agility, security, and sovereignty, the defence sector
+  is undergoing a rapid digital transformation. Military organizations are increasingly
+  operating across a hybrid infrastructure, spanning the strategic core, deployed
+  edge, and tactical edge, while maintaining absolute control over their systems.
+  However, this evolution presents significant challenges, from siloed technologies
   to cybersecurity threats. Defence organizations must navigate these obstacles by
   adopting a unified platform approach, leveraging an open framework based on open
   standards to strengthen autonomy, security, and seamless operations across all environments.
@@ -35,6 +46,6 @@ summary: Share Driven by the need for agility, security, and sovereignty, the de
   processing intelligence and supporting AI workloads. Meanwhile, the tactical edge
   encompasses lightweight, ruggedized devices such as drones, autonomous vehicles,
   and soldier-worn systems that can collect, analyse, and act on data in real time,
-  often completely disconnected from central networks.
+  often completely disconnected from central networks.'
 ---
 Open the original post ↗ https://www.redhat.com/en/blog/core-tactical-edge-unified-platform-defense-innovation

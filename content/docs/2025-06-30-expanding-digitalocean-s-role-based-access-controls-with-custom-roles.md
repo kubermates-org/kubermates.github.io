@@ -7,11 +7,23 @@ source: Digital Ocean
 external_url: https://www.digitalocean.com/blog/introducing-custom-roles
 post_kind: link
 draft: false
-tldr: By Nicole Ghalwash Today, we are excited to announce our latest Role-Based Access
-  Control (RBAC) feature, custom roles. With custom roles, teams can now assign permissions
-  to individuals that are precisely aligned with their operational and security requirements,
-  reinforcing the principle of least privilege.
-summary: "By Nicole Ghalwash Today, we are excited to announce our latest Role-Based\
+tldr: "Expanding DigitalOceanâ\x80\x99s Role-Based Access Controls with custom roles\
+  \ What are custom roles? Key features of custom roles When to use custom roles vs.\
+  \ predefined roles How custom roles benefit your team Resources to get started About\
+  \ the author Try DigitalOcean for free Related Articles Announcing OpenAI gpt-oss\
+  \ Models on the DigitalOcean Gradientâ\x84¢ AI Platform Build smarter AI agents:\
+  \ new tools now available for the DigitalOcean Gradientâ\x84¢ AI Platform Introducing\
+  \ GPU Droplets accelerated by NVIDIA HGX H200 By Nicole Ghalwash Published: June\
+  \ 30, 2025 4 min read Today, we are excited to announce our latest Role-Based Access\
+  \ Control (RBAC) feature, custom roles."
+summary: "Expanding DigitalOceanâ\x80\x99s Role-Based Access Controls with custom\
+  \ roles What are custom roles? Key features of custom roles When to use custom roles\
+  \ vs. predefined roles How custom roles benefit your team Resources to get started\
+  \ About the author Try DigitalOcean for free Related Articles Announcing OpenAI\
+  \ gpt-oss Models on the DigitalOcean Gradientâ\x84¢ AI Platform Build smarter AI\
+  \ agents: new tools now available for the DigitalOcean Gradientâ\x84¢ AI Platform\
+  \ Introducing GPU Droplets accelerated by NVIDIA HGX H200 By Nicole Ghalwash Published:\
+  \ June 30, 2025 4 min read Today, we are excited to announce our latest Role-Based\
   \ Access Control (RBAC) feature, custom roles. With custom roles, teams can now\
   \ assign permissions to individuals that are precisely aligned with their operational\
   \ and security requirements, reinforcing the principle of least privilege. This\
@@ -27,8 +39,6 @@ summary: "By Nicole Ghalwash Today, we are excited to announce our latest Role-B
   \ (like Viewer, Billing Viewer, etc. ) that may not work for you. Now, users can\
   \ define more detailed custom permissions that target specific resources and needs.\
   \ For example, a user may only need read access to Droplets, but write access to\
-  \ Kubernetes. Hear what a DigitalOcean customer had to say about using custom roles.\
-  \ This customer is a Co-founder of a revenue management company: â\x80\x9CCustom\
-  \ roles helped me bring my team onto the platform without granting blanket access."
+  \ Kubernetes. Hear what a DigitalOcean customer had to say about using custom roles."
 ---
 Open the original post ↗ https://www.digitalocean.com/blog/introducing-custom-roles

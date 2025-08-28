@@ -8,23 +8,20 @@ source: KodeKloud Blog (Kubernetes)
 external_url: https://kodekloud.com/blog/quick-fixes-for-common-kubernetes-issues/
 post_kind: link
 draft: false
-tldr: If you’ve ever used Kubernetes in a real-world project, you've probably hit
-  an error that made no sense at first glance — a Pod stuck restarting, a Service
-  not routing traffic, or your app mysteriously vanishing from the internet. The good
-  news? You’re not alone.
-summary: 'If you’ve ever used Kubernetes in a real-world project, you''ve probably
-  hit an error that made no sense at first glance — a Pod stuck restarting, a Service
-  not routing traffic, or your app mysteriously vanishing from the internet. The good
-  news? You’re not alone. This guide walks you through the most common Kubernetes
-  problems developers and DevOps teams face — and more importantly, how to fix them
-  quickly. Whether you''re new to Kubernetes or scaling your first production app,
-  consider this your essential cheat sheet. Symptoms: Your Pod starts, crashes, restarts,
-  and repeats the loop. Why it happens: How to fix it: Pro Tip: If your app needs
-  time to boot, adjust initialDelaySeconds in your probe. Symptoms: Your Pod stays
-  in Pending status forever. Why it happens: How to fix it: Look for reasons like
-  Insufficient CPU. Symptoms: You created a Service, but can’t reach your app. Why
-  it happens: How to fix it: If it shows <none> , your Service isn’t routing to any
-  Pods. Symptoms: Pod never gets created due to image pulling failure. Why it happens:
-  How to fix it: Then reference it in your Pod spec.'
+tldr: 1. CrashLoopBackOff — The Pod That Won’t Stay Alive 2.
+summary: '1. CrashLoopBackOff — The Pod That Won’t Stay Alive 2. Pending Pods — Scheduling
+  Never Happens 3. Service Not Routing to Pods 4. ImagePullBackOff / ErrImagePull
+  — Container Won’t Start 5. Deployment Rollout Stuck 6. Secrets Visible in YAML —
+  A Security Misstep 7. Port Forwarding Doesn’t Work 8. RBAC: Access Denied Quick
+  Commands for Any Issue Final Thoughts: Embrace the Errors Exploring System Architecture
+  for DevOps Engineers Why KubeCon India 2025 Meant More to KodeKloud Linux: List
+  Disks Linux: "cat" Command Linux Made Easy for DevOps Beginners From CFP to Stage:
+  Win Your Tech Talk Slot MCP Explained Simply: How AI Can Actually Do Things Now
+  Still Not Job-Ready After Learning DevOps? What Is Kubernetes? Finally, a Simple
+  Explanation! The good news? You’re not alone. This guide walks you through the most
+  common Kubernetes problems developers and DevOps teams face — and more importantly,
+  how to fix them quickly. Whether you''re new to Kubernetes or scaling your first
+  production app, consider this your essential cheat sheet. Symptoms: Your Pod starts,
+  crashes, restarts, and repeats the loop.'
 ---
 Open the original post ↗ https://kodekloud.com/blog/quick-fixes-for-common-kubernetes-issues/

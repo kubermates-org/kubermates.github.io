@@ -7,8 +7,10 @@ source: Rancher (Manager) Releases
 external_url: https://github.com/rancher/rancher/releases/tag/v2.10.9-alpha2
 post_kind: release
 draft: false
-tldr: There was an error while loading. Please reload this page.
-summary: There was an error while loading. Please reload this page. There was an error
-  while loading. Please reload this page.
+tldr: Pre-release v2. 10.
+summary: 'Pre-release v2. 10. 9-alpha2 Uh oh! Notifications Fork 3. 1k Star 24. 6k
+  35ce6da Update Dashboard refs to v2. 10. 9-alpha2 (#51618) Signed-off-by: github-actions[bot]
+  <41898282+github-actions[bot]@users. noreply. github. com> Co-authored-by: github-actions[bot]
+  <41898282+github-actions[bot]@users. noreply. github.'
 ---
 Open the original post ↗ https://github.com/rancher/rancher/releases/tag/v2.10.9-alpha2

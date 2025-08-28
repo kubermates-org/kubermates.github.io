@@ -8,24 +8,16 @@ source: KodeKloud Blog (Kubernetes)
 external_url: https://kodekloud.com/blog/kubernetes-1-33-top-5-features-of-octarine/
 post_kind: link
 draft: false
-tldr: The wait is over— Kubernetes 1. 33 has officially arrived, and it’s packed with
-  magical new improvements for developers and operators alike.
-summary: 'The wait is over— Kubernetes 1. 33 has officially arrived, and it’s packed
-  with magical new improvements for developers and operators alike. Code-named “Octarine”
-  , a nod to the mythical “color of magic” from Terry Pratchett’s Discworld novels,
-  this release continues Kubernetes’ steady momentum of delivering a scalable, secure,
-  and developer-friendly container orchestration platform. According to the official
-  Kubernetes announcement , Kubernetes 1. 33 is all about pushing boundaries while
-  making life easier for everyone working with Kubernetes in production environments.
-  Whether you’re running massive enterprise workloads or experimenting in a dev cluster,
-  this version has something for you. Kubernetes 1. 33 includes a total of 64 enhancements
-  , breaking down as follows: This broad set of updates signals ongoing investments
-  across the project’s key pillars: performance, scalability, security, extensibility,
-  and usability. With such a packed release, it’s easy to get lost in the full changelog.
-  That’s why we’ve focused this overview on the five most important and popular features
-  that developers and operators are most excited about. From long-awaited capabilities
-  that boost cluster scaling and tighten security , to much-needed quality-of-life
-  improvements for everyday Kubernetes usage, the Kubernetes 1. 33 “Octarine” release
-  delivers on all fronts.'
+tldr: A Closer Look at the Release Stats What You’ll Learn in This Post 1. Sidecar
+  Containers Graduate to Stable The Problem (Before) What’s New in Kubernetes 1.
+summary: 'A Closer Look at the Release Stats What You’ll Learn in This Post 1. Sidecar
+  Containers Graduate to Stable The Problem (Before) What’s New in Kubernetes 1. 33
+  Why It Matters 2. In-Place Pod Vertical Scaling (Beta) The Problem (Before) What’s
+  New in Kubernetes 1. 33 How to Use It Why It Matters 3. OCI Artifact & Image Volumes
+  (Beta) The Problem (Before) What’s New in Kubernetes 1. 33 The Benefits Why It Matters
+  4. User Namespaces for Pods (Security Beta) The Problem (Before) What’s New in Kubernetes
+  1. 33 How It Works & Usage Why It Matters 5. kubectl. kuberc Configuration (Alpha)
+  The Problem (Before) What’s New in Kubernetes 1. 33 How It Works & Usage Why It
+  Matters Wrapping Up: Kubernetes 1.'
 ---
 Open the original post ↗ https://kodekloud.com/blog/kubernetes-1-33-top-5-features-of-octarine/

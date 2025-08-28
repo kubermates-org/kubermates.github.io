@@ -7,15 +7,25 @@ source: EKS Release Notes
 external_url: https://docs.aws.amazon.com/eks/latest/userguide/update-cluster.html#update-cluster-control-plane
 post_kind: release
 draft: false
-tldr: Help improve this page To contribute to this user guide, choose the Edit this
-  page on GitHub link that is located in the right pane of every page. When a new
-  Kubernetes version is available in Amazon EKS, you can update your Amazon EKS cluster
-  to the latest version.
-summary: "Help improve this page To contribute to this user guide, choose the Edit\
-  \ this page on GitHub link that is located in the right pane of every page. When\
-  \ a new Kubernetes version is available in Amazon EKS, you can update your Amazon\
-  \ EKS cluster to the latest version. Once you upgrade a cluster, you canâ\x80\x99\
-  t downgrade to a previous version. Before you update to a new Kubernetes version,\
+tldr: 'Update existing cluster to new Kubernetes version Considerations for Amazon
+  EKS Auto Mode Summary Step 1: Prepare for upgrade Step 2: Review upgrade considerations
+  Review upgrade insights Detailed considerations Step 3: Update cluster control plane
+  Update cluster - eksctl Update cluster - AWS console Update cluster - AWS CLI Step
+  4: Update cluster components Downgrade the Kubernetes version for an Amazon EKS
+  cluster Help improve this page To contribute to this user guide, choose the Edit
+  this page on GitHub link that is located in the right pane of every page. When a
+  new Kubernetes version is available in Amazon EKS, you can update your Amazon EKS
+  cluster to the latest version.'
+summary: "Update existing cluster to new Kubernetes version Considerations for Amazon\
+  \ EKS Auto Mode Summary Step 1: Prepare for upgrade Step 2: Review upgrade considerations\
+  \ Review upgrade insights Detailed considerations Step 3: Update cluster control\
+  \ plane Update cluster - eksctl Update cluster - AWS console Update cluster - AWS\
+  \ CLI Step 4: Update cluster components Downgrade the Kubernetes version for an\
+  \ Amazon EKS cluster Help improve this page To contribute to this user guide, choose\
+  \ the Edit this page on GitHub link that is located in the right pane of every page.\
+  \ When a new Kubernetes version is available in Amazon EKS, you can update your\
+  \ Amazon EKS cluster to the latest version. Once you upgrade a cluster, you canâ\x80\
+  \x99t downgrade to a previous version. Before you update to a new Kubernetes version,\
   \ we recommend that you review the information in Understand the Kubernetes version\
   \ lifecycle on EKS and the update steps in this topic. New Kubernetes versions sometimes\
   \ introduce significant changes. Therefore, we recommend that you test the behavior\

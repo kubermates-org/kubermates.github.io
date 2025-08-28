@@ -8,30 +8,21 @@ source: KodeKloud Blog (Kubernetes)
 external_url: https://kodekloud.com/blog/why-kubecon-india-2025-meant-more-to-kodekloud/
 post_kind: link
 draft: false
-tldr: That big queue at your booth? Brilliant. It’s exactly what KodeKloud is about.
-summary: 'That big queue at your booth? Brilliant. It’s exactly what KodeKloud is
-  about. When attendees, speakers, and industry peers tell you that at KubeCon India,
-  it’s a clear sign that what KodeKloud is doing is making a real impact. For KodeKloud,
-  KubeCon India 2025 was more than a tech conference. It was a celebration of community,
-  connection, and the power of practical learning in the Cloud Native space. From
-  conversations with global leaders to meeting hundreds of learners face-to-face,
-  this year meant more than ever before. One of the proudest moments for us at KubeCon
-  India 2025 was standing alongside the Cloud Native Computing Foundation (CNCF) and
-  the Linux Foundation Education team to announce a new initiative tailored specifically
-  for learners in India. This partnership is designed to make Cloud Native certifications
-  more accessible, affordable, and achievable in the region through: KodeKloud – Linux
-  Foundation Partnership for Localized Certification Payment Click to learn more and
-  explore our partnership → For us at KodeKloud, this is about much more than payments
-  - it’s about removing barriers that keep talented engineers from reaching their
-  potential. India is home to some of the most passionate DevOps and Cloud Native
-  professionals in the world, and now, more of them will have a clear, affordable
-  pathway to earning globally recognized certifications. The announcement was made
-  live at KubeCon, with CNCF and Linux Foundation leaders sharing the stage - a powerful
-  reminder that when communities and education providers work together, opportunities
-  multiply. One of the standout moments was when Mumshad Mannambeth , KodeKloud’s
-  founder, met Chris Aniszczyk , the CTO of the Cloud Native Computing Foundation
-  (CNCF). Their conversation touched on: It was a meeting of minds that reflected
-  exactly what KubeCon stands for - collaboration, knowledge-sharing, and driving
-  the industry forward together.'
+tldr: '1. A Landmark Partnership for India: CNCF + KodeKloud + Linux Foundation 2.'
+summary: '1. A Landmark Partnership for India: CNCF + KodeKloud + Linux Foundation
+  2. A Special Conversation: Mumshad Meets Chris Aniszczyk, CTO of CNCF 3. Book Signing:
+  Knowledge Meets Connection 4. Meeting the Faces Behind the Screens 5. Why KubeCon
+  is a Networking Goldmine for Tech Professionals 6. Key Takeaways for Our Community
+  Closing the Loop: Why This Year Matters Exploring System Architecture for DevOps
+  Engineers Linux: List Disks Linux: "cat" Command Linux Made Easy for DevOps Beginners
+  From CFP to Stage: Win Your Tech Talk Slot MCP Explained Simply: How AI Can Actually
+  Do Things Now Still Not Job-Ready After Learning DevOps? What Is Kubernetes? Finally,
+  a Simple Explanation! Brilliant. It’s exactly what KodeKloud is about. When attendees,
+  speakers, and industry peers tell you that at KubeCon India, it’s a clear sign that
+  what KodeKloud is doing is making a real impact. For KodeKloud, KubeCon India 2025
+  was more than a tech conference. It was a celebration of community, connection,
+  and the power of practical learning in the Cloud Native space. From conversations
+  with global leaders to meeting hundreds of learners face-to-face, this year meant
+  more than ever before.'
 ---
 Open the original post ↗ https://kodekloud.com/blog/why-kubecon-india-2025-meant-more-to-kodekloud/

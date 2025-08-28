@@ -8,12 +8,22 @@ source: AWS Containers Blog (EKS)
 external_url: https://aws.amazon.com/blogs/containers/migrate-to-amazon-eks-data-plane-cost-modeling-with-karpenter-and-kwok/
 post_kind: link
 draft: false
-tldr: 'When migrating Kubernetes clusters to Amazon Elastic Kubernetes Service (Amazon
-  EKS) , organizations typically follow three phases: assessment, mobilize, and migrate
-  and modernize. The assessment phase involves evaluating technical feasibility for
-  Amazon EKS workloads, analyzing current Kubernetes environments, identifying compatibility
-  issues, estimating costs, and determining timelines with business impact considerations.'
-summary: 'When migrating Kubernetes clusters to Amazon Elastic Kubernetes Service
+tldr: 'Migrate to Amazon EKS: Data plane cost modeling with Karpenter and KWOK Solution
+  overview Solution walkthrough Prerequisites Step 1: Create the source EKS cluster
+  Step 2: Deploy an example workload Step 3: Extract cluster configuration with Velero
+  Step 4: Create the destination EKS cluster Step 5: Deploy Karpenter with the KWOK
+  provider Step 6: Restore the backup Clean up Conclusion About the authors When migrating
+  Kubernetes clusters to Amazon Elastic Kubernetes Service (Amazon EKS) , organizations
+  typically follow three phases: assessment, mobilize, and migrate and modernize.
+  The assessment phase involves evaluating technical feasibility for Amazon EKS workloads,
+  analyzing current Kubernetes environments, identifying compatibility issues, estimating
+  costs, and determining timelines with business impact considerations.'
+summary: 'Migrate to Amazon EKS: Data plane cost modeling with Karpenter and KWOK
+  Solution overview Solution walkthrough Prerequisites Step 1: Create the source EKS
+  cluster Step 2: Deploy an example workload Step 3: Extract cluster configuration
+  with Velero Step 4: Create the destination EKS cluster Step 5: Deploy Karpenter
+  with the KWOK provider Step 6: Restore the backup Clean up Conclusion About the
+  authors When migrating Kubernetes clusters to Amazon Elastic Kubernetes Service
   (Amazon EKS) , organizations typically follow three phases: assessment, mobilize,
   and migrate and modernize. The assessment phase involves evaluating technical feasibility
   for Amazon EKS workloads, analyzing current Kubernetes environments, identifying

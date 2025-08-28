@@ -7,15 +7,41 @@ source: EKS Release Notes
 external_url: https://docs.aws.amazon.com/eks/latest/userguide/security-iam-awsmanpol.html#security-iam-awsmanpol-updates
 post_kind: release
 draft: false
-tldr: Help improve this page To contribute to this user guide, choose the Edit this
-  page on GitHub link that is located in the right pane of every page. An AWS managed
-  policy is a standalone policy that is created and administered by AWS.
-summary: "Help improve this page To contribute to this user guide, choose the Edit\
-  \ this page on GitHub link that is located in the right pane of every page. An AWS\
-  \ managed policy is a standalone policy that is created and administered by AWS.\
-  \ AWS managed policies are designed to provide permissions for many common use cases\
-  \ so that you can start assigning permissions to users, groups, and roles. Keep\
-  \ in mind that AWS managed policies might not grant least-privilege permissions\
+tldr: 'AWS managed policies for Amazon Elastic Kubernetes Service AWS managed policy:
+  AmazonEKS_CNI_Policy AWS managed policy: AmazonEKSClusterPolicy AWS managed policy:
+  AmazonEKSDashboardConsoleReadOnly AWS managed policy: AmazonEKSFargatePodExecutionRolePolicy
+  AWS managed policy: AmazonEKSForFargateServiceRolePolicy AWS managed policy: AmazonEKSComputePolicy
+  Permissions details AWS managed policy: AmazonEKSNetworkingPolicy Permissions details
+  AWS managed policy: AmazonEKSBlockStoragePolicy Permissions details AWS managed
+  policy: AmazonEKSLoadBalancingPolicy Permissions details AWS managed policy: AmazonEKSServicePolicy
+  AWS managed policy: AmazonEKSServiceRolePolicy AWS managed policy: AmazonEKSVPCResourceController
+  AWS managed policy: AmazonEKSWorkerNodePolicy AWS managed policy: AmazonEKSWorkerNodeMinimalPolicy
+  AWS managed policy: AWSServiceRoleForAmazonEKSNodegroup AWS managed policy: AmazonEKSDashboardServiceRolePolicy
+  AWS managed policy: AmazonEBSCSIDriverPolicy AWS managed policy: AmazonEFSCSIDriverPolicy
+  AWS managed policy: AmazonEKSLocalOutpostClusterPolicy AWS managed policy: AmazonEKSLocalOutpostServiceRolePolicy
+  Amazon EKS updates to AWS managed policies Help improve this page To contribute
+  to this user guide, choose the Edit this page on GitHub link that is located in
+  the right pane of every page. An AWS managed policy is a standalone policy that
+  is created and administered by AWS.'
+summary: "AWS managed policies for Amazon Elastic Kubernetes Service AWS managed policy:\
+  \ AmazonEKS_CNI_Policy AWS managed policy: AmazonEKSClusterPolicy AWS managed policy:\
+  \ AmazonEKSDashboardConsoleReadOnly AWS managed policy: AmazonEKSFargatePodExecutionRolePolicy\
+  \ AWS managed policy: AmazonEKSForFargateServiceRolePolicy AWS managed policy: AmazonEKSComputePolicy\
+  \ Permissions details AWS managed policy: AmazonEKSNetworkingPolicy Permissions\
+  \ details AWS managed policy: AmazonEKSBlockStoragePolicy Permissions details AWS\
+  \ managed policy: AmazonEKSLoadBalancingPolicy Permissions details AWS managed policy:\
+  \ AmazonEKSServicePolicy AWS managed policy: AmazonEKSServiceRolePolicy AWS managed\
+  \ policy: AmazonEKSVPCResourceController AWS managed policy: AmazonEKSWorkerNodePolicy\
+  \ AWS managed policy: AmazonEKSWorkerNodeMinimalPolicy AWS managed policy: AWSServiceRoleForAmazonEKSNodegroup\
+  \ AWS managed policy: AmazonEKSDashboardServiceRolePolicy AWS managed policy: AmazonEBSCSIDriverPolicy\
+  \ AWS managed policy: AmazonEFSCSIDriverPolicy AWS managed policy: AmazonEKSLocalOutpostClusterPolicy\
+  \ AWS managed policy: AmazonEKSLocalOutpostServiceRolePolicy Amazon EKS updates\
+  \ to AWS managed policies Help improve this page To contribute to this user guide,\
+  \ choose the Edit this page on GitHub link that is located in the right pane of\
+  \ every page. An AWS managed policy is a standalone policy that is created and administered\
+  \ by AWS. AWS managed policies are designed to provide permissions for many common\
+  \ use cases so that you can start assigning permissions to users, groups, and roles.\
+  \ Keep in mind that AWS managed policies might not grant least-privilege permissions\
   \ for your specific use cases because theyâ\x80\x99re available for all AWS customers\
   \ to use. We recommend that you reduce permissions further by defining customer\
   \ managed policies that are specific to your use cases. You cannot change the permissions\

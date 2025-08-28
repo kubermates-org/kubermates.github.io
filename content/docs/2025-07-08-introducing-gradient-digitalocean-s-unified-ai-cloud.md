@@ -7,12 +7,24 @@ source: Digital Ocean
 external_url: https://www.digitalocean.com/blog/introducing-digitalocean-gradient
 post_kind: link
 draft: false
-tldr: "By Bratin Saha At DigitalOcean, weâ\x80\x99ve always focused on delivering\
+tldr: "Introducing Gradient: DigitalOceanâ\x80\x99s Unified AI Cloud Why DigitalOcean\
+  \ Gradient? Whatâ\x80\x99s Included What You Can Expect Whatâ\x80\x99s Next Get\
+  \ Started Today About the author Try DigitalOcean for free Related Articles Announcing\
+  \ OpenAI gpt-oss Models on the DigitalOcean Gradientâ\x84¢ AI Platform Build smarter\
+  \ AI agents: new tools now available for the DigitalOcean Gradientâ\x84¢ AI Platform\
+  \ Introducing GPU Droplets accelerated by NVIDIA HGX H200 By Bratin Saha Updated:\
+  \ July 30, 2025 3 min read At DigitalOcean, weâ\x80\x99ve always focused on delivering\
   \ simple, powerful infrastructure that helps digital native enterprises build and\
   \ scale their applications. Over the past year, weâ\x80\x99ve extended that commitment\
   \ into the AI space by investing in compute, tooling, and workflows that make it\
   \ easier to build with AI from the ground up."
-summary: "By Bratin Saha At DigitalOcean, weâ\x80\x99ve always focused on delivering\
+summary: "Introducing Gradient: DigitalOceanâ\x80\x99s Unified AI Cloud Why DigitalOcean\
+  \ Gradient? Whatâ\x80\x99s Included What You Can Expect Whatâ\x80\x99s Next Get\
+  \ Started Today About the author Try DigitalOcean for free Related Articles Announcing\
+  \ OpenAI gpt-oss Models on the DigitalOcean Gradientâ\x84¢ AI Platform Build smarter\
+  \ AI agents: new tools now available for the DigitalOcean Gradientâ\x84¢ AI Platform\
+  \ Introducing GPU Droplets accelerated by NVIDIA HGX H200 By Bratin Saha Updated:\
+  \ July 30, 2025 3 min read At DigitalOcean, weâ\x80\x99ve always focused on delivering\
   \ simple, powerful infrastructure that helps digital native enterprises build and\
   \ scale their applications. Over the past year, weâ\x80\x99ve extended that commitment\
   \ into the AI space by investing in compute, tooling, and workflows that make it\
@@ -35,7 +47,9 @@ summary: "By Bratin Saha At DigitalOcean, weâ\x80\x99ve always focused on deliv
   \ youâ\x80\x99re experimenting with foundation models, building intelligent agents,\
   \ or deploying production workloads at scale, DigitalOcean Gradient is your end-to-end\
   \ AI cloud. With DigitalOcean Gradient, weâ\x80\x99re unifying our AI offerings\
-  \ under one umbrella to make them easier to discover, adopt, and scale: If youâ\x80\
-  \x99re already building with our AI tools, thereâ\x80\x99s nothing you need to change."
+  \ under one umbrella to make them easier to discover, adopt, and scale: DigitalOcean\
+  \ Gradient Infrastructure: Building blocks like GPU Droplets, Bare Metal GPUs, vector\
+  \ databases, and DO optimized software that helps improve model performance and\
+  \ infrastructure scale out."
 ---
 Open the original post ↗ https://www.digitalocean.com/blog/introducing-digitalocean-gradient

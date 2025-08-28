@@ -8,23 +8,29 @@ source: Kubeflow Blog
 external_url: https://blog.kubeflow.org/kubeflow-1.9-release/
 post_kind: link
 draft: false
-tldr: Jul 22, 2024 • Kubeflow 1. 9 Release Team, Stefano Fioravanzo • 11 min read
-  release Kubeflow 1.
-summary: 'Jul 22, 2024 • Kubeflow 1. 9 Release Team, Stefano Fioravanzo • 11 min read
-  release Kubeflow 1. 9 significantly simplifies the development, tuning and management
-  of secure machine learning models and LLMs. Highlights include: These updates aim
-  to simplify workflows, improve integration dependencies, and provide Kubernetes-native
-  operational efficiencies for enterprise scale, security, and isolation. A model
-  registry provides a central catalog for ML model developers to index and manage
-  models, versions, and ML artifacts metadata. It fills a gap between model experimentation
-  and production activities. It provides a central interface for all stakeholders
-  in the ML lifecycle to collaborate on ML models. Model registry has been asked by
-  the community for a long time and we are delighted to introduce it to the Kubeflow
-  ecosystem. This initial release includes REST APIs and a Python SDK to track model
-  artifacts and model metadata with a standardized format that can be reused across
-  Kubeflow components, such as to deploy Inference Servers. You can get started by
-  following the Model Registry tutorial on the Kubeflow website , or see a short demo
-  video of the Model Registry in action. We are just getting started. This is an Alpha
-  version and we look forward to feedback.'
+tldr: Model Registry Fine-Tune APIs for LLMs Pipelines v1 Feature Parity Argo Workflows
+  and Tekton Backends Consolidation Argo Workflows Upgrade Katib Central Dashboard
+  Notebooks Kubeflow Platform (Security and Manifests) Security Manifests KServe Documentation
+  Honorable Mentions Google Spark Operator migration to Kubeflow Google Summer of
+  Code What’s next How to get started with 1. 9 Join the Community Want to help? Kubeflow
+  1.
+summary: 'Model Registry Fine-Tune APIs for LLMs Pipelines v1 Feature Parity Argo
+  Workflows and Tekton Backends Consolidation Argo Workflows Upgrade Katib Central
+  Dashboard Notebooks Kubeflow Platform (Security and Manifests) Security Manifests
+  KServe Documentation Honorable Mentions Google Spark Operator migration to Kubeflow
+  Google Summer of Code What’s next How to get started with 1. 9 Join the Community
+  Want to help? Kubeflow 1. 9 significantly simplifies the development, tuning and
+  management of secure machine learning models and LLMs. Highlights include: Model
+  Registry : Centralized management for ML models, versions, and artifacts. Fine-Tune
+  APIs for LLMs : Simplifies fine-tuning of LLMs with custom datasets. Pipelines :
+  Consolidation of Tekton and Argo Workflows backends for improved flexibility. Security
+  Enhancements : Network policies, Oauth2-proxy, and CVE scanning. Integration Upgrades
+  : Improved integrations with Ray, Seldon, BentoML, and KServe for LLM GPU optimizations.
+  Installation and Documentation : Streamlined installation, updated platform dependencies,
+  and enhanced documentation. These updates aim to simplify workflows, improve integration
+  dependencies, and provide Kubernetes-native operational efficiencies for enterprise
+  scale, security, and isolation. A model registry provides a central catalog for
+  ML model developers to index and manage models, versions, and ML artifacts metadata.
+  It fills a gap between model experimentation and production activities.'
 ---
 Open the original post ↗ https://blog.kubeflow.org/kubeflow-1.9-release/

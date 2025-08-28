@@ -7,25 +7,32 @@ source: Tigera
 external_url: https://www.tigera.io/blog/a-detailed-look-at-calico-cloud-free-tier/
 post_kind: link
 draft: false
-tldr: As Kubernetes environments grow in scale and complexity, platform teams face
-  increasing pressure to secure workloads without slowing down application delivery.
-  But managing and enforcing network policies in Kubernetes is notoriously difficult—especially
-  when visibility into pod-to-pod communication is limited or nonexistent.
-summary: 'As Kubernetes environments grow in scale and complexity, platform teams
-  face increasing pressure to secure workloads without slowing down application delivery.
-  But managing and enforcing network policies in Kubernetes is notoriously difficult—especially
-  when visibility into pod-to-pod communication is limited or nonexistent. Teams are
-  often forced to rely on manual traffic inspection, standalone logs, or trial-and-error
-  policy changes, increasing the risk of misconfiguration and service disruption.
-  Safe policy management and microsegmentation becomes a daunting task without clear
-  knowledge or insight into which services should communicate with each other. In
-  this detailed look, we’ll explore how Calico Cloud Free Tier builds upon Calico
-  Open Source , and helps platform teams visualize traffic with a dynamic service
-  graph, simplifies policy management, and even analyzes actual traffic to recommend
-  policies. Calico Cloud Free Tier is a managed SaaS, no-cost offering that extends
-  the capabilities of Calico Open Source 3. 30 and higher to help Kubernetes teams
-  improve network visibility, simplify policy management, and improve security by
-  simplifying microsegmentation. Designed for single-cluster environments, it provides
+tldr: Why Calico Cloud Free Tier? What is Calico Cloud Free Tier? Enhanced Observability
+  Simplified Microsegmentation Intuitive Dashboards Intelligent Policy Recommendations
+  Seamless Path to Calico Cloud Free Tier How Calico Cloud Free Tier Enhances Calico
+  Open Source Conclusion As Kubernetes environments grow in scale and complexity,
+  platform teams face increasing pressure to secure workloads without slowing down
+  application delivery. But managing and enforcing network policies in Kubernetes
+  is notoriously difficult—especially when visibility into pod-to-pod communication
+  is limited or nonexistent.
+summary: 'Why Calico Cloud Free Tier? What is Calico Cloud Free Tier? Enhanced Observability
+  Simplified Microsegmentation Intuitive Dashboards Intelligent Policy Recommendations
+  Seamless Path to Calico Cloud Free Tier How Calico Cloud Free Tier Enhances Calico
+  Open Source Conclusion As Kubernetes environments grow in scale and complexity,
+  platform teams face increasing pressure to secure workloads without slowing down
+  application delivery. But managing and enforcing network policies in Kubernetes
+  is notoriously difficult—especially when visibility into pod-to-pod communication
+  is limited or nonexistent. Teams are often forced to rely on manual traffic inspection,
+  standalone logs, or trial-and-error policy changes, increasing the risk of misconfiguration
+  and service disruption. Safe policy management and microsegmentation becomes a daunting
+  task without clear knowledge or insight into which services should communicate with
+  each other. In this detailed look, we’ll explore how Calico Cloud Free Tier builds
+  upon Calico Open Source , and helps platform teams visualize traffic with a dynamic
+  service graph, simplifies policy management, and even analyzes actual traffic to
+  recommend policies. Calico Cloud Free Tier is a managed SaaS, no-cost offering that
+  extends the capabilities of Calico Open Source 3. 30 and higher to help Kubernetes
+  teams improve network visibility, simplify policy management, and improve security
+  by simplifying microsegmentation. Designed for single-cluster environments, it provides
   platform engineers and operators with powerful observability and policy management
   tools. With a seamless onboarding experience for users already running Calico Open
   Source 3. 30 or higher, Calico Cloud Free Tier empowers teams to take control of
