@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Containers on Kubermates</title><link>https://kubermates.org/tags/containers/</link><description>Recent content in Containers on Kubermates</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 29 Aug 2024 08:25:36 +0000</lastBuildDate><atom:link href="https://kubermates.org/tags/containers/index.xml" rel="self" type="application/rss+xml"/><item><title>🚀 Building a Kubernetes Operator with an NGINX CRD</title><link>https://kubermates.org/blog/building-a-kubernetes-operator-with-an-nginx-crd-3lil/</link><pubDate>Thu, 29 Aug 2024 08:25:36 +0000</pubDate><guid>https://kubermates.org/blog/building-a-kubernetes-operator-with-an-nginx-crd-3lil/</guid><description>&lt;p>Kubernetes is a powerful platform that automates the deployment, scaling, and management of containerized applications. One of the coolest features of Kubernetes is its ability to be extended with &lt;strong>Custom Resource Definitions (CRDs)&lt;/strong> and &lt;strong>Operators&lt;/strong>. In this guide, we&amp;rsquo;ll build a simple Kubernetes operator using an NGINX CRD to manage NGINX instances in your cluster.&lt;/p>
-&lt;h3 id="-understanding-kubernetes-controllers-operators-and-crds">🤖 Understanding Kubernetes Controllers, Operators, and CRDs&lt;/h3>
-&lt;h4 id="what-is-a-kubernetes-controller">What is a Kubernetes Controller?&lt;/h4>
-&lt;p>A Kubernetes controller is like a robot 🤖 that continuously monitors your cluster. It checks whether the actual state of the resources matches the desired state (what you want) and makes adjustments to align them.&lt;/p></description></item><item><title>How to Test the Latest Kubernetes Changes in Version 1.31 "Elli"</title><link>https://kubermates.org/blog/how-to-test-the-latest-kubernetes-changes-in-version-131-elli-39ec/</link><pubDate>Wed, 14 Aug 2024 21:38:00 +0000</pubDate><guid>https://kubermates.org/blog/how-to-test-the-latest-kubernetes-changes-in-version-131-elli-39ec/</guid><description>&lt;p>Testing Kubernetes 1.31 &amp;ldquo;Elli&amp;rdquo; involves setting up a dedicated environment, verifying new features, validating API changes, running automated tests, and closely monitoring your cluster. Here’s a detailed guide with examples for each step.&lt;/p>
-&lt;h2 id="1-set-up-a-testing-environment">1. Set Up a Testing Environment&lt;/h2>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;strong>Create a Kubernetes Cluster&lt;/strong>:&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Example&lt;/strong>: Use Minikube to create a local cluster. Run:
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">minikube start --kubernetes-version&lt;span class="o">=&lt;/span>v1.31.0
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>This command sets up a Kubernetes 1.31 cluster locally, allowing you to test the new features and changes in a controlled environment.&lt;/li>
-&lt;li>&lt;strong>Cloud-Based Testing&lt;/strong>: For cloud environments, use a tool like &lt;code>eksctl&lt;/code> for Amazon EKS:
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">eksctl create cluster --version 1.31 --name test-cluster
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>This command creates an Amazon EKS cluster with Kubernetes 1.31, suitable for more extensive testing scenarios.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Isolate the Environment&lt;/strong>:&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Containers on Kubermates</title><link>https://kubermates.org/tags/containers/</link><description>Recent content in Containers on Kubermates</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 29 Aug 2024 08:25:36 +0000</lastBuildDate><atom:link href="https://kubermates.org/tags/containers/index.xml" rel="self" type="application/rss+xml"/><item><title>🚀 Building a Kubernetes Operator with an NGINX CRD</title><link>https://kubermates.org/blog/building-a-kubernetes-operator-with-an-nginx-crd-3lil/</link><pubDate>Thu, 29 Aug 2024 08:25:36 +0000</pubDate><guid>https://kubermates.org/blog/building-a-kubernetes-operator-with-an-nginx-crd-3lil/</guid><description>&lt;p&gt;Kubernetes is a powerful platform that automates the deployment, scaling, and management of containerized applications. One of the coolest features of Kubernetes is its ability to be extended with &lt;strong&gt;Custom Resource Definitions (CRDs)&lt;/strong&gt; and &lt;strong&gt;Operators&lt;/strong&gt;. In this guide, we&amp;rsquo;ll build a simple Kubernetes operator using an NGINX CRD to manage NGINX instances in your cluster.&lt;/p&gt;
+&lt;h3 id="-understanding-kubernetes-controllers-operators-and-crds"&gt;🤖 Understanding Kubernetes Controllers, Operators, and CRDs&lt;/h3&gt;
+&lt;h4 id="what-is-a-kubernetes-controller"&gt;What is a Kubernetes Controller?&lt;/h4&gt;
+&lt;p&gt;A Kubernetes controller is like a robot 🤖 that continuously monitors your cluster. It checks whether the actual state of the resources matches the desired state (what you want) and makes adjustments to align them.&lt;/p&gt;</description></item><item><title>How to Test the Latest Kubernetes Changes in Version 1.31 "Elli"</title><link>https://kubermates.org/blog/how-to-test-the-latest-kubernetes-changes-in-version-131-elli-39ec/</link><pubDate>Wed, 14 Aug 2024 21:38:00 +0000</pubDate><guid>https://kubermates.org/blog/how-to-test-the-latest-kubernetes-changes-in-version-131-elli-39ec/</guid><description>&lt;p&gt;Testing Kubernetes 1.31 &amp;ldquo;Elli&amp;rdquo; involves setting up a dedicated environment, verifying new features, validating API changes, running automated tests, and closely monitoring your cluster. Here’s a detailed guide with examples for each step.&lt;/p&gt;
+&lt;h2 id="1-set-up-a-testing-environment"&gt;1. Set Up a Testing Environment&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Create a Kubernetes Cluster&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Example&lt;/strong&gt;: Use Minikube to create a local cluster. Run:
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;minikube start --kubernetes-version&lt;span class="o"&gt;=&lt;/span&gt;v1.31.0
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;This command sets up a Kubernetes 1.31 cluster locally, allowing you to test the new features and changes in a controlled environment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cloud-Based Testing&lt;/strong&gt;: For cloud environments, use a tool like &lt;code&gt;eksctl&lt;/code&gt; for Amazon EKS:
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;eksctl create cluster --version 1.31 --name test-cluster
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;This command creates an Amazon EKS cluster with Kubernetes 1.31, suitable for more extensive testing scenarios.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Isolate the Environment&lt;/strong&gt;:&lt;/p&gt;</description></item></channel></rss>
