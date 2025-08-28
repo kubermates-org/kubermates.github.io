@@ -2,7 +2,6 @@
 from __future__ import annotations
 import os, json, time, hashlib, pathlib, textwrap, re
 from typing import Dict, List, Optional
-from urllib.parse import urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -116,6 +115,18 @@ def _openai_client():
     return OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
 # -----------------------------
+# Version-string protection
+# -----------------------------
+_VERSION_RE = re.compile(r"\b(v?\d+(?:\.\d+){1,4})\b")  # v1.2, 1.2.3, 10.2.3.4
+
+def _protect_versions(s: str) -> str:
+    # Replace dots inside version tokens with a sentinel so sentence split won't break them
+    return _VERSION_RE.sub(lambda m: m.group(1).replace(".", "§DOT§"), s)
+
+def _restore_versions(s: str) -> str:
+    return s.replace("§DOT§", ".")
+
+# -----------------------------
 # Text noise filtering
 # -----------------------------
 _NOISE_RE = re.compile("|".join(_NOISE_PATTERNS), re.IGNORECASE)
@@ -124,12 +135,16 @@ def _filter_noise_text(text: str) -> str:
     """
     Remove cookie banners, login prompts, reload-error lines, etc.
     Works at sentence level; also dedupes consecutive sentences.
+    Preserves version strings like v2.10.9.
     """
     if not text:
         return ""
 
-    # Split on sentence-ish boundaries without depending on nltk
-    parts = re.split(r"(?<=[\.\!\?])\s+", text.replace("\u00a0", " ").strip())
+    protected = _protect_versions(text.replace("\u00a0", " ").strip())
+
+    # Split on sentence-ish boundaries (period/exclamation/question + space)
+    parts = re.split(r"(?<=[\.\!\?])\s+", protected)
+
     filtered: List[str] = []
     prev = None
 
@@ -139,30 +154,26 @@ def _filter_noise_text(text: str) -> str:
             continue
         if _NOISE_RE.search(s_clean):
             continue
-        # Drop very short “see xyz”, “read more”, “learn more”
+        # Drop very short “see/read/learn more …”
         if len(s_clean) < 25 and re.search(r"\b(see|read|learn)\b", s_clean, re.I):
             continue
-        # Deduplicate consecutive repeats
         if prev and s_clean.lower() == prev.lower():
             continue
+
         filtered.append(s_clean)
         prev = s_clean
 
-    return " ".join(filtered).strip()
+    return _restore_versions(" ".join(filtered).strip())
 
 # -----------------------------
 # HTML fetch & clean
 # -----------------------------
 def _pick_root(soup: BeautifulSoup, url: Optional[str]) -> BeautifulSoup:
-    """
-    Heuristically choose the main content root depending on common site layouts.
-    """
     # GitHub releases/readme often have .markdown-body
     if url and "github.com" in url:
         gh = soup.select_one(".markdown-body")
         if gh:
             return gh
-
     for selector in ["article", "[role=main]", "main", "body"]:
         node = soup.select_one(selector)
         if node:
@@ -175,10 +186,9 @@ def _strip_non_content(root: BeautifulSoup):
             tag.decompose()
 
 def _extract_text_blocks(root: BeautifulSoup) -> str:
-    # Prefer paragraphs + list items + headings (to keep some structure)
     blocks: List[str] = []
 
-    # Keep top headings once, they carry context
+    # Keep headings (context)
     for h in root.select("h1, h2, h3"):
         txt = h.get_text(" ", strip=True)
         if txt:
@@ -189,7 +199,6 @@ def _extract_text_blocks(root: BeautifulSoup) -> str:
         if txt:
             blocks.append(txt)
 
-    # Fallback: whole root text if blocks too sparse
     if len(blocks) < 3:
         txt = root.get_text(" ", strip=True)
         if txt:
@@ -286,15 +295,21 @@ def _prompt_reduce(title: Optional[str], url: Optional[str], lang_hint: Optional
 # Fallback (no-LLM) heuristics
 # -----------------------------
 def _fallback_from_fulltext(full_text: str) -> Dict[str, str]:
-    """Heuristic fallback that never truncates mid-sentence; aims near targets."""
+    """Heuristic fallback that never truncates mid-sentence; aims near targets; preserves versions."""
     clean = _filter_noise_text(full_text)
-    sents = [s.strip() for s in clean.replace("\n", " ").split(".") if s.strip()]
+    if not clean:
+        return {"tldr": "", "summary": ""}
+
+    protected = _protect_versions(clean.replace("\n", " "))
+    sents = [s.strip() for s in protected.split(".") if s.strip()]
     if not sents:
         return {"tldr": "", "summary": ""}
 
     long = ". ".join(sents[:12]) + "."
     short = ". ".join(sents[:2]) + "."
 
+    long = _restore_versions(long)
+    short = _restore_versions(short)
     return {"tldr": _normalize_whitespace(short), "summary": _normalize_whitespace(long)}
 
 # -----------------------------
@@ -313,7 +328,6 @@ def _summarize_chunks_with_llm(chunks: List[str], title: Optional[str], url: Opt
     bullets_all: List[str] = []
     for ch in chunks:
         backoff = 1.0
-        # Extra safety: filter chunk noise before sending to LLM
         ch = _filter_noise_text(ch)
         for attempt in range(4):
             try:
@@ -338,7 +352,7 @@ def _summarize_chunks_with_llm(chunks: List[str], title: Optional[str], url: Opt
 
     joined_bullets = "\n".join(bullets_all)
 
-    # 2) Reduce: synthesize final TL;DR + Summary with character targets
+    # 2) Reduce: synthesize final TL;DR + Summary
     backoff = 1.0
     for attempt in range(4):
         try:
@@ -360,7 +374,10 @@ def _summarize_chunks_with_llm(chunks: List[str], title: Optional[str], url: Opt
             if not tldr or not summary:
                 raise ValueError("Missing keys in reduce result.")
 
-            return {"tldr": tldr, "summary": summary}
+            return {
+                "tldr": _restore_versions(tldr),
+                "summary": _restore_versions(summary),
+            }
         except Exception:
             if attempt == 3:
                 return _fallback_from_fulltext(full_text_for_fallback)

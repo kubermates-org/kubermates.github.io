@@ -45,16 +45,19 @@ def run():
             # Optional: quick excerpt from feed (not stored — useful if you later want a preview)
             _ = clean_excerpt(getattr(e, "summary", "") or "")
 
-            # (Optional) fetch full cleaned text — not stored here, but handy if you later want to save body
-            _ = fetch_full_text(url)
+            # Fetch full cleaned text (to detect empty/ultra-short releases)
+            full_text = fetch_full_text(url)
 
-            # Generate FINAL TL;DR + Summary over the FULL release notes page (map‑reduce)
-            summ = generate_summaries_from_url(
-                url=url,
-                title=title,
-                lang_hint=None,   # set "en"/"fr" if you detect language elsewhere
-                no_llm=False,     # set True locally to skip API usage and use fallback
-            )
+            # If page is empty/very short, skip LLM and keep blank summaries (prevents odd outputs)
+            if not full_text or len(full_text.strip()) < 80:
+                summ = {"tldr": "", "summary": ""}
+            else:
+                summ = generate_summaries_from_url(
+                    url=url,
+                    title=title,
+                    lang_hint=None,   # set "en"/"fr" if you detect language elsewhere
+                    no_llm=False,     # set True locally to skip API usage and use fallback
+                )
 
             fm = {
                 "title": title,
