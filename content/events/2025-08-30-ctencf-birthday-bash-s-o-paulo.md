@@ -3,17 +3,17 @@ title: '#cTENcf Birthday Bash São Paulo'
 date: '2025-08-30T12:30:00+00:00'
 endDate: null
 location: São Paulo (BR)
-city: São Paulo (BR)
+city: null
 country: null
 region: null
 lat: null
 lon: null
 organizer: null
-mode: in-person
+mode: online
 tags:
 - cncf
 - event
-source: bevy-search-api
+source: cncf-api
 external_url: https://community.cncf.io/events/details/cncf-cloud-native-sao-paulo-city-presents-ctencf-birthday-bash-sao-paulo/
 draft: false
 uid: 7ee7e46cf2aa8270

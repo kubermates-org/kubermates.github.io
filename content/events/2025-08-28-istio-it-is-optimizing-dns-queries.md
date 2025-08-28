@@ -6,14 +6,14 @@ location: Austin, TX (US)
 city: Austin
 country: tx (us)
 region: null
-lat: null
-lon: null
+lat: 30.2672
+lon: -97.7431
 organizer: null
 mode: in-person
 tags:
 - cncf
 - event
-source: bevy-search-api
+source: cncf-api
 external_url: https://community.cncf.io/events/details/cncf-kubernetes-austin-presents-istio-it-is-amp-optimizing-dns-queries/
 draft: false
 uid: 2f517ffa82f93f55

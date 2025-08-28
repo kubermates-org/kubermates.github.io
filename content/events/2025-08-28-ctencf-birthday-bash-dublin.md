@@ -3,17 +3,17 @@ title: '#cTENcf Birthday Bash Dublin'
 date: '2025-08-28T17:00:00+00:00'
 endDate: null
 location: Dublin (IE)
-city: Dublin (IE)
+city: null
 country: null
 region: null
 lat: null
 lon: null
 organizer: null
-mode: in-person
+mode: online
 tags:
 - cncf
 - event
-source: bevy-search-api
+source: cncf-api
 external_url: https://community.cncf.io/events/details/cncf-cloud-native-dublin-presents-ctencf-birthday-bash-dublin/
 draft: false
 uid: 2c4a70cf1e0d8eb2

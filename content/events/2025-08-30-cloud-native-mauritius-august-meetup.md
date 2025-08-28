@@ -13,7 +13,7 @@ mode: in-person
 tags:
 - cncf
 - event
-source: bevy-search-api
+source: cncf-api
 external_url: https://community.cncf.io/events/details/cncf-cloud-native-mauritius-presents-cloud-native-mauritius-august-meetup-1/
 draft: false
 uid: 84cace64dad2e107

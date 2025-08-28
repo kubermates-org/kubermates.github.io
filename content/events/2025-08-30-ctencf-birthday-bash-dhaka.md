@@ -13,7 +13,7 @@ mode: in-person
 tags:
 - cncf
 - event
-source: bevy-search-api
+source: cncf-api
 external_url: https://community.cncf.io/events/details/cncf-cloud-native-dhaka-presents-ctencf-birthday-bash-dhaka/
 draft: false
 uid: 10da0e4b792757ba

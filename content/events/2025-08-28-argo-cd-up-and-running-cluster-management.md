@@ -13,7 +13,7 @@ mode: in-person
 tags:
 - cncf
 - event
-source: bevy-search-api
+source: cncf-api
 external_url: https://community.cncf.io/events/details/cncf-kubernetes-virtual-book-club-presents-argo-cd-up-and-running-cluster-management-2025-08-28/
 draft: false
 uid: 33ef097ee5713602

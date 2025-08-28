@@ -1,7 +1,8 @@
 # scripts/ingest/summarizer.py
 from __future__ import annotations
-import os, json, time, hashlib, pathlib, textwrap
+import os, json, time, hashlib, pathlib, textwrap, re
 from typing import Dict, List, Optional
+from urllib.parse import urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -15,8 +16,42 @@ CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
 DEFAULT_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 
 # Map-Reduce chunk size in characters (ensure full-page coverage)
-# You can tune via env: SUMMARY_CHUNK_CHARS
 MAX_CHARS_PER_CHUNK = int(os.getenv("SUMMARY_CHUNK_CHARS", "12000"))
+
+# Boilerplate/UX noise to drop (sentences or lines containing any of these)
+_NOISE_PATTERNS = [
+    r"\bcookie(s)?\b",
+    r"\bsubscribe\b", r"\bnewsletter\b",
+    r"\bsign in\b", r"\blog in\b",
+    r"\bprivacy policy\b", r"\bterms of service\b",
+    r"\bad(s|vertisement|choices)?\b",
+    r"\bmanage preferences\b",
+    r"\baccept all\b", r"\breject all\b",
+    r"\bThere was an error while loading\. Please reload this page\.",  # GitHub UI
+    r"\bEnable JavaScript\b",
+    r"\bSkip to content\b",
+    r"\bJoin GitHub\b",
+    r"\bUse (the )?GitHub (App|Desktop)\b",
+    r"\bOpen (in|this) app\b",
+    r"\bBack to top\b",
+]
+
+# Common classes/ids to strip before extracting text
+_STRIP_SELECTORS = [
+    "script", "style", "noscript",
+    "header", "nav", "footer", "aside",
+    ".cookie", ".cookies", "#cookie", "#cookies",
+    ".banner", ".announcement", ".promo", ".ads", ".ad", ".advert",
+    ".newsletter", ".subscribe", ".subscription",
+    ".modal", ".toast", ".popover", ".tooltip",
+    ".breadcrumbs", ".breadcrumb",
+    ".pagination", ".pager",
+    ".sr-only", "[aria-live]", "[role=alert]", "[role=status]",
+    # GitHub specific chrome
+    "div[data-test-selector='notifications-link']",
+    "div[data-test-selector='header-search']", ".flash", ".Header", ".footer",
+    ".Box-header", ".js-flash-alert", ".js-notice",
+]
 
 # -----------------------------
 # Utilities
@@ -81,35 +116,117 @@ def _openai_client():
     return OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
 # -----------------------------
+# Text noise filtering
+# -----------------------------
+_NOISE_RE = re.compile("|".join(_NOISE_PATTERNS), re.IGNORECASE)
+
+def _filter_noise_text(text: str) -> str:
+    """
+    Remove cookie banners, login prompts, reload-error lines, etc.
+    Works at sentence level; also dedupes consecutive sentences.
+    """
+    if not text:
+        return ""
+
+    # Split on sentence-ish boundaries without depending on nltk
+    parts = re.split(r"(?<=[\.\!\?])\s+", text.replace("\u00a0", " ").strip())
+    filtered: List[str] = []
+    prev = None
+
+    for s in parts:
+        s_clean = s.strip()
+        if not s_clean:
+            continue
+        if _NOISE_RE.search(s_clean):
+            continue
+        # Drop very short “see xyz”, “read more”, “learn more”
+        if len(s_clean) < 25 and re.search(r"\b(see|read|learn)\b", s_clean, re.I):
+            continue
+        # Deduplicate consecutive repeats
+        if prev and s_clean.lower() == prev.lower():
+            continue
+        filtered.append(s_clean)
+        prev = s_clean
+
+    return " ".join(filtered).strip()
+
+# -----------------------------
 # HTML fetch & clean
 # -----------------------------
-def _clean_html_to_text(html: str) -> str:
+def _pick_root(soup: BeautifulSoup, url: Optional[str]) -> BeautifulSoup:
+    """
+    Heuristically choose the main content root depending on common site layouts.
+    """
+    # GitHub releases/readme often have .markdown-body
+    if url and "github.com" in url:
+        gh = soup.select_one(".markdown-body")
+        if gh:
+            return gh
+
+    for selector in ["article", "[role=main]", "main", "body"]:
+        node = soup.select_one(selector)
+        if node:
+            return node
+    return soup
+
+def _strip_non_content(root: BeautifulSoup):
+    for sel in _STRIP_SELECTORS:
+        for tag in root.select(sel):
+            tag.decompose()
+
+def _extract_text_blocks(root: BeautifulSoup) -> str:
+    # Prefer paragraphs + list items + headings (to keep some structure)
+    blocks: List[str] = []
+
+    # Keep top headings once, they carry context
+    for h in root.select("h1, h2, h3"):
+        txt = h.get_text(" ", strip=True)
+        if txt:
+            blocks.append(txt)
+
+    for p in root.find_all(["p", "li", "pre", "code"]):
+        txt = p.get_text(" ", strip=True)
+        if txt:
+            blocks.append(txt)
+
+    # Fallback: whole root text if blocks too sparse
+    if len(blocks) < 3:
+        txt = root.get_text(" ", strip=True)
+        if txt:
+            blocks = [txt]
+
+    joined = "\n\n".join(blocks)
+    return textwrap.dedent(joined).strip()
+
+def _clean_html_to_text(html: str, url: Optional[str] = None) -> str:
     if not html:
         return ""
     soup = BeautifulSoup(html, "html.parser")
 
-    # strip non-content
+    # strip hard non-content globally
     for tag in soup(["script", "style", "noscript"]):
         tag.decompose()
 
-    root = soup.find("article") or soup.find("main") or soup.body or soup
-    for tag in root.find_all(["nav", "footer", "aside"]):
-        tag.decompose()
+    root = _pick_root(soup, url)
+    _strip_non_content(root)
+    text = _extract_text_blocks(root)
 
-    paras = [p.get_text(" ", strip=True) for p in root.find_all("p")]
-    text = "\n\n".join([p for p in paras if p]) or root.get_text(" ", strip=True)
-    return textwrap.dedent(text).strip()
+    # Final noise filter & whitespace normalization
+    text = _filter_noise_text(text)
+    return _normalize_whitespace(text)
 
-def fetch_full_text(url: str, timeout: int = 15) -> str:
+def fetch_full_text(url: str, timeout: int = 20) -> str:
     """Public: fetch and clean a page to plain text."""
     if not url:
         return ""
     try:
-        headers = {"User-Agent": "Mozilla/5.0 (compatible; KubermatesBot/1.0; +https://kubermates.org)"}
+        headers = {
+            "User-Agent": "Mozilla/5.0 (compatible; KubermatesBot/1.0; +https://kubermates.org)"
+        }
         r = requests.get(url, headers=headers, timeout=timeout, allow_redirects=True)
         if r.status_code != 200 or not r.text:
             return ""
-        return _clean_html_to_text(r.text)
+        return _clean_html_to_text(r.text, url=url)
     except Exception:
         return ""
 
@@ -170,13 +287,12 @@ def _prompt_reduce(title: Optional[str], url: Optional[str], lang_hint: Optional
 # -----------------------------
 def _fallback_from_fulltext(full_text: str) -> Dict[str, str]:
     """Heuristic fallback that never truncates mid-sentence; aims near targets."""
-    sents = [s.strip() for s in full_text.replace("\n", " ").split(".") if s.strip()]
+    clean = _filter_noise_text(full_text)
+    sents = [s.strip() for s in clean.replace("\n", " ").split(".") if s.strip()]
     if not sents:
         return {"tldr": "", "summary": ""}
 
-    # Build longer summary from first ~12 sentences (roughly ≈1000 chars in many tech texts)
     long = ". ".join(sents[:12]) + "."
-    # TL;DR from first 1–2 sentences (~300 chars usually)
     short = ". ".join(sents[:2]) + "."
 
     return {"tldr": _normalize_whitespace(short), "summary": _normalize_whitespace(long)}
@@ -197,6 +313,8 @@ def _summarize_chunks_with_llm(chunks: List[str], title: Optional[str], url: Opt
     bullets_all: List[str] = []
     for ch in chunks:
         backoff = 1.0
+        # Extra safety: filter chunk noise before sending to LLM
+        ch = _filter_noise_text(ch)
         for attempt in range(4):
             try:
                 resp = client.chat.completions.create(
@@ -207,12 +325,12 @@ def _summarize_chunks_with_llm(chunks: List[str], title: Optional[str], url: Opt
                         {"role": "user", "content": _prompt_chunk(title, url, lang_hint, ch)},
                     ],
                 )
-                bullets = resp.choices[0].message.content.strip()
-                bullets_all.append(bullets)  # no "# Chunk" prefixes
+                bullets = (resp.choices[0].message.content or "").strip()
+                bullets = _strip_artifacts(_filter_noise_text(bullets))
+                bullets_all.append(bullets)
                 break
             except Exception:
                 if attempt == 3:
-                    # Graceful degrade: if a chunk fails, include raw slice
                     bullets_all.append(f"- {ch[:800]}…")
                 else:
                     time.sleep(backoff)
@@ -236,8 +354,8 @@ def _summarize_chunks_with_llm(chunks: List[str], title: Optional[str], url: Opt
             raw = resp.choices[0].message.content
             data = json.loads(raw)
 
-            tldr = _strip_artifacts(str(data.get("tldr", "")).strip())
-            summary = _strip_artifacts(str(data.get("summary", "")).strip())
+            tldr = _strip_artifacts(_filter_noise_text(str(data.get("tldr", "")).strip()))
+            summary = _strip_artifacts(_filter_noise_text(str(data.get("summary", "")).strip()))
 
             if not tldr or not summary:
                 raise ValueError("Missing keys in reduce result.")
@@ -245,7 +363,6 @@ def _summarize_chunks_with_llm(chunks: List[str], title: Optional[str], url: Opt
             return {"tldr": tldr, "summary": summary}
         except Exception:
             if attempt == 3:
-                # FINAL FALLBACK: summarize the full text, not the bullets
                 return _fallback_from_fulltext(full_text_for_fallback)
             time.sleep(backoff)
             backoff *= 2.0
@@ -266,6 +383,9 @@ def generate_summaries_inline(
     text = (article_text or "").strip()
     if not text:
         return {"tldr": "", "summary": ""}
+
+    # Pre-clean noise aggressively
+    text = _filter_noise_text(text)
 
     cache = _load_cache()
     key = _hash_key("inline", title or "", url or "", text, str(MAX_CHARS_PER_CHUNK))
@@ -304,6 +424,8 @@ def generate_summaries_from_url(
         _save_cache(cache)
         return result
 
+    # One more pass of noise filtering for safety
+    full_text = _filter_noise_text(full_text)
     chunks = _split_into_chunks(full_text, MAX_CHARS_PER_CHUNK)
 
     if no_llm:

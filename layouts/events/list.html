@@ -1,39 +1,41 @@
 {{ define "main" }}
 <div class="container">
-  <h1 class="mb-2">{{ .Title }}</h1>
-  {{ with .Params.description }}<p class="lead">{{ . }}</p>{{ end }}
+  <div class="d-flex align-items-center justify-content-between mt-2 mb-3">
+    <h1 class="mb-0">{{ .Title }}</h1>
+    <span class="badge bg-light text-dark border fw-semibold">{{ len .Pages }} events</span>
+  </div>
+  {{ with .Params.description }}<p class="lead text-muted">{{ . }}</p>{{ end }}
 
-  <!-- Map container -->
-  <div id="map" style="height: 420px;" class="mb-4 rounded shadow-sm border"></div>
+  <div id="map" style="height:420px" class="mb-4 rounded shadow-sm border"></div>
 
   <!-- Filters -->
-  <div id="filters" class="card p-3 mb-4">
+  <div id="filters" class="card p-3 p-md-4 mb-4 shadow-sm">
     <div class="row g-3 align-items-end">
       <div class="col-12 col-md-3">
-        <label class="form-label mb-1">Provider</label>
+        <label class="form-label mb-1 fw-semibold">Provider</label>
         <div class="d-flex flex-wrap gap-2">
-          {{ $providers := slice "cncf" "platform" "aws" "azure" "gcp" "ovh" }}
+          {{ $providers := slice "cncf" "platform" "aws" "azure" "gcp" "ovh" "rss" }}
           {{ range $p := $providers }}
             <div class="form-check form-check-inline">
               <input class="form-check-input provider" type="checkbox" id="p-{{ $p }}" value="{{ $p }}">
-              <label class="form-check-label" for="p-{{ $p }}">{{ upper $p }}</label>
+              <label class="form-check-label small" for="p-{{ $p }}">{{ upper $p }}</label>
             </div>
           {{ end }}
         </div>
       </div>
 
       <div class="col-6 col-md-2">
-        <label class="form-label mb-1" for="mode">Format</label>
+        <label class="form-label mb-1 fw-semibold" for="mode">Format</label>
         <select id="mode" class="form-select">
           <option value="">Any</option>
-          <option value="in-person">In‑person</option>
+          <option value="in-person">In-person</option>
           <option value="online">Online</option>
           <option value="hybrid">Hybrid</option>
         </select>
       </div>
 
       <div class="col-6 col-md-2">
-        <label class="form-label mb-1" for="region">Region</label>
+        <label class="form-label mb-1 fw-semibold" for="region">Region</label>
         <select id="region" class="form-select">
           <option value="">Any</option>
           <option value="eu">EU</option>
@@ -44,38 +46,40 @@
         </select>
       </div>
 
-      {{/* Build country chips dynamically from events */}}
+      {{/* Countries (normalized) */}}
       {{ $countries := slice }}
       {{ range .Pages }}
         {{ with .Params.country }}
-          {{ if not (in $countries .) }}{{ $countries = $countries | append . }}{{ end }}
+          {{ $lc := lower . }}
+          {{ if not (in $countries $lc) }}{{ $countries = $countries | append $lc }}{{ end }}
         {{ end }}
       {{ end }}
-      {{ $countries = sort $countries }}
+      {{ $countries = sort (uniq $countries) }}
 
       <div class="col-12 col-md-3">
-        <label class="form-label mb-1">Country</label>
-        <div class="d-flex flex-wrap gap-2" id="country-group">
-          {{ range $c := $countries }}
-          <div class="form-check form-check-inline">
-            <input class="form-check-input country" type="checkbox" id="c-{{ $c }}" value="{{ $c }}">
-            <label class="form-check-label" for="c-{{ $c }}">{{ upper $c }}</label>
-          </div>
-          {{ end }}
+        <label class="form-label mb-1 fw-semibold" for="country">Country</label>
+        <div class="d-flex gap-2">
+          <select id="country" class="form-select">
+            <option value="">Any</option>
+            {{ range $c := $countries }}
+              <option value="{{ $c }}">{{ upper $c }}</option>
+            {{ end }}
+          </select>
+          <button id="country-clear" class="btn btn-outline-secondary" type="button">×</button>
         </div>
-        <small class="text-muted">Pick zero, one, or many</small>
+        <small class="text-muted">Pick one or leave “Any”.</small>
       </div>
 
       <div class="col-6 col-md-2">
-        <label class="form-label mb-1" for="from">From</label>
+        <label class="form-label mb-1 fw-semibold" for="from">From</label>
         <input id="from" class="form-control" type="date">
       </div>
       <div class="col-6 col-md-2">
-        <label class="form-label mb-1" for="to">To</label>
+        <label class="form-label mb-1 fw-semibold" for="to">To</label>
         <input id="to" class="form-control" type="date">
       </div>
       <div class="col-12 col-md-3">
-        <label class="form-label mb-1" for="q">Search</label>
+        <label class="form-label mb-1 fw-semibold" for="q">Search</label>
         <input id="q" class="form-control" type="search" placeholder="Title, city, tags…">
       </div>
       <div class="col-12 col-md-1 d-grid">
@@ -84,20 +88,16 @@
     </div>
   </div>
 
-  {{/* ---- Collect pages and bucket by date (parse strings -> time) ---- */}}
+  {{/* Bucket by .Date */}}
   {{ $now := now }}
   {{ $upcoming := slice }}
   {{ $past := slice }}
   {{ range .Pages }}
-    {{ if .Params.eventDate }}
-      {{ $t := time .Params.eventDate }}
-      {{ if ge $t $now }}
-        {{ $upcoming = $upcoming | append (dict "page" . "t" $t) }}
-      {{ else }}
-        {{ $past = $past | append (dict "page" . "t" $t) }}
-      {{ end }}
+    {{ $t := .Date }}
+    {{ if ge $t $now }}
+      {{ $upcoming = $upcoming | append (dict "page" . "t" $t) }}
     {{ else }}
-      {{ $past = $past | append (dict "page" . "t" $now) }}
+      {{ $past = $past | append (dict "page" . "t" $t) }}
     {{ end }}
   {{ end }}
 
@@ -105,35 +105,37 @@
   <ul id="upcoming" class="list-unstyled">
     {{ range sort $upcoming "t" }}
       {{ $p := .page }}
+      {{ $ext := $p.Params.external_url }}
       <li class="event-item my-3"
           data-title="{{ $p.Title | urlize }}"
           data-provider="{{ $p.Params.provider }}"
           data-mode="{{ $p.Params.mode }}"
           data-region="{{ $p.Params.region }}"
-          data-country="{{ $p.Params.country }}"
+          data-country="{{ lower $p.Params.country }}"
           data-city="{{ $p.Params.city }}"
-          data-tags="{{ delimit $p.Params.tags "," }}"
-          data-date="{{ $p.Params.eventDate }}"
+          data-tags="{{ delimit (apply $p.Params.tags "lower" ".") "," }}"
+          data-date="{{ time.Format "2006-01-02T15:04:05Z07:00" $p.Date }}"
+          data-ext="{{ $ext }}"
           {{ with $p.Params.lat }}data-lat="{{ . }}"{{ end }}
           {{ with $p.Params.lon }}data-lon="{{ . }}"{{ end }}>
-        <div class="card">
+        <div class="card border-0 shadow-sm">
           <div class="card-body">
             <div class="d-flex justify-content-between flex-wrap gap-2">
-              <h3 class="h5 mb-0"><a href="{{ $p.Params.link }}">{{ $p.Title }}</a></h3>
-              <div>
-                {{ with $p.Params.provider }}<span class="badge bg-primary me-1">{{ upper . }}</span>{{ end }}
-                {{ with $p.Params.mode }}<span class="badge bg-secondary me-1">{{ . }}</span>{{ end }}
-                {{ range $p.Params.tags }}<span class="badge bg-light text-dark me-1">{{ . }}</span>{{ end }}
+              <h3 class="h5 mb-0">
+                {{ if $ext }}<a href="{{ $ext }}" target="_blank" rel="noopener" class="text-decoration-none">{{ $p.Title }}</a>{{ else }}<span>{{ $p.Title }}</span>{{ end }}
+              </h3>
+              <div class="d-flex flex-wrap gap-1">
+                {{ with $p.Params.provider }}<span class="badge text-bg-primary">{{ upper . }}</span>{{ end }}
+                {{ with $p.Params.mode }}<span class="badge text-bg-secondary">{{ . }}</span>{{ end }}
+                {{ range $p.Params.tags }}<span class="badge text-bg-light border">{{ . }}</span>{{ end }}
               </div>
             </div>
-            <small class="text-muted">
+            <small class="text-muted d-block mt-1">
               {{ time.Format "Mon, Jan 2, 2006 15:04" (index . "t") }}
               {{ with $p.Params.city }} · {{ . }}{{ end }}{{ with $p.Params.country }}{{ if . }} ({{ upper . }}){{ end }}{{ end }}
             </small>
             <p class="mb-2 mt-2">{{ with $p.Summary }}{{ . }}{{ else }}&nbsp;{{ end }}</p>
-            <div>
-              {{ with $p.Params.link }}<a class="btn btn-sm btn-outline-secondary ms-2" href="{{ . }}" target="_blank" rel="noopener">Register</a>{{ end }}
-            </div>
+            {{ with $ext }}<a class="btn btn-sm btn-outline-secondary" href="{{ . }}" target="_blank" rel="noopener">Open event</a>{{ end }}
           </div>
         </div>
       </li>
@@ -144,19 +146,34 @@
   <ul id="past" class="list-unstyled">
     {{ range sort $past "t" "desc" }}
       {{ $p := .page }}
+      {{ $ext := $p.Params.external_url }}
       <li class="event-item my-2"
           data-title="{{ $p.Title | urlize }}"
           data-provider="{{ $p.Params.provider }}"
           data-mode="{{ $p.Params.mode }}"
           data-region="{{ $p.Params.region }}"
-          data-country="{{ $p.Params.country }}"
+          data-country="{{ lower $p.Params.country }}"
           data-city="{{ $p.Params.city }}"
-          data-tags="{{ delimit $p.Params.tags "," }}"
-          data-date="{{ $p.Params.eventDate }}"
+          data-tags="{{ delimit (apply $p.Params.tags "lower" ".") "," }}"
+          data-date="{{ time.Format "2006-01-02T15:04:05Z07:00" $p.Date }}"
+          data-ext="{{ $ext }}"
           {{ with $p.Params.lat }}data-lat="{{ . }}"{{ end }}
           {{ with $p.Params.lon }}data-lon="{{ . }}"{{ end }}>
-        <a href="{{ $p.Params.external_url }}">{{ $p.Title }}</a>
-        <span class="text-muted"> · {{ time.Format "Jan 2, 2006" (index . "t") }}</span>
+        <div class="card border-0 shadow-sm">
+          <div class="card-body py-2">
+            <div class="d-flex justify-content-between align-items-baseline flex-wrap gap-2">
+              <div>
+                {{ if $ext }}<a href="{{ $ext }}" target="_blank" rel="noopener">{{ $p.Title }}</a>{{ else }}<span>{{ $p.Title }}</span>{{ end }}
+                <small class="text-muted ms-2">{{ time.Format "Jan 2, 2006" (index . "t") }}</small>
+              </div>
+              <div class="d-flex flex-wrap gap-1">
+                {{ with $p.Params.provider }}<span class="badge text-bg-light border">{{ upper . }}</span>{{ end }}
+                {{ with $p.Params.city }}<span class="badge text-bg-light border">{{ . }}</span>{{ end }}
+                {{ with $p.Params.country }}<span class="badge text-bg-light border">{{ upper . }}</span>{{ end }}
+              </div>
+            </div>
+          </div>
+        </div>
       </li>
     {{ end }}
   </ul>
@@ -168,7 +185,6 @@
   const $$ = (s) => Array.from(document.querySelectorAll(s));
   const qs = new URLSearchParams(location.search);
 
-  // --- Load Leaflet dynamically, then init
   function loadLeaflet(cb){
     const css = document.createElement("link");
     css.rel = "stylesheet";
@@ -181,7 +197,7 @@
     js.onerror = () => {
       const map = document.getElementById("map");
       if (map) map.innerHTML = '<div class="p-3 text-muted">Map failed to load. The list below still works.</div>';
-      initFilters(); // still enable filters even without map
+      initFilters();
     };
     document.head.appendChild(js);
   }
@@ -194,17 +210,21 @@
 
     const markers = [];
     $$(".event-item").forEach(li => {
-      const lat = parseFloat(li.dataset.lat), lon = parseFloat(li.dataset.lon);
+      const lat = parseFloat(li.dataset.lat);
+      const lon = parseFloat(li.dataset.lon);
       if (!isNaN(lat) && !isNaN(lon)) {
-        const a = li.querySelector("a");
-        const title = a?.innerText || li.dataset.title || "Event";
-        const link  = a?.href || "#";
+        const title = li.querySelector("a")?.innerText || li.dataset.title || "Event";
+        const link  = li.dataset.ext || "#";
         const date  = (li.dataset.date || "").slice(0,10);
         const m = L.marker([lat, lon]).addTo(map)
-          .bindPopup(`<b>${title}</b><br>${date}${link?`<br><a href="${link}" target="_blank" rel="noopener">Details</a>`:""}`);
+          .bindPopup(`<b>${title}</b><br>${date}${link && link !== "#" ? `<br><a href="${link}" target="_blank" rel="noopener">Open event</a>` : ""}`);
         markers.push({ marker: m, li });
       }
     });
+
+    if (!markers.length) {
+      document.getElementById("map").innerHTML = '<div class="p-3 text-muted">No geolocated events to display on the map.</div>';
+    }
 
     function syncMarkers() {
       markers.forEach(({marker, li}) => {
@@ -217,37 +237,36 @@
   }
 
   function initFilters(syncCb){
-    // Restore from URL
     $$(".provider").forEach(cb => cb.checked = qs.getAll("provider").includes(cb.value));
-    $$(".country").forEach(cb => cb.checked = qs.getAll("country").includes(cb.value));
     ["mode","region","from","to","q"].forEach(id => { if (qs.get(id)) $("#"+id).value = qs.get(id); });
+    if (qs.get("country")) $("#country").value = qs.get("country");
 
-    function selected(nodes){ return nodes.filter(n => n.checked).map(n => n.value); }
+    const selected = (nodes) => nodes.filter(n => n.checked).map(n => n.value);
 
     window.applyFilters = function(pushUrl=true) {
-      const pickProv = selected($$(".provider"));
-      const pickCountries = selected($$(".country")).map(c => c.toLowerCase());
-      const selMode = $("#mode").value;
-      const selRegion = $("#region").value;
-      const from = $("#from").value ? new Date($("#from").value) : null;
-      const to   = $("#to").value ? new Date($("#to").value) : null;
-      const q = $("#q").value.trim().toLowerCase();
+      const pickProv   = selected($$(".provider"));
+      const selCountry = ($("#country").value || "").toLowerCase();
+      const selMode    = $("#mode").value;
+      const selRegion  = $("#region").value;
+      const from       = $("#from").value ? new Date($("#from").value) : null;
+      const to         = $("#to").value ? new Date($("#to").value) : null;
+      const q          = $("#q").value.trim().toLowerCase();
 
       $$(".event-item").forEach(li => {
-        const prov   = (li.dataset.provider || "");
-        const mode   = (li.dataset.mode || "");
-        const region = (li.dataset.region || "");
-        const country= (li.dataset.country || "").toLowerCase();
-        const title  = (li.dataset.title || "");
-        const tags   = (li.dataset.tags  || "").toLowerCase();
-        const city   = (li.dataset.city  || "").toLowerCase();
-        const date   = li.dataset.date ? new Date(li.dataset.date) : null;
+        const prov    = (li.dataset.provider || "");
+        const mode    = (li.dataset.mode || "");
+        const region  = (li.dataset.region || "");
+        const country = (li.dataset.country || "").toLowerCase();
+        const title   = (li.dataset.title || "");
+        const tags    = (li.dataset.tags  || "").toLowerCase();
+        const city    = (li.dataset.city  || "").toLowerCase();
+        const date    = li.dataset.date ? new Date(li.dataset.date) : null;
 
         let ok = true;
         if (pickProv.length && !pickProv.includes(prov)) ok = false;
         if (ok && selMode && mode !== selMode) ok = false;
         if (ok && selRegion && region !== selRegion) ok = false;
-        if (ok && pickCountries.length && !pickCountries.includes(country)) ok = false;
+        if (ok && selCountry && country !== selCountry) ok = false;
         if (ok && from && date && date < from) ok = false;
         if (ok && to && date && date > new Date(to.getTime() + 24*60*60*1000 - 1)) ok = false;
         if (ok && q && !(title.includes(q) || tags.includes(q) || city.includes(q))) ok = false;
@@ -258,7 +277,7 @@
       if (pushUrl){
         const params = new URLSearchParams();
         selected($$(".provider")).forEach(p => params.append("provider", p));
-        selected($$(".country")).forEach(c => params.append("country", c));
+        if ($("#country").value) params.set("country", $("#country").value);
         if ($("#mode").value) params.set("mode", $("#mode").value);
         if ($("#region").value) params.set("region", $("#region").value);
         if ($("#from").value) params.set("from", $("#from").value);
@@ -271,16 +290,17 @@
       if (typeof syncCb === "function") syncCb();
     };
 
-    $$(".provider, .country").forEach(cb => cb.addEventListener("change", () => applyFilters()));
-    ["mode","region","from","to"].forEach(id => $("#"+id).addEventListener("change", () => applyFilters()));
+    $$(".provider").forEach(cb => cb.addEventListener("change", () => applyFilters()));
+    ["mode","region","from","to","country"].forEach(id => $("#"+id).addEventListener("change", () => applyFilters()));
     $("#q").addEventListener("input", () => applyFilters());
+    $("#country-clear").addEventListener("click", () => { $("#country").value=""; applyFilters(); });
     $("#clear").addEventListener("click", () => {
-      $$(".provider, .country").forEach(cb => cb.checked = false);
-      ["mode","region","from","to","q"].forEach(id => { const el=$("#"+id); if (el) el.value=""; });
+      $$(".provider").forEach(cb => cb.checked = false);
+      ["mode","region","from","to","q","country"].forEach(id => { const el=$("#"+id); if (el) el.value=""; });
       applyFilters();
     });
 
-    // Initial render (restore URL or localStorage)
+    // First render (restore)
     if (![...qs.keys()].length) {
       try {
         const saved = localStorage.getItem("kubermates.events.filters");

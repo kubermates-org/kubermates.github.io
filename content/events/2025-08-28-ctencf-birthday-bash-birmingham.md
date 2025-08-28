@@ -3,17 +3,17 @@ title: '#cTENcf Birthday Bash Birmingham'
 date: '2025-08-28T17:00:00+00:00'
 endDate: null
 location: Birmingham (GB)
-city: Birmingham (GB)
+city: null
 country: null
 region: null
 lat: null
 lon: null
 organizer: null
-mode: in-person
+mode: online
 tags:
 - cncf
 - event
-source: bevy-search-api
+source: cncf-api
 external_url: https://community.cncf.io/events/details/cncf-cloud-native-birmingham-presents-ctencf-birthday-bash-birmingham/
 draft: false
 uid: ebc2e2fac8364270

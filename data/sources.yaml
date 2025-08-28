@@ -4,6 +4,10 @@ events:
     url: "https://www.cncf.io/kcds/feed/"
     category: "community"
 
+  - name: Linux Foundation Events
+    type: rss
+    url: "https://events.linuxfoundation.org/feed/"
+    
 docs:
   - name: "CNCF"
     type: rss

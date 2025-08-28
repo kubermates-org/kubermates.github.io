@@ -6,14 +6,14 @@ location: San Francisco, CA (US)
 city: San Francisco
 country: ca (us)
 region: null
-lat: null
-lon: null
+lat: 37.7749
+lon: -122.4194
 organizer: null
 mode: in-person
 tags:
 - cncf
 - event
-source: bevy-search-api
+source: cncf-api
 external_url: https://community.cncf.io/events/details/cncf-cncf-cartografos-working-group-presents-cartografos-community-meeting-2025-09-02/
 draft: false
 uid: a41990bc70e69c85

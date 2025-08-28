@@ -4,17 +4,17 @@ title: 'CNCF On-Demand: One API to Rule Them All - Building a Unified Platform w
 date: '2025-09-04T07:00:00+00:00'
 endDate: null
 location: Online (US)
-city: Online (US)
+city: null
 country: null
 region: null
 lat: null
 lon: null
 organizer: null
-mode: in-person
+mode: online
 tags:
 - cncf
 - event
-source: bevy-search-api
+source: cncf-api
 external_url: https://community.cncf.io/events/details/cncf-cncf-online-programs-presents-cncf-on-demand-one-api-to-rule-them-all-building-a-unified-platform-with-kubernetes-aggregation/
 draft: false
 uid: 99898fc7035ff919

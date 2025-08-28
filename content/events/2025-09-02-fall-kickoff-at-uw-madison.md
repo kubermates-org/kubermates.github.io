@@ -13,7 +13,7 @@ mode: in-person
 tags:
 - cncf
 - event
-source: bevy-search-api
+source: cncf-api
 external_url: https://community.cncf.io/events/details/cncf-cloud-native-madison-presents-fall-kickoff-at-uw-madison/
 draft: false
 uid: a49a05cccba83118

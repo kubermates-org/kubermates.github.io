@@ -3,17 +3,17 @@ title: '#cTENcf Birthday Bash Taipei'
 date: '2025-09-04T11:30:00+00:00'
 endDate: null
 location: Taipei (TW)
-city: Taipei (TW)
+city: null
 country: null
 region: null
 lat: null
 lon: null
 organizer: null
-mode: in-person
+mode: online
 tags:
 - cncf
 - event
-source: bevy-search-api
+source: cncf-api
 external_url: https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-ctencf-birthday-bash-taipei/
 draft: false
 uid: 4b312abf3530b1d7

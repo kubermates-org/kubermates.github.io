@@ -13,7 +13,7 @@ mode: in-person
 tags:
 - cncf
 - event
-source: bevy-search-api
+source: cncf-api
 external_url: https://community.cncf.io/events/details/cncf-timisoara-romania-presents-cloud-native-timisoara-autumn-edition-2025/
 draft: false
 uid: fe3bd467dcdb34d5

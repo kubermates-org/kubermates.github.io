@@ -13,7 +13,7 @@ mode: in-person
 tags:
 - cncf
 - event
-source: bevy-search-api
+source: cncf-api
 external_url: https://community.cncf.io/events/details/cncf-cloud-native-gurugram-presents-ctencf-birthday-bash-gurugram/
 draft: false
 uid: 46d4d336144f43b5

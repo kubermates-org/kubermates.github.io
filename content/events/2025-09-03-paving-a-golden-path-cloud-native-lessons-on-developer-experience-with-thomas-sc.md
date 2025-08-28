@@ -14,7 +14,7 @@ mode: in-person
 tags:
 - cncf
 - event
-source: bevy-search-api
+source: cncf-api
 external_url: https://community.cncf.io/events/details/cncf-cloud-native-nairobi-presents-paving-a-golden-path-cloud-native-lessons-on-developer-experience-with-thomas-schuetz/
 draft: false
 uid: 9d6a63bfd1ad284a

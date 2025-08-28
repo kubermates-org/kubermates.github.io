@@ -3,17 +3,17 @@ title: '#cTENcf party - USAC - 10 años de CNCF'
 date: '2025-08-30T17:00:00+00:00'
 endDate: null
 location: Guatemala (GT)
-city: Guatemala (GT)
+city: null
 country: null
 region: null
 lat: null
 lon: null
 organizer: null
-mode: in-person
+mode: online
 tags:
 - cncf
 - event
-source: bevy-search-api
+source: cncf-api
 external_url: https://community.cncf.io/events/details/cncf-cloud-native-guatemala-presents-ctencf-party-usac-10-anos-de-cncf/
 draft: false
 uid: 7740aff762fca810

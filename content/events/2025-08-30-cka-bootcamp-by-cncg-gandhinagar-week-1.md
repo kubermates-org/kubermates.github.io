@@ -13,7 +13,7 @@ mode: in-person
 tags:
 - cncf
 - event
-source: bevy-search-api
+source: cncf-api
 external_url: https://community.cncf.io/events/details/cncf-cloud-native-gandhinagar-presents-cka-bootcamp-by-cncg-gandhinagar-week-1/
 draft: false
 uid: cb8a9a741a1d59e8
