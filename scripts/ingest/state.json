@@ -2319,6 +2319,76 @@
       "title": "Cloud Native Talks: Tales of SREs and Kubernetes Security",
       "date": "2025-09-04T15:30:00+00:00",
       "source": "cncf-api"
+    },
+    "3ead844bb494": {
+      "title": "Building a Scalable, Flexible, Cloud-Native GenAI Platform with Open Source Solutions",
+      "date": "2025-08-28T23:57:26+00:00",
+      "source": "CNCF"
+    },
+    "2f98e362a43c": {
+      "title": "Friday Five — August 29, 2025",
+      "date": "2025-08-29T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "97ecb8d255c6": {
+      "title": "Red Hat contributes Trustify project to OpenSSF’s GUAC community",
+      "date": "2025-08-28T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "0107600528f2": {
+      "title": "Kubernetes v1.34: User preferences (kuberc) are available for testing in kubectl 1.34",
+      "date": "2025-08-28T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "4d5dfc2e9209": {
+      "title": "VMware Cloud Services Portal migration to the Broadcom Cloud Console",
+      "date": "2025-08-28T17:30:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "f3ce17a37dd3": {
+      "title": "August 28, 2025",
+      "date": "2025-08-28T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "cf63235d9b7c": {
+      "title": "v2.12.1",
+      "date": "2025-08-29T02:05:13+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "d92243032637": {
+      "title": "Pre-release v2.12.1-rc1",
+      "date": "2025-08-28T20:10:18+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "64d96cef0bde": {
+      "title": "v2.11.5",
+      "date": "2025-08-29T02:06:45+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "ac0f36bdd4914f69": {
+      "title": "Conversatorio: Open Source, Docker y Cloud Native con la comunidad:  Q&A, oportunidades y crecimiento profesional y personal",
+      "date": "2025-09-04T23:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "898e6ac5b4eda937": {
+      "title": "CNCJ: コーディングエージェント × セキュリティ ミートアップ",
+      "date": "2025-09-05T09:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "06ac47c8ce201556": {
+      "title": "#cTENcf 🎂 CNCF Coimbatore Meetup Celebration",
+      "date": "2025-09-06T04:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "32523dc90ff243bd": {
+      "title": "cTENcf Party Meetup: CNCF @10 with CNCG Gandhinagar × CNCG Ahmedabad",
+      "date": "2025-09-06T04:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "a54285c131d3be7d": {
+      "title": "#cTENcf Birthday Bash Hanoi 🇻🇳",
+      "date": "2025-09-07T06:30:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
