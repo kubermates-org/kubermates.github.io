@@ -2389,6 +2389,81 @@
       "title": "#cTENcf Birthday Bash Hanoi 🇻🇳",
       "date": "2025-09-07T06:30:00+00:00",
       "source": "cncf-api"
+    },
+    "376b594ccf7a": {
+      "title": "The Signal in the Storm: Why Chasing More Data Misses the Point",
+      "date": "2025-08-29T17:00:00+00:00",
+      "source": "CNCF"
+    },
+    "974ac4d22eb6": {
+      "title": "Your essential reading list: Top 10 articles for your IT strategy",
+      "date": "2025-08-29T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "9831de694d96": {
+      "title": "Why you should be using portable zero-touch provisioning on the edge",
+      "date": "2025-08-29T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "88762104d1c0": {
+      "title": "Red Hat Trusted Artifact Signer can now be hosted on RHEL",
+      "date": "2025-08-29T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "0cb473cfd439": {
+      "title": "Don't let perfection stop progress when developing AI agents",
+      "date": "2025-08-29T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "65bae945644f": {
+      "title": "Bring your own knowledge to OpenShift Lightspeed",
+      "date": "2025-08-29T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "29d73e7b3e9d": {
+      "title": "Kubernetes v1.34: Finer-Grained Control Over Container Restarts",
+      "date": "2025-08-29T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "b0f473ba54b1": {
+      "title": "From VLAN Tag to Segment: Using Guest VLAN Tagging in NSX",
+      "date": "2025-08-29T18:16:13+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "ac3b10bfdec2": {
+      "title": "VMware Cloud Foundation – Cloud on Your Terms",
+      "date": "2025-08-29T16:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "fac84efdb350": {
+      "title": "August 29, 2025",
+      "date": "2025-08-29T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "6dc0396e602c": {
+      "title": "v2.11.3-hotfix-08d7.1",
+      "date": "2025-08-29T07:54:30+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "9770dd53472fbbbd": {
+      "title": "#cTENcf Birthday Bash Lahore : Celebrating 10 Years of CNCF! 🎉",
+      "date": "2025-08-30T07:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "fb1e6aec002346d0": {
+      "title": "#cTENcf Birthday Bash Ranchi",
+      "date": "2025-08-31T13:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "3bf6f8eb57a3171a": {
+      "title": "CNCF On-Demand: A Leap Forward in Kubernetes Networking & Observability with Calico Open Source",
+      "date": "2025-09-04T07:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "f254ef1451d8b567": {
+      "title": "Argo CD Up and Running: Multi-Tenancy",
+      "date": "2025-09-04T16:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
