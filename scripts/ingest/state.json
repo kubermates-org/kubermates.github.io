@@ -2464,6 +2464,36 @@
       "title": "Argo CD Up and Running: Multi-Tenancy",
       "date": "2025-09-04T16:00:00+00:00",
       "source": "cncf-api"
+    },
+    "1adf243faae7": {
+      "title": "Announcing Kyverno Release 1.15!",
+      "date": "2025-08-30T13:31:00+00:00",
+      "source": "CNCF"
+    },
+    "d053215bbff4f5b7": {
+      "title": "[Online] Women in Cloud Era @ Cloud Native Kuala Lumpur Meetup - September 2025",
+      "date": "2025-09-08T11:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "728a363c3bd70464": {
+      "title": "CloudCon Sydney - Sydney International Convention Centre (9/10 September)",
+      "date": "2025-09-08T22:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "a0b297fe36f3ec6f": {
+      "title": "CloudCon Sydney",
+      "date": "2025-09-08T22:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "2eefa4026b9311c0": {
+      "title": "KCD San Francisco Bay Area",
+      "date": "2025-09-09T15:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "8bcafc6906793961": {
+      "title": "#cTENcf Birthday Bash Luxembourg",
+      "date": "2025-09-09T16:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
