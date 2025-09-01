@@ -2494,6 +2494,11 @@
       "title": "#cTENcf Birthday Bash Luxembourg",
       "date": "2025-09-09T16:00:00+00:00",
       "source": "cncf-api"
+    },
+    "6e5ab56a1707e51c": {
+      "title": "Kubernetes, Cloud Native & Platform Engineering Meetup - September",
+      "date": "2025-09-09T16:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
