@@ -2499,6 +2499,36 @@
       "title": "Kubernetes, Cloud Native & Platform Engineering Meetup - September",
       "date": "2025-09-09T16:00:00+00:00",
       "source": "cncf-api"
+    },
+    "71acbe751217": {
+      "title": "Jaeger at 10: Forged in Community, Reborn in OpenTelemetry",
+      "date": "2025-09-01T14:57:18+00:00",
+      "source": "CNCF"
+    },
+    "fe34aa615ac9": {
+      "title": "Kubernetes v1.34: DRA has graduated to GA",
+      "date": "2025-09-01T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "5f2a32225e93": {
+      "title": "4.20.0-okd-scos.ec.14",
+      "date": "2025-09-02T00:56:07+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "6c72fda95304030b": {
+      "title": "WasmEdge Community Meeting",
+      "date": "2025-09-02T15:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "1acb62814a56f82f": {
+      "title": "OTel Night Berlin - v2025.09: eBPF Special Night",
+      "date": "2025-09-09T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "b5bccfd4a7fc36ff": {
+      "title": "OSPO Japan #2: Dawn of Academic OSPO",
+      "date": "2025-09-10T07:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
