@@ -2529,6 +2529,86 @@
       "title": "OSPO Japan #2: Dawn of Academic OSPO",
       "date": "2025-09-10T07:00:00+00:00",
       "source": "cncf-api"
+    },
+    "a49b02fb0467": {
+      "title": "Beyond Terraform Modules: Infrastructure Design by Contract",
+      "date": "2025-09-02T17:00:00+00:00",
+      "source": "CNCF"
+    },
+    "2d5ab11aaecd": {
+      "title": "Unlocking next-generation AI performance with Dynamic Resource Allocation on Amazon EKS and Amazon EC2 P6e-GB200",
+      "date": "2025-09-02T23:33:59+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "3ef0d5ab0982": {
+      "title": "Why defence organisations need resilience beyond sovereignty",
+      "date": "2025-09-02T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "200a3b834af6": {
+      "title": "What’s new with data science pipelines in Red Hat OpenShift AI",
+      "date": "2025-09-02T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "112611f88943": {
+      "title": "The Metadata Assistant: How Red Hat is using generative AI to make web content easier to find and use",
+      "date": "2025-09-02T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "e2f68a4c2dcd": {
+      "title": "Protect and unify with Commvault and Red Hat OpenShift: A modern approach to disaster recovery for VMs and containers",
+      "date": "2025-09-02T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "672b8e573664": {
+      "title": "EMEA’s cloud sovereignty puzzle takes shape",
+      "date": "2025-09-02T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "036c7d317288": {
+      "title": "Kubernetes v1.34: Introducing CPU Manager Static Policy Option for Uncore Cache Alignment",
+      "date": "2025-09-02T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "f9c727bcafec": {
+      "title": "Transfer VMware Cloud Foundation (VCF) Operations Integration SDK Builds to a Private Container Registry in the deployed VCF Operations Environment",
+      "date": "2025-09-02T21:14:29+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "8f377392bd08": {
+      "title": "What's New on DigitalOcean App Platform",
+      "date": "2025-09-02T23:01:24.361000+00:00",
+      "source": "Digital Ocean"
+    },
+    "edea381e00f1": {
+      "title": "Single Sign-On is Now Available, Strengthening Security and Simplifying Authentication",
+      "date": "2025-09-02T15:43:19.934000+00:00",
+      "source": "Digital Ocean"
+    },
+    "adcfde9c8023": {
+      "title": "September 02, 2025",
+      "date": "2025-09-02T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "94a8f6f368ad0a61": {
+      "title": "Infrastructure as Code (IaC): One of the Key Pillars of DevOps Process Automation",
+      "date": "2025-09-05T13:30:43+00:00",
+      "source": "cncf-api"
+    },
+    "8abfbfb4aa6110a1": {
+      "title": "#cTENcf Birthday Bash Vilnius",
+      "date": "2025-09-10T14:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "ffe8b1d92f20be22": {
+      "title": "CNCG Graz Meetup, September 2025 @ Denovo/Exoscale: DevOps, Cloud & AI",
+      "date": "2025-09-10T15:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "c96ed97de2170ea4": {
+      "title": "September Meetup",
+      "date": "2025-09-10T15:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
