@@ -2609,6 +2609,46 @@
       "title": "September Meetup",
       "date": "2025-09-10T15:00:00+00:00",
       "source": "cncf-api"
+    },
+    "5f91b65c1092": {
+      "title": "Securing the Node: A Primer on Cilium’s Host Firewall",
+      "date": "2025-09-03T14:02:00+00:00",
+      "source": "CNCF"
+    },
+    "ca3594e3c06b": {
+      "title": "Dynamic Kubernetes request right sizing with Kubecost",
+      "date": "2025-09-03T18:52:27+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "7c261f923889": {
+      "title": "Understanding AI agent types: A guide to categorizing complexity",
+      "date": "2025-09-03T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "8896171ac8d1": {
+      "title": "Security beyond the model: Introducing AI system cards",
+      "date": "2025-09-03T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "75638d6ec1ab": {
+      "title": "Learn about confidential clusters",
+      "date": "2025-09-03T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "6ab073bb21f4": {
+      "title": "Kubernetes v1.34: Service Account Token Integration for Image Pulls Graduates to Beta",
+      "date": "2025-09-03T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "1a567dbcd24b": {
+      "title": "Sharks of DigitalOcean: Archana Kamath, Senior Director, IaaS",
+      "date": "2025-09-03T04:09:34.122000+00:00",
+      "source": "Digital Ocean"
+    },
+    "f9e758a68d8848e2": {
+      "title": "Alvin Estrada: La historia detrás del hombre.",
+      "date": "2025-09-05T00:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
