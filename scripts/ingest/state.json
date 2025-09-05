@@ -2649,6 +2649,86 @@
       "title": "Alvin Estrada: La historia detrás del hombre.",
       "date": "2025-09-05T00:00:00+00:00",
       "source": "cncf-api"
+    },
+    "d65a87928097": {
+      "title": "The Debug Trap: Why Smart Engineers Waste Hours on Trivial Problems",
+      "date": "2025-09-04T16:00:00+00:00",
+      "source": "CNCF"
+    },
+    "ae99d9d715d8": {
+      "title": "How to run AI model inference with GPUs on Amazon EKS Auto Mode",
+      "date": "2025-09-04T16:12:23+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "600817bd0dfe": {
+      "title": "Friday Five — September 5, 2025",
+      "date": "2025-09-05T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "fe8bfa38546a": {
+      "title": "PSI Metrics for Kubernetes Graduates to Beta",
+      "date": "2025-09-04T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "1b7e342c4bbc": {
+      "title": "New Research Reveals: Cloud Maturity is the Key to Private Cloud Success",
+      "date": "2025-09-04T19:04:09+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "f182a2e40fad": {
+      "title": "Calico Egress Gateway: A Cost-Effective NAT for Kubernetes",
+      "date": "2025-09-04T20:51:58+00:00",
+      "source": "Tigera"
+    },
+    "45de52408a54": {
+      "title": "September 04, 2025",
+      "date": "2025-09-04T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "0670be25af97": {
+      "title": "September 03, 2025",
+      "date": "2025-09-03T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "389f60712368ad1a": {
+      "title": "CNCG#2 - Keep Walking: The Future of Cloud Native in Thailand",
+      "date": "2025-09-10T12:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "46e1a19c9257b8fd": {
+      "title": "#cTENcf Birthday Bash Québec City / CNCF & K8s meetup Septembre 2025",
+      "date": "2025-09-10T21:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "a4a3203da7e47820": {
+      "title": "2025: September - Cloud Native Vancouver",
+      "date": "2025-09-11T00:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "86dfd35b2845bdd0": {
+      "title": "[CNCF-NBG v20]  Expand the observable universe and going beyond Kaniko",
+      "date": "2025-09-11T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "95032c3e0b8ec589": {
+      "title": "#6 Meetup Cloud Native Goiânia",
+      "date": "2025-09-11T22:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "f8b957243e037621": {
+      "title": "Contribute to CNCF Glossary & Kubernetes bn Localization—Maintainers Talk",
+      "date": "2025-09-12T16:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "87d83a2499542914": {
+      "title": "Platform Engineering Meetup Bengaluru September '25| CtenCF: Celebrating 10 Years of CNCF",
+      "date": "2025-09-13T03:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "0ddbd35d15c30446": {
+      "title": "CNCG Kottayam Sep Online Meetup",
+      "date": "2025-09-13T04:30:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
