@@ -2729,6 +2729,41 @@
       "title": "CNCG Kottayam Sep Online Meetup",
       "date": "2025-09-13T04:30:00+00:00",
       "source": "cncf-api"
+    },
+    "0f08922d7ea3": {
+      "title": "Considerations when doing AI on Kubernetes",
+      "date": "2025-09-05T16:00:00+00:00",
+      "source": "CNCF"
+    },
+    "6c5018705b44": {
+      "title": "Beyond the docs: Kartik's journey to Brno and Red Hat",
+      "date": "2025-09-05T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "12e7e546fc0e": {
+      "title": "Kubernetes v1.34: Pod Replacement Policy for Jobs Goes GA",
+      "date": "2025-09-05T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "48432426aed2ef75": {
+      "title": "De ARM a x86: Construyendo Aplicaciones Multi-Arquitectura con Cloud Native Buildpacks",
+      "date": "2025-09-11T23:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "9ac2a808f002438f": {
+      "title": "Cloud Native Calicut Meetup",
+      "date": "2025-09-13T04:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "5673e0f934cd1871": {
+      "title": "VS CODE DEVS DAY MINNA",
+      "date": "2025-09-13T09:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "c5e982e7b7a5da71": {
+      "title": "#cTENcf Birthday Bash Lagos",
+      "date": "2025-09-13T12:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
