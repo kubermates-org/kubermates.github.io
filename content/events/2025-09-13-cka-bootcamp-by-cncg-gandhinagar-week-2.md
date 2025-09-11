@@ -1,6 +1,6 @@
 ---
 title: CKA Bootcamp by CNCG Gandhinagar - Week 2
-date: '2025-09-13T13:30:00+00:00'
+date: '2025-09-13T12:30:00+00:00'
 endDate: null
 location: Gandhinagar, GJ (IN)
 city: Gandhinagar
@@ -16,7 +16,7 @@ tags:
 source: cncf-api
 external_url: https://community.cncf.io/events/details/cncf-cloud-native-gandhinagar-presents-cka-bootcamp-by-cncg-gandhinagar-week-2/
 draft: false
-uid: ed5c2345c5c10982
+uid: 72dcc62e41ab2863
 provider: cncf
 ---
 🚀 CKA Bootcamp – Master Kubernetes with Hands-On LearningGet ready to take your Kubernetes skills to the next level!Foll...

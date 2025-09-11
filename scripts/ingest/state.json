@@ -2904,6 +2904,141 @@
       "title": "KCD Washington DC 2025",
       "date": "2025-09-16T12:00:00+00:00",
       "source": "cncf-api"
+    },
+    "be5e4e545680": {
+      "title": "Red Hat OpenShift AI achieves ISO 42001 AI certification, reinforcing Red Hat's leadership in responsible AI",
+      "date": "2025-09-10T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "99969f8f1f57": {
+      "title": "Red Hat joins LF Energy to help shape a more efficient energy grid",
+      "date": "2025-09-10T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "f275da6ffb8d": {
+      "title": "Enhancing your migration experience with migration toolkit for virtualization 2.9's UI updates",
+      "date": "2025-09-10T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "340aa05ab3be": {
+      "title": "Do you still need GitOps in the era of gen AI?",
+      "date": "2025-09-10T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "1607da844137": {
+      "title": "A guide to Rekor Monitor and its integration with Red Hat Trusted Artifact Signer",
+      "date": "2025-09-09T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "db2bc3971136": {
+      "title": "Kubernetes v1.34: Use An Init Container To Define App Environment Variables",
+      "date": "2025-09-10T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "afb97937ab30": {
+      "title": "FinOps in VMware Cloud Foundation",
+      "date": "2025-09-11T02:50:55+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "fe1cc209e004": {
+      "title": "Deploy VMware Private AI on HGX servers with Broadcom Ethernet Networking",
+      "date": "2025-09-10T04:14:57+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "070a05cb7b62": {
+      "title": "Kubernetes v1.31.13",
+      "date": "2025-09-10T04:03:49+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "ae0499a5a065": {
+      "title": "v1.34.1-rc1+rke2r1",
+      "date": "2025-09-11T01:58:58+00:00",
+      "source": "RKE2 Releases"
+    },
+    "a3f5000c9464": {
+      "title": "v1.33.5-rc1+rke2r1",
+      "date": "2025-09-11T02:37:31+00:00",
+      "source": "RKE2 Releases"
+    },
+    "0373ce6e6777": {
+      "title": "v1.32.9-rc1+rke2r1",
+      "date": "2025-09-11T01:21:40+00:00",
+      "source": "RKE2 Releases"
+    },
+    "4dbea90534fc": {
+      "title": "v1.31.13-rc1+rke2r1",
+      "date": "2025-09-11T01:30:33+00:00",
+      "source": "RKE2 Releases"
+    },
+    "5485f2e01bec": {
+      "title": "v1.34.1-rc1+k3s1",
+      "date": "2025-09-10T22:04:43+00:00",
+      "source": "K3s Releases"
+    },
+    "b5b536ecaf89": {
+      "title": "v1.33.5-rc1+k3s1",
+      "date": "2025-09-10T22:05:00+00:00",
+      "source": "K3s Releases"
+    },
+    "512b8bda6ce4": {
+      "title": "v1.32.9-rc1+k3s1",
+      "date": "2025-09-10T22:03:54+00:00",
+      "source": "K3s Releases"
+    },
+    "a7ca48592ada": {
+      "title": "v1.31.13-rc1+k3s1",
+      "date": "2025-09-10T22:03:37+00:00",
+      "source": "K3s Releases"
+    },
+    "72dcc62e41ab2863": {
+      "title": "CKA Bootcamp by CNCG Gandhinagar - Week 2",
+      "date": "2025-09-13T12:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "6d8e0eea001e05d1": {
+      "title": "Cloud Native Korea Community Day 2025",
+      "date": "2025-09-16T01:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "90f32a110f042a6a": {
+      "title": "Blind and Visually Impaired Initiative Monthly Meeting",
+      "date": "2025-09-16T13:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "b36e3746a4758296": {
+      "title": "Cartografos Community Meeting",
+      "date": "2025-09-16T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "661fa63a16ae27e0": {
+      "title": "KyvernoCon Virtual Event 2025",
+      "date": "2025-09-17T12:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "0593a91deb83e44a": {
+      "title": "Automated Testing in Kubernetes with TestContainers and TestKube",
+      "date": "2025-09-17T14:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "b8446d61c6fe3a59": {
+      "title": "Cloud Native Innsbruck Summer \"Stammtisch\"",
+      "date": "2025-09-17T15:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "92d372b3f8d41e3e": {
+      "title": "Cloud Native Live: From Idea to Implementation - How to Self-Host an AI Agent",
+      "date": "2025-09-17T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "4886a485dae3f041": {
+      "title": "Kubernetes workflow con Freelens: l'IDE open source che semplifica la gestione dei cluster",
+      "date": "2025-09-17T16:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "3599401408130dcc": {
+      "title": "September 2025 - modernising infrastructure and turning K8s networking up to 11",
+      "date": "2025-09-17T17:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
