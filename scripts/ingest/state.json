@@ -3039,6 +3039,91 @@
       "title": "September 2025 - modernising infrastructure and turning K8s networking up to 11",
       "date": "2025-09-17T17:00:00+00:00",
       "source": "cncf-api"
+    },
+    "4a0ba88f6f38": {
+      "title": "Kubernetes right-sizing with metrics-driven GitOps automation",
+      "date": "2025-09-11T15:17:23+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "c85b6fc040f4": {
+      "title": "Friday Five — September 12, 2025",
+      "date": "2025-09-12T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "4e101f7a05f3": {
+      "title": "The virtualization game has changed: A new playbook for IT leaders",
+      "date": "2025-09-11T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "ed831e966b60": {
+      "title": "Streamlining migration to OpenShift Virtualization with automation and expert guidance",
+      "date": "2025-09-11T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "6105ae3b1370": {
+      "title": "Seamless hybrid cloud storage: NetApp’s certified OpenShift operator for Trident",
+      "date": "2025-09-11T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "859736d5737b": {
+      "title": "Navigating AI risk: Building a trusted foundation with Red Hat",
+      "date": "2025-09-11T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "3c7fa89bc3bd": {
+      "title": "Unlocking the next layer of AI adoption in the UK",
+      "date": "2025-09-10T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "3eafb90b4a89": {
+      "title": "Kubernetes v1.34: Mutable CSI Node Allocatable Graduates to Beta",
+      "date": "2025-09-11T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "976431376c65": {
+      "title": "A Blueprint for DevSecOps: Accelerating Federal Agencies with IBM and Nirmata",
+      "date": "2025-09-11T21:51:25+00:00",
+      "source": "Nirmata Blog"
+    },
+    "5c3cd40a3d07": {
+      "title": "Broadcom (VMware) Named a Leader in the 2025 GartnerⓇ Magic QuadrantTM for Distributed Hybrid Infrastructure for the 3rd Consecutive Year",
+      "date": "2025-09-11T13:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "11c2cee0e6de": {
+      "title": "Securing AI Workloads in Kubernetes: Why Traditional Network Security Isn’t Enough",
+      "date": "2025-09-11T19:21:53+00:00",
+      "source": "Tigera"
+    },
+    "b0f5ffd26e6c": {
+      "title": "v1.30.14-rc1+rke2r4",
+      "date": "2025-09-11T18:19:28+00:00",
+      "source": "RKE2 Releases"
+    },
+    "cb9a19feae97a5c4": {
+      "title": "Introducción a Linux – de 0 a 100",
+      "date": "2025-09-17T23:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "aa458eff005e0d4e": {
+      "title": "Kubernetes Community Days Sofia",
+      "date": "2025-09-18T06:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "103fc7ec98e6b6be": {
+      "title": "CNCF Belgian Meetup September 2025",
+      "date": "2025-09-18T16:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "15c6c9b40bae1a06": {
+      "title": "Transparence et Innovation : SBOM et la Transformation Cloud des Restos du Cœur",
+      "date": "2025-09-18T16:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "ae7fbe671b65e6c6": {
+      "title": "Cloud Native PDX: Kubernetes, Containerization & Operators",
+      "date": "2025-09-19T00:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
