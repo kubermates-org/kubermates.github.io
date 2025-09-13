@@ -3124,6 +3124,91 @@
       "title": "Cloud Native PDX: Kubernetes, Containerization & Operators",
       "date": "2025-09-19T00:00:00+00:00",
       "source": "cncf-api"
+    },
+    "1c3005ffd1d1": {
+      "title": "Top Kubernetes (K8s) Troubleshooting Techniques – Part 1",
+      "date": "2025-09-12T16:00:00+00:00",
+      "source": "CNCF"
+    },
+    "f5bb1db8fd7d": {
+      "title": "KubeCon + CloudNativeCon North America 2025 Co-Located Event Deep Dive: OpenTofu Day",
+      "date": "2025-09-12T13:29:00+00:00",
+      "source": "CNCF"
+    },
+    "489e99f91c4a": {
+      "title": "The EU Cyber Resilience Act's impact on open source security",
+      "date": "2025-09-12T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "a0c4f2f523e7": {
+      "title": "Red Hat OpenShift: Where vision meets execution",
+      "date": "2025-09-12T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "db3bf12c60a6": {
+      "title": "Navigating complexity, delivering value: our take on why Forrester named Red Hat OpenShift a Leader",
+      "date": "2025-09-12T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "24083c33d9d8": {
+      "title": "Kubernetes v1.34: Autoconfiguration for Node Cgroup Driver Goes GA",
+      "date": "2025-09-12T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "b501294c3e80": {
+      "title": "Boost Operational Efficiency with VMware Cloud Foundation",
+      "date": "2025-09-12T18:20:05+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "ad34a07e7127": {
+      "title": "September 11, 2025",
+      "date": "2025-09-11T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "77c4ed713096": {
+      "title": "Pre-release v2.12.2-alpha1",
+      "date": "2025-09-12T17:07:17+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "f26ed4282db6": {
+      "title": "Pre-release v2.11.6-alpha2",
+      "date": "2025-09-12T19:57:29+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "c6d65d9e4d54": {
+      "title": "Pre-release v2.11.6-alpha1",
+      "date": "2025-09-12T16:18:10+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "4500e7ce72b4": {
+      "title": "Pre-release v2.10.10-alpha1",
+      "date": "2025-09-12T16:18:31+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "e9b4b5c8d742": {
+      "title": "Pre-release v2.9.12-alpha2",
+      "date": "2025-09-12T19:57:52+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "5f42c6551528": {
+      "title": "Pre-release v2.9.12-alpha1",
+      "date": "2025-09-12T16:18:22+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "beead70a9d48b761": {
+      "title": "2do Meetup Presencial: ¡Más que código, haz conexión!",
+      "date": "2025-09-17T23:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "b9ca6ccdf5c294c4": {
+      "title": "Stuttering and Speech Diversity Monthly Meeting",
+      "date": "2025-09-19T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "02ff2e7299c544bc": {
+      "title": "The State of Platform Engineering",
+      "date": "2025-09-19T16:00:37+00:00",
+      "source": "cncf-api"
     }
   }
 }
