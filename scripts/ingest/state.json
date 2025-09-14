@@ -3209,6 +3209,26 @@
       "title": "The State of Platform Engineering",
       "date": "2025-09-19T16:00:37+00:00",
       "source": "cncf-api"
+    },
+    "cb645f6bc14a1f33": {
+      "title": "CNCG Pune Sept meetup",
+      "date": "2025-09-20T04:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "c63f6736adaff257": {
+      "title": "CNCG Kottayam Sep Online Meetup",
+      "date": "2025-09-20T04:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "511af5ffad961cec": {
+      "title": "#cTENcf Meetup Chandigarh",
+      "date": "2025-09-20T05:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "f42c68a3944ac0d9": {
+      "title": "Cloud Native Puja Meetup: Scaling Cloud, Celebrating Culture",
+      "date": "2025-09-20T05:00:40+00:00",
+      "source": "cncf-api"
     }
   }
 }
