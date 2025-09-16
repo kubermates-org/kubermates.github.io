@@ -3229,6 +3229,81 @@
       "title": "Cloud Native Puja Meetup: Scaling Cloud, Celebrating Culture",
       "date": "2025-09-20T05:00:40+00:00",
       "source": "cncf-api"
+    },
+    "fd624175a8b7": {
+      "title": "KubeCon + CloudNativeCon North America 2025 Co-Located Event Deep Dive: KyvernoCon",
+      "date": "2025-09-15T13:28:00+00:00",
+      "source": "CNCF"
+    },
+    "6a98ff63b74b": {
+      "title": "Preparing your organization for the quantum future",
+      "date": "2025-09-15T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "1ac5bb869c6a": {
+      "title": "AI-assisted development: Supercharging the open source way",
+      "date": "2025-09-15T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "0420685e54b7": {
+      "title": "A strategic approach to AI inference performance",
+      "date": "2025-09-15T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "f55281fd33b5": {
+      "title": "Kubernetes v1.34: Decoupled Taint Manager Is Now Stable",
+      "date": "2025-09-15T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "5089ac9941de": {
+      "title": "VMware Cloud Foundation Support Upgrade Playbook",
+      "date": "2025-09-15T13:28:19+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "d171bd85cce4": {
+      "title": "VCF Breakroom Chats Episode 58:  A Smarter Way to a Unified Private Cloud Consumption Experience with VCF 9.0",
+      "date": "2025-09-15T12:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "0695640ae92d": {
+      "title": "4.20.0-okd-scos.ec.16",
+      "date": "2025-09-15T06:19:37+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "a09707bc526b": {
+      "title": "Pre-release v2.10.10-alpha3",
+      "date": "2025-09-15T22:31:48+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "eb3167d7b08b": {
+      "title": "Pre-release v2.10.10-alpha2",
+      "date": "2025-09-15T17:41:57+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "a49077cabed3": {
+      "title": "Pre-release v2.9.12-alpha3",
+      "date": "2025-09-15T22:31:15+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "08bfa87bd67c": {
+      "title": "v1.34.1-rc2+rke2r1",
+      "date": "2025-09-15T20:50:00+00:00",
+      "source": "RKE2 Releases"
+    },
+    "cc6ad2523baf": {
+      "title": "v1.30.14-rc1+k3s3",
+      "date": "2025-09-15T15:11:48+00:00",
+      "source": "K3s Releases"
+    },
+    "532829f86895108a": {
+      "title": "#cTENcf Birthday Bash Sri Lanka",
+      "date": "2025-09-18T12:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "c91edb3843e093a7": {
+      "title": "Cloud Native Hyderabad - September Meetup",
+      "date": "2025-09-20T04:30:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
