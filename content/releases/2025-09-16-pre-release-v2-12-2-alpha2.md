@@ -1,0 +1,21 @@
+---
+title: Pre-release v2.12.2-alpha2
+date: '2025-09-16T14:59:26+00:00'
+tags:
+- rancher
+source: Rancher (Manager) Releases
+external_url: https://github.com/rancher/rancher/releases/tag/v2.12.2-alpha2
+post_kind: release
+draft: false
+tldr: Images with -rc Components with -rc Min version components with -rc Chart/KDM
+  sources rancher/aks-operator:v1.12.2-rc. 1 rancher/backup-restore-operator:v8.1.0-rc.
+summary: Images with -rc Components with -rc Min version components with -rc Chart/KDM
+  sources rancher/aks-operator:v1.12.2-rc. 1 rancher/backup-restore-operator:v8.1.0-rc.
+  1 rancher/eks-operator:v1.12.2-rc. 2 rancher/fleet-agent:v0.13.2-rc. 2 rancher/fleet:v0.13.2-rc.
+  2 rancher/gke-operator:v1.12.2-rc. 1 rancher/prometheus-federator:v4.2.0-rc. 1 rancher/rancher-agent:v2.12.2-alpha2
+  rancher/rancher-webhook:v0.8.2-rc. 2 rancher/rancher:v2.12.2-alpha2 rancher/rke2-cloud-provider:v1.31.9-rc1.
+  0.20250516171836-812206503b28-build20250612 rancher/rke2-cloud-provider:v1.32.0-rc3.
+  0.20241220224140-68fbd1a6b543-build20250101 rancher/rke2-cloud-provider:v1.32.5-rc1.
+  0.20250516182639-8e8f2a4726fd-build20250612 rancher/rke2-cloud-provider:v1.33.0-rc1.
+---
+Open the original post ↗ https://github.com/rancher/rancher/releases/tag/v2.12.2-alpha2
