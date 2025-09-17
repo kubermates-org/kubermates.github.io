@@ -3304,6 +3304,101 @@
       "title": "Cloud Native Hyderabad - September Meetup",
       "date": "2025-09-20T04:30:00+00:00",
       "source": "cncf-api"
+    },
+    "933f80cf1651": {
+      "title": "Use the RHEL command-line assistant offline with this new developer preview",
+      "date": "2025-09-16T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "d9338348a205": {
+      "title": "Unlocking AI innovation: GPU-as-a-Service with Red Hat",
+      "date": "2025-09-16T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "f58a0eb040a7": {
+      "title": "Fedora 43 Beta now available",
+      "date": "2025-09-16T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "2c4cdad9d6ad": {
+      "title": "Kubernetes v1.34: Moving Volume Group Snapshots to v1beta2",
+      "date": "2025-09-16T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "5affd3e9d4c3": {
+      "title": "Distributed performance testing for Kubernetes environments: Grafana k6 Operator 1.0 is here",
+      "date": "2025-09-16T00:00:00+00:00",
+      "source": "Grafana Kubernetes"
+    },
+    "9613777c3b66": {
+      "title": "Deploy Distributed LLM Inference with GPUDirect RDMA over InfiniBand in VMware Private AI",
+      "date": "2025-09-16T14:11:03+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "fbdd1bab795a": {
+      "title": "Best DevOps Courses in 2025: Learning Paths to Boost Your Career",
+      "date": "2025-09-16T17:19:01+00:00",
+      "source": "KodeKloud Blog (Kubernetes)"
+    },
+    "4b65c91bc189": {
+      "title": "Calico Whisker vs. Traditional Observability: Why Context Matters in Kubernetes Networking",
+      "date": "2025-09-16T19:43:02+00:00",
+      "source": "Tigera"
+    },
+    "f442733e27c6": {
+      "title": "Pre-release v2.12.2-alpha2",
+      "date": "2025-09-16T14:59:26+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "48eef8a918a8": {
+      "title": "Pre-release v2.11.6-alpha3",
+      "date": "2025-09-16T12:15:36+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "da0675a06de8": {
+      "title": "v1.34.1-rc3+rke2r1",
+      "date": "2025-09-16T21:55:25+00:00",
+      "source": "RKE2 Releases"
+    },
+    "d06ff1e17dfd": {
+      "title": "v1.33.5-rc2+rke2r1",
+      "date": "2025-09-16T21:59:22+00:00",
+      "source": "RKE2 Releases"
+    },
+    "36eb5ceaf625": {
+      "title": "v1.32.9-rc2+rke2r1",
+      "date": "2025-09-16T21:58:33+00:00",
+      "source": "RKE2 Releases"
+    },
+    "9772f36483f1": {
+      "title": "v1.31.13-rc2+rke2r1",
+      "date": "2025-09-16T22:29:52+00:00",
+      "source": "RKE2 Releases"
+    },
+    "eabdd1b42a930aeb": {
+      "title": "Cloud Native Puja Meetup: Scaling Cloud, Celebrating Culture",
+      "date": "2025-09-20T04:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "2a84fb81074636fa": {
+      "title": "#cTENcf Birthday Bash Lagos",
+      "date": "2025-09-20T12:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "ce82d4e86cf63da5": {
+      "title": "KCD El Salvador",
+      "date": "2025-09-20T13:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "0b74ad5c165c3ac9": {
+      "title": "#cTENcf Birthday Bash Hanoi 🇻🇳",
+      "date": "2025-09-21T06:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "9d922592df1cc326": {
+      "title": "cTENcf Birthday Bash Toronto",
+      "date": "2025-09-22T21:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
