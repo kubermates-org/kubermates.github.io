@@ -3399,6 +3399,81 @@
       "title": "cTENcf Birthday Bash Toronto",
       "date": "2025-09-22T21:00:00+00:00",
       "source": "cncf-api"
+    },
+    "4302a2d94b44": {
+      "title": "CNCF Welcomes 20 New Silver Members Reflecting Broader Cloud Native and AI Adoption",
+      "date": "2025-09-17T16:00:00+00:00",
+      "source": "CNCF"
+    },
+    "3c52da4013f3": {
+      "title": "Use Raspberry Pi 5 as Amazon EKS Hybrid Nodes for edge workloads",
+      "date": "2025-09-17T15:08:59+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "7b99e525dd5a": {
+      "title": "Kubernetes v1.34: Pods Report DRA Resource Health",
+      "date": "2025-09-17T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "858a2a4443f4": {
+      "title": "Pre-release v1.8.7-rc.1",
+      "date": "2025-09-17T04:48:54+00:00",
+      "source": "RKE Releases"
+    },
+    "dbcdb3a286fb": {
+      "title": "v1.34.1+rke2r1",
+      "date": "2025-09-17T18:39:27+00:00",
+      "source": "RKE2 Releases"
+    },
+    "27020bf172a9": {
+      "title": "v1.30.14-rc3+k3s3",
+      "date": "2025-09-17T19:30:56+00:00",
+      "source": "K3s Releases"
+    },
+    "6bda3fe0ce4b": {
+      "title": "v1.30.14-rc2+k3s3",
+      "date": "2025-09-17T15:19:11+00:00",
+      "source": "K3s Releases"
+    },
+    "14ab2b7f70a71f61": {
+      "title": "2025: Lo que nos espera en KCD El Salvador -  Spoilers y Q&A",
+      "date": "2025-09-19T00:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "ec35b8dd4e02e51a": {
+      "title": "Cloud Native Luanda - Meetup Setembro 2025",
+      "date": "2025-09-20T18:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "4c753799e02be3dc": {
+      "title": "🎉 Share the Joy – 100% OFF Campaign & Inspiring Kubestronaut Journey with Sammy",
+      "date": "2025-09-23T01:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "50c536052ab1a894": {
+      "title": "#cTENcf Birthday Bash - September Meetup",
+      "date": "2025-09-23T14:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "44fac3eb622d4d6c": {
+      "title": "Deaf and Hard of Hearing WG: Monthly Meeting",
+      "date": "2025-09-23T15:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "492c44190bd65e68": {
+      "title": "Cloud Native Prague #26",
+      "date": "2025-09-23T15:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "48eb40f3f039d2a3": {
+      "title": "#cTENcf Birthday Bash Porto",
+      "date": "2025-09-23T17:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "5058fa07afe540bc": {
+      "title": "cTENcf Montreal Party: Celebrating Cloud Native's Journey",
+      "date": "2025-09-23T21:30:29+00:00",
+      "source": "cncf-api"
     }
   }
 }
