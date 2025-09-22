@@ -3579,6 +3579,111 @@
       "title": "Argo CD Up and Running: Applications at Scale",
       "date": "2025-09-25T16:00:00+00:00",
       "source": "cncf-api"
+    },
+    "5a20a88efb93": {
+      "title": "KubeCon + CloudNativeCon India 2025: A Transformative Experience in Hyderabad",
+      "date": "2025-09-20T00:17:54+00:00",
+      "source": "CNCF"
+    },
+    "46ed7b5869f6": {
+      "title": "Top Kubernetes (K8s) Troubleshooting Techniques – Part 2",
+      "date": "2025-09-19T16:00:00+00:00",
+      "source": "CNCF"
+    },
+    "c9cd980349a6": {
+      "title": "KubeCon + CloudNativeCon North America 2024 Co-Located Event Deep Dive: Observability Day",
+      "date": "2025-09-19T13:22:00+00:00",
+      "source": "CNCF"
+    },
+    "a2fea7a87a5f": {
+      "title": "Top 10 must-reads: Open source innovation at Red Hat",
+      "date": "2025-09-19T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "6f27fb6c6a3d": {
+      "title": "Accelerate AI inference with vLLM",
+      "date": "2025-09-19T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "5b9a924b9d0d": {
+      "title": "Kubernetes v1.34: Recovery From Volume Expansion Failure (GA)",
+      "date": "2025-09-19T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "58618be9cd5f": {
+      "title": "First VMmark Result Published Using VMware Cloud Foundation 9.0",
+      "date": "2025-09-19T17:44:10+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "3b2a76f75aa9": {
+      "title": "Hacktoberfest 2025: Celebrate All Things Open Source!",
+      "date": "2025-09-19T16:23:27.810000+00:00",
+      "source": "Digital Ocean"
+    },
+    "0168aac16822": {
+      "title": "September 18, 2025",
+      "date": "2025-09-18T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "7633beb31313": {
+      "title": "Pre-release v2.12.2-alpha4",
+      "date": "2025-09-19T22:13:06+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "b28e1315476e9d8a": {
+      "title": "KubeCrash: A Free Virtual Day of Cloud Native Talks",
+      "date": "2025-09-23T14:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "29d21bb897024414": {
+      "title": "#33 Container Images, CVEs, and the Path to a Secure Supply Chain",
+      "date": "2025-09-25T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "2221d578ae0c5c62": {
+      "title": "#cTENcf Cloud Native Mallorca by WebBeds",
+      "date": "2025-09-25T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "59204409779aa0ac": {
+      "title": "Cloud Native Valencia #3 - cTENcf Party",
+      "date": "2025-09-25T16:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "187443db8ce259db": {
+      "title": "#cTENcf Birthday Bash Aix-Marseille",
+      "date": "2025-09-25T16:45:00+00:00",
+      "source": "cncf-api"
+    },
+    "aecff88731f2a48c": {
+      "title": "#22 Cloud Native Lisbon 🤝 AWS UG Lisbon - Warm-Up for AWS UG Community Days",
+      "date": "2025-09-25T17:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "d80a0949fc0e671c": {
+      "title": "#cTENcf Birthday Bash Austin",
+      "date": "2025-09-25T23:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "10901ad2f324c480": {
+      "title": "Hello World! CNCF Kaduna Inaugural Launch",
+      "date": "2025-09-26T10:00:43+00:00",
+      "source": "cncf-api"
+    },
+    "066a5df449f24399": {
+      "title": "The Cloud Native Sign Language Glossary: A Story of Community and Inclusion",
+      "date": "2025-09-26T19:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "4ebdc7598e603d0e": {
+      "title": "CNCG Kochi Sept Offline Meetup",
+      "date": "2025-09-27T04:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "02a19ef0cd5cc3cf": {
+      "title": "#cTENcf Birthday Bash X Atlassian X AWS Jaipur",
+      "date": "2025-09-27T04:30:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
