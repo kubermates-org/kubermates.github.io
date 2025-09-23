@@ -3684,6 +3684,66 @@
       "title": "#cTENcf Birthday Bash X Atlassian X AWS Jaipur",
       "date": "2025-09-27T04:30:00+00:00",
       "source": "cncf-api"
+    },
+    "ee5f3b14b71e": {
+      "title": "KubeCon + CloudNativeCon North America 2024 Co-Located Event Deep Dive: CiliumCon",
+      "date": "2025-09-22T13:25:00+00:00",
+      "source": "CNCF"
+    },
+    "e8bcd89328b0": {
+      "title": "Worldpay's Platform as a Product: Revolutionizing development with Red Hat OpenShift",
+      "date": "2025-09-22T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "2b7697dbfc10": {
+      "title": "Kubernetes v1.34: Pod Level Resources Graduated to Beta",
+      "date": "2025-09-22T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "a18fddf3eecc": {
+      "title": "Blog: Spotlight on the Kubernetes Steering Committee",
+      "date": "2025-09-22T00:00:00+00:00",
+      "source": "Kubernetes.dev Blog"
+    },
+    "c4490d5edf03": {
+      "title": "Build faster, debug smarter, and make AI safer with new DigitalOcean Gradient™ AI Platform features",
+      "date": "2025-09-22T15:40:41.359000+00:00",
+      "source": "Digital Ocean"
+    },
+    "4540a5d8a817": {
+      "title": "4.20.0-okd-scos.0",
+      "date": "2025-09-22T13:48:00+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "41109926de6e": {
+      "title": "v1.34.1+k3s1",
+      "date": "2025-09-22T21:46:34+00:00",
+      "source": "K3s Releases"
+    },
+    "31d2f2dff4ba": {
+      "title": "v1.33.5+k3s1",
+      "date": "2025-09-22T21:46:00+00:00",
+      "source": "K3s Releases"
+    },
+    "6af7a9d36a72": {
+      "title": "v1.32.9+k3s1",
+      "date": "2025-09-22T21:43:01+00:00",
+      "source": "K3s Releases"
+    },
+    "98f646be0837": {
+      "title": "v1.31.13+k3s1",
+      "date": "2025-09-22T21:29:11+00:00",
+      "source": "K3s Releases"
+    },
+    "94be554b69da304e": {
+      "title": "Programmers Day 2025",
+      "date": "2025-09-27T06:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "cafd4be4e7a8ff5a": {
+      "title": "Running AI Agents on Kubernetes with kagent",
+      "date": "2025-09-27T09:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
