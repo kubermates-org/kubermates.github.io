@@ -3744,6 +3744,91 @@
       "title": "Running AI Agents on Kubernetes with kagent",
       "date": "2025-09-27T09:00:00+00:00",
       "source": "cncf-api"
+    },
+    "1e437ba4fc5c": {
+      "title": "Solving Kubernetes Multi-tenancy Challenges with vCluster",
+      "date": "2025-09-23T16:00:00+00:00",
+      "source": "CNCF"
+    },
+    "c7f02975f0dd": {
+      "title": "Building an adaptable enterprise: A guide to AI readiness",
+      "date": "2025-09-23T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "74c6cbc5d337": {
+      "title": "AI and Red Hat: Powering the future of cable providers",
+      "date": "2025-09-23T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "5e644edd5acd": {
+      "title": "Securing Your Infrastructure as Code: The Power of Nirmata and HashiCorp Terraform",
+      "date": "2025-09-23T20:50:44+00:00",
+      "source": "Nirmata Blog"
+    },
+    "0da7b3ebb286": {
+      "title": "Analyst Insight Series: Virtualization Virtue #2: Stronger Cloud Security and Fault Tolerance",
+      "date": "2025-09-23T14:16:58+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "a2ae12928253": {
+      "title": "The FinOps Journey: From Visibility to Business Value",
+      "date": "2025-09-23T12:50:15+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "9cc1bdc5346e": {
+      "title": "4.21.0-okd-scos.ec.0",
+      "date": "2025-09-23T14:29:43+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "1afba12c0a23": {
+      "title": "Pre-release v2.12.2-alpha5",
+      "date": "2025-09-23T14:24:43+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "ed75b48b82c1": {
+      "title": "Pre-release v2.11.6-alpha4",
+      "date": "2025-09-23T13:41:27+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "3d6c7bdaaa51": {
+      "title": "Pre-release v2.10.10-alpha4",
+      "date": "2025-09-23T13:42:49+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "0c387b4cdc7a": {
+      "title": "Pre-release v2.9.12-alpha4",
+      "date": "2025-09-23T13:42:50+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "503390dd1201a4a4": {
+      "title": "Chaos Mesh Development Meeting",
+      "date": "2025-09-30T01:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "62fd442a69572b7d": {
+      "title": "Cloud Native Trento #1: What the Dolomites have to offer!",
+      "date": "2025-09-30T15:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "6d8f9b7ee7aa5110": {
+      "title": "Cartografos Community Meeting",
+      "date": "2025-09-30T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "07cd775a3ba28bd0": {
+      "title": "4º Encontro Cloud Native Fortaleza - Online",
+      "date": "2025-09-30T22:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "b6f830a6fce3e3ed": {
+      "title": "#cTENcf Birthday Bash Freiburg",
+      "date": "2025-10-01T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "1092c2dfb360aded": {
+      "title": "Platform-less + operations + data protection",
+      "date": "2025-10-01T22:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
