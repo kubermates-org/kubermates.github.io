@@ -3829,6 +3829,101 @@
       "title": "Platform-less + operations + data protection",
       "date": "2025-10-01T22:00:00+00:00",
       "source": "cncf-api"
+    },
+    "931bbe697ca2": {
+      "title": "CNCF’s Helm Project Remains Fully Open Source and Unaffected by Recent Vendor Deprecations",
+      "date": "2025-09-24T16:00:00+00:00",
+      "source": "CNCF"
+    },
+    "11f7c7f6b03c": {
+      "title": "Local Roots, Global Reach: CNCJ Reflects on KubeCon + CloudNativeCon Japan 2025",
+      "date": "2025-09-24T16:00:00+00:00",
+      "source": "CNCF"
+    },
+    "d6f257523e00": {
+      "title": "The evolution of Red Hat Ansible Lightspeed",
+      "date": "2025-09-24T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "708618d57365": {
+      "title": "DxEnterprise operator for high availability now certified for RHEL 9.6",
+      "date": "2025-09-24T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "d8525b436241": {
+      "title": "New Red Hat Ansible Certified Content Collections for HashiCorp Terraform and HashiCorp Vault",
+      "date": "2025-09-24T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "7ad15fa6b4c7": {
+      "title": "Kubernetes Observability: Your Q&A Guide to Calico Whisker",
+      "date": "2025-09-24T20:45:51+00:00",
+      "source": "Tigera"
+    },
+    "9b7101ea26b4": {
+      "title": "Pre-release v2.12.2-rc2",
+      "date": "2025-09-24T22:22:31+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "6e15fa0c9265": {
+      "title": "Pre-release v2.12.2-rc1",
+      "date": "2025-09-24T16:04:15+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "c0d8b16099b5": {
+      "title": "v2.11.6",
+      "date": "2025-09-24T22:31:31+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "e4e45f765486": {
+      "title": "Pre-release v2.11.6-rc1",
+      "date": "2025-09-24T14:44:10+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "daf2dd6c6e3b": {
+      "title": "v2.10.10",
+      "date": "2025-09-24T22:32:20+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "221f0305021d": {
+      "title": "Pre-release v2.10.10-rc1",
+      "date": "2025-09-24T14:44:16+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "bbf4d7c37910": {
+      "title": "v2.9.12",
+      "date": "2025-09-24T21:46:37+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "d841ec710ce5": {
+      "title": "Pre-release v2.9.12-rc1",
+      "date": "2025-09-24T14:43:33+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "80984a6c17456694": {
+      "title": "Merge Forward: Neurodiversity Working Group Monthly Meeting",
+      "date": "2025-09-25T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "5d0e3d76c5f5768f": {
+      "title": "Helm Templating: Despliegues al Siguiente Nivel",
+      "date": "2025-09-27T00:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "7f9226ff3b5f11a2": {
+      "title": "Cloud Native Araraquara - Meetup #05",
+      "date": "2025-09-30T22:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "773cec9dcb31bc1a": {
+      "title": "CNCF X Elastic Meetup X Open Source Weekend - Gen AI Edition",
+      "date": "2025-10-04T04:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "0562c46a6579cd0d": {
+      "title": "cTENcf Dehradun Meetup",
+      "date": "2025-10-04T04:30:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
