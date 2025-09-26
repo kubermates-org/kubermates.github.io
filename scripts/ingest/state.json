@@ -3924,6 +3924,101 @@
       "title": "cTENcf Dehradun Meetup",
       "date": "2025-10-04T04:30:00+00:00",
       "source": "cncf-api"
+    },
+    "08795eb86acf": {
+      "title": "Autonomous Testing of etcd’s Robustness",
+      "date": "2025-09-25T15:25:00+00:00",
+      "source": "CNCF"
+    },
+    "53880bbbf7c6": {
+      "title": "Friday Five — September 26, 2025",
+      "date": "2025-09-26T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "67ed7fa0e0ca": {
+      "title": "Red Hat and O-RAN Alliance accelerating cloud adoption at the Edge",
+      "date": "2025-09-25T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "72e6cf3cd029": {
+      "title": "Maximize your OpenShift investment: 6 reasons to upgrade to OpenShift Platform Plus",
+      "date": "2025-09-25T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "a2b656dfe6ca": {
+      "title": "The flight plan for AI: How we’re building a culture of innovation at Turkish Technology",
+      "date": "2025-09-25T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "2c2adfef6ba1": {
+      "title": "More than meets the eye: Behind the scenes of Red Hat Enterprise Linux 10 (Part 2)",
+      "date": "2025-09-25T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "f2e445ac5e29": {
+      "title": "Announcing Changed Block Tracking API support (alpha)",
+      "date": "2025-09-25T05:00:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "46aa6d89b464": {
+      "title": "From Chaos to Control: Achieving Network Policy Nirvana with Kyverno",
+      "date": "2025-09-25T08:00:55+00:00",
+      "source": "Nirmata Blog"
+    },
+    "1ba2bc11e250": {
+      "title": "Sydney Sovereign Cloud Day 2025: Where Compliance Meets Innovation",
+      "date": "2025-09-25T15:10:49+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "887883bfcb3c": {
+      "title": "How to Upgrade to VMware Cloud Foundation 9.0",
+      "date": "2025-09-25T14:19:51+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "0717ba9f30ba": {
+      "title": "v2.12.2",
+      "date": "2025-09-25T19:49:30+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "68d3a86646d6927b": {
+      "title": "Argo CD Up and Running: Applications at Scale 2/2",
+      "date": "2025-10-02T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "4a062d8139278eda": {
+      "title": "#cTENcf Birthday Bash - Guatemala - 10 años constuyendo Comunidad",
+      "date": "2025-10-04T14:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "22ecdf01c084d08f": {
+      "title": "Cloud Native Luanda - Meetup Setembro 2025",
+      "date": "2025-10-04T18:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "b115f3bc9bd2c459": {
+      "title": "#cTENcf Birthday Bash Nashik",
+      "date": "2025-10-05T04:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "40ce4c6bf5130f81": {
+      "title": "[In Person] Cloud Native Kuala Lumpur Meetup - October 2025",
+      "date": "2025-10-07T10:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "35441d19d8314796": {
+      "title": "Cloud Native AI Meetup",
+      "date": "2025-10-07T12:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "89f5c2b6f6c8bed8": {
+      "title": "WasmEdge Community Meeting",
+      "date": "2025-10-07T15:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "02cf8f6976ab37f8": {
+      "title": "Merge Forward Monthly Meeting",
+      "date": "2025-10-07T17:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
