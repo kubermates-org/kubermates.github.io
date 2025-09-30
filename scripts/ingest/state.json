@@ -4089,6 +4089,101 @@
       "title": "KCD Warsaw 2025",
       "date": "2025-10-09T07:00:00+00:00",
       "source": "cncf-api"
+    },
+    "f698d73b3f6f": {
+      "title": "KubeCon + CloudNativeCon North America 2025 Co-Located Event Deep Dive: BackstageCon",
+      "date": "2025-09-29T13:26:00+00:00",
+      "source": "CNCF"
+    },
+    "9504642c9d50": {
+      "title": "Simplify virtualization deployments with the Assisted Installer",
+      "date": "2025-09-29T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "1541082e62ff": {
+      "title": "Red Hat Device Edge: Decision framework",
+      "date": "2025-09-29T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "1fc2a7729be0": {
+      "title": "Migrating to Red Hat OpenShift Virtualization with NetApp FlexPod",
+      "date": "2025-09-29T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "3935b13bf4e8": {
+      "title": "Managing Red Hat Device Edge: Tools and strategies",
+      "date": "2025-09-29T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "6e3e8529ea14": {
+      "title": "Bridging the gap: Secure virtual and container workloads with Red Hat OpenShift and Palo Alto Networks",
+      "date": "2025-09-29T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "a6b20d51c78e": {
+      "title": "KubeCon India 2025 with Kubeflow: Our Community Experience",
+      "date": "2025-08-23T00:00:00-05:00",
+      "source": "Kubeflow Blog"
+    },
+    "606397d80218": {
+      "title": "VCF Breakroom Chats Episode 60: Infrastructure Modernization, Health, and APIs for Private Cloud",
+      "date": "2025-09-29T20:39:22+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "14fc7fa26f64": {
+      "title": "Diagnostics for VMware Cloud Foundation Operations – Newest Findings",
+      "date": "2025-09-29T17:56:50+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "153772ffea1d": {
+      "title": "Empowering Platform Engineers with native Kubernetes Multi-Cluster Management in VMware Cloud Foundation",
+      "date": "2025-09-29T15:54:48+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "8d3ac3a00b74": {
+      "title": "Certifications in DevOps: Which Are Worth Your Time in 2025?",
+      "date": "2025-09-29T18:52:57+00:00",
+      "source": "KodeKloud Blog (Kubernetes)"
+    },
+    "9f2ae8ea6e16": {
+      "title": "Hacktoberfest 2025: How to Participate",
+      "date": "2025-09-29T07:06:22.027000+00:00",
+      "source": "Digital Ocean"
+    },
+    "9d106d0671db": {
+      "title": "4.20.0-okd-scos.1",
+      "date": "2025-09-29T05:40:53+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "b24b3665e1bb": {
+      "title": "Pre-release v2.13.0-alpha2",
+      "date": "2025-09-30T02:16:59+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "b1e3d73bdc5f": {
+      "title": "v2.11.1-hotfix-02c3.3",
+      "date": "2025-09-29T23:45:58+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "90e320858b41": {
+      "title": "v2.11.1-hotfix-02c3.2",
+      "date": "2025-09-29T21:51:10+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "241a2fc6ae48": {
+      "title": "v2.11.1-hotfix-02c3.1",
+      "date": "2025-09-29T20:48:26+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "43824c373bd9e9c9": {
+      "title": "#cTENcf Birthday Bash - 🎉 10º Aniversario do CNCF - Cloud Native Galicia & UVigo",
+      "date": "2025-10-09T14:00:42+00:00",
+      "source": "cncf-api"
+    },
+    "cbf8ff5c8bddbc4f": {
+      "title": "Contribute to CNCF Glossary & Kubernetes bn Localization—Maintainers Talk",
+      "date": "2025-10-10T16:30:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
