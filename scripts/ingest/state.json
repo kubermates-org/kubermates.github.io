@@ -4184,6 +4184,61 @@
       "title": "Contribute to CNCF Glossary & Kubernetes bn Localization—Maintainers Talk",
       "date": "2025-10-10T16:30:00+00:00",
       "source": "cncf-api"
+    },
+    "c7f7bca6d30a": {
+      "title": "🏆 How I Passed the Certified Argo Project Associate (CAPA) Exam — And Why It Was Worth It",
+      "date": "2025-09-30T13:05:00+00:00",
+      "source": "CNCF"
+    },
+    "ccf26273e0b8": {
+      "title": "What you don’t see could cost you: Why open source matters in enterprise AI",
+      "date": "2025-09-30T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "3d436d51023d": {
+      "title": "Optimizing application architectures for AI: From monoliths to intelligent agents (2 of 2 blogs series)",
+      "date": "2025-09-30T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "1fb86542b18f": {
+      "title": "Ireland’s next steps for effective AI delivery",
+      "date": "2025-09-30T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "fbe1defc4eb6": {
+      "title": "VCF Operations Management Packs: Announcing End of General Support",
+      "date": "2025-09-30T16:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "82ad74adabd9": {
+      "title": "Set Your Implementation Up for Success with VCF Jumpstart Workshop",
+      "date": "2025-09-30T14:46:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "c545099fdb4e": {
+      "title": "September 29, 2025",
+      "date": "2025-09-29T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "cf4f7085d37df626": {
+      "title": "Platform Engineering Technical Community - Biweekly Community Meetup (virtual)",
+      "date": "2025-10-07T15:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "b38fa3ce0d3ae7c6": {
+      "title": "#cTENcf Birthday Bash Santo Domingo",
+      "date": "2025-10-10T22:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "b2018a36b01d41d6": {
+      "title": "CNCG Pune October Meetup (Invite-only)",
+      "date": "2025-10-11T04:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "1b71af3121021b52": {
+      "title": "#cTENcf Birthday Bash Bengaluru",
+      "date": "2025-10-11T04:30:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
