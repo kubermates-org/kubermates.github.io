@@ -4239,6 +4239,46 @@
       "title": "#cTENcf Birthday Bash Bengaluru",
       "date": "2025-10-11T04:30:00+00:00",
       "source": "cncf-api"
+    },
+    "7d36964071af": {
+      "title": "Fluentd to Fluent Bit: A Migration Guide",
+      "date": "2025-10-01T15:13:55+00:00",
+      "source": "CNCF"
+    },
+    "ec88bfb509d6": {
+      "title": "Red Hat Summit 2026 call for proposals is now open",
+      "date": "2025-10-01T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "3ab4fb2a5a55": {
+      "title": "Llama Stack and the case for an open “run-anywhere” contract for agents",
+      "date": "2025-10-01T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "e514c0395d72": {
+      "title": "Searching for the 2026 Red Hat Certified Professional of the Year",
+      "date": "2025-10-01T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "3d34a43d0dc2": {
+      "title": "Kyverno vs Kubernetes Policies: How It Complements and Completes",
+      "date": "2025-10-01T18:31:30+00:00",
+      "source": "Nirmata Blog"
+    },
+    "be8f46dc19e9": {
+      "title": "VMware Cloud Foundation Automation -Infrastructure Resource Policy Overview",
+      "date": "2025-10-01T17:41:23+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "cd8d9a68c82060c6": {
+      "title": "Cloud Native x AI: The next wave of innovation",
+      "date": "2025-10-03T00:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "c28274de90b6e814": {
+      "title": "Meetup 5: ☕ Coffee & Cloud Native Arequipa con Max Zeballos 🌋",
+      "date": "2025-10-04T21:30:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
