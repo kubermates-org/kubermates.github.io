@@ -4279,6 +4279,91 @@
       "title": "Meetup 5: ☕ Coffee & Cloud Native Arequipa con Max Zeballos 🌋",
       "date": "2025-10-04T21:30:00+00:00",
       "source": "cncf-api"
+    },
+    "3feb38ac72bb": {
+      "title": "Friday Five — October 3, 2025",
+      "date": "2025-10-03T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "d27b41ec52b1": {
+      "title": "How Red Hat can support your journey to a standard operating environment",
+      "date": "2025-10-02T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "67e06ed72484": {
+      "title": "Security update: Incident related to Red Hat Consulting GitLab instance",
+      "date": "2025-10-02T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "95ec5d285c1c": {
+      "title": "Red Hat Learning Subscription: Expert chat for premium and standard users",
+      "date": "2025-10-02T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "905a44814406": {
+      "title": "Red Hat and Sylva unify the future for telco cloud",
+      "date": "2025-10-02T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "28b18545ac71": {
+      "title": "VCF Breakroom Chats Episode 61: From VI Admin to Cloud Hero – Building a Multi-Tenant Cloud with VCF 9.0",
+      "date": "2025-10-02T12:50:29+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "89c5ae79d686": {
+      "title": "Announcing cost-efficient storage with Network file storage, cold storage, and usage-based backups",
+      "date": "2025-10-02T08:05:09.740000+00:00",
+      "source": "Digital Ocean"
+    },
+    "544a24ed7c8d": {
+      "title": "Announcing per-sec billing, new Droplet plans, BYOIP, and NAT gateway preview to reduce scaling costs",
+      "date": "2025-10-02T08:03:13.867000+00:00",
+      "source": "Digital Ocean"
+    },
+    "444931bca8f9": {
+      "title": "Introducing DigitalOcean Organizations, a new and comprehensive account layer",
+      "date": "2025-10-02T08:00:00.023000+00:00",
+      "source": "Digital Ocean"
+    },
+    "b6f9cb793478": {
+      "title": "Storage that thinks for itself: Introducing Storage autoscaling, the newest feature for Managed Databases",
+      "date": "2025-10-02T08:00:00.023000+00:00",
+      "source": "Digital Ocean"
+    },
+    "50825639dfb0": {
+      "title": "Build Smarter Agents with Image Generation, Auto-Indexing, VPC Security, and new AI Tools on DigitalOcean Gradient™ AI Platform",
+      "date": "2025-10-02T07:12:50.004000+00:00",
+      "source": "Digital Ocean"
+    },
+    "fbcd56294cf5": {
+      "title": "Kubernetes version 1.34",
+      "date": "2025-10-02T19:00:00+00:00",
+      "source": "EKS Release Notes"
+    },
+    "ecbc58515d49": {
+      "title": "4.21.0-okd-scos.ec.1",
+      "date": "2025-10-02T14:52:24+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "64996ca770e7": {
+      "title": "4.20.0-okd-scos.2",
+      "date": "2025-10-02T15:08:06+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "ffbe81b24c4c2880": {
+      "title": "Argo CD Up and Running: Applications at Scale 2/2",
+      "date": "2025-10-09T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "9c8057f7a92b5b1a": {
+      "title": "Grafana & Friends x Kubernetes Pune: #cTENcf Birthday Bash",
+      "date": "2025-10-11T04:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "09f3117b95d7d7c7": {
+      "title": "Cloud Native Hacktoberfest",
+      "date": "2025-10-11T07:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
