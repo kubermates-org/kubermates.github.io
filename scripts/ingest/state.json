@@ -4434,6 +4434,51 @@
       "title": "#cTENcf Birthday Bash Luxembourg",
       "date": "2025-10-14T16:00:00+00:00",
       "source": "cncf-api"
+    },
+    "bcdecdf419bc": {
+      "title": "Announcing ORAS v1.3.0: Elevating artifact and registry management workflows",
+      "date": "2025-10-06T17:07:15+00:00",
+      "source": "CNCF"
+    },
+    "0d9b63d15118": {
+      "title": "KubeCon + CloudNativeCon North America 2025 Co-Located Event Deep Dive: Open Source SecurityCon",
+      "date": "2025-10-06T13:14:00+00:00",
+      "source": "CNCF"
+    },
+    "293ed866ebd8": {
+      "title": "Introducing Headlamp Plugin for Karpenter - Scaling and Visibility",
+      "date": "2025-10-06T00:00:00+00:00",
+      "source": "Kubernetes Blog"
+    },
+    "93dc36484446": {
+      "title": "AI-Driven Platform Governance: The Next Frontier for Engineering",
+      "date": "2025-10-06T08:00:19+00:00",
+      "source": "Nirmata Blog"
+    },
+    "e32de412ecc1": {
+      "title": "Introducing the DigitalOcean AI Ecosystem",
+      "date": "2025-10-06T20:07:17.443000+00:00",
+      "source": "Digital Ocean"
+    },
+    "6014f1cccca2": {
+      "title": "4.21.0-okd-scos.ec.2",
+      "date": "2025-10-06T05:12:07+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "a56bbdf56010": {
+      "title": "4.20.0-okd-scos.3",
+      "date": "2025-10-06T05:45:57+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "9d9181aac8da": {
+      "title": "Pre-release v1.8.8-rc.1",
+      "date": "2025-10-06T06:08:35+00:00",
+      "source": "RKE Releases"
+    },
+    "1f31c02e5d677eef": {
+      "title": "#cTENcf Birthday Bash Santiago",
+      "date": "2025-10-10T21:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
