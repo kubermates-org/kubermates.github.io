@@ -4434,6 +4434,146 @@
       "title": "#cTENcf Birthday Bash Luxembourg",
       "date": "2025-10-14T16:00:00+00:00",
       "source": "cncf-api"
+    },
+    "14fb655bccec": {
+      "title": "Karmada v1.15 Released! Enhanced Resource Awareness for Multi-Template Workloads",
+      "date": "2025-10-08T00:56:00+00:00",
+      "source": "CNCF"
+    },
+    "aa3d97ce9e03": {
+      "title": "Auditing user activity in pods and nodes with the Security-Profiles-Operator",
+      "date": "2025-10-07T15:29:47+00:00",
+      "source": "CNCF"
+    },
+    "ab712ebf2fe4": {
+      "title": "Managing Kubernetes Workloads Using the App of Apps Pattern in ArgoCD-2",
+      "date": "2025-10-07T14:36:18+00:00",
+      "source": "CNCF"
+    },
+    "bcdecdf419bc": {
+      "title": "Announcing ORAS v1.3.0: Elevating artifact and registry management workflows",
+      "date": "2025-10-06T17:07:15+00:00",
+      "source": "CNCF"
+    },
+    "0d9b63d15118": {
+      "title": "KubeCon + CloudNativeCon North America 2025 Co-Located Event Deep Dive: Open Source SecurityCon",
+      "date": "2025-10-06T13:14:00+00:00",
+      "source": "CNCF"
+    },
+    "60f0513ba781": {
+      "title": "SQL Server 2025 Preview now supports Red Hat Enterprise Linux 10",
+      "date": "2025-10-07T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "71a607e58a17": {
+      "title": "Red Hat OpenStack VMware Migration toolkit deep-dive",
+      "date": "2025-10-07T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "dba00a96bf02": {
+      "title": "Mitigating AI's new risk frontier: Unifying enterprise cybersecurity with AI safety",
+      "date": "2025-10-07T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "293ed866ebd8": {
+      "title": "Introducing Headlamp Plugin for Karpenter - Scaling and Visibility",
+      "date": "2025-10-06T00:00:00+00:00",
+      "source": "Kubernetes Blog"
+    },
+    "93dc36484446": {
+      "title": "AI-Driven Platform Governance: The Next Frontier for Engineering",
+      "date": "2025-10-06T08:00:19+00:00",
+      "source": "Nirmata Blog"
+    },
+    "9fa94b28d99d": {
+      "title": "Analyst Insight Series: VMware Cloud Foundation Update – A RedMonk Conversation",
+      "date": "2025-10-07T17:30:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "4a38b1ef56c5": {
+      "title": "VCF Breakroom Chats Episode 62: Cloud Governance Unlocked – From VI Admin to Cloud Policy Pro with VCF 9.0",
+      "date": "2025-10-07T15:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "e32de412ecc1": {
+      "title": "Introducing the DigitalOcean AI Ecosystem",
+      "date": "2025-10-06T20:07:17.443000+00:00",
+      "source": "Digital Ocean"
+    },
+    "6014f1cccca2": {
+      "title": "4.21.0-okd-scos.ec.2",
+      "date": "2025-10-06T05:12:07+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "871578f124d1": {
+      "title": "4.20.0-okd-scos.4",
+      "date": "2025-10-07T13:10:07+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "a56bbdf56010": {
+      "title": "4.20.0-okd-scos.3",
+      "date": "2025-10-06T05:45:57+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "1e5301e37c9f": {
+      "title": "Pre-release v2.12.3-alpha1",
+      "date": "2025-10-07T18:26:05+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "d67f1d237248": {
+      "title": "Pre-release v2.11.7-alpha1",
+      "date": "2025-10-07T17:30:59+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "9d9181aac8da": {
+      "title": "Pre-release v1.8.8-rc.1",
+      "date": "2025-10-06T06:08:35+00:00",
+      "source": "RKE Releases"
+    },
+    "9a8e131fe9356c81": {
+      "title": "CNCF On-Demand: Untangling Kubernetes State Management: A tryst with Sveltos & k0rdent",
+      "date": "2025-10-09T07:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "2d5eaeddac00fb44": {
+      "title": "El Regreso de Victor Recio: Una Historia de Conexión y Comunidad",
+      "date": "2025-10-10T00:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "1f31c02e5d677eef": {
+      "title": "#cTENcf Birthday Bash Santiago",
+      "date": "2025-10-10T21:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "642f695d158cd656": {
+      "title": "Cartografos Community Meeting",
+      "date": "2025-10-14T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "5d3ec97a601db014": {
+      "title": "Virtual EnvoyCon 2025",
+      "date": "2025-10-15T13:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "3422b84fa7584a20": {
+      "title": "Meetup #2: OpenTelemetry & Guardrails in Action",
+      "date": "2025-10-15T14:45:00+00:00",
+      "source": "cncf-api"
+    },
+    "f630d68c8b085e4c": {
+      "title": "Cloud Native Budapest October 2025",
+      "date": "2025-10-15T15:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "96fc867797607dbf": {
+      "title": "Cloud Native Live: Prioritising Unpatched CVEs in the Kubernetes Ecosystem",
+      "date": "2025-10-15T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "d5ba798f7b10da2e": {
+      "title": "Introducción a Docker – de 0 a 100",
+      "date": "2025-10-15T23:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
