@@ -1,8 +1,11 @@
-name: Auto-validate automation PRs
+name: Auto-approve & auto-merge automation PRs
 
 on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review, labeled]
   pull_request_target:
     types: [opened, synchronize, reopened, ready_for_review, labeled]
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -10,23 +13,37 @@ permissions:
 
 jobs:
   approve_and_enable_automerge:
-    # Only PRs from same repo, branch starts with bot/ingest-, and has label "automerge"
+    # Must be same-repo PR, and branch created by your ingest job
     if: >
       github.event.pull_request.head.repo.full_name == github.repository &&
-      startsWith(github.event.pull_request.head.ref, 'bot/ingest-') &&
-      contains(join(github.event.pull_request.labels.*.name, ','), 'automerge')
+      startsWith(github.event.pull_request.head.ref, 'bot/ingest-')
     runs-on: ubuntu-latest
+
     steps:
+      - name: Debug context (useful once, then remove)
+        run: |
+          echo "action=${{ github.event.action }}"
+          echo "head.ref=${{ github.event.pull_request.head.ref }}"
+          echo "labels=${{ join(github.event.pull_request.labels.*.name, ',') }}"
+
+      # Ensure the 'automerge' label exists (creation time races are common)
+      - name: Add automerge label if missing
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ github.token }}
+          number: ${{ github.event.pull_request.number }}
+          labels: automerge
+
       - name: Auto-approve
         uses: peter-evans/approve-pull-request@v6
         with:
           token: ${{ github.token }}
           pull-request-number: ${{ github.event.pull_request.number }}
-          review-message: "Auto-approved by bot."
+          review-message: "Auto-approved by CI for automation PR."
 
-      - name: Enable auto-merge (rebase)
+      - name: Enable auto-merge (squash)
         uses: peter-evans/enable-pull-request-automerge@v3
         with:
           token: ${{ github.token }}
           pull-request-number: ${{ github.event.pull_request.number }}
-          merge-method: rebase
+          merge-method: squash
