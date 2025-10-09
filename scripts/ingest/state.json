@@ -4639,6 +4639,26 @@
       "title": "KubeVirt Summit 2025",
       "date": "2025-10-16T12:00:00+00:00",
       "source": "cncf-api"
+    },
+    "014c27278cfc": {
+      "title": "Enterprise AI survey: ambition, the value gap, and the importance of open source",
+      "date": "2025-10-09T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "ec93fef8a5e9": {
+      "title": "Is DigitalOcean Your Next Career Spot? A 5-Year Insider on Why It Should Be",
+      "date": "2025-10-09T04:41:34.111000+00:00",
+      "source": "Digital Ocean"
+    },
+    "077782c4a51e": {
+      "title": "v2.12.2-hotfix-84f0.1: Backport steve fixes",
+      "date": "2025-10-09T08:08:51+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "fe84c680432fd867": {
+      "title": "CNCG Graz Meetup, October 2025 @BearingPoint",
+      "date": "2025-10-16T15:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
