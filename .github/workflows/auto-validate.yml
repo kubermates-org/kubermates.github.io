@@ -13,21 +13,29 @@ permissions:
 
 jobs:
   approve_and_enable_automerge:
-    # Must be same-repo PR, and branch created by your ingest job
-    if: >
-      github.event.pull_request.head.repo.full_name == github.repository &&
-      startsWith(github.event.pull_request.head.ref, 'bot/ingest-')
     runs-on: ubuntu-latest
-
     steps:
-      - name: Debug context (useful once, then remove)
+      - name: Debug event
         run: |
+          echo "event=${{ github.event_name }}"
           echo "action=${{ github.event.action }}"
+          echo "repo=${{ github.repository }}"
+          echo "head.repo=${{ github.event.pull_request.head.repo.full_name }}"
           echo "head.ref=${{ github.event.pull_request.head.ref }}"
           echo "labels=${{ join(github.event.pull_request.labels.*.name, ',') }}"
 
-      # Ensure the 'automerge' label exists (creation time races are common)
-      - name: Add automerge label if missing
+      - name: Gate for bot branches
+        id: gate
+        run: |
+          BRANCH="${{ github.event.pull_request.head.ref || '' }}"
+          if [[ "$BRANCH" == bot/ingest-* ]]; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Add automerge label (idempotent)
+        if: steps.gate.outputs.ok == 'true'
         uses: actions-ecosystem/action-add-labels@v1
         with:
           github_token: ${{ github.token }}
@@ -35,6 +43,7 @@ jobs:
           labels: automerge
 
       - name: Auto-approve
+        if: steps.gate.outputs.ok == 'true'
         uses: peter-evans/approve-pull-request@v6
         with:
           token: ${{ github.token }}
@@ -42,6 +51,7 @@ jobs:
           review-message: "Auto-approved by CI for automation PR."
 
       - name: Enable auto-merge (squash)
+        if: steps.gate.outputs.ok == 'true'
         uses: peter-evans/enable-pull-request-automerge@v3
         with:
           token: ${{ github.token }}
