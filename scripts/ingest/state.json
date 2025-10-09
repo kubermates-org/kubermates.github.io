@@ -4574,6 +4574,71 @@
       "title": "Introducción a Docker – de 0 a 100",
       "date": "2025-10-15T23:00:00+00:00",
       "source": "cncf-api"
+    },
+    "5e4cd4c37c6d": {
+      "title": "Cloud Native Computing Foundation Announces Knative’s Graduation",
+      "date": "2025-10-08T16:00:00+00:00",
+      "source": "CNCF"
+    },
+    "68acca73dd0a": {
+      "title": "A TPM-based combined remote attestation method for confidential computing",
+      "date": "2025-10-08T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "656509224d71": {
+      "title": "Your Red Hat OpenShift AI models are waiting at the door. Who’s knocking?",
+      "date": "2025-10-08T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "2804665ccfcb": {
+      "title": "What’s new in Red Hat Ansible Automation Platform 2.6",
+      "date": "2025-10-08T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "933c56f629aa": {
+      "title": "The MLOps Challenge: Scaling from one model to thousands",
+      "date": "2025-10-08T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "fc2397b9779c": {
+      "title": "4 agentic AI use cases for telco",
+      "date": "2025-10-08T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "379eba6065d9": {
+      "title": "VCF Breakroom Chats Episode 63 – No Experience Needed:  Demystifying Kubernetes for Aspiring Cloud Admins with VCF 9.0",
+      "date": "2025-10-08T18:11:12+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "70c03e258a78": {
+      "title": "Announcing GPU Droplets accelerated by NVIDIA HGX H100 in the EU",
+      "date": "2025-10-07T20:57:57.998000+00:00",
+      "source": "Digital Ocean"
+    },
+    "a45150163e3e": {
+      "title": "How to Deploy Whisker and Goldmane in Manifest Only Calico Setups",
+      "date": "2025-10-08T19:29:00+00:00",
+      "source": "Tigera"
+    },
+    "5c8a69f0c6a6": {
+      "title": "Kubernetes v1.35.0-alpha.1",
+      "date": "2025-10-08T14:22:33+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "cc4d8aa7a3b8a015": {
+      "title": "Cloud Native Live: Prioritising Unpatched CVEs in the Kubernetes Ecosystem",
+      "date": "2025-10-15T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "983c52b718d71c2c": {
+      "title": "CNCF Calgary: CTRL + ALT Defend",
+      "date": "2025-10-16T00:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "4126e02cc0557dff": {
+      "title": "KubeVirt Summit 2025",
+      "date": "2025-10-16T12:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
