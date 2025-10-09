@@ -17,17 +17,39 @@ jobs:
     steps:
       - name: Debug
         run: |
-          echo "head.ref=${{ github.event.pull_request.head.ref }}"
-          echo "labels=${{ join(github.event.pull_request.labels.*.name, ',') }}"
+          echo "event=${{ github.event_name }}"
+          echo "action=${{ github.event.action }}"
+          echo "base.ref=${{ github.event.pull_request.base.ref }}"
+          echo "head.ref(pr)=${{ github.event.pull_request.head.ref }}"
+          echo "head.ref(context)=${{ github.head_ref }}"
+          echo "ref=${{ github.ref }}"
 
-      - name: Gate to bot branches
+      - name: Gate to bot branches (robust)
         id: gate
+        shell: bash
         run: |
+          # Try multiple sources depending on event type
           BRANCH="${{ github.event.pull_request.head.ref || '' }}"
+          if [[ -z "$BRANCH" ]]; then
+            BRANCH="${{ github.head_ref || '' }}"
+          fi
+          if [[ -z "$BRANCH" ]]; then
+            # Fallback: strip refs/heads/ from GITHUB_REF if present
+            BRANCH="${GITHUB_REF#refs/heads/}"
+          fi
+
+          echo "Resolved branch: '$BRANCH'"
+
+          # Normalize any accidental prefix
+          BRANCH="${BRANCH#refs/heads/}"
+
+          # Match your pattern
           if [[ "$BRANCH" == bot/ingest-* ]]; then
-            echo "ok=true" >> "$GITHUB_OUTPUT"
+            echo "ok=true"  >> "$GITHUB_OUTPUT"
+            echo "Gate: OK"
           else
             echo "ok=false" >> "$GITHUB_OUTPUT"
+            echo "Gate: KO (does not match 'bot/ingest-*')"
           fi
 
       # Add the automerge label (idempotent) using gh instead of a marketplace action
