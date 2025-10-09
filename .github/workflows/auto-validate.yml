@@ -15,16 +15,12 @@ jobs:
   approve_and_enable_automerge:
     runs-on: ubuntu-latest
     steps:
-      - name: Debug event
+      - name: Debug
         run: |
-          echo "event=${{ github.event_name }}"
-          echo "action=${{ github.event.action }}"
-          echo "repo=${{ github.repository }}"
-          echo "head.repo=${{ github.event.pull_request.head.repo.full_name }}"
           echo "head.ref=${{ github.event.pull_request.head.ref }}"
           echo "labels=${{ join(github.event.pull_request.labels.*.name, ',') }}"
 
-      - name: Gate for bot branches
+      - name: Gate to bot branches
         id: gate
         run: |
           BRANCH="${{ github.event.pull_request.head.ref || '' }}"
@@ -34,26 +30,30 @@ jobs:
             echo "ok=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Add automerge label (idempotent)
+      # Add the automerge label (idempotent) using gh instead of a marketplace action
+      - name: Ensure automerge label
         if: steps.gate.outputs.ok == 'true'
-        uses: actions-ecosystem/action-add-labels@v1
-        with:
-          github_token: ${{ github.token }}
-          number: ${{ github.event.pull_request.number }}
-          labels: automerge
+        run: |
+          gh pr edit ${{ github.event.pull_request.number }} --add-label automerge
+        env:
+          GH_TOKEN: ${{ github.token }}
 
-      - name: Auto-approve
+      - name: Auto-approve via gh
         if: steps.gate.outputs.ok == 'true'
-        uses: peter-evans/approve-pull-request@v6
-        with:
-          token: ${{ github.token }}
-          pull-request-number: ${{ github.event.pull_request.number }}
-          review-message: "Auto-approved by CI for automation PR."
+        run: |
+          gh pr review ${{ github.event.pull_request.number }} --approve --body "Auto-approved by CI for automation PR."
+        env:
+          GH_TOKEN: ${{ github.token }}
 
-      - name: Enable auto-merge (squash)
+      - name: Enable auto-merge (squash) via GraphQL
         if: steps.gate.outputs.ok == 'true'
-        uses: peter-evans/enable-pull-request-automerge@v3
-        with:
-          token: ${{ github.token }}
-          pull-request-number: ${{ github.event.pull_request.number }}
-          merge-method: squash
+        run: |
+          PR_NODE_ID='${{ github.event.pull_request.node_id }}'
+          gh api graphql -f query='
+            mutation($id:ID!){
+              enablePullRequestAutoMerge(input:{pullRequestId:$id, mergeMethod:SQUASH}) {
+                clientMutationId
+              }
+            }' -F id="$PR_NODE_ID"
+        env:
+          GH_TOKEN: ${{ github.token }}
