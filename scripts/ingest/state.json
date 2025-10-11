@@ -4639,6 +4639,121 @@
       "title": "KubeVirt Summit 2025",
       "date": "2025-10-16T12:00:00+00:00",
       "source": "cncf-api"
+    },
+    "d7eb2b1d8c9c": {
+      "title": "KubeCon + CloudNativeCon North America 2025 Co-Located Event Deep Dive: Data on Kubernetes Day",
+      "date": "2025-10-10T18:33:21+00:00",
+      "source": "CNCF"
+    },
+    "44a0aa06c020": {
+      "title": "A blueprint for zero-trust AI on Kubernetes",
+      "date": "2025-10-10T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "8ffa0f2796bb": {
+      "title": "Testing asynchronous workflows using OpenTelemetry and Istio",
+      "date": "2025-10-09T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "3907fa35d56e": {
+      "title": "SaaS deployment architectures with Amazon EKS",
+      "date": "2025-10-10T21:13:56+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "ab1fdd12196f": {
+      "title": "The open source engine driving AI from experiment to production and why inference is everything",
+      "date": "2025-10-10T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "8544955828d8": {
+      "title": "Reducing cognitive load in enterprise Kubernetes: 5 strategic tenets",
+      "date": "2025-10-10T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "ba8aa6305b96": {
+      "title": "Friday Five — October 10, 2025",
+      "date": "2025-10-10T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "8aadc5900246": {
+      "title": "Simplify your cloud-native transition with Oracle WebLogic Server on Red Hat OpenShift Virtualization",
+      "date": "2025-10-09T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "014c27278cfc": {
+      "title": "Enterprise AI survey: ambition, the value gap, and the importance of open source",
+      "date": "2025-10-09T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "b19f3a8c286e": {
+      "title": "Boost developer productivity and modernization with a Red Hat developer experience assessment",
+      "date": "2025-10-09T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "54d5c6f0c24d": {
+      "title": "VCF Breakroom Chats Episode 65: VMware Cloud Foundation with Ubuntu OS – Smarter Choice for Modern Apps",
+      "date": "2025-10-09T21:23:15+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "fcafab85bd9f": {
+      "title": "VCF Breakroom Chats Episode 64 – AI Made Simple: Empowering VI Admins to Offer Private AI with VCF 9.0",
+      "date": "2025-10-09T15:42:55+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "ec93fef8a5e9": {
+      "title": "Is DigitalOcean Your Next Career Spot? A 5-Year Insider on Why It Should Be",
+      "date": "2025-10-09T04:41:34.111000+00:00",
+      "source": "Digital Ocean"
+    },
+    "4bd4a0b7247b": {
+      "title": "October 08, 2025",
+      "date": "2025-10-08T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "077782c4a51e": {
+      "title": "v2.12.2-hotfix-84f0.1: Backport steve fixes",
+      "date": "2025-10-09T08:08:51+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "bfefa9c75ac2": {
+      "title": "v2.11.6-hotfix-3e07.1",
+      "date": "2025-10-09T14:51:09+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "fe84c680432fd867": {
+      "title": "CNCG Graz Meetup, October 2025 @BearingPoint",
+      "date": "2025-10-16T15:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "56a7556936a50d5e": {
+      "title": "Cloud Native Madrid @ERNI",
+      "date": "2025-10-16T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "f52736e6642209bc": {
+      "title": "Plongez dans les coulisses de Prometheus 3.0",
+      "date": "2025-10-16T16:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "c53ea2b4e8bf70c1": {
+      "title": "GitOps, Policy & Chaos",
+      "date": "2025-10-16T16:45:00+00:00",
+      "source": "cncf-api"
+    },
+    "c2bd55649295c739": {
+      "title": "Kubevirt y Backstage: Desbloqueando el Poder de la Nube",
+      "date": "2025-10-16T23:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "0092dae7a343d7d1": {
+      "title": "Opensource Connect Lahore",
+      "date": "2025-10-18T10:10:00+00:00",
+      "source": "cncf-api"
+    },
+    "93f1f4d4d95caff7": {
+      "title": "Kubernetes Community Days UK - Edinburgh 2025",
+      "date": "2025-10-21T07:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
