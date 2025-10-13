@@ -1,11 +1,8 @@
-name: Auto-approve & auto-merge automation PRs
+name: Auto validate automation PRs
 
 on:
-  pull_request:
-    types: [opened, synchronize, reopened, ready_for_review, labeled]
   pull_request_target:
     types: [opened, synchronize, reopened, ready_for_review, labeled]
-  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -13,61 +10,24 @@ permissions:
 
 jobs:
   approve_and_enable_automerge:
+    if: >
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      startsWith(github.event.pull_request.head.ref, 'bot/ingest-') &&
+      contains(join(github.event.pull_request.labels.*.name, ','), 'automerge')
     runs-on: ubuntu-latest
     steps:
-      - name: Debug
-        run: |
-          echo "event=${{ github.event_name }}"
-          echo "action=${{ github.event.action }}"
-          echo "base.ref=${{ github.event.pull_request.base.ref }}"
-          echo "head.ref(pr)=${{ github.event.pull_request.head.ref }}"
-          echo "head.ref(context)=${{ github.head_ref }}"
-          echo "ref=${{ github.ref }}"
-
-      - name: Gate to bot branches (robust)
-        id: gate
-        shell: bash
-        run: |
-          # Try multiple sources depending on event type
-          BRANCH="${{ github.event.pull_request.head.ref || '' }}"
-          if [[ -z "$BRANCH" ]]; then
-            BRANCH="${{ github.head_ref || '' }}"
-          fi
-          if [[ -z "$BRANCH" ]]; then
-            # Fallback: strip refs/heads/ from GITHUB_REF if present
-            BRANCH="${GITHUB_REF#refs/heads/}"
-          fi
-
-          echo "Resolved branch: '$BRANCH'"
-
-          # Normalize any accidental prefix
-          BRANCH="${BRANCH#refs/heads/}"
-
-          # Match your pattern
-          if [[ "$BRANCH" == bot/ingest-* ]]; then
-            echo "ok=true"  >> "$GITHUB_OUTPUT"
-            echo "Gate: OK"
-          else
-            echo "ok=false" >> "$GITHUB_OUTPUT"
-            echo "Gate: KO (does not match 'bot/ingest-*')"
-          fi
-
-      - name: Auto-approve via gh
-        if: steps.gate.outputs.ok == 'true'
-        run: |
-          gh pr review ${{ github.event.pull_request.number }} --approve --body "Auto-approved by CI for automation PR."
+      - name: Approve PR with gh
         env:
-          GH_TOKEN: ${{ github.token }}
-
-      - name: Enable auto-merge (squash) via GraphQL
-        if: steps.gate.outputs.ok == 'true'
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
         run: |
-          PR_NODE_ID='${{ github.event.pull_request.node_id }}'
-          gh api graphql -f query='
-            mutation($id:ID!){
-              enablePullRequestAutoMerge(input:{pullRequestId:$id, mergeMethod:SQUASH}) {
-                clientMutationId
-              }
-            }' -F id="$PR_NODE_ID"
+          gh pr review "$PR_NUMBER" --repo "$REPO" --approve --body "Auto approved by CI for automation PR"
+
+      - name: Enable automerge
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh pr merge "$PR_NUMBER" --repo "$REPO" --auto --squash
