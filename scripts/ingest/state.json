@@ -4789,6 +4789,16 @@
       "title": "Cloud Native Live: kcp – Kubernetes-Like Control Planes for Declarative APIs",
       "date": "2025-10-21T16:00:00+00:00",
       "source": "cncf-api"
+    },
+    "3e7fe91cd315": {
+      "title": "4.21.0-okd-scos.ec.3",
+      "date": "2025-10-13T05:16:23+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "00eb3fd60433": {
+      "title": "4.20.0-okd-scos.5",
+      "date": "2025-10-13T05:41:17+00:00",
+      "source": "OKD/OpenShift Docs feed"
     }
   }
 }
