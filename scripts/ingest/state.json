@@ -4774,6 +4774,21 @@
       "title": "Platform Engineering Technical Community - Biweekly Community Meetup (virtual) - Battle of the CNCF Reference Architectures",
       "date": "2025-10-21T15:00:00+00:00",
       "source": "cncf-api"
+    },
+    "ebc893edc343": {
+      "title": "What is Kubernetes? A Beginner’s Guide to Container Orchestration",
+      "date": "2025-10-10T16:19:00+00:00",
+      "source": "KodeKloud Blog (Kubernetes)"
+    },
+    "c14b4e137553b353": {
+      "title": "Argo CD Up and Running: Extending Argo CD with Plugins and UI",
+      "date": "2025-10-16T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "64c1359b9443a584": {
+      "title": "Cloud Native Live: kcp – Kubernetes-Like Control Planes for Declarative APIs",
+      "date": "2025-10-21T16:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
