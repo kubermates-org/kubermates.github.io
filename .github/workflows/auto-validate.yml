@@ -1,4 +1,4 @@
-name: Auto merge automation PRs
+name: Auto merge automation PRs (via GitHub App)
 
 on:
   pull_request_target:
@@ -17,13 +17,27 @@ on:
 
 permissions:
   contents: write
-  checks: write
   pull-requests: write
 
 jobs:
   enable_automerge:
     runs-on: ubuntu-latest
+
     steps:
+      ###########################################################################
+      # 1️⃣ Generate a GitHub App token (via tibdex/github-app-token)
+      ###########################################################################
+      - name: Generate GitHub App token
+        id: app_token
+        uses: tibdex/github-app-token@v2
+        with:
+          app_id: ${{ secrets.GH_APP_ID }}
+          private_key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          installation_retrieval_mode: repository
+
+      ###########################################################################
+      # 2️⃣ Resolve PR context (works for both pull_request_target + manual run)
+      ###########################################################################
       - name: Resolve PR and repo
         id: resolve
         env:
@@ -37,14 +51,16 @@ jobs:
             PR_NUMBER="${{ github.event.pull_request.number }}"
             REPO="$DEFAULT_REPO"
           fi
-
           echo "PR_NUMBER=$PR_NUMBER" >> "$GITHUB_ENV"
           echo "REPO=$REPO" >> "$GITHUB_ENV"
           echo "event=$EVENT_NAME pr=$PR_NUMBER repo=$REPO"
 
+      ###########################################################################
+      # 3️⃣ Fetch PR info for gating
+      ###########################################################################
       - name: Fetch PR info
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ steps.app_token.outputs.token }}
         run: |
           gh api repos/"$REPO"/pulls/"$PR_NUMBER" > pr.json
           echo "PR_HEAD_REPO=$(jq -r .head.repo.full_name pr.json)" >> "$GITHUB_ENV"
@@ -52,10 +68,13 @@ jobs:
           jq -r '[.labels[].name] | join(",")' pr.json | sed 's/^$/none/' > labels.txt
           echo "PR_LABELS=$(cat labels.txt)" >> "$GITHUB_ENV"
 
+      ###########################################################################
+      # 4️⃣ Skip PRs that modify workflow files (GitHub security restriction)
+      ###########################################################################
       - name: Detect workflow file changes
         id: workflow_changes
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ steps.app_token.outputs.token }}
         run: |
           changed=$(gh api repos/"$REPO"/pulls/"$PR_NUMBER"/files --paginate | jq -r '.[].filename' | grep -c '^.github/workflows/' || true)
           if (( changed > 0 )); then
@@ -65,6 +84,9 @@ jobs:
             echo "workflow_changes=false" >> "$GITHUB_OUTPUT"
           fi
 
+      ###########################################################################
+      # 5️⃣ Gate logic — only merge bot/ingest-* branches with automerge label
+      ###########################################################################
       - name: Gate check
         id: gate
         env:
@@ -102,17 +124,39 @@ jobs:
           else
             echo "Gate OK"
           fi
-      
-      - name: Auto approve via bot
-        if: steps.gate.outputs.ok == 'true'
+
+      ###########################################################################
+      # 6️⃣ Approve PR (as GitHub App)
+      ###########################################################################
+      - name: Auto approve via GitHub App
+        if: steps.gate.outputs.ok == 'true' && steps.workflow_changes.outputs.workflow_changes == 'false'
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ steps.app_token.outputs.token }}
         run: |
-          gh pr review "$PR_NUMBER" --repo "$REPO" --approve --body "Auto approved by kubermates-bot"
-      
+          gh pr review "$PR_NUMBER" --repo "$REPO" --approve --body "✅ Auto-approved by kubermates-auto-approver"
+
+      ###########################################################################
+      # 7️⃣ Enable auto merge (rebase)
+      ###########################################################################
       - name: Enable auto merge (rebase)
         if: steps.gate.outputs.ok == 'true' && steps.workflow_changes.outputs.workflow_changes == 'false'
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ steps.app_token.outputs.token }}
         run: |
           gh pr merge "$PR_NUMBER" --repo "$REPO" --auto --rebase
+
+      ###########################################################################
+      # 8️⃣ Comment result for traceability
+      ###########################################################################
+      - name: Comment on PR
+        if: always()
+        env:
+          GH_TOKEN: ${{ steps.app_token.outputs.token }}
+        run: |
+          if [[ "${{ steps.workflow_changes.outputs.workflow_changes }}" == "true" ]]; then
+            gh pr comment "$PR_NUMBER" --repo "$REPO" --body "⚠️ Skipped auto-merge: PR modifies workflow files."
+          elif [[ "${{ steps.gate.outputs.ok }}" != "true" ]]; then
+            gh pr comment "$PR_NUMBER" --repo "$REPO" --body "🚫 Auto-merge skipped: ${{ steps.gate.outputs.reason }}"
+          else
+            gh pr comment "$PR_NUMBER" --repo "$REPO" --body "✅ Auto-merge (rebase) enabled by kubermates-auto-approver."
+          fi
