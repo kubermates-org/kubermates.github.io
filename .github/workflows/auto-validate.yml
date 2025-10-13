@@ -1,8 +1,19 @@
-name: Auto validate automation PRs
+name: Auto approve and auto merge automation PRs
 
 on:
   pull_request_target:
     types: [opened, synchronize, reopened, ready_for_review, labeled]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: PR number to approve and auto merge
+        required: true
+        type: number
+      require_automerge_label:
+        description: Require the automerge label to proceed
+        required: false
+        default: true
+        type: boolean
 
 permissions:
   contents: write
@@ -10,24 +21,93 @@ permissions:
 
 jobs:
   approve_and_enable_automerge:
-    if: >
-      github.event.pull_request.head.repo.full_name == github.repository &&
-      startsWith(github.event.pull_request.head.ref, 'bot/ingest-') &&
-      contains(join(github.event.pull_request.labels.*.name, ','), 'automerge')
     runs-on: ubuntu-latest
     steps:
-      - name: Approve PR with gh
+      - name: Resolve PR and repo
+        id: resolve
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          DEFAULT_REPO: ${{ github.repository }}
+        run: |
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            PR_NUMBER="${{ inputs.pr_number }}"
+            REPO="$DEFAULT_REPO"
+          else
+            PR_NUMBER="${{ github.event.pull_request.number }}"
+            REPO="$DEFAULT_REPO"
+          fi
+
+          echo "PR_NUMBER=$PR_NUMBER" >> "$GITHUB_ENV"
+          echo "REPO=$REPO" >> "$GITHUB_ENV"
+          echo "event=$EVENT_NAME pr=$PR_NUMBER repo=$REPO"
+
+      - name: Fetch PR info
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-          REPO: ${{ github.repository }}
+        run: |
+          gh api repos/"$REPO"/pulls/"$PR_NUMBER" > pr.json
+          echo "PR_HEAD_REPO=$(jq -r .head.repo.full_name pr.json)" >> "$GITHUB_ENV"
+          echo "PR_HEAD_REF=$(jq -r .head.ref pr.json)" >> "$GITHUB_ENV"
+          echo "PR_BASE_REPO=$(jq -r .base.repo.full_name pr.json)" >> "$GITHUB_ENV"
+          echo "PR_STATE=$(jq -r .state pr.json)" >> "$GITHUB_ENV"
+          echo "PR_DRAFT=$(jq -r .draft pr.json)" >> "$GITHUB_ENV"
+          # Build a comma separated list of label names
+          jq -r '[.labels[].name] | join(",")' pr.json | sed 's/^$/none/' > labels.txt
+          echo "PR_LABELS=$(cat labels.txt)" >> "$GITHUB_ENV"
+
+      - name: Gate
+        id: gate
+        env:
+          REQUIRE_LABEL: ${{ inputs.require_automerge_label }}
+        run: |
+          echo "Head repo: $PR_HEAD_REPO"
+          echo "Head ref:  $PR_HEAD_REF"
+          echo "Labels:    $PR_LABELS"
+          echo "Draft:     $PR_DRAFT"
+
+          ok=true
+          reason=""
+
+          if [[ "$PR_HEAD_REPO" != "$REPO" ]]; then
+            ok=false
+            reason="head repo differs from base repo"
+          fi
+
+          if [[ "$PR_HEAD_REF" != bot/ingest-* ]]; then
+            ok=false
+            reason="branch is not bot/ingest-*"
+          fi
+
+          if [[ "$PR_DRAFT" == "true" ]]; then
+            ok=false
+            reason="PR is a draft"
+          fi
+
+          if [[ "$REQUIRE_LABEL" == "true" ]]; then
+            if ! grep -qiE '(^|,)automerge(,|$)' <<< "$PR_LABELS"; then
+              ok=false
+              reason="missing automerge label"
+            fi
+          fi
+
+          echo "ok=$ok" >> "$GITHUB_OUTPUT"
+          echo "reason=$reason" >> "$GITHUB_OUTPUT"
+          if [[ "$ok" != "true" ]]; then
+            echo "Gate KO: $reason"
+          else
+            echo "Gate OK"
+          fi
+
+      - name: Auto approve via gh
+        if: steps.gate.outputs.ok == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh pr review "$PR_NUMBER" --repo "$REPO" --approve --body "Auto approved by CI for automation PR"
 
-      - name: Enable automerge
+      - name: Enable auto merge squash via gh
+        if: steps.gate.outputs.ok == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-          REPO: ${{ github.repository }}
         run: |
           gh pr merge "$PR_NUMBER" --repo "$REPO" --auto --squash
