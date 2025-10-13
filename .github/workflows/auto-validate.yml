@@ -52,14 +52,6 @@ jobs:
             echo "Gate: KO (does not match 'bot/ingest-*')"
           fi
 
-      # Add the automerge label (idempotent) using gh instead of a marketplace action
-      - name: Ensure automerge label
-        if: steps.gate.outputs.ok == 'true'
-        run: |
-          gh pr edit ${{ github.event.pull_request.number }} --add-label automerge
-        env:
-          GH_TOKEN: ${{ github.token }}
-
       - name: Auto-approve via gh
         if: steps.gate.outputs.ok == 'true'
         run: |
