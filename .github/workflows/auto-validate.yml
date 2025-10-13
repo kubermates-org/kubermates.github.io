@@ -51,6 +51,19 @@ jobs:
           jq -r '[.labels[].name] | join(",")' pr.json | sed 's/^$/none/' > labels.txt
           echo "PR_LABELS=$(cat labels.txt)" >> "$GITHUB_ENV"
 
+      - name: Detect workflow file changes
+        id: workflow_changes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          changed=$(gh api repos/"$REPO"/pulls/"$PR_NUMBER"/files --paginate | jq -r '.[].filename' | grep -c '^.github/workflows/' || true)
+          if (( changed > 0 )); then
+            echo "workflow_changes=true" >> "$GITHUB_OUTPUT"
+            echo "Detected $changed workflow file changes — skipping auto merge"
+          else
+            echo "workflow_changes=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Gate check
         id: gate
         env:
@@ -89,8 +102,8 @@ jobs:
             echo "Gate OK"
           fi
 
-      - name: Enable auto merge (squash)
-        if: steps.gate.outputs.ok == 'true'
+      - name: Enable auto merge (rebase)
+        if: steps.gate.outputs.ok == 'true' && steps.workflow_changes.outputs.workflow_changes == 'false'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
