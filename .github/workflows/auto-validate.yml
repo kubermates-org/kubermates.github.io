@@ -17,6 +17,7 @@ on:
 
 permissions:
   contents: write
+  checks: write
   pull-requests: write
 
 jobs:
@@ -101,7 +102,14 @@ jobs:
           else
             echo "Gate OK"
           fi
-
+      
+      - name: Auto approve via bot
+        if: steps.gate.outputs.ok == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
+        run: |
+          gh pr review "$PR_NUMBER" --repo "$REPO" --approve --body "Auto approved by kubermates-bot"
+      
       - name: Enable auto merge (rebase)
         if: steps.gate.outputs.ok == 'true' && steps.workflow_changes.outputs.workflow_changes == 'false'
         env:
