@@ -4789,6 +4789,51 @@
       "title": "Cloud Native Live: kcp – Kubernetes-Like Control Planes for Declarative APIs",
       "date": "2025-10-21T16:00:00+00:00",
       "source": "cncf-api"
+    },
+    "7aa902b6e451": {
+      "title": "KubeCon + CloudNativeCon North America 2025 Co-Located Event Deep Dive: Cloud Native + Kubernetes AI Day",
+      "date": "2025-10-13T14:23:36+00:00",
+      "source": "CNCF"
+    },
+    "af88a0ae8307": {
+      "title": "How to manage EKS Pod Identities at scale using Argo CD and AWS ACK",
+      "date": "2025-10-13T21:16:16+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "24a0ac42459c": {
+      "title": "What to know before you install or upgrade to Red Hat Ansible Automation Platform 2.6",
+      "date": "2025-10-13T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "44ac2e20adc7": {
+      "title": "How Red Hat, NetApp, and Cisco simplify IT modernization",
+      "date": "2025-10-13T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "9335710e7b82": {
+      "title": "VMware at KubeCon North America 2025: Innovation at the Core of Cloud Native",
+      "date": "2025-10-13T16:54:21+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "3e7fe91cd315": {
+      "title": "4.21.0-okd-scos.ec.3",
+      "date": "2025-10-13T05:16:23+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "00eb3fd60433": {
+      "title": "4.20.0-okd-scos.5",
+      "date": "2025-10-13T05:41:17+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "6a171fa65f26ca51": {
+      "title": "Introduction to Open Container Initiative: The Standards Behind Containers",
+      "date": "2025-10-16T14:30:42+00:00",
+      "source": "cncf-api"
+    },
+    "a9d09423c3a138b3": {
+      "title": "#cTENcf Ottawa Party",
+      "date": "2025-10-22T22:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
