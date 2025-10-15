@@ -4789,6 +4789,116 @@
       "title": "Cloud Native Live: kcp – Kubernetes-Like Control Planes for Declarative APIs",
       "date": "2025-10-21T16:00:00+00:00",
       "source": "cncf-api"
+    },
+    "2195ae35ea7d": {
+      "title": "The tools for overcoming the top 10 DevOps challenges",
+      "date": "2025-10-14T16:55:26+00:00",
+      "source": "CNCF"
+    },
+    "7aa902b6e451": {
+      "title": "KubeCon + CloudNativeCon North America 2025 Co-Located Event Deep Dive: Cloud Native + Kubernetes AI Day",
+      "date": "2025-10-13T14:23:36+00:00",
+      "source": "CNCF"
+    },
+    "483e8105e103": {
+      "title": "Running Slurm on Amazon EKS with Slinky",
+      "date": "2025-10-14T16:58:24+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "af88a0ae8307": {
+      "title": "How to manage EKS Pod Identities at scale using Argo CD and AWS ACK",
+      "date": "2025-10-13T21:16:16+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "c921e250c30e": {
+      "title": "Why standardization is the key to agentic AI success: How a unified platform spurs innovation",
+      "date": "2025-10-14T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "5e99999dfd62": {
+      "title": "Red Hat AI 3 delivers speed, accelerated delivery, and scale",
+      "date": "2025-10-14T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "0f1a45448267": {
+      "title": "Introducing AI hub and gen AI studio: The new command center for enterprise gen AI in Red Hat OpenShift AI",
+      "date": "2025-10-14T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "432734a57c64": {
+      "title": "How Red Hat partners are powering the next wave of enterprise AI",
+      "date": "2025-10-14T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "4310cfc556a1": {
+      "title": "Deploy with confidence: Announcing the latest Red Hat AI validated models",
+      "date": "2025-10-14T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "cc9c46913f6e": {
+      "title": "Beyond the model: Why intelligent infrastructure is the next AI frontier",
+      "date": "2025-10-14T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "24a0ac42459c": {
+      "title": "What to know before you install or upgrade to Red Hat Ansible Automation Platform 2.6",
+      "date": "2025-10-13T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "44ac2e20adc7": {
+      "title": "How Red Hat, NetApp, and Cisco simplify IT modernization",
+      "date": "2025-10-13T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "e001bf83b50f": {
+      "title": "VMware Workstation & Fusion 25H2: Embracing Calendar Versioning and New Features",
+      "date": "2025-10-14T13:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "0b8ddbb24348": {
+      "title": "“Sovereign” Label Doesn’t Translate to Sovereignty",
+      "date": "2025-10-14T07:22:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "9335710e7b82": {
+      "title": "VMware at KubeCon North America 2025: Innovation at the Core of Cloud Native",
+      "date": "2025-10-13T16:54:21+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "028feb570f1f": {
+      "title": "October 14, 2025",
+      "date": "2025-10-14T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "3e7fe91cd315": {
+      "title": "4.21.0-okd-scos.ec.3",
+      "date": "2025-10-13T05:16:23+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "00eb3fd60433": {
+      "title": "4.20.0-okd-scos.5",
+      "date": "2025-10-13T05:41:17+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "6a171fa65f26ca51": {
+      "title": "Introduction to Open Container Initiative: The Standards Behind Containers",
+      "date": "2025-10-16T14:30:42+00:00",
+      "source": "cncf-api"
+    },
+    "a9d09423c3a138b3": {
+      "title": "#cTENcf Ottawa Party",
+      "date": "2025-10-22T22:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "c193271208c13d7b": {
+      "title": "Integration and Delivery Plane: From Commit to Running",
+      "date": "2025-10-24T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "48eadd93fc71da2e": {
+      "title": "#cTENcf 🇮🇹 Cloud Native Molise celebra i 10 anni della CNCF!",
+      "date": "2025-10-24T16:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
