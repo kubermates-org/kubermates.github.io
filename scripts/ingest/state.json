@@ -4899,6 +4899,131 @@
       "title": "#cTENcf 🇮🇹 Cloud Native Molise celebra i 10 anni della CNCF!",
       "date": "2025-10-24T16:00:00+00:00",
       "source": "cncf-api"
+    },
+    "20c0d6d04194": {
+      "title": "Automating stateful apps with Kubernetes Operators",
+      "date": "2025-10-15T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "2e976ddf6100": {
+      "title": "Measure impact and unlock greater value with Red Hat Ansible Automation Dashboard",
+      "date": "2025-10-15T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "b8fcf65b4aa9": {
+      "title": "From bottleneck to breakthrough: How Citizens Bank modernized integration with Red Hat OpenShift",
+      "date": "2025-10-15T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "06db96953561": {
+      "title": "Automation unlocks 5G's full potential: One New Zealand's journey",
+      "date": "2025-10-15T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "fc2161b3e958": {
+      "title": "Open source and AI-assisted development: navigating the legal issues",
+      "date": "2025-10-15T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "16b2ed075ff0": {
+      "title": "AI-Driven Platform Governance: The Next Frontier for Engineering",
+      "date": "2025-10-06T08:00:19+00:00",
+      "source": "Nirmata Blog"
+    },
+    "06ecfcdc2989": {
+      "title": "Kyverno vs Kubernetes Policies: How Kyverno Complements and Completes Kubernetes Policy Types",
+      "date": "2025-10-01T18:31:30+00:00",
+      "source": "Nirmata Blog"
+    },
+    "b5535bb5eafd": {
+      "title": "From Chaos to Control: Achieving Network Policy Nirvana with Kyverno",
+      "date": "2025-09-25T08:00:55+00:00",
+      "source": "Nirmata Blog"
+    },
+    "116ff4eb0478": {
+      "title": "Securing Your Infrastructure as Code: The Power of Nirmata and HashiCorp Terraform",
+      "date": "2025-09-23T20:50:44+00:00",
+      "source": "Nirmata Blog"
+    },
+    "41b723a865a0": {
+      "title": "A Blueprint for DevSecOps: Accelerating Federal Agencies with IBM and Nirmata",
+      "date": "2025-09-11T21:51:25+00:00",
+      "source": "Nirmata Blog"
+    },
+    "c798005f14cc": {
+      "title": "Honoring Styra’s Contributions To OPA",
+      "date": "2025-08-20T23:03:50+00:00",
+      "source": "Nirmata Blog"
+    },
+    "c2fa33b582b7": {
+      "title": "Nirmata Teams Dashboard Gets a Makeover: A Cleaner, Smarter Experience for Managing Kubernetes and Cloud Environments",
+      "date": "2025-07-15T08:00:09+00:00",
+      "source": "Nirmata Blog"
+    },
+    "80694975a782": {
+      "title": "Kubernetes Governance with Nirmata & SUSE",
+      "date": "2025-07-14T08:05:54+00:00",
+      "source": "Nirmata Blog"
+    },
+    "507b7f44af4d": {
+      "title": "Is Your Kyverno Healthy? Now You Can Know for Sure.",
+      "date": "2025-06-30T08:00:13+00:00",
+      "source": "Nirmata Blog"
+    },
+    "dff881193d50": {
+      "title": "Cut Through the DevSecOps Noise: Smart Violation Prioritization in Nirmata Control Hub",
+      "date": "2025-06-27T14:54:55+00:00",
+      "source": "Nirmata Blog"
+    },
+    "3da404ed807b": {
+      "title": "From Spend to Value: The Advantage of Private Cloud",
+      "date": "2025-10-16T02:35:46+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "8c82a194b4d9": {
+      "title": "How NRP Scales Global Scientific Research with Calico",
+      "date": "2025-10-15T15:53:20+00:00",
+      "source": "Tigera"
+    },
+    "0c9826158c67": {
+      "title": "Pre-release v2.12.3-alpha2",
+      "date": "2025-10-15T19:52:49+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "56098444c709": {
+      "title": "Pre-release v2.11.7-alpha2",
+      "date": "2025-10-15T18:49:14+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "cc39cbdf098d2030": {
+      "title": "Hacktoberfest Lahore 2025: Secure Cloud Edition",
+      "date": "2025-10-24T20:15:53+00:00",
+      "source": "cncf-api"
+    },
+    "31efafcfa36aa7b9": {
+      "title": "CodeRioja 2025 [Devfest]",
+      "date": "2025-10-25T07:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "3e3a9866553a3c12": {
+      "title": "Cloud Native Day - São Paulo 2025",
+      "date": "2025-10-25T12:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "22c8e9f235b6c9b0": {
+      "title": "KCD Sri Lanka 2025",
+      "date": "2025-10-26T08:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "31b2eda72c409b85": {
+      "title": "Cloud Native Day Bergen 2025",
+      "date": "2025-10-27T08:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "1d7d4d7b7717d95f": {
+      "title": "Chaos Mesh Development Meeting",
+      "date": "2025-10-28T01:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }

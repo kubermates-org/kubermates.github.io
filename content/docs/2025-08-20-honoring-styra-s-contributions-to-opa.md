@@ -5,7 +5,7 @@ tags:
 - nirmata
 - kubernetes
 source: Nirmata Blog
-external_url: https://nirmata.com/2025/08/20/honoring-styras-contributions-to-opa/
+external_url: https://nirmata.com/2025/08/20/honoring-styras-contributions-to-opa/?utm_source=rss&utm_medium=rss&utm_campaign=honoring-styras-contributions-to-opa
 post_kind: link
 draft: false
 tldr: Honoring Styra’s Contributions To OPA As the creator of Open Policy Agent (OPA),
@@ -34,4 +34,4 @@ summary: Honoring Styra’s Contributions To OPA As the creator of Open Policy A
   for growth. We are excited to see what comes next in the OPA roadmap and how the
   project continues to evolve as a critical part of the cloud native landscape.
 ---
-Open the original post ↗ https://nirmata.com/2025/08/20/honoring-styras-contributions-to-opa/
+Open the original post ↗ https://nirmata.com/2025/08/20/honoring-styras-contributions-to-opa/?utm_source=rss&utm_medium=rss&utm_campaign=honoring-styras-contributions-to-opa
