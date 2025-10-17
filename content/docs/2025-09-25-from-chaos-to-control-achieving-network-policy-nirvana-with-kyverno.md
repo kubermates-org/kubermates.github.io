@@ -5,7 +5,7 @@ tags:
 - nirmata
 - kubernetes
 source: Nirmata Blog
-external_url: https://nirmata.com/2025/09/25/from-chaos-to-control-achieving-network-policy-nirvana-with-kyverno/
+external_url: https://nirmata.com/2025/09/25/from-chaos-to-control-achieving-network-policy-nirvana-with-kyverno/?utm_source=rss&utm_medium=rss&utm_campaign=from-chaos-to-control-achieving-network-policy-nirvana-with-kyverno
 post_kind: link
 draft: false
 tldr: 'From Chaos to Control: Achieving Network Policy Nirvana with Kyverno The Challenge:
@@ -39,4 +39,4 @@ summary: 'From Chaos to Control: Achieving Network Policy Nirvana with Kyverno T
   security vulnerabilities. Jim introduced Kyverno , a policy engine built for Kubernetes,
   as the solution.'
 ---
-Open the original post ↗ https://nirmata.com/2025/09/25/from-chaos-to-control-achieving-network-policy-nirvana-with-kyverno/
+Open the original post ↗ https://nirmata.com/2025/09/25/from-chaos-to-control-achieving-network-policy-nirvana-with-kyverno/?utm_source=rss&utm_medium=rss&utm_campaign=from-chaos-to-control-achieving-network-policy-nirvana-with-kyverno

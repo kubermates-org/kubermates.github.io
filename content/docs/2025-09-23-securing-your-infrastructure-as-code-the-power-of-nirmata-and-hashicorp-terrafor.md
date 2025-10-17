@@ -5,7 +5,7 @@ tags:
 - nirmata
 - kubernetes
 source: Nirmata Blog
-external_url: https://nirmata.com/2025/09/23/securing-your-infrastructure-as-code-the-power-of-nirmata-and-hashicorp-terraform/
+external_url: https://nirmata.com/2025/09/23/securing-your-infrastructure-as-code-the-power-of-nirmata-and-hashicorp-terraform/?utm_source=rss&utm_medium=rss&utm_campaign=securing-your-infrastructure-as-code-the-power-of-nirmata-and-hashicorp-terraform
 post_kind: link
 draft: false
 tldr: 'Securing Your Infrastructure as Code: The Power of Nirmata and HashiCorp Terraform
@@ -38,4 +38,4 @@ summary: 'Securing Your Infrastructure as Code: The Power of Nirmata and HashiCo
   workflows. Think of it this way: Terraform is your blueprint for provisioning infrastructure
   across any provider and any cloud.'
 ---
-Open the original post ↗ https://nirmata.com/2025/09/23/securing-your-infrastructure-as-code-the-power-of-nirmata-and-hashicorp-terraform/
+Open the original post ↗ https://nirmata.com/2025/09/23/securing-your-infrastructure-as-code-the-power-of-nirmata-and-hashicorp-terraform/?utm_source=rss&utm_medium=rss&utm_campaign=securing-your-infrastructure-as-code-the-power-of-nirmata-and-hashicorp-terraform

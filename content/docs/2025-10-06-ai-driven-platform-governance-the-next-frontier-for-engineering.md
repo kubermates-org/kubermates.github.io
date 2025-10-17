@@ -5,7 +5,7 @@ tags:
 - nirmata
 - kubernetes
 source: Nirmata Blog
-external_url: https://nirmata.com/2025/10/06/ai-driven-platform-governance-the-next-frontier-for-engineering/
+external_url: https://nirmata.com/2025/10/06/ai-driven-platform-governance-the-next-frontier-for-engineering/?utm_source=rss&utm_medium=rss&utm_campaign=ai-driven-platform-governance-the-next-frontier-for-engineering
 post_kind: link
 draft: false
 tldr: 'AI-Driven Platform Governance: The Next Frontier for Engineering The New Governance
@@ -34,4 +34,4 @@ summary: 'AI-Driven Platform Governance: The Next Frontier for Engineering The N
   guardrails, controls, and compliance without slowing down innovation. That’s where
   AI-driven governance comes in.'
 ---
-Open the original post ↗ https://nirmata.com/2025/10/06/ai-driven-platform-governance-the-next-frontier-for-engineering/
+Open the original post ↗ https://nirmata.com/2025/10/06/ai-driven-platform-governance-the-next-frontier-for-engineering/?utm_source=rss&utm_medium=rss&utm_campaign=ai-driven-platform-governance-the-next-frontier-for-engineering

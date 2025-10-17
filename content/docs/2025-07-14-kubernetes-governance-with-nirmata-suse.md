@@ -5,7 +5,7 @@ tags:
 - nirmata
 - kubernetes
 source: Nirmata Blog
-external_url: https://nirmata.com/2025/07/14/kubernetes-governance-with-nirmata-suse/
+external_url: https://nirmata.com/2025/07/14/kubernetes-governance-with-nirmata-suse/?utm_source=rss&utm_medium=rss&utm_campaign=kubernetes-governance-with-nirmata-suse
 post_kind: link
 draft: false
 tldr: 'Kubernetes Governance with Nirmata & SUSE Seamless Integration with Rancher
@@ -47,4 +47,4 @@ summary: 'Kubernetes Governance with Nirmata & SUSE Seamless Integration with Ra
   with Nirmata, knowing that the solutions are certified, integrated, and designed
   to work together seamlessly.'
 ---
-Open the original post ↗ https://nirmata.com/2025/07/14/kubernetes-governance-with-nirmata-suse/
+Open the original post ↗ https://nirmata.com/2025/07/14/kubernetes-governance-with-nirmata-suse/?utm_source=rss&utm_medium=rss&utm_campaign=kubernetes-governance-with-nirmata-suse

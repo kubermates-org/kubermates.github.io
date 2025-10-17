@@ -5,7 +5,7 @@ tags:
 - nirmata
 - kubernetes
 source: Nirmata Blog
-external_url: https://nirmata.com/2025/09/11/a-blueprint-for-devsecops-accelerating-federal-agencies-with-ibm-and-nirmata/
+external_url: https://nirmata.com/2025/09/11/a-blueprint-for-devsecops-accelerating-federal-agencies-with-ibm-and-nirmata/?utm_source=rss&utm_medium=rss&utm_campaign=a-blueprint-for-devsecops-accelerating-federal-agencies-with-ibm-and-nirmata
 post_kind: link
 draft: false
 tldr: 'A Blueprint for DevSecOps: Accelerating Federal Agencies with IBM and Nirmata
@@ -40,4 +40,4 @@ summary: 'A Blueprint for DevSecOps: Accelerating Federal Agencies with IBM and 
   of the entire cloud architecture. Security Builder: Deploys pre-configured bundles
   of security policies.'
 ---
-Open the original post ↗ https://nirmata.com/2025/09/11/a-blueprint-for-devsecops-accelerating-federal-agencies-with-ibm-and-nirmata/
+Open the original post ↗ https://nirmata.com/2025/09/11/a-blueprint-for-devsecops-accelerating-federal-agencies-with-ibm-and-nirmata/?utm_source=rss&utm_medium=rss&utm_campaign=a-blueprint-for-devsecops-accelerating-federal-agencies-with-ibm-and-nirmata

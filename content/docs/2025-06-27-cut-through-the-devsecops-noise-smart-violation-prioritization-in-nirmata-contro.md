@@ -6,7 +6,7 @@ tags:
 - nirmata
 - kubernetes
 source: Nirmata Blog
-external_url: https://nirmata.com/2025/06/27/cut-through-the-noise-smart-violation-prioritization-in-nirmata-control-hub/
+external_url: https://nirmata.com/2025/06/27/cut-through-the-noise-smart-violation-prioritization-in-nirmata-control-hub/?utm_source=rss&utm_medium=rss&utm_campaign=cut-through-the-noise-smart-violation-prioritization-in-nirmata-control-hub
 post_kind: link
 draft: false
 tldr: 'Cut Through the DevSecOps Noise: Smart Violation Prioritization in Nirmata
@@ -38,4 +38,4 @@ summary: 'Cut Through the DevSecOps Noise: Smart Violation Prioritization in Nir
   3: Minor / Best Practices Clean-up tasks and optimizations – ideal for long-term
   hygiene.'
 ---
-Open the original post ↗ https://nirmata.com/2025/06/27/cut-through-the-noise-smart-violation-prioritization-in-nirmata-control-hub/
+Open the original post ↗ https://nirmata.com/2025/06/27/cut-through-the-noise-smart-violation-prioritization-in-nirmata-control-hub/?utm_source=rss&utm_medium=rss&utm_campaign=cut-through-the-noise-smart-violation-prioritization-in-nirmata-control-hub
