@@ -6,7 +6,7 @@ tags:
 - nirmata
 - kubernetes
 source: Nirmata Blog
-external_url: https://nirmata.com/2025/07/15/nirmata-teams-dashboard-gets-a-makeover-a-cleaner-smarter-experience-for-managing-kubernetes-and-cloud-environments/
+external_url: https://nirmata.com/2025/07/15/nirmata-teams-dashboard-gets-a-makeover-a-cleaner-smarter-experience-for-managing-kubernetes-and-cloud-environments/?utm_source=rss&utm_medium=rss&utm_campaign=nirmata-teams-dashboard-gets-a-makeover-a-cleaner-smarter-experience-for-managing-kubernetes-and-cloud-environments
 post_kind: link
 draft: false
 tldr: 'Nirmata Teams Dashboard Gets a Makeover: A Cleaner, Smarter Experience for
@@ -42,4 +42,4 @@ summary: 'Nirmata Teams Dashboard Gets a Makeover: A Cleaner, Smarter Experience
   We’ve also made significant improvements to the Team Details page, focusing on clarity
   and ease of use.'
 ---
-Open the original post ↗ https://nirmata.com/2025/07/15/nirmata-teams-dashboard-gets-a-makeover-a-cleaner-smarter-experience-for-managing-kubernetes-and-cloud-environments/
+Open the original post ↗ https://nirmata.com/2025/07/15/nirmata-teams-dashboard-gets-a-makeover-a-cleaner-smarter-experience-for-managing-kubernetes-and-cloud-environments/?utm_source=rss&utm_medium=rss&utm_campaign=nirmata-teams-dashboard-gets-a-makeover-a-cleaner-smarter-experience-for-managing-kubernetes-and-cloud-environments

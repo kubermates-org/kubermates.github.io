@@ -5,7 +5,7 @@ tags:
 - nirmata
 - kubernetes
 source: Nirmata Blog
-external_url: https://nirmata.com/2025/06/30/is-your-kyverno-healthy-now-you-can-know-for-sure/
+external_url: https://nirmata.com/2025/06/30/is-your-kyverno-healthy-now-you-can-know-for-sure/?utm_source=rss&utm_medium=rss&utm_campaign=is-your-kyverno-healthy-now-you-can-know-for-sure
 post_kind: link
 draft: false
 tldr: 'Is Your Kyverno Healthy? Now You Can Know for Sure. Why Kyverno Health Matters
@@ -36,4 +36,4 @@ summary: 'Is Your Kyverno Healthy? Now You Can Know for Sure. Why Kyverno Health
   pod disruption budgets, and runtime stability of Kyverno. Checks for resource configurations,
   pod disruption budgets, and runtime stability of Kyverno.'
 ---
-Open the original post ↗ https://nirmata.com/2025/06/30/is-your-kyverno-healthy-now-you-can-know-for-sure/
+Open the original post ↗ https://nirmata.com/2025/06/30/is-your-kyverno-healthy-now-you-can-know-for-sure/?utm_source=rss&utm_medium=rss&utm_campaign=is-your-kyverno-healthy-now-you-can-know-for-sure
