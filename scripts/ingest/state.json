@@ -5109,6 +5109,51 @@
       "title": "cTENcf: Madison",
       "date": "2025-10-29T21:30:00+00:00",
       "source": "cncf-api"
+    },
+    "403cee77cf95": {
+      "title": "Why Autonomous Infrastructure is the future: From intent to self-operating systems",
+      "date": "2025-10-17T18:03:45+00:00",
+      "source": "CNCF"
+    },
+    "b2ff61f73217": {
+      "title": "KubeCon + CloudNativeCon North America 2025 Co-Located Event Deep Dive: Platform Engineering Day",
+      "date": "2025-10-17T13:55:00+00:00",
+      "source": "CNCF"
+    },
+    "d6000c123ef9": {
+      "title": "Extending EKS with Hybrid Nodes: IAM Roles Anywhere and HashiCorp Vault",
+      "date": "2025-10-17T20:30:49+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "17bd6e8a1da3": {
+      "title": "Optimizing energy efficiency on Red Hat Enterprise Linux",
+      "date": "2025-10-17T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "1093f16d7378": {
+      "title": "Spotlight on Policy Working Group",
+      "date": "2025-10-18T00:00:00+00:00",
+      "source": "Kubernetes Blog"
+    },
+    "88e2a809dd4c": {
+      "title": "Blog: Spotlight on Policy Working Group",
+      "date": "2025-10-18T00:00:00+00:00",
+      "source": "Kubernetes.dev Blog"
+    },
+    "2a52a3995294": {
+      "title": "Service linked role update",
+      "date": "2025-10-15T19:00:00+00:00",
+      "source": "EKS Release Notes"
+    },
+    "bc12f4933b222690": {
+      "title": "AI-Driven Platforms: Scaling the Next Cloud-Native Frontier",
+      "date": "2025-10-30T15:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "9e78dd8931545e41": {
+      "title": "Cloud Native Innsbruck Meetup--October 2025 Edition",
+      "date": "2025-10-30T16:30:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
