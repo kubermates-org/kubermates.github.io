@@ -5154,6 +5154,171 @@
       "title": "Cloud Native Innsbruck Meetup--October 2025 Edition",
       "date": "2025-10-30T16:30:00+00:00",
       "source": "cncf-api"
+    },
+    "039e10b0034c": {
+      "title": "CKA Exam Verification Guide",
+      "date": "2025-10-19T11:51:01+00:00",
+      "source": "KodeKloud Blog (Kubernetes)"
+    },
+    "7fc540f8ff19": {
+      "title": "August 05, 2025",
+      "date": "2025-08-05T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "b3b3ed0e96e0": {
+      "title": "July 28, 2025",
+      "date": "2025-07-28T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "c1ac04f793f6": {
+      "title": "June 24, 2025",
+      "date": "2025-06-24T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "4bc030be2a51": {
+      "title": "March 26, 2025",
+      "date": "2025-03-26T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "f88a7fc672c8": {
+      "title": "February 06, 2025",
+      "date": "2025-02-06T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "9c676fc2a5b5": {
+      "title": "December 12, 2024",
+      "date": "2024-12-12T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "fda0dba394b6": {
+      "title": "October 31, 2024",
+      "date": "2024-10-31T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "03bf92820c4f": {
+      "title": "September 23, 2024",
+      "date": "2024-09-23T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "69bee479af1f": {
+      "title": "August 07, 2024",
+      "date": "2024-08-07T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "fd463243b6b6": {
+      "title": "July 26, 2024",
+      "date": "2024-07-26T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "1304b1e1b9ff": {
+      "title": "July 15, 2024",
+      "date": "2024-07-15T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "f327f1dbce18": {
+      "title": "July 08, 2024",
+      "date": "2024-07-08T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "3ff8cc4ed2a9": {
+      "title": "June 12, 2024",
+      "date": "2024-06-12T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "b6ec3ef13932": {
+      "title": "May 01, 2024",
+      "date": "2024-05-01T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "cc6bf3bf5214": {
+      "title": "February 13, 2024",
+      "date": "2024-02-13T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "a31fd43e5189": {
+      "title": "January 11, 2024",
+      "date": "2024-01-11T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "479c91bd206c": {
+      "title": "December 12, 2023",
+      "date": "2023-12-12T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "c41f561c610b": {
+      "title": "September 29, 2023",
+      "date": "2023-09-29T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "2da06131bb26": {
+      "title": "September 07, 2023",
+      "date": "2023-09-07T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "cd9b6e12c6f5": {
+      "title": "July 24, 2023",
+      "date": "2023-07-24T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "16b5623776e4": {
+      "title": "April 11, 2023",
+      "date": "2023-04-11T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "b11beb0bddbb": {
+      "title": "February 10, 2023",
+      "date": "2023-02-10T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "3779cc0dd922": {
+      "title": "February 07, 2023",
+      "date": "2023-02-07T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "122e4e56168a": {
+      "title": "January 09, 2023",
+      "date": "2023-01-09T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "3f4e2003ccfa": {
+      "title": "January 05, 2023",
+      "date": "2023-01-05T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "1fe189af715c": {
+      "title": "December 16, 2022",
+      "date": "2022-12-16T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "6524e3d2d377": {
+      "title": "November 04, 2022",
+      "date": "2022-11-04T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "dd34351af4a0": {
+      "title": "October 28, 2022",
+      "date": "2022-10-28T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "dcf5ef454250": {
+      "title": "September 23, 2022",
+      "date": "2022-09-23T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "4a1c0a6ccd97": {
+      "title": "September 14, 2022",
+      "date": "2022-09-14T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "cd2740ccca414414": {
+      "title": "Integration and Delivery Plane: From Commit to Running",
+      "date": "2025-10-24T19:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "ecf0f576ce94fcf5": {
+      "title": "Introduction to Kubernetes",
+      "date": "2025-10-26T14:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
