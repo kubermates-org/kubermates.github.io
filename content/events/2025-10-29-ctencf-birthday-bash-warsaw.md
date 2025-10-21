@@ -1,6 +1,6 @@
 ---
 title: '#cTENcf Birthday Bash Warsaw'
-date: '2025-10-29T17:00:00+00:00'
+date: '2025-10-29T17:30:00+00:00'
 endDate: null
 location: Warsaw (PL)
 city: null
@@ -16,7 +16,7 @@ tags:
 source: cncf-api
 external_url: https://community.cncf.io/events/details/cncf-cloud-native-warsaw-presents-ctencf-birthday-bash-warsaw/
 draft: false
-uid: 779d02abc7df02ef
+uid: 49ea6c8a6bc4b188
 provider: cncf
 ---
 Cloud Native Warsaw: CNCF 10th Anniversary Special at Google Headquarters!Join us for a special evening edition of Cloud...

@@ -5319,6 +5319,41 @@
       "title": "Introduction to Kubernetes",
       "date": "2025-10-26T14:00:00+00:00",
       "source": "cncf-api"
+    },
+    "268cd3330158": {
+      "title": "Adding distributed tracing to AI Gateway: My LFX mentorship journey",
+      "date": "2025-10-20T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "b6db6ac943a1": {
+      "title": "7 Common Kubernetes Pitfalls (and How I Learned to Avoid Them)",
+      "date": "2025-10-20T08:30:00-07:00",
+      "source": "Kubernetes Blog"
+    },
+    "0bd02ff71b0a": {
+      "title": "4.21.0-okd-scos.ec.4",
+      "date": "2025-10-20T05:13:48+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "f3d1314ea612": {
+      "title": "4.20.0-okd-scos.6",
+      "date": "2025-10-20T05:46:23+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "f477f4c8af301b76": {
+      "title": "La Historia de la Tecnología en Panamá con Gerardo Nunez",
+      "date": "2025-10-23T00:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "13f862769d2a108a": {
+      "title": "Argo CD Up and Running: Integrating CI with Argo CD",
+      "date": "2025-10-23T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "49ea6c8a6bc4b188": {
+      "title": "#cTENcf Birthday Bash Warsaw",
+      "date": "2025-10-29T17:30:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
