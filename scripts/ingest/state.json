@@ -5419,6 +5419,91 @@
       "title": "Minha jornada como um \"Kubestronauta\"",
       "date": "2025-10-30T22:30:00+00:00",
       "source": "cncf-api"
+    },
+    "b8f044145334": {
+      "title": "LFX Insights: A new way to understand open source projects",
+      "date": "2025-10-22T16:38:23+00:00",
+      "source": "CNCF"
+    },
+    "db9e78f06843": {
+      "title": "Cloud Native Maturity Model 4.0 (Beta): Reflecting what’s next for cloud native — and we want your input",
+      "date": "2025-10-22T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "9b9f7f8a7177": {
+      "title": "The Path to Digital Sovereignty: Why an Open Ecosystem is the Key for Europe",
+      "date": "2025-10-22T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "4ae3dc079933": {
+      "title": "From tokens to caches: How llm-d improves LLM observability in Red Hat OpenShift AI 3.0",
+      "date": "2025-10-22T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "02b3bf809097": {
+      "title": "Modernize: Migrate from SUSE Rancher RKE1 to Red Hat OpenShift",
+      "date": "2025-10-22T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "133cb82fe880": {
+      "title": "VMware Cloud on AWS: VMC Console UI Migration to Broadcom",
+      "date": "2025-10-22T18:36:18+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "14b8ffdc6e2b": {
+      "title": "VCF Breakroom Chats Episode 66 – VCF Automation Org Types Demystified: Debunking Misconceptions about VM & All Apps Orgs",
+      "date": "2025-10-22T17:15:19+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "d977fb433c25": {
+      "title": "OAuth App Based Workload Identity for Droplets",
+      "date": "2025-10-22T18:51:32.229000+00:00",
+      "source": "Digital Ocean"
+    },
+    "c5e0d890857c": {
+      "title": "Kubernetes v1.35.0-alpha.2",
+      "date": "2025-10-22T22:03:54+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "c736175a5249": {
+      "title": "v2.12.3",
+      "date": "2025-10-23T00:10:36+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "78a8c3019e0d": {
+      "title": "Pre-release v2.12.3-rc1",
+      "date": "2025-10-22T18:08:25+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "519488bad617": {
+      "title": "Pre-release v2.11.7-rc1",
+      "date": "2025-10-22T17:12:29+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "9b34f2c2cc6d": {
+      "title": "Release v1.8.8",
+      "date": "2025-10-22T16:26:21+00:00",
+      "source": "RKE Releases"
+    },
+    "e32b19fcc73576f3": {
+      "title": "HacktoberFest Meetup",
+      "date": "2025-10-27T05:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "1bdc3042f6ef86db": {
+      "title": "Messaging, Live Kubernetes Log Tailing, and AI Agent Deployment on K8s",
+      "date": "2025-10-30T23:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "1734ee24cc127006": {
+      "title": "#cTENcf Birthday Bash Mauritius",
+      "date": "2025-10-31T14:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "a61729f62a950063": {
+      "title": "KCD Porto 2025",
+      "date": "2025-11-03T08:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
