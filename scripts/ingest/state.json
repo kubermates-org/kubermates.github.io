@@ -5504,6 +5504,126 @@
       "title": "KCD Porto 2025",
       "date": "2025-11-03T08:00:00+00:00",
       "source": "cncf-api"
+    },
+    "e2e116c3fb2d": {
+      "title": "Connecting distributed Kubernetes with Cilium and SD-WAN: Building an intelligent network fabric",
+      "date": "2025-10-25T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "c1ded0384da9": {
+      "title": "Cloud Native Sustainability Month 2025: A global community movement for greener tech",
+      "date": "2025-10-24T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "12370d0d7b9b": {
+      "title": "CNCF embraces LFX Self Service for calendar management",
+      "date": "2025-10-23T14:33:19+00:00",
+      "source": "CNCF"
+    },
+    "b4f31e24354e": {
+      "title": "Highlights from CNCF’s first Open Observability Summit",
+      "date": "2025-10-23T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "3377ccbbae0f": {
+      "title": "Red Hat Performance and Scale Engineering",
+      "date": "2025-10-24T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "c587342367e3": {
+      "title": "Sovereign AI in action",
+      "date": "2025-10-24T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "18d8d55529e8": {
+      "title": "10 essential articles to guide your hybrid cloud modernization playbook",
+      "date": "2025-10-24T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "c2385c116bb7": {
+      "title": "Friday Five — October 24, 2025",
+      "date": "2025-10-24T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "151d55cbfe18": {
+      "title": "Migration toolkit for applications 8: Bringing modernized applications to market faster",
+      "date": "2025-10-23T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "a790f7ac6a8c": {
+      "title": "Introducing the Private AI Sizing Guide",
+      "date": "2025-10-24T14:03:23+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "a36dc9c347e3": {
+      "title": "VCF Breakroom Chats Episode 68: Counting down to KubeCon North America 2025 – Let’s Chat!",
+      "date": "2025-10-24T13:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "d3a8e8bdfa73": {
+      "title": "VCF Breakroom Chats Episode 67 – The Language of Cloud:  Decoding Namespaces, Projects, and Orgs in VMware Cloud Foundation",
+      "date": "2025-10-23T13:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "3d0f95e22e54": {
+      "title": "Kubernetes Tutorial for Beginners 2025",
+      "date": "2025-10-23T07:42:00+00:00",
+      "source": "KodeKloud Blog (Kubernetes)"
+    },
+    "1b4047e7b052": {
+      "title": "Image and audio models from fal now available on DigitalOcean",
+      "date": "2025-10-23T12:30:00.022000+00:00",
+      "source": "Digital Ocean"
+    },
+    "299ab1135d9f": {
+      "title": "What’s New in Calico v3.31: eBPF, NFTables, and More",
+      "date": "2025-10-25T01:59:07+00:00",
+      "source": "Tigera"
+    },
+    "e84bf8135eb8": {
+      "title": "v2.12.3-hotfix-a3c0.1: Backport steve and apiserver fixes",
+      "date": "2025-10-24T07:55:15+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "16180eeda883": {
+      "title": "v2.12.2-hotfix-84f0.2: Backport apiserver fixes",
+      "date": "2025-10-23T15:04:00+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "e296fda2215e": {
+      "title": "v2.11.7",
+      "date": "2025-10-24T00:05:42+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "c7c316ac49e9": {
+      "title": "Pre-release v2.11.7-rc2",
+      "date": "2025-10-23T12:18:07+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "4c0f1e4a3f6f2e5f": {
+      "title": "Preparativos para Cloud Native LATAM Summit",
+      "date": "2025-10-30T00:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "6376c74e9313ccee": {
+      "title": "Merge Forward: Neurodiversity Working Group Monthly Meeting",
+      "date": "2025-10-30T16:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "ebc9eb67a784fece": {
+      "title": "Odesa Cloud Native #44: Strategic Approaches to Cloud Cost Optimization",
+      "date": "2025-10-30T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "1b999fc3cb12efc6": {
+      "title": "Women in CNCF Presents: cTENcf Celebration Meetup",
+      "date": "2025-11-01T13:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "ec3c8c8d936bfac8": {
+      "title": "WasmEdge Community Meeting",
+      "date": "2025-11-04T15:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
