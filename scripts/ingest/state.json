@@ -5634,6 +5634,56 @@
       "title": "Merge Forward Monthly Meeting",
       "date": "2025-11-04T18:00:00+00:00",
       "source": "cncf-api"
+    },
+    "130cd523e12a": {
+      "title": "Announcing the Certified Meshery Contributor (CMC)",
+      "date": "2025-10-27T13:02:00+00:00",
+      "source": "CNCF"
+    },
+    "2ae972f7bd2c": {
+      "title": "Unlocking telecommunication transformation with Red Hat OpenShift Service on AWS",
+      "date": "2025-10-27T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "730a8ae04eab": {
+      "title": "The Policy-as-Code AI Agent: Smarter Kubernetes Governance & Security",
+      "date": "2025-10-27T16:17:44+00:00",
+      "source": "Nirmata Blog"
+    },
+    "f5542e3be3bc": {
+      "title": "IDC Spotlight: Overcoming Kubernetes Complexity with Modern Private Cloud",
+      "date": "2025-10-27T13:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "c5d9a9c7bf67": {
+      "title": "Pros and Cons of Crowdfunding Your Startup | DigitalOcean (migrated)",
+      "date": "2025-10-27T20:37:59.722000+00:00",
+      "source": "Digital Ocean"
+    },
+    "6ea4a382a405": {
+      "title": "4.21.0-okd-scos.ec.5",
+      "date": "2025-10-27T05:14:41+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "589bc494fba98e22": {
+      "title": "Argo CD Up and Running: Operationalizing Argo CD",
+      "date": "2025-10-30T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "83de20edd4f6a186": {
+      "title": "Camino a las estrellas: Cuando el aspirante a astronauta no es Kubestronaut",
+      "date": "2025-10-30T23:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "e4f5f82b2a0da39b": {
+      "title": "CNCF Abuja Meetup: How to Scale Your Career with CNCF Contributions",
+      "date": "2025-10-31T11:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "ae63b0f9d2d4f730": {
+      "title": "Cloud Native Hyderabad - November Meetup",
+      "date": "2025-11-01T04:30:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
