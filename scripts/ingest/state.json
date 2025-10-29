@@ -5684,6 +5684,86 @@
       "title": "Cloud Native Hyderabad - November Meetup",
       "date": "2025-11-01T04:30:00+00:00",
       "source": "cncf-api"
+    },
+    "8e67063e3b3f": {
+      "title": "Extending GPU Fractionalization and Orchestration to the edge with NVIDIA Run:ai and Amazon EKS",
+      "date": "2025-10-28T18:05:27+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "378d416d5a63": {
+      "title": "The power of confidential containers on Red Hat OpenShift with NVIDIA GPUs",
+      "date": "2025-10-28T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "ea3490141faf": {
+      "title": "Take a fail-fast approach for developing RHEL upgrade automation",
+      "date": "2025-10-28T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "6b5002e21181": {
+      "title": "Red Hat to distribute NVIDIA CUDA across Red Hat AI, RHEL and OpenShift",
+      "date": "2025-10-28T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "66416d167ccc": {
+      "title": "Red Hat AI: Modular building blocks for scalable, repeatable model customization",
+      "date": "2025-10-28T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "648f1ee2b96a": {
+      "title": "Introducing Red Hat’s STIG-hardened UBI for NVIDIA GPUs on Red Hat OpenShift",
+      "date": "2025-10-28T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "7f2ad4fafa69": {
+      "title": "How Ansible's new self-service automation portal empowers everyone to automate",
+      "date": "2025-10-28T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "d1099c89c130": {
+      "title": "Announcing Fedora 43",
+      "date": "2025-10-28T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "56e9826a0b52": {
+      "title": "Accelerating  Nemotron Nano 2 9B: From Quantization to KV-Cache",
+      "date": "2025-10-28T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "889f2eb354f0": {
+      "title": "Remediator Agent for Kubernetes – AI-Powered Policy Remediation",
+      "date": "2025-10-28T22:08:46+00:00",
+      "source": "Nirmata Blog"
+    },
+    "485f59f53520": {
+      "title": "Government-Ready NVIDIA AI Enterprise Containers Now Available for Customers of VMware Private AI Foundation with NVIDIA",
+      "date": "2025-10-28T18:31:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "69be7f1df0d9": {
+      "title": "Analyst Insight Series: Consolidated, Consistent and Simplified Operations Deliver on The Promise of Platform Engineering",
+      "date": "2025-10-28T16:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "c18330e212e9": {
+      "title": "Application Versus Infrastructure-Level High Availability with vSAN in VMware Cloud Foundation",
+      "date": "2025-10-28T16:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "74cb6641c4d5": {
+      "title": "5 Essential Steps to Strengthen Kubernetes Egress Security",
+      "date": "2025-10-28T16:51:33+00:00",
+      "source": "Tigera"
+    },
+    "962df5d0f9c462f3": {
+      "title": "Cloud Native Stuttgart #4 - Winter AIs Coming!",
+      "date": "2025-11-05T17:00:08+00:00",
+      "source": "cncf-api"
+    },
+    "4486bcd757909405": {
+      "title": "#cTENcf Birthday Bash Budapest",
+      "date": "2025-11-06T16:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
