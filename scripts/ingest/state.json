@@ -5684,6 +5684,406 @@
       "title": "Cloud Native Hyderabad - November Meetup",
       "date": "2025-11-01T04:30:00+00:00",
       "source": "cncf-api"
+    },
+    "e35abfda9a7d": {
+      "title": "Tool descriptions are eating up all your AI tokens (but they don’t have to)",
+      "date": "2025-10-31T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "447af3e80487": {
+      "title": "Building a unified hybrid cloud with Infrastructure as Code at RBC",
+      "date": "2025-10-31T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "69bac98fbf4e": {
+      "title": "Don’t just attend KubeCon + CloudNativeCon, Merge Forward your experience!",
+      "date": "2025-10-30T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "401b128cf2ba": {
+      "title": "Securing the software supply chain: How distroless containers defend against npm malware attacks",
+      "date": "2025-10-30T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "8e67063e3b3f": {
+      "title": "Extending GPU Fractionalization and Orchestration to the edge with NVIDIA Run:ai and Amazon EKS",
+      "date": "2025-10-28T18:05:27+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "74216af3052a": {
+      "title": "Friday Five — October 31, 2025",
+      "date": "2025-10-31T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "5b1ee59e4c89": {
+      "title": "Efficient and reproducible LLM inference: Inside Red Hat’s MLPerf Inference v5.1 submissions",
+      "date": "2025-10-31T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "e425d45cc9c9": {
+      "title": "Not your grandfather's VMs: Renewing backup for Red Hat OpenShift Virtualization",
+      "date": "2025-10-30T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "7ac819e328bc": {
+      "title": "The State of Missouri Scales Automation, Unlocks Time for Innovation",
+      "date": "2025-10-29T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "4476ca00a03d": {
+      "title": "HPE Alletra Storage MP B10000 for Red Hat OpenShift",
+      "date": "2025-10-29T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "3fdd680b3600": {
+      "title": "Median time from submission to publication: 2.5 weeks From banking success, to a new future in tech: Bradley’s Red Hat journey so far",
+      "date": "2025-10-29T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "378d416d5a63": {
+      "title": "The power of confidential containers on Red Hat OpenShift with NVIDIA GPUs",
+      "date": "2025-10-28T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "ea3490141faf": {
+      "title": "Take a fail-fast approach for developing RHEL upgrade automation",
+      "date": "2025-10-28T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "6b5002e21181": {
+      "title": "Red Hat to distribute NVIDIA CUDA across Red Hat AI, RHEL and OpenShift",
+      "date": "2025-10-28T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "66416d167ccc": {
+      "title": "Red Hat AI: Modular building blocks for scalable, repeatable model customization",
+      "date": "2025-10-28T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "c9b2f64fed85": {
+      "title": "Drift Detection for Kubernetes: The Missing Link in Secure GitOps",
+      "date": "2025-11-01T21:50:42+00:00",
+      "source": "Nirmata Blog"
+    },
+    "797bdb320f1a": {
+      "title": "Technical Guide: Nirmata Terraform Cloud (TFC) Run Task Integration",
+      "date": "2025-10-30T16:55:17+00:00",
+      "source": "Nirmata Blog"
+    },
+    "889f2eb354f0": {
+      "title": "Remediator Agent for Kubernetes – AI-Powered Policy Remediation",
+      "date": "2025-10-28T22:08:46+00:00",
+      "source": "Nirmata Blog"
+    },
+    "a46086da0f45": {
+      "title": "Forrester Opportunity Snapshot: A Single Platform Approach to Managing Containers and VMs",
+      "date": "2025-10-31T23:27:45+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "92881914a55f": {
+      "title": "Build, Deploy, and Scale with Confidence: vSphere Kubernetes Service 3.5 is Now Live with 24-Month Support",
+      "date": "2025-10-29T16:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "adf6b7a4ad6d": {
+      "title": "VCF Breakroom Chats Episode 71: Maximizing VCF Resource Prudency through Capacity Management",
+      "date": "2025-10-29T15:21:11+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "485f59f53520": {
+      "title": "Government-Ready NVIDIA AI Enterprise Containers Now Available for Customers of VMware Private AI Foundation with NVIDIA",
+      "date": "2025-10-28T18:31:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "69be7f1df0d9": {
+      "title": "Analyst Insight Series: Consolidated, Consistent and Simplified Operations Deliver on The Promise of Platform Engineering",
+      "date": "2025-10-28T16:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "c18330e212e9": {
+      "title": "Application Versus Infrastructure-Level High Availability with vSAN in VMware Cloud Foundation",
+      "date": "2025-10-28T16:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "b1eb7f254724": {
+      "title": "Top Kubernetes Certifications in 2025: Which One Should You Choose?",
+      "date": "2025-10-31T05:52:44+00:00",
+      "source": "KodeKloud Blog (Kubernetes)"
+    },
+    "029ca122a369": {
+      "title": "Helping Startups Build Faster with an AI Startup Ecosystem",
+      "date": "2025-10-29T13:59:30.247000+00:00",
+      "source": "Digital Ocean"
+    },
+    "81c67fa0b967": {
+      "title": "Calico Whisker in Action: Reading and Understanding Policy Traces",
+      "date": "2025-10-30T15:00:09+00:00",
+      "source": "Tigera"
+    },
+    "74cb6641c4d5": {
+      "title": "5 Essential Steps to Strengthen Kubernetes Egress Security",
+      "date": "2025-10-28T16:51:33+00:00",
+      "source": "Tigera"
+    },
+    "604cdfb4d157": {
+      "title": "October 29, 2025",
+      "date": "2025-10-29T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "605201f296c8": {
+      "title": "October 22, 2025",
+      "date": "2025-10-22T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "92a5d375a752": {
+      "title": "October 17, 2025",
+      "date": "2025-10-17T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "03c3f021b3b6": {
+      "title": "October 15, 2025",
+      "date": "2025-10-15T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "e4a66b8c0660": {
+      "title": "October 14, 2025",
+      "date": "2025-10-14T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "d8ec2485e0b0": {
+      "title": "October 08, 2025",
+      "date": "2025-10-08T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "9b78a7ac06e7": {
+      "title": "October 02, 2025",
+      "date": "2025-10-02T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "d6d46c8f8a5e": {
+      "title": "September 29, 2025",
+      "date": "2025-09-29T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "c76d60158116": {
+      "title": "September 25, 2025",
+      "date": "2025-09-25T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "822e7a1a40fc": {
+      "title": "September 23, 2025",
+      "date": "2025-09-23T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "de964b63b9ed": {
+      "title": "September 18, 2025",
+      "date": "2025-09-18T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "1c20e410ba8d": {
+      "title": "September 11, 2025",
+      "date": "2025-09-11T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "75a107b349e8": {
+      "title": "September 04, 2025",
+      "date": "2025-09-04T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "a64b472da702": {
+      "title": "September 03, 2025",
+      "date": "2025-09-03T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "6e37b016a634": {
+      "title": "September 02, 2025",
+      "date": "2025-09-02T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "b659b3707681": {
+      "title": "August 29, 2025",
+      "date": "2025-08-29T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "94ec9ca615ae": {
+      "title": "August 28, 2025",
+      "date": "2025-08-28T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "b7992384fb8b": {
+      "title": "August 27, 2025",
+      "date": "2025-08-27T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "9f3a5a11cc0a": {
+      "title": "August 25, 2025",
+      "date": "2025-08-25T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "b29f8e6dacd0": {
+      "title": "August 21, 2025",
+      "date": "2025-08-21T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "04ec4719e668": {
+      "title": "August 20, 2025",
+      "date": "2025-08-20T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "8be68ea7845d": {
+      "title": "August 15, 2025",
+      "date": "2025-08-15T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "61c37c11303b": {
+      "title": "August 14, 2025",
+      "date": "2025-08-14T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "81a5c0a0f9b9": {
+      "title": "August 12, 2025",
+      "date": "2025-08-12T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "52ffc25009b0": {
+      "title": "August 08, 2025",
+      "date": "2025-08-08T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "c6a1dfd83695": {
+      "title": "August 06, 2025",
+      "date": "2025-08-06T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "e1503d0068f8": {
+      "title": "August 01, 2025",
+      "date": "2025-08-01T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "d413ec16dec7": {
+      "title": "July 25, 2025",
+      "date": "2025-07-25T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "7f3806f47757": {
+      "title": "v2.9.12-hotfix-5726.1: Prevent EnsureSecretForServiceAccount from crashing",
+      "date": "2025-10-31T10:30:59+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "4315d0b31d2f": {
+      "title": "Pre-release v2.13.0-alpha4",
+      "date": "2025-10-30T18:46:43+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "7acf2287b948": {
+      "title": "v2.12.3-hotfix-a3c0.2: Backport steve fix",
+      "date": "2025-10-30T09:54:46+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "d133cb113f89a5db": {
+      "title": "Merge Forward Monthly Meeting",
+      "date": "2025-11-04T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "962df5d0f9c462f3": {
+      "title": "Cloud Native Stuttgart #4 - Winter AIs Coming!",
+      "date": "2025-11-05T17:00:08+00:00",
+      "source": "cncf-api"
+    },
+    "6ae05312507c1668": {
+      "title": "Preparativos para Cloud Native LATAM Summit - Miércoles",
+      "date": "2025-11-06T00:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "daa002b698e2513b": {
+      "title": "CNCF On-Demand: From Chaos to Control in Enterprise AI/ML",
+      "date": "2025-11-06T08:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "4486bcd757909405": {
+      "title": "#cTENcf Birthday Bash Budapest",
+      "date": "2025-11-06T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "5af2b7e53cf07819": {
+      "title": "From the Edge to the Embedding: Open Source in Action",
+      "date": "2025-11-07T01:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "eee59f056cadb868": {
+      "title": "Africa DevOps Summit 2.0",
+      "date": "2025-11-07T05:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "7f2d72f6ea2852a4": {
+      "title": "Preparativos para Cloud Native LATAM Summit - Viernes",
+      "date": "2025-11-08T00:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "ac355f0c18615091": {
+      "title": "Kube & AI: Hello World! “Hands-on journey”",
+      "date": "2025-11-08T04:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "a253a7662649e9e6": {
+      "title": "Platform Engineering Meetup Bengaluru Edition - November 2025",
+      "date": "2025-11-08T05:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "6673480454c7378f": {
+      "title": "#cTENcf Birthday Bash Nashik",
+      "date": "2025-11-09T04:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "12c9606152477842": {
+      "title": "Container Install Meet-Up",
+      "date": "2025-11-10T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "383f5e74debf5c7a": {
+      "title": "Chaos Mesh Development Meeting",
+      "date": "2025-11-11T01:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "8971d096a6fc4766": {
+      "title": "Kubernetes Security Unlocked: Protect and Hack Your Workloads",
+      "date": "2025-11-11T16:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "1d06d028ab69e0e6": {
+      "title": "Introducción a Kubernetes – de 0 a 100",
+      "date": "2025-11-12T23:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "3f686978928c6894": {
+      "title": "Preparativos para Cloud Native LATAM Summit - Miércoles",
+      "date": "2025-11-13T00:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "329878845d8b1974": {
+      "title": "[CNCF-NBG v21] Gitops with FluxCD and Easy Kubernetes on baremetal with k0s",
+      "date": "2025-11-13T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "90b5ad9f52f04ced": {
+      "title": "CNCF Belgian Meetup November 2025",
+      "date": "2025-11-13T17:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "37502f538b2516e4": {
+      "title": "Joint Meetup: Kubernetes Upstream Training in Japan at CNDW2025",
+      "date": "2025-11-14T08:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "432df8709e8ff669": {
+      "title": "Team Topologies for Platform Engineering",
+      "date": "2025-11-14T17:00:58+00:00",
+      "source": "cncf-api"
+    },
+    "ded650dc5c190d53": {
+      "title": "Preparativos para Cloud Native LATAM Summit - Viernes",
+      "date": "2025-11-15T00:30:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
