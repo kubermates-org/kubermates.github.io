@@ -1,6 +1,6 @@
 ---
 title: Merge Forward Monthly Meeting
-date: '2025-11-04T18:00:00+00:00'
+date: '2025-11-04T17:00:00+00:00'
 endDate: null
 location: US
 city: null
@@ -14,9 +14,9 @@ tags:
 - cncf
 - event
 source: cncf-api
-external_url: https://community.cncf.io/events/details/cncf-merge-forward-presents-merge-forward-monthly-meeting-2025-11-04/
+external_url: https://community.cncf.io/events/details/cncf-merge-forward-presents-merge-forward-monthly-meeting-1/
 draft: false
-uid: fa27236ff3f83ba8
+uid: da9893c20b9c1028
 provider: cncf
 ---
-This is the monthly Merge Forward meeting, where representatives from all Merge Forward diversity groups get together. E...
+This Merge Forward meeting will be all about KubeCon. If you are attending, please join us to find out how you can suppo...
