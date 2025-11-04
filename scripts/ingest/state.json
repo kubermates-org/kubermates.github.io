@@ -6084,6 +6084,56 @@
       "title": "Preparativos para Cloud Native LATAM Summit - Viernes",
       "date": "2025-11-15T00:30:00+00:00",
       "source": "cncf-api"
+    },
+    "65df04c5c86c": {
+      "title": "Navigating the industrial edge: How a platform approach unlocks business value",
+      "date": "2025-11-03T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "5a42af105629": {
+      "title": "SRE vs Platform Engineer: Evolving Roles in the Age of AI-Driven Platforms",
+      "date": "2025-11-04T01:00:38+00:00",
+      "source": "Nirmata Blog"
+    },
+    "ce70ea2d8022": {
+      "title": "Analyst Insight Series: Security and Collaboration—Core Tenets of Successful Platform Engineering",
+      "date": "2025-11-03T21:11:17+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "3f88af83a5e9": {
+      "title": "VMware Advanced Cyber Compliance is Now Available to VCF Customers",
+      "date": "2025-11-03T14:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "23873fcf48e6": {
+      "title": "4.21.0-okd-scos.ec.6",
+      "date": "2025-11-03T05:13:09+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "9a0909dedfb0": {
+      "title": "4.20.0-okd-scos.7",
+      "date": "2025-11-03T05:41:24+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "7f99cba32a5f": {
+      "title": "Pre-release v2.12.4-alpha2",
+      "date": "2025-11-03T18:27:57+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "af201ded574a": {
+      "title": "Pre-release v2.12.4-alpha1",
+      "date": "2025-11-03T16:03:59+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "9d5eb10ad8c3a259": {
+      "title": "10 Years of CNCF in Vienna",
+      "date": "2025-11-06T16:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "c026f12ac007fff2": {
+      "title": "Humans of OTel: Live from KubeCon NA 2025!",
+      "date": "2025-11-12T19:30:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
