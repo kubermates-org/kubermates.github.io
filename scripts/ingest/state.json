@@ -6449,6 +6449,146 @@
       "title": "Preparativos para Cloud Native LATAM Summit - Miércoles",
       "date": "2025-11-20T00:30:00+00:00",
       "source": "cncf-api"
+    },
+    "8543100afeb3": {
+      "title": "OpenFGA Becomes a CNCF Incubating Project",
+      "date": "2025-11-11T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "688de11857f4": {
+      "title": "CNCF Launches Certified Kubernetes AI Conformance Program to Standardize AI Workloads on Kubernetes",
+      "date": "2025-11-11T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "ce03d8356fda": {
+      "title": "CNCF Launches CNPE Certification to Define Enterprise-Scale Platform Engineering Globally",
+      "date": "2025-11-11T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "b68cbf9b7696": {
+      "title": "CNCF and SlashData Report Finds Leading AI Tools Gaining Adoption in Cloud Native Ecosystems",
+      "date": "2025-11-11T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "4f0e1209e945": {
+      "title": "CNCF and SlashData Survey Finds Cloud Native Ecosystem Surges to 15.6M Developers",
+      "date": "2025-11-11T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "cf70f4987de3": {
+      "title": "KServe becomes a CNCF incubating project",
+      "date": "2025-11-11T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "30b8ab13425a": {
+      "title": "Lima becomes a CNCF incubating project",
+      "date": "2025-11-11T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "0a376297a298": {
+      "title": "Prepare for a post-quantum future with RHEL 9.7",
+      "date": "2025-11-12T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "9e1e7aba7069": {
+      "title": "The strategic shift: How Ford and Emirates NBD stopped paying the complexity tax for virtualization",
+      "date": "2025-11-11T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "a74125a3142d": {
+      "title": "Red Hat OpenShift 4.20: Expanded Oracle cloud infrastructure support",
+      "date": "2025-11-11T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "dccfc1c4a999": {
+      "title": "Red Hat OpenShift 4.20 accelerates virtualization and enterprise AI innovation",
+      "date": "2025-11-11T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "6cb22b23364e": {
+      "title": "A deeper look at post-quantum cryptography support in Red Hat OpenShift 4.20 control plane",
+      "date": "2025-11-11T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "e660a9534fa3": {
+      "title": "KServe joins CNCF as an incubating project",
+      "date": "2025-11-11T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "b2e59b0bd19c": {
+      "title": "Create efficient two-node edge infrastructure with Red Hat OpenShift and Portworx/Pure Storage",
+      "date": "2025-11-11T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "0c4e1ba9449d": {
+      "title": "Bringing intelligent, efficient routing to open source AI with vLLM Semantic Router",
+      "date": "2025-11-11T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "9476d9a5c029": {
+      "title": "A Decision Framework for Future-Proofing IT Infrastructure",
+      "date": "2025-11-11T22:53:57+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "03adf822ee67": {
+      "title": "Infrastructure Boundaries, Controls, and Policies with VMware Cloud Foundation 9.0",
+      "date": "2025-11-11T19:54:21+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "1ebc297e38df": {
+      "title": "VMware Cloud Foundation 9: Now Ready For All Storage",
+      "date": "2025-11-11T19:12:46+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "5a8ece71648c": {
+      "title": "From Tickets to Clicks: Driving Real Consumption in Your Self‑Service Private Cloud",
+      "date": "2025-11-11T16:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "bec72234e054": {
+      "title": "Analyst Insight Series: Virtualization virtue #3: Supporting application modernization",
+      "date": "2025-11-10T14:24:50+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "a7a32a6440cc": {
+      "title": "How to Choose the Right Course During Black Friday Sales",
+      "date": "2025-11-11T11:02:11+00:00",
+      "source": "KodeKloud Blog (Kubernetes)"
+    },
+    "49f9e3b17bef": {
+      "title": "Pre-release v2.13.0-alpha7",
+      "date": "2025-11-11T22:03:22+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "01c3134329b8": {
+      "title": "Pre-release v2.12.4-alpha4",
+      "date": "2025-11-11T22:18:11+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "daf0cedd62b7": {
+      "title": "Pre-release v2.12.4-alpha3",
+      "date": "2025-11-11T21:32:59+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "cd63099a8c23": {
+      "title": "v2.12.3-hotfix-a3c0.4: Backport steve fixes",
+      "date": "2025-11-11T13:19:31+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "929599871e19": {
+      "title": "Pre-release v2.11.8-alpha2",
+      "date": "2025-11-11T20:02:49+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "880187af59380aa4": {
+      "title": "🚀 ¡Meetup Cloud Native Ayacucho & Docker Ayacucho - Edición Especial de Automatización e IA!",
+      "date": "2025-11-15T14:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "dbe2cb5272d022b6": {
+      "title": "2025: November - Cloud Native Vancouver",
+      "date": "2025-11-20T01:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
