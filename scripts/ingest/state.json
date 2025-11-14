@@ -6589,6 +6589,221 @@
       "title": "2025: November - Cloud Native Vancouver",
       "date": "2025-11-20T01:00:00+00:00",
       "source": "cncf-api"
+    },
+    "49177e1de28f": {
+      "title": "Helm Marks 10 Years With Release of Version 4",
+      "date": "2025-11-12T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "13aaf302e4a7": {
+      "title": "CNCF Honors Innovators and Defenders with 2025 Community Awards at KubeCon + CloudNativeCon North America",
+      "date": "2025-11-12T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "484adb56c289": {
+      "title": "Friday Five — November 14, 2025",
+      "date": "2025-11-14T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "1ecdfac26285": {
+      "title": "Listening, learning, and leading: How customer feedback shapes the future of Red Hat Learning Subscription",
+      "date": "2025-11-13T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "8edfbeca8e7d": {
+      "title": "Improving modern software supply chain security: From AI models to container images",
+      "date": "2025-11-13T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "c5f5a8824901": {
+      "title": "Your complete guide for getting started with Red Hat OpenShift Virtualization",
+      "date": "2025-11-12T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "6b1f2ac60386": {
+      "title": "What's new in RHEL 10.1: Offline assistance, convenient AI accelerators, and more",
+      "date": "2025-11-12T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "c19c4e399822": {
+      "title": "Stop fighting with Ingress: NGINX Gateway Fabric is now certified for Red Hat OpenShift",
+      "date": "2025-11-12T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "9dfea597ca12": {
+      "title": "Introducing Red Hat Enterprise Linux 9.7",
+      "date": "2025-11-12T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "a9f1f0a09e73": {
+      "title": "The new and simplified AI accelerator driver experience on Red Hat Enterprise Linux",
+      "date": "2025-11-12T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "969ad0147dcd": {
+      "title": "Optimized for Azure HPC: Red Hat delivers an easy HPC RHEL solution",
+      "date": "2025-11-12T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "8a583ea84502": {
+      "title": "Ingress NGINX Retirement: What You Need to Know",
+      "date": "2025-11-11T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "8679ea89b06f": {
+      "title": "Blog: Ingress NGINX Retirement: What You Need to Know",
+      "date": "2025-11-12T12:00:00-05:00",
+      "source": "Kubernetes.dev Blog"
+    },
+    "82e1e1934290": {
+      "title": "VCF Breakroom Chats Episode 72: From VI Admin to Cloud Provider – Building Your First Self-Service Catalog with VCF 9.0",
+      "date": "2025-11-13T16:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "41bffab01969": {
+      "title": "Announcing the Next Evolution of VMware Certified Distinguished Expert (VCDX): The Certification for Private Cloud Experts",
+      "date": "2025-11-13T14:39:09+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "8da726ea8365": {
+      "title": "GPU Observability: Get Deeper Insights into Your Droplets and DOKS Clusters",
+      "date": "2025-11-12T20:56:52.577000+00:00",
+      "source": "Digital Ocean"
+    },
+    "890f64ddf4e5": {
+      "title": "Kubernetes v1.34.2",
+      "date": "2025-11-12T09:26:08+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "ffb0d61304d4": {
+      "title": "Kubernetes v1.33.6",
+      "date": "2025-11-12T09:48:48+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "96d0cfb4491e": {
+      "title": "Kubernetes v1.32.10",
+      "date": "2025-11-12T12:01:02+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "86b6e427e82a": {
+      "title": "Kubernetes v1.31.14",
+      "date": "2025-11-12T11:33:24+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "529446e1089d": {
+      "title": "Pre-release v2.12.4-alpha5",
+      "date": "2025-11-13T00:08:14+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "84abab02d04d": {
+      "title": "Pre-release v2.11.8-alpha3",
+      "date": "2025-11-13T00:08:22+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "dc994e7ee8ed": {
+      "title": "v1.34.2-rc1+rke2r1",
+      "date": "2025-11-13T01:12:54+00:00",
+      "source": "RKE2 Releases"
+    },
+    "bc454e698e3b": {
+      "title": "v1.33.6-rc1+rke2r1",
+      "date": "2025-11-13T00:24:45+00:00",
+      "source": "RKE2 Releases"
+    },
+    "06e3c2ed02a1": {
+      "title": "v1.32.10-rc1+rke2r1",
+      "date": "2025-11-13T00:27:31+00:00",
+      "source": "RKE2 Releases"
+    },
+    "32de1f69b65a": {
+      "title": "v1.31.14-rc1+rke2r1",
+      "date": "2025-11-13T00:34:11+00:00",
+      "source": "RKE2 Releases"
+    },
+    "845f7b071c1e": {
+      "title": "v1.34.2-rc2+k3s1",
+      "date": "2025-11-13T20:33:42+00:00",
+      "source": "K3s Releases"
+    },
+    "557a0dffbd10": {
+      "title": "v1.34.2-rc1+k3s1",
+      "date": "2025-11-13T18:39:42+00:00",
+      "source": "K3s Releases"
+    },
+    "86e4e63519b1": {
+      "title": "v1.33.6-rc2+k3s1",
+      "date": "2025-11-13T20:33:24+00:00",
+      "source": "K3s Releases"
+    },
+    "6c668bc770f5": {
+      "title": "v1.33.6-rc1+k3s1",
+      "date": "2025-11-13T18:39:36+00:00",
+      "source": "K3s Releases"
+    },
+    "5987fc82bb25": {
+      "title": "v1.32.10-rc2+k3s1",
+      "date": "2025-11-13T20:33:03+00:00",
+      "source": "K3s Releases"
+    },
+    "e92dd5179c66": {
+      "title": "v1.32.10-rc1+k3s1",
+      "date": "2025-11-13T18:39:29+00:00",
+      "source": "K3s Releases"
+    },
+    "90e3cd8bd434": {
+      "title": "v1.31.14-rc2+k3s1",
+      "date": "2025-11-13T20:11:06+00:00",
+      "source": "K3s Releases"
+    },
+    "ad967d5cef20": {
+      "title": "v1.31.14-rc1+k3s1",
+      "date": "2025-11-13T18:45:47+00:00",
+      "source": "K3s Releases"
+    },
+    "9831fd0dbeda1e3c": {
+      "title": "#cTENcf Birthday Bash Bangkok 🚀 Celebrating a Decade Journey of Cloud-Native Galaxy",
+      "date": "2025-11-20T11:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "2e6d6fc87f8c3f82": {
+      "title": "CNCG Graz Meetup, November 2025 @ Anexia",
+      "date": "2025-11-20T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "5c9100b470dd9f12": {
+      "title": "#34 From Policy Automation to Practical Platforms: Kyverno and Talos in Action",
+      "date": "2025-11-20T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "6e77b58362c75403": {
+      "title": "Qovery : de l’idée au produit, jusqu’au moteur de déploiement en Rust",
+      "date": "2025-11-20T17:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "d17528df186dde3b": {
+      "title": "CNCF Campinas - Meetup de abertura do chapter!",
+      "date": "2025-11-20T22:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "e096814c71cb690e": {
+      "title": "Creating intelligent, self-optimizing infrastructure with cloud-native",
+      "date": "2025-11-21T00:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "52b44d4963cc088f": {
+      "title": "How cluster autoscalers enable anti-fragility",
+      "date": "2025-11-21T10:17:58+00:00",
+      "source": "cncf-api"
+    },
+    "4921120578853a94": {
+      "title": "#cTENcf 🇮🇹 Cloud Native Molise celebra i 10 anni della CNCF!",
+      "date": "2025-11-21T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "19a18c428bb4e8c1": {
+      "title": "Preparativos para Cloud Native LATAM Summit - Viernes",
+      "date": "2025-11-22T00:30:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
