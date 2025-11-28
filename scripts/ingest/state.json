@@ -7164,6 +7164,331 @@
       "title": "CNCF & K8s Meetup de Novembre 2025 : KubeCon NA 2025 et KubeVirt, Harvester",
       "date": "2025-11-25T22:30:00+00:00",
       "source": "cncf-api"
+    },
+    "905cae55e755": {
+      "title": "From chaos to clarity: How OpenTelemetry unified observability across clouds",
+      "date": "2025-11-27T12:00:00+00:00",
+      "source": "CNCF"
+    },
+    "5348cd1bcb4e": {
+      "title": "Announcing Kyverno release 1.16",
+      "date": "2025-11-26T20:44:24+00:00",
+      "source": "CNCF"
+    },
+    "969562066488": {
+      "title": "Amazon EKS introduces Provisioned Control Plane",
+      "date": "2025-11-27T00:32:32+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "f76d35749a2a": {
+      "title": "Amazon EKS Blueprints for CDK: Now supporting Amazon EKS Auto Mode",
+      "date": "2025-11-26T22:28:12+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "f597433105d2": {
+      "title": "Enhancing and monitoring network performance when running ML Inference on Amazon EKS",
+      "date": "2025-11-26T20:55:13+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "b8de4303a23f": {
+      "title": "Data-driven Amazon EKS cost optimization: A practical guide to workload analysis",
+      "date": "2025-11-26T17:32:47+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "7bec586fd4cf": {
+      "title": "Introducing the fully managed Amazon EKS MCP Server (preview)",
+      "date": "2025-11-21T21:43:33+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "d01825590869": {
+      "title": "Friday Five — November 28, 2025",
+      "date": "2025-11-28T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "921301df5be9": {
+      "title": "Sovereignty emerges as the defining cloud challenge for EMEA enterprises",
+      "date": "2025-11-27T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "31e448b12790": {
+      "title": "Deterministic performance: Why Red Hat Enterprise Linux is the engine for industrial edge",
+      "date": "2025-11-27T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "04323ff42eaa": {
+      "title": "How educators and Red Hat Academy help shape the next generation of IT leaders",
+      "date": "2025-11-26T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "0abde879e619": {
+      "title": "Tracking event-driven automation with Red Hat Lightspeed and Red Hat Ansible Automation Platform 2.6",
+      "date": "2025-11-26T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "4612e6de6623": {
+      "title": "Beyond the bot: How Red Hat Training makes you a better IT professional",
+      "date": "2025-11-25T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "d7ee1407151f": {
+      "title": "9 strategic articles defining the open hybrid cloud and AI future",
+      "date": "2025-11-25T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "692ba3f0077e": {
+      "title": "Unifying multivendor DPUs in Red Hat OpenShift",
+      "date": "2025-11-24T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "167e031d9690": {
+      "title": "Is your organization AI-ready? 3 tests of enterprise adaptability",
+      "date": "2025-11-24T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "8b222171da91": {
+      "title": "From maintenance to enablement: Making your platform a force‑multiplier",
+      "date": "2025-11-24T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "59af5e29a948": {
+      "title": "The new era of customer and AI-driven network investment",
+      "date": "2025-11-24T00:00:00+00:00",
+      "source": "OpenShift Blog"
+    },
+    "715ee3f6a04c": {
+      "title": "Kubernetes v1.35 Sneak Peek",
+      "date": "2025-11-26T00:00:00+00:00",
+      "source": "Kubernetes Blog"
+    },
+    "25e98ce4fa7c": {
+      "title": "Kubernetes Configuration Good Practices",
+      "date": "2025-11-25T00:00:00+00:00",
+      "source": "Kubernetes Blog"
+    },
+    "633e68ed36d2": {
+      "title": "Reducing Harbor Deployment Complexity on Kubernetes",
+      "date": "2025-11-25T10:01:39+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "19a1f7c2bcd2": {
+      "title": "VCF Breakroom Chats Episode 74 – From VI Admin to Private Cloud Architect: New VCAP & VCDX Certification Explained",
+      "date": "2025-11-21T13:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "81484fa5b2e1": {
+      "title": "CKAD Exam Verification Guide",
+      "date": "2025-11-25T03:58:21+00:00",
+      "source": "KodeKloud Blog (Kubernetes)"
+    },
+    "0b2e1ddf4da2": {
+      "title": "Streamline Your Workflow: Announcing Environment Support for DigitalOcean App Platform",
+      "date": "2025-11-25T16:06:22.899000+00:00",
+      "source": "Digital Ocean"
+    },
+    "bdcd4a3896ad": {
+      "title": "Powered by DigitalOcean Hatch: How Ex-human uses GPU Droplets to Build Empathetic AI that Serves Customers",
+      "date": "2025-11-21T16:36:21.873000+00:00",
+      "source": "Digital Ocean"
+    },
+    "3851ad701ec6": {
+      "title": "Hacktoberfest 2025 Comes to a Close",
+      "date": "2025-11-21T15:45:11.744000+00:00",
+      "source": "Digital Ocean"
+    },
+    "433d5f90a425": {
+      "title": "How to Turbocharge Your Kubernetes Networking With eBPF",
+      "date": "2025-11-26T20:12:38+00:00",
+      "source": "Tigera"
+    },
+    "a3bb0f5307b1": {
+      "title": "5 Reasons to Switch to the Calico Ingress Gateway (and How to Migrate Smoothly)",
+      "date": "2025-11-24T21:35:29+00:00",
+      "source": "Tigera"
+    },
+    "d6df52a11946": {
+      "title": "November 21, 2025",
+      "date": "2025-11-21T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "d9d34cf33670": {
+      "title": "November 20, 2025",
+      "date": "2025-11-20T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "eb3f9ddba7ab": {
+      "title": "4.21.0-okd-scos.ec.9",
+      "date": "2025-11-24T05:13:56+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "b1549ea1fea2": {
+      "title": "v2.13.0",
+      "date": "2025-11-25T16:43:50+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "d9b65e3f90b9": {
+      "title": "Pre-release v2.13.0-rc4",
+      "date": "2025-11-25T04:15:36+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "eaf4b5341dd4": {
+      "title": "v2.12.4",
+      "date": "2025-11-25T01:40:08+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "418491d8ad6e": {
+      "title": "v2.12.4-hotfix-a3c0.1: Update to Dashboard refs to v2.12.4 (#52848)",
+      "date": "2025-11-24T23:56:59+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "cad8295bb189": {
+      "title": "v2.11.8",
+      "date": "2025-11-25T01:01:12+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "03fbfe0bb1b7": {
+      "title": "Pre-release v2.13.0-rc3",
+      "date": "2025-11-22T01:23:27+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "8877120880d1": {
+      "title": "Pre-release v2.12.4-rc1",
+      "date": "2025-11-22T00:22:10+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "4ae3984a97f4": {
+      "title": "Pre-release v2.11.8-rc1",
+      "date": "2025-11-22T00:52:52+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "9f548b9bdc48": {
+      "title": "Pre-release v2.11.8-alpha5",
+      "date": "2025-11-21T11:20:43+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "e2047f2f9dee": {
+      "title": "Pre-release 1.8.9-rc.1",
+      "date": "2025-11-27T11:41:51+00:00",
+      "source": "RKE Releases"
+    },
+    "71ff075bda0a38e5": {
+      "title": "Cloud Native Latam Summit",
+      "date": "2025-11-27T21:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "9c6f615fd245fd0f": {
+      "title": "Cloud Native Lagos Bi-Weekly: Understanding Cloud Native Observability with OpenTelemetry",
+      "date": "2025-11-28T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "d6d85e7334dcd8d5": {
+      "title": "OTel Night Berlin v2025.11 - Scaling Observability & Collector Adoption",
+      "date": "2025-11-28T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "4af6471ad43fed2f": {
+      "title": "Let’s Talk Kubernetes Security: A deep dive you’ll value",
+      "date": "2025-11-28T18:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "d3aa9ded73d875a3": {
+      "title": "Cloud Native Hyderabad - November Meetup",
+      "date": "2025-11-29T04:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "9b4e5d11a7f674e9": {
+      "title": "Platform Engineering Meetup Bengaluru Edition - last of 2025",
+      "date": "2025-11-29T05:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "7b401947bcb56496": {
+      "title": "Cloud Native Araraquara - Meetup #06 (Presencial)",
+      "date": "2025-11-29T11:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "8165c926cf24500e": {
+      "title": "WasmEdge Community Meeting",
+      "date": "2025-12-02T15:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "b4c30a1a87a957d2": {
+      "title": "December Meetup 🎄- [IN-PERSON]",
+      "date": "2025-12-02T15:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "d998686efcb26fcb": {
+      "title": "Platform Engineering Technical Community - Biweekly Community Meetup (virtual)",
+      "date": "2025-12-02T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "0f588545e72b2731": {
+      "title": "Merge Forward Monthly Meeting",
+      "date": "2025-12-02T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "45b141a26fe18aa7": {
+      "title": "CozySummit Virtual 2025",
+      "date": "2025-12-03T15:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "b78da65b82ab758c": {
+      "title": "CNCG Graz Meetup, December 2025 @ Nuki",
+      "date": "2025-12-03T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "a86ed80d1a9d88b8": {
+      "title": "Introducción a la certificación CKA",
+      "date": "2025-12-03T23:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "12935445765c4583": {
+      "title": "Open Source AI Reception 2025",
+      "date": "2025-12-04T02:00:17+00:00",
+      "source": "cncf-api"
+    },
+    "0828aef67d8fb457": {
+      "title": "KCD Suisse Romande",
+      "date": "2025-12-04T08:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "b3c2a11e72943833": {
+      "title": "Talk-1: \"GitOps became GitUps\"  --o0o-- Talk-2: \"The Cloud Is Lying To You - What It Really Takes To Run On-Prem\"",
+      "date": "2025-12-04T15:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "f47d933a3dd9cbbd": {
+      "title": "GitOpsCon North America Virtual",
+      "date": "2025-12-04T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "c22c9ad2efd80c77": {
+      "title": "Kubernetes, Cloud Native & Platform Engineering Meetup - November",
+      "date": "2025-12-04T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "d2156538de0b6abb": {
+      "title": "Ho-Ho-Ho-2025",
+      "date": "2025-12-04T18:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "a6509d216e698495": {
+      "title": "My Life Before Kairos: A Journey Through Programming, Open Source, and Migration",
+      "date": "2025-12-04T22:00:51+00:00",
+      "source": "cncf-api"
+    },
+    "3f22f39cd98282d2": {
+      "title": "Efficient and portable AI / LLM inference with WebAssembly (CNCF Technical Community Group Meeting):",
+      "date": "2025-12-05T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "eb28077edc3791c8": {
+      "title": "CNCF Gandhinagar December Meetup",
+      "date": "2025-12-06T04:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "87d17432dc828b5b": {
+      "title": "#cTENcf Birthday Bash Nashik",
+      "date": "2025-12-06T04:30:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
