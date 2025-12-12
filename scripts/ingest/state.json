@@ -7599,6 +7599,346 @@
       "title": "Coffee Meets Cloud Native @ Cloud Native Kuala Lumpur - Dec 2025",
       "date": "2025-12-11T11:00:00+00:00",
       "source": "cncf-api"
+    },
+    "634a6bdc9d63": {
+      "title": "Lima v2.0: New features for secure AI workflows",
+      "date": "2025-12-11T12:00:00+00:00",
+      "source": "CNCF"
+    },
+    "4dfb86cbe147": {
+      "title": "CNCF Unveils Schedule for KubeCon + CloudNativeCon Europe 2026",
+      "date": "2025-12-10T17:00:00+00:00",
+      "source": "CNCF"
+    },
+    "7c58f5f2a4f2": {
+      "title": "Optimizing Kyverno CLI performance: My LFX mentorship journey",
+      "date": "2025-12-10T12:00:00+00:00",
+      "source": "CNCF"
+    },
+    "9642736446e8": {
+      "title": "Building microservices the easy way with Dapr",
+      "date": "2025-12-09T15:00:00+00:00",
+      "source": "CNCF"
+    },
+    "fac90e20940f": {
+      "title": "Exploring AI, observability and community at OSS Summit Korea 2025",
+      "date": "2025-12-09T12:00:00+00:00",
+      "source": "CNCF"
+    },
+    "9e1c572d1a6c": {
+      "title": "KubeCon + CloudNativeCon NA 2025 End User Summit Report: Engaging with AI",
+      "date": "2025-12-09T11:28:31+00:00",
+      "source": "CNCF"
+    },
+    "76a345ac3f81": {
+      "title": "Harbor: Enterprise-grade container registry for modern private cloud",
+      "date": "2025-12-08T16:31:28+00:00",
+      "source": "CNCF"
+    },
+    "2963a7719ee6": {
+      "title": "Istio at KubeCon + CloudNativeCon North America 2025: Community highlights and project progress",
+      "date": "2025-12-08T10:36:54+00:00",
+      "source": "CNCF"
+    },
+    "0d0848ba0d83": {
+      "title": "Friday Five — December 12, 2025",
+      "date": "2025-12-12T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "0638abfb1b48": {
+      "title": "Solving the scaling challenge: 3 proven strategies for your AI infrastructure",
+      "date": "2025-12-11T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "eb39c5a81d66": {
+      "title": "From incident responder to security steward: My journey to understanding Red Hat's open approach to vulnerability management",
+      "date": "2025-12-11T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "5ca4acb8f17a": {
+      "title": "Slash VM provisioning time on Red Hat Openshift Virtualization using Red Hat Ansible Automation Platform",
+      "date": "2025-12-10T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "060697c38ce3": {
+      "title": "Don’t just automate, validate: How to measure and grow your return on investment",
+      "date": "2025-12-09T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "dc6809763e8a": {
+      "title": "How Red Hat OpenShift AI simplifies trust and compliance",
+      "date": "2025-12-09T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "44176cbb159a": {
+      "title": "Key considerations for 2026 planning: Insights from IDC",
+      "date": "2025-12-08T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "ee731ce4206f": {
+      "title": "Accelerating open source development with AI",
+      "date": "2025-12-08T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "c252333a89c6": {
+      "title": "Meet the latest Red Hat OpenShift Superheroes",
+      "date": "2025-12-05T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "7648a95fa27e": {
+      "title": "Platform Engineering’s New Superpower – Capturing Specialized Knowledge with Anthropic SKILLs",
+      "date": "2025-12-11T16:47:42+00:00",
+      "source": "Nirmata Blog"
+    },
+    "373cf5d25a7c": {
+      "title": "VCF Breakroom Chats Episode 78: Build, Deploy, and Scale with vSphere Kubernetes Service 3.5",
+      "date": "2025-12-11T23:31:04+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "e4e54283da0e": {
+      "title": "Unlocking Innovation on the Factory Floor: How VMware VCF Edge Empowers OT Citizen Developers",
+      "date": "2025-12-10T20:03:31+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "6a9cb5f65c30": {
+      "title": "Erasure Codes in VMware vSAN versus Storage Arrays",
+      "date": "2025-12-10T13:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "246e675af5b1": {
+      "title": "Integrating VMware Data Services Manager with Harbor for a Production-Ready Registry",
+      "date": "2025-12-09T07:37:13+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "ae6e46740a10": {
+      "title": "Private Cloud Operations Made Easy",
+      "date": "2025-12-08T15:23:44+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "6ee3ddc5ab33": {
+      "title": "Now Available: Remote MCP for DigitalOcean Services",
+      "date": "2025-12-09T18:53:48.536000+00:00",
+      "source": "Digital Ocean"
+    },
+    "264c0acefd78": {
+      "title": "From User to Trusted Advisor: How Jeff Fan Powers Customer Success at DigitalOcean",
+      "date": "2025-12-08T16:32:00.951000+00:00",
+      "source": "Digital Ocean"
+    },
+    "2d9687ff16f9": {
+      "title": "DoTs SDK Development: Automating TypeScript Client Generation",
+      "date": "2025-12-05T20:10:20.628000+00:00",
+      "source": "Digital Ocean"
+    },
+    "1e689707d5a3": {
+      "title": "An In-Depth Look at Istio Ambient Mode with Calico",
+      "date": "2025-12-11T19:35:56+00:00",
+      "source": "Tigera"
+    },
+    "b6c2d7dc45dd": {
+      "title": "Kubernetes v1.35.0-rc.1",
+      "date": "2025-12-09T19:13:00+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "d004e38d9386": {
+      "title": "Kubernetes v1.34.3",
+      "date": "2025-12-10T01:13:53+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "60e0499e8477": {
+      "title": "Kubernetes v1.33.7",
+      "date": "2025-12-10T01:15:27+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "c991fb113878": {
+      "title": "December 10, 2025",
+      "date": "2025-12-10T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "75ad0ce1d39e": {
+      "title": "December 08, 2025",
+      "date": "2025-12-08T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "0892d416321f": {
+      "title": "December 05, 2025",
+      "date": "2025-12-05T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "eb61ebaba836": {
+      "title": "4.21.0-okd-scos.ec.13",
+      "date": "2025-12-08T05:11:59+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "1042eecc9bac": {
+      "title": "4.21.0-okd-scos.ec.12",
+      "date": "2025-12-05T12:04:34+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "6267bbec9291": {
+      "title": "Pre-release v2.11.9-alpha1",
+      "date": "2025-12-11T19:17:26+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "0164c0fe1e3f": {
+      "title": "Pre-release v2.13.1-alpha2",
+      "date": "2025-12-10T14:48:18+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "0820aa3be198": {
+      "title": "Pre-release v2.13.1-alpha1",
+      "date": "2025-12-10T11:01:17+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "e97f95a358a4": {
+      "title": "Pre-release v2.12.5-alpha2",
+      "date": "2025-12-10T13:50:10+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "044b2a14f3f6": {
+      "title": "Pre-release v2.12.5-alpha1",
+      "date": "2025-12-10T11:01:25+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "70fc6b1e0004": {
+      "title": "v1.34.3-rc1+rke2r1",
+      "date": "2025-12-12T00:04:26+00:00",
+      "source": "RKE2 Releases"
+    },
+    "3f5284c50938": {
+      "title": "v1.33.7-rc1+rke2r1",
+      "date": "2025-12-11T23:58:14+00:00",
+      "source": "RKE2 Releases"
+    },
+    "19cf8dd7e6fe": {
+      "title": "v1.34.3-rc1+k3s1",
+      "date": "2025-12-11T22:50:40+00:00",
+      "source": "K3s Releases"
+    },
+    "c768e277bcde": {
+      "title": "v1.33.7-rc1+k3s1",
+      "date": "2025-12-11T22:34:59+00:00",
+      "source": "K3s Releases"
+    },
+    "3143c7e8e3e3d42a": {
+      "title": "CNCF On-Demand: Secure your Kubernetes Cluster with Kyverno",
+      "date": "2025-12-11T08:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "9cb1038bda8bce7e": {
+      "title": "AI in DevOps infrastructure & Automation Practice",
+      "date": "2025-12-12T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "0ab4132e3c4e8f46": {
+      "title": "Platform for your AI services",
+      "date": "2025-12-13T01:30:12+00:00",
+      "source": "cncf-api"
+    },
+    "40d440038591030e": {
+      "title": "Mission O11y Possible : Panic at the Pod - Season 2",
+      "date": "2025-12-13T03:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "d83734e415a9cc6c": {
+      "title": "CNCF Ahmedabad December In-Person Meetup @ smartSense",
+      "date": "2025-12-13T05:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "9bbae938895205b3": {
+      "title": "Girls of Gurgaon",
+      "date": "2025-12-13T05:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "3187acbf4bc990ce": {
+      "title": "gRPC 101:  A Guide to High-Performance APIs",
+      "date": "2025-12-13T06:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "ac2b005780a3e6af": {
+      "title": "Cloud Native Lima University #2 - PUCP",
+      "date": "2025-12-13T14:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "e9ab3567c41aa906": {
+      "title": "🎄 CNCG Graz – Last Meetup of 2025: Mulled Wine Edition",
+      "date": "2025-12-15T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "396d0be1c803a031": {
+      "title": "kubectl like a hero",
+      "date": "2025-12-15T18:00:19+00:00",
+      "source": "cncf-api"
+    },
+    "77c4b1d2322d6e53": {
+      "title": "First Cloud Native RTP Meetup & CNCF 10th Birthday Celebration #cTENcf",
+      "date": "2025-12-15T23:00:56+00:00",
+      "source": "cncf-api"
+    },
+    "a98594ec55f0cdd0": {
+      "title": "CNCJ: CNAPPセキュリティミートアップ",
+      "date": "2025-12-16T09:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "b9d66f0a5c4df27b": {
+      "title": "Platform Engineering Technical Community - Biweekly Community Meetup (virtual)",
+      "date": "2025-12-16T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "1cc1fb67a96d19f4": {
+      "title": "Kickoff #securitynative with trackable tractors and detectable ~xmas~ attack trees",
+      "date": "2025-12-16T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "4d5573e5eea5894b": {
+      "title": "Learn. Quiz. Connect - Kubernetes Kerala: December 2025 Virtual Meetup",
+      "date": "2025-12-17T14:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "3c9ed764d91c512e": {
+      "title": "Automated Testing in Kubernetes with TestContainers and TestKube",
+      "date": "2025-12-17T14:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "f1abe2eb2c36cf2d": {
+      "title": "What's New in OTel? Holiday Edition!",
+      "date": "2025-12-17T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "271f3c6193284549": {
+      "title": "CNCF On-Demand: ORAS Enhancements—Artifacts, Workflows & Collaboration",
+      "date": "2025-12-18T08:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "282a21a142c4d1e5": {
+      "title": "CNTUG Meetup #71",
+      "date": "2025-12-18T11:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "956abbab60ad3ca1": {
+      "title": "Odesa Cloud Native #45: Bridging the gap with Model Context Protocol",
+      "date": "2025-12-18T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "da15e1dd62f6419d": {
+      "title": "Cloud Native Lorient #10",
+      "date": "2025-12-18T18:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "f9725200643c5266": {
+      "title": "Junte Cloud Native: Edición Fin de Año",
+      "date": "2025-12-18T22:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "57538af87e45ac30": {
+      "title": "Monthly meetup: December 18th",
+      "date": "2025-12-19T00:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "50ef15efd41c7bc2": {
+      "title": "Holiday Meetup for the San Francisco Cloud Native Community",
+      "date": "2025-12-19T02:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
