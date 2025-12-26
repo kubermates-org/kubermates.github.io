@@ -1,6 +1,6 @@
 ---
 title: TechBrains 2025 - Renaissance Engineering
-date: '2025-12-28T11:00:00+00:00'
+date: '2025-12-28T06:00:00+00:00'
 endDate: null
 location: Baku (AZ)
 city: null
@@ -16,7 +16,7 @@ tags:
 source: cncf-api
 external_url: https://community.cncf.io/events/details/cncf-cloud-native-baku-presents-techbrains-2025-renaissance-engineering/
 draft: false
-uid: bba96f42fe188eef
+uid: fb4ba7043349666f
 provider: cncf
 ---
-We’re curating 3mins talks for engineers and entrepreneurs who embody the Renaissance mindset: curious, polymath, owners...
+Leonardo Da Vinci didn't just paint. He dissected cadavers to understand muscle structure and studied water flow to desi...
