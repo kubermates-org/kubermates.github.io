@@ -8604,6 +8604,111 @@
       "title": "Icy Init - From Zero to Production",
       "date": "2026-01-17T05:30:00+00:00",
       "source": "cncf-api"
+    },
+    "fba93336b9f0": {
+      "title": "How to integrate Kairos architecturally into an edge AI platform",
+      "date": "2025-12-29T15:00:00+00:00",
+      "source": "CNCF"
+    },
+    "cecfb480c044": {
+      "title": "Streamline your containerized CI/CD with GitLab Runners and Amazon EKS Auto Mode",
+      "date": "2025-12-29T15:22:33+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "6f2fb239245f": {
+      "title": "Part 2: Observing and scaling MLOps infrastructure on Amazon EKS",
+      "date": "2025-12-29T15:16:24+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "d3fdeeb1aa40": {
+      "title": "Efficient image and model caching strategies for AI/ML and generative AI workloads on Amazon EKS",
+      "date": "2025-12-29T15:07:25+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "2c58c7c92ecb": {
+      "title": "Implementing assurance pipeline for Amazon EKS Platform",
+      "date": "2025-12-29T15:01:02+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "58e0d95c76f2": {
+      "title": "Kubernetes 1.35: Enhanced Debugging with Versioned z-pages APIs",
+      "date": "2025-12-31T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "06f4a492a76f": {
+      "title": "Kubernetes v1.35: Watch Based Route Reconciliation in the Cloud Controller Manager",
+      "date": "2025-12-30T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "727771d7ea8c": {
+      "title": "Kubernetes v1.35: Introducing Workload Aware Scheduling",
+      "date": "2025-12-29T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "eb588f8c2015": {
+      "title": "NVMe Memory Tiering Design and Sizing on VMware Cloud Foundation 9 Part 5: Deployment Scenarios (Greenfield, Brownfield, Nested Lab)",
+      "date": "2025-12-29T12:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "c17215c320fe": {
+      "title": "The Rise of AI Agents and the Reinvention of Kubernetes: Ratan Tipirneni’s 2026 Outlook",
+      "date": "2025-12-30T19:58:41+00:00",
+      "source": "Tigera"
+    },
+    "a72e3c3b82b1": {
+      "title": "December 29, 2025",
+      "date": "2025-12-29T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "505210c52135": {
+      "title": "4.21.0-okd-scos.ec.16",
+      "date": "2025-12-29T05:11:14+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "62514de0c353": {
+      "title": "v1.35.0+rke2r1",
+      "date": "2025-12-30T18:29:13+00:00",
+      "source": "RKE2 Releases"
+    },
+    "26b4116727a22ea5": {
+      "title": "Inside a Kubernetes Cluster: Control Plane & Worker Nodes",
+      "date": "2026-01-04T14:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "c7a24258ed6204c3": {
+      "title": "Implementing Modern Authorization in your Applications with ReBAC",
+      "date": "2026-01-10T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "cf0e5cad29c696ac": {
+      "title": "Kubernetes Networking: Services, Ingress & Pod Communication",
+      "date": "2026-01-11T14:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "89847bbcf9f50cd8": {
+      "title": "Observability in Kubernetes: Metrics, Logs & Alerts",
+      "date": "2026-01-18T14:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "1bf56f29ad390ae5": {
+      "title": "Cloud Native Vienna: January 2026 Meetup",
+      "date": "2026-01-20T16:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "dcf6f66dff804ad2": {
+      "title": "Cartografos Community Meeting",
+      "date": "2026-01-20T18:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "b043b5568b40fa17": {
+      "title": "Kubernetes v1.35 Timbernetes Spotlight You Can't Miss!",
+      "date": "2026-01-22T12:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "56ac672d146bd4ff": {
+      "title": "Exploring AI Agents in Kubernetes",
+      "date": "2026-01-22T17:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
