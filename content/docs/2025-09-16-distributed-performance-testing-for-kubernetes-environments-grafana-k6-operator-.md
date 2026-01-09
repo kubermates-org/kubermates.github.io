@@ -6,10 +6,12 @@ tags:
 - grafana
 - kubernetes
 source: Grafana Kubernetes
-external_url: https://grafana.com/blog/2025/09/16/distributed-performance-testing-for-kubernetes-environments-grafana-k6-operator-1-0-is-here/
+external_url: https://grafana.com/blog/distributed-performance-testing-for-kubernetes-environments-grafana-k6-operator-1-0-is-here/
 post_kind: link
 draft: false
-tldr: Try using Grot AI for this query ->.
-summary: Try using Grot AI for this query ->.
+tldr: 'Faster, more memory-efficient performance in Grafana Mimir: a closer look at
+  Mimir Query Engine.'
+summary: 'Faster, more memory-efficient performance in Grafana Mimir: a closer look
+  at Mimir Query Engine.'
 ---
-Open the original post ↗ https://grafana.com/blog/2025/09/16/distributed-performance-testing-for-kubernetes-environments-grafana-k6-operator-1-0-is-here/
+Open the original post ↗ https://grafana.com/blog/distributed-performance-testing-for-kubernetes-environments-grafana-k6-operator-1-0-is-here/

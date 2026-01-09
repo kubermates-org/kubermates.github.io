@@ -5,16 +5,10 @@ tags:
 - grafana
 - kubernetes
 source: Grafana Kubernetes
-external_url: https://grafana.com/blog/2024/10/02/container-monitoring-with-grafana-helpful-resources-to-get-started/
+external_url: https://grafana.com/blog/container-monitoring-with-grafana-helpful-resources-to-get-started/
 post_kind: link
 draft: false
-tldr: 'Observability trends in Brazil: insights from our localized survey Trevor Jones
-  Â· 12 Aug 2025 Â· 9 min read Check out the highlights from our first survey about
-  observability practices in Brazil, including analysis on adoption, maturity, challenges,
-  and.'
-summary: 'Observability trends in Brazil: insights from our localized survey Trevor
-  Jones Â· 12 Aug 2025 Â· 9 min read Check out the highlights from our first survey
-  about observability practices in Brazil, including analysis on adoption, maturity,
-  challenges, and.'
+tldr: 'Observability trends in Brazil: insights from our localized survey.'
+summary: 'Observability trends in Brazil: insights from our localized survey.'
 ---
-Open the original post ↗ https://grafana.com/blog/2024/10/02/container-monitoring-with-grafana-helpful-resources-to-get-started/
+Open the original post ↗ https://grafana.com/blog/container-monitoring-with-grafana-helpful-resources-to-get-started/
