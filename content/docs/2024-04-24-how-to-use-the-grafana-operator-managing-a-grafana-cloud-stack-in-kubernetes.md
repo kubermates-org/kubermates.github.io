@@ -5,16 +5,10 @@ tags:
 - grafana
 - kubernetes
 source: Grafana Kubernetes
-external_url: https://grafana.com/blog/2024/04/24/how-to-use-the-grafana-operator-managing-a-grafana-cloud-stack-in-kubernetes/
+external_url: https://grafana.com/blog/how-to-use-the-grafana-operator-managing-a-grafana-cloud-stack-in-kubernetes/
 post_kind: link
 draft: false
-tldr: "Inside Grafana Labsâ\x80\x99 Voice of Customer program: whatâ\x80\x99s new\
-  \ and whatâ\x80\x99s next Elizabeth Burkly Â· 26 Aug 2025 Â· 9 min read With our\
-  \ Voice of Customer program, we can tighten the loop between what our users ask\
-  \ for and what we prioritize in R&D. Hereâ\x80\x99s a look at some recent."
-summary: "Inside Grafana Labsâ\x80\x99 Voice of Customer program: whatâ\x80\x99s new\
-  \ and whatâ\x80\x99s next Elizabeth Burkly Â· 26 Aug 2025 Â· 9 min read With our\
-  \ Voice of Customer program, we can tighten the loop between what our users ask\
-  \ for and what we prioritize in R&D. Hereâ\x80\x99s a look at some recent."
+tldr: 'Observability trends in Brazil: insights from our localized survey.'
+summary: 'Observability trends in Brazil: insights from our localized survey.'
 ---
-Open the original post ↗ https://grafana.com/blog/2024/04/24/how-to-use-the-grafana-operator-managing-a-grafana-cloud-stack-in-kubernetes/
+Open the original post ↗ https://grafana.com/blog/how-to-use-the-grafana-operator-managing-a-grafana-cloud-stack-in-kubernetes/

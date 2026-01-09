@@ -14,9 +14,9 @@ tags:
 - cncf
 - event
 source: cncf-api
-external_url: https://community.cncf.io/events/details/cncf-platform-engineering-technical-community-group-presents-platform-engineering-technical-community-biweekly-community-meetup-virtual-2026-01-13/
+external_url: https://community.cncf.io/events/details/cncf-platform-engineering-technical-community-group-presents-platform-engineering-technical-community-biweekly-community-meetup-virtual/
 draft: false
-uid: 6fc8680751de39fa
+uid: 9548ac5e8c25fdec
 provider: cncf
 ---
 Every two weeks, the Platform Engineering Technical Community members get together for guest speakers, insightful discus...
