@@ -8709,6 +8709,271 @@
       "title": "Exploring AI Agents in Kubernetes",
       "date": "2026-01-22T17:00:00+00:00",
       "source": "cncf-api"
+    },
+    "a283a0304e80": {
+      "title": "Viettel Joins the Cloud Native Computing Foundation as a Gold Member",
+      "date": "2026-01-08T01:00:00+00:00",
+      "source": "CNCF"
+    },
+    "37f357c258e3": {
+      "title": "HolmesGPT: Agentic troubleshooting built for the cloud native era",
+      "date": "2026-01-07T12:00:00+00:00",
+      "source": "CNCF"
+    },
+    "5fc47a254105": {
+      "title": "Using Istio to manage high-traffic services",
+      "date": "2026-01-06T12:46:40+00:00",
+      "source": "CNCF"
+    },
+    "872787cdf958": {
+      "title": "Deploying Harbor on Kubernetes using Helm",
+      "date": "2026-01-05T13:14:00+00:00",
+      "source": "CNCF"
+    },
+    "2a90cd3b7bd3": {
+      "title": "Friday Five — January 9, 2026",
+      "date": "2026-01-09T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "8e443d18037f": {
+      "title": "Smarter troubleshooting with the new MCP server for Red Hat Enterprise Linux (now in developer preview)",
+      "date": "2026-01-08T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "1308ad18cf71": {
+      "title": "Navigating secure AI deployment: Architecture for enhancing AI system security and safety",
+      "date": "2026-01-08T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "a7dc071adf1f": {
+      "title": "Red Hat's commitment to the EU Cyber Resilience Act: Shaping the future of cybersecurity standards",
+      "date": "2026-01-06T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "92061a493be9": {
+      "title": "Red Hat Hybrid Cloud Console: Your questions answered",
+      "date": "2026-01-06T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "240f6ace56ae": {
+      "title": "The AI resolution that will still matter in 2030",
+      "date": "2026-01-05T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "d45400a87f22": {
+      "title": "Accelerating success with the Red Hat Partner Program",
+      "date": "2026-01-05T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "62b9035b3aef": {
+      "title": "Oracle Database Workloads On OpenShift Virtualization Reference Architecture",
+      "date": "2025-12-23T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "a43fa7631085": {
+      "title": "Kubernetes v1.35: Mutable PersistentVolume Node Affinity (alpha)",
+      "date": "2026-01-08T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "7004e043e722": {
+      "title": "Kubernetes v1.35: A Better Way to Pass Service Account Tokens to CSI Drivers",
+      "date": "2026-01-07T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "60d95a2ba86e": {
+      "title": "Kubernetes v1.35: Extended Toleration Operators to Support Numeric Comparisons (Alpha)",
+      "date": "2026-01-05T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "87f159227555": {
+      "title": "Kubernetes v1.35: New level of efficiency with in-place Pod restart",
+      "date": "2026-01-02T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "821790a6914b": {
+      "title": "Distributed performance testing for Kubernetes environments: Grafana k6 Operator 1.0 is here",
+      "date": "2025-09-16T00:00:00+00:00",
+      "source": "Grafana Kubernetes"
+    },
+    "ada2e1e15612": {
+      "title": "Kubernetes Monitoring backend 2.2: better cluster observability through new alert and recording rules",
+      "date": "2025-07-15T00:00:00+00:00",
+      "source": "Grafana Kubernetes"
+    },
+    "c2dead7d9933": {
+      "title": "Demystifying the OpenTelemetry Operator: Observing Kubernetes applications without writing code",
+      "date": "2025-01-21T00:00:00+00:00",
+      "source": "Grafana Kubernetes"
+    },
+    "4850e58f0f84": {
+      "title": "Creating alerts from panels in Kubernetes Monitoring: an overlooked, powerhouse feature",
+      "date": "2024-11-04T00:00:00+00:00",
+      "source": "Grafana Kubernetes"
+    },
+    "42a21e25ac7d": {
+      "title": "Monitoring Kubernetes: Why traditional techniques aren't enough",
+      "date": "2024-10-18T00:00:00+00:00",
+      "source": "Grafana Kubernetes"
+    },
+    "4fe7ae765ed9": {
+      "title": "Container monitoring with Grafana: Helpful resources to get started",
+      "date": "2024-10-02T00:00:00+00:00",
+      "source": "Grafana Kubernetes"
+    },
+    "21a28d6a0b8f": {
+      "title": "Observe deleted Kubernetes components in Grafana Cloud to boost troubleshooting and resource management",
+      "date": "2024-08-08T00:00:00+00:00",
+      "source": "Grafana Kubernetes"
+    },
+    "0aa2a93e2aa4": {
+      "title": "Monitor these Kubernetes signals to help rightsize your fleet",
+      "date": "2024-07-29T00:00:00+00:00",
+      "source": "Grafana Kubernetes"
+    },
+    "ebf9e2de9123": {
+      "title": "How to use the Grafana Operator: Managing a Grafana Cloud stack in Kubernetes",
+      "date": "2024-04-24T10:22:00+00:00",
+      "source": "Grafana Kubernetes"
+    },
+    "398be57b5455": {
+      "title": "Grafana Labs at KubeCon: eBPF, sustainability, Prometheus, and more",
+      "date": "2024-03-15T00:00:00+00:00",
+      "source": "Grafana Kubernetes"
+    },
+    "de444ef7873a": {
+      "title": "Deploy Deep Learning Virtual Machine with VMware Cloud Foundation Automation",
+      "date": "2026-01-08T16:02:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "4442d372544e": {
+      "title": "Why a Single Platform for VMs and Containers Is the Future of Modern IT",
+      "date": "2026-01-07T00:07:27+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "515f612722b8": {
+      "title": "VCF Breakroom Chats | Episode 81 Streamlining Operations: Inside the VCF 9.0 Unified Platform",
+      "date": "2026-01-06T00:05:05+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "ce6d0f9944f9": {
+      "title": "VCF Breakroom Chats Episode 79: Breaking Down the Latest VMware Private AI Innovations – Part 1",
+      "date": "2026-01-05T15:53:37+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "d68316ba1446": {
+      "title": "VCF Breakroom Chats Episode 80: Breaking Down the Latest VMware Private AI Innovations – Part 2",
+      "date": "2026-01-05T15:49:32+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "7645ea1651b8": {
+      "title": "Building the Inference Cloud, and What Comes Next",
+      "date": "2026-01-07T17:29:20.238000+00:00",
+      "source": "Digital Ocean"
+    },
+    "e0ee96bd1dc8": {
+      "title": "Unstoppable Velocity: Why 2026 is the Year to Join DigitalOcean",
+      "date": "2026-01-06T17:31:10.466000+00:00",
+      "source": "Digital Ocean"
+    },
+    "8e4419b5cfc0": {
+      "title": "Key Insights from the 2025 GigaOm Radar for Container Networking",
+      "date": "2026-01-08T21:19:20+00:00",
+      "source": "Tigera"
+    },
+    "e0de169c43cf": {
+      "title": "Sidecarless mTLS in Kubernetes: How Istio Ambient Mesh and ztunnel Enable Zero Trust",
+      "date": "2026-01-06T21:52:44+00:00",
+      "source": "Tigera"
+    },
+    "89dc6e846648": {
+      "title": "January 07, 2026",
+      "date": "2026-01-07T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "2b9838c2fb8d": {
+      "title": "January 06, 2026",
+      "date": "2026-01-06T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "6f81b59a626d": {
+      "title": "January 05, 2026",
+      "date": "2026-01-05T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "575eb664f102": {
+      "title": "4.21.0-okd-scos.ec.17",
+      "date": "2026-01-05T05:11:06+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "f6f70ed943e1": {
+      "title": "v2.12.5-hotfix-a3c0.1: Bump steve to v0.6.48",
+      "date": "2026-01-05T10:50:39+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "4e40a990bfbc": {
+      "title": "v2.12.4-hotfix-a3c0.2: Bump steve to v0.6.48",
+      "date": "2026-01-05T11:53:28+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "6abb4712b752": {
+      "title": "Pre-release v1.8.10-rc.2",
+      "date": "2026-01-06T04:39:35+00:00",
+      "source": "RKE Releases"
+    },
+    "1f4569ae38af": {
+      "title": "v1.8.10-rc.1",
+      "date": "2025-12-26T16:42:47+00:00",
+      "source": "RKE Releases"
+    },
+    "080462d136533be9": {
+      "title": "Solving Real-Life Challenges with k0s: A Hands-On Workshop",
+      "date": "2026-01-10T10:00:35+00:00",
+      "source": "cncf-api"
+    },
+    "1df92fa9a5f89e19": {
+      "title": "#cTENcf Birthday Bash Nashik",
+      "date": "2026-01-11T04:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "9548ac5e8c25fdec": {
+      "title": "Platform Engineering Technical Community - Biweekly Community Meetup (virtual)",
+      "date": "2026-01-13T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "a279bb37b43cb718": {
+      "title": "Women in Cloud Native Community Call for crafting impactful Call for Papers (CFPs)",
+      "date": "2026-01-15T16:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "2f3e1de6fbfa0df8": {
+      "title": "7º Meetup Online - Crossplane: Habilitando a Engenharia de Plataforma na sua Infraestrutura",
+      "date": "2026-01-15T22:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "9f26980274e13f6c": {
+      "title": "CNCG Pune New Year Meetup (Invite-only)",
+      "date": "2026-01-17T04:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "a2ff872e201f4fd7": {
+      "title": "Cloud Native Calicut Meetup",
+      "date": "2026-01-17T04:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "a5d438a8a9e216d0": {
+      "title": "New Year, New Questions – Cloud Native Luxembourg AMA",
+      "date": "2026-01-20T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "4318fd36520663b1": {
+      "title": "Cloud Native Prague #28",
+      "date": "2026-01-21T16:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "0cceb395756b7594": {
+      "title": "49. neformálny meetup - Cloud native/Kubernetes - prvé pivo/kofola je na nás!",
+      "date": "2026-01-21T17:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
