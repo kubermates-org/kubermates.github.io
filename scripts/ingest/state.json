@@ -8974,6 +8974,246 @@
       "title": "49. neformálny meetup - Cloud native/Kubernetes - prvé pivo/kofola je na nás!",
       "date": "2026-01-21T17:00:00+00:00",
       "source": "cncf-api"
+    },
+    "0a53c7436dd5": {
+      "title": "KubeCon + CloudNativeCon NA: Top sessions from the CNCF End User TAB",
+      "date": "2026-01-15T12:00:00+00:00",
+      "source": "CNCF"
+    },
+    "3be575a6f7d8": {
+      "title": "Cloud Native Computing Foundation Announces Dragonfly’s Graduation",
+      "date": "2026-01-14T17:00:00+00:00",
+      "source": "CNCF"
+    },
+    "9ad42d54ac98": {
+      "title": "The symbiotic revolution: AI and cloud native technologies transforming the digital landscape",
+      "date": "2026-01-13T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "aba92ad23a5a": {
+      "title": "A decade of open source in CNCF with 300,000+ contributors and counting",
+      "date": "2026-01-12T22:25:04+00:00",
+      "source": "CNCF"
+    },
+    "e0c5f8618fea": {
+      "title": "OpenCost: Reflecting on 2025 and looking ahead to 2026",
+      "date": "2026-01-12T11:28:46+00:00",
+      "source": "CNCF"
+    },
+    "f6bf8e0242fa": {
+      "title": "Friday Five — January 16, 2026",
+      "date": "2026-01-16T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "a247391c5f33": {
+      "title": "Revolutionizing learning: How Ford's Kubernetes community sparks technological innovation",
+      "date": "2026-01-15T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "bfb9ca5f764e": {
+      "title": "New efficiency upgrades in Red Hat Advanced Cluster Management for Kubernetes 2.15",
+      "date": "2026-01-15T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "b839834c1e7f": {
+      "title": "Feature store: The front-end for all of your AI data pipelines",
+      "date": "2026-01-15T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "0328f8d846ac": {
+      "title": "Registration is now open for Red Hat Summit 2026",
+      "date": "2026-01-14T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "7aaefb2ca89d": {
+      "title": "Improving VirtOps: Manage, migrate or modernize with Red Hat and Cisco",
+      "date": "2026-01-14T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "10217ab513ff": {
+      "title": "Red Hat names Kevin Kennedy as global leader for the Red Hat partner ecosystem",
+      "date": "2026-01-13T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "4cae216c66a2": {
+      "title": "Accelerate readiness. Reduce risk. Build skills that scale.",
+      "date": "2026-01-12T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "1438eaaf1cfd": {
+      "title": "Manage clusters and applications at scale with Argo CD Agent on Red Hat OpenShift GitOps",
+      "date": "2026-01-12T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "63a30958cf89": {
+      "title": "Kubernetes v1.35: Restricting executables invoked by kubeconfigs via exec plugin allowList added to kuberc",
+      "date": "2026-01-09T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "5cfd6b4d980a": {
+      "title": "Paved Roads, Not Speed Bumps: How Platform Teams Scale AI-Speed Guardrails with Kyverno + Nirmata",
+      "date": "2026-01-13T00:00:34+00:00",
+      "source": "Nirmata Blog"
+    },
+    "08a0dfa193ef": {
+      "title": "Activate VCF Private AI Services",
+      "date": "2026-01-15T16:52:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "c560a8b4af68": {
+      "title": "From General to Genius: Your Strategic Guide to Domain-Specific LLMs for Enterprise Knowledge",
+      "date": "2026-01-14T21:26:24+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "13bf4221886e": {
+      "title": "Closing the Kubernetes Gap: Mastering Cloud-Native Operations with VCF 9",
+      "date": "2026-01-14T17:50:38+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "269f01f017f2": {
+      "title": "Evolution of Workload Hosting: From Virtualization to Containerization",
+      "date": "2026-01-14T14:22:01+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "c1a9913d19f9": {
+      "title": "NVMe Memory Tiering Design and Sizing on VMware Cloud Foundation 9.0 Part 6: End-to-End Configuration",
+      "date": "2026-01-13T13:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "af1c027d8334": {
+      "title": "Containers in VMs or on Bare Metal: There’s a Clear Choice",
+      "date": "2026-01-09T18:34:28+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "c5dfd0761a4f": {
+      "title": "VCF Breakroom Chats | Episode 81 Streamlining Operations: Inside the VCF 9.0 Unified Platform",
+      "date": "2026-01-08T00:05:05+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "999833874e4f": {
+      "title": "VCF Breakroom Chats Episode 80: Breaking Down the Latest VMware Private AI Innovations – Part 2",
+      "date": "2026-01-06T15:49:32+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "e93624dfe892": {
+      "title": "Technical Deep Dive: How DigitalOcean and AMD Delivered a 2x Production Inference Performance Increase for Character.ai",
+      "date": "2026-01-13T12:30:00.048000+00:00",
+      "source": "Digital Ocean"
+    },
+    "f8af19b1e240": {
+      "title": "Introducing Multiple Registry Support on DigitalOcean Container Registry",
+      "date": "2026-01-09T21:12:58.485000+00:00",
+      "source": "Digital Ocean"
+    },
+    "e29409f417bb": {
+      "title": "Kubernetes Networking at Scale: From Tool Sprawl to a Unified Solution",
+      "date": "2026-01-15T21:10:40+00:00",
+      "source": "Tigera"
+    },
+    "38db44c2e07e": {
+      "title": "From IPVS to NFTables: A Migration Guide for Kubernetes v1.35",
+      "date": "2026-01-13T19:28:59+00:00",
+      "source": "Tigera"
+    },
+    "d2d404487c0c": {
+      "title": "4.21.0-okd-scos.ec.19",
+      "date": "2026-01-15T09:40:12+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "7f19f38d9105": {
+      "title": "4.21.0-okd-scos.ec.18",
+      "date": "2026-01-12T05:14:55+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "348ff01a26c7": {
+      "title": "Pre-release v2.13.2-alpha3",
+      "date": "2026-01-13T20:14:37+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "d211a4fceca4": {
+      "title": "Pre-release v2.13.2-alpha2",
+      "date": "2026-01-12T19:47:30+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "3158f441c86e": {
+      "title": "Pre-release v2.13.2-alpha1",
+      "date": "2026-01-09T23:12:48+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "b10ade98b66fbd7c": {
+      "title": "Blind and Visually Impaired Initiative Monthly Meeting",
+      "date": "2026-01-16T15:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "dd97d7f30317641f": {
+      "title": "KubeTorch for Fault-tolerant ML in K8s",
+      "date": "2026-01-16T16:00:06+00:00",
+      "source": "cncf-api"
+    },
+    "9a1eb1c7543fbb64": {
+      "title": "C2AIR X CNCF Kanpur",
+      "date": "2026-01-17T05:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "cc74b058bdc23215": {
+      "title": "AI on Kubernetes: High-performance AI Cloud for digital-native businesses",
+      "date": "2026-01-17T06:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "cbafed16a4aed410": {
+      "title": "Introduction à Docker & à la conteneurisation",
+      "date": "2026-01-17T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "4ec00353e69f21ab": {
+      "title": "Words that Build Intelligence | ITCN Asia 2026",
+      "date": "2026-01-18T04:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "da387d2725426977": {
+      "title": "#cTENcf Birthday Bash Nashik",
+      "date": "2026-01-18T04:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "cb41bfb470874831": {
+      "title": "[Hallway] Platform Engineering Virtual Meetup - APAC",
+      "date": "2026-01-20T03:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "01360788870d6e90": {
+      "title": "[Community] Platform Engineering Virtual Meetup - Americas–EMEA",
+      "date": "2026-01-20T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "98e95a72893d7f3a": {
+      "title": "Scaling GitOps and Kubernetes in Regulated Enterprises",
+      "date": "2026-01-20T23:00:54+00:00",
+      "source": "cncf-api"
+    },
+    "3c9748d1a4d0ca50": {
+      "title": "Kubernetes Cloud Native Online Meetup January 2026",
+      "date": "2026-01-22T12:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "6e2d549e9786dba9": {
+      "title": "Merge Forward: Neurodiversity Working Group Monthly Meeting",
+      "date": "2026-01-22T16:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "9100cdd0938d1228": {
+      "title": "Cloud Native Aachen Meetup, January 2026",
+      "date": "2026-01-22T17:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "cb271dfc1f8a8ea4": {
+      "title": "mTLS & Gateway API : Sécuriser et exposer vos services en 2026",
+      "date": "2026-01-22T17:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "046a04c78c5c2dd5": {
+      "title": "Lean mindset, Kubernetes skillset",
+      "date": "2026-01-22T17:30:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
