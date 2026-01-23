@@ -8974,6 +8974,491 @@
       "title": "49. neformálny meetup - Cloud native/Kubernetes - prvé pivo/kofola je na nás!",
       "date": "2026-01-21T17:00:00+00:00",
       "source": "cncf-api"
+    },
+    "d68f9a4ad834": {
+      "title": "LitmusChaos Q4 2025 update: community, contributions, and project progress",
+      "date": "2026-01-22T15:00:00+00:00",
+      "source": "CNCF"
+    },
+    "613f838da55a": {
+      "title": "Platform engineering maintenance pitfalls and smart strategies to stay ahead",
+      "date": "2026-01-21T15:00:00+00:00",
+      "source": "CNCF"
+    },
+    "4ac6957d8db8": {
+      "title": "Kubernetes Fuels AI Growth; Organizational Culture Remains the Decisive Factor",
+      "date": "2026-01-20T17:00:00+00:00",
+      "source": "CNCF"
+    },
+    "1b7b418a2f26": {
+      "title": "Kubernetes Established as the De Facto ‘Operating System’ for AI as Production Use Hits 82% in 2025 CNCF Annual Cloud Native Survey",
+      "date": "2026-01-20T17:00:00+00:00",
+      "source": "CNCF"
+    },
+    "b9e0f0c969a1": {
+      "title": "Reclaiming underutilized GPUs in Kubernetes using scheduler plugins",
+      "date": "2026-01-20T12:00:00+00:00",
+      "source": "CNCF"
+    },
+    "86d0f6a879d7": {
+      "title": "Top 28 Kubernetes resources for 2026: Learn and stay up-to-date",
+      "date": "2026-01-19T12:00:00+00:00",
+      "source": "CNCF"
+    },
+    "0e0ce062c1b3": {
+      "title": "CRI-O completes second OSTIF audit",
+      "date": "2026-01-16T12:00:00+00:00",
+      "source": "CNCF"
+    },
+    "0a53c7436dd5": {
+      "title": "KubeCon + CloudNativeCon NA: Top sessions from the CNCF End User TAB",
+      "date": "2026-01-15T12:00:00+00:00",
+      "source": "CNCF"
+    },
+    "3be575a6f7d8": {
+      "title": "Cloud Native Computing Foundation Announces Dragonfly’s Graduation",
+      "date": "2026-01-14T17:00:00+00:00",
+      "source": "CNCF"
+    },
+    "9ad42d54ac98": {
+      "title": "The symbiotic revolution: AI and cloud native technologies transforming the digital landscape",
+      "date": "2026-01-13T14:00:00+00:00",
+      "source": "CNCF"
+    },
+    "552633a42174": {
+      "title": "Simplify Kubernetes cluster management using ACK, kro and Amazon EKS",
+      "date": "2026-01-22T17:22:28+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "b5c4a8687f84": {
+      "title": "End-to-end recovery from AZ impairments in Amazon EKS using EKS Zonal shift and Istio",
+      "date": "2026-01-20T16:11:13+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "5c70839653f7": {
+      "title": "Friday Five — January 23, 2026",
+      "date": "2026-01-23T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "e5463619b370": {
+      "title": "Understanding security embargoes at Red Hat",
+      "date": "2026-01-22T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "e0fc9e6ea322": {
+      "title": "New observability features in Red Hat OpenShift 4.20 and Red Hat Advanced Cluster Management 2.15",
+      "date": "2026-01-22T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "ad03f221c2dd": {
+      "title": "Unlocking the power of 5G: How Red Hat OpenShift and Oracle’s 5G Core Control Plane streamline global deployments",
+      "date": "2026-01-21T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "43b1029da11b": {
+      "title": "Extend and enhance your Red Hat Enterprise Linux support: A guide to lifecycle add-ons",
+      "date": "2026-01-21T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "aa16403e52e7": {
+      "title": "2025 was a year of transformative customer success with Red Hat Ansible Automation Platform",
+      "date": "2026-01-21T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "8ec70d284334": {
+      "title": "2025 Red Hat Ansible Automation Platform: A year in review",
+      "date": "2026-01-21T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "a55ce8bfe2f8": {
+      "title": "10 breakthrough stories to help you turn 2026 ambitions into reality",
+      "date": "2026-01-21T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "f87bfd3a64c0": {
+      "title": "Shadow-Soft shares top challenges holding organizations back from virtualization modernization",
+      "date": "2026-01-20T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "4f6817d81ff9": {
+      "title": "Dell Technologies modernizes the developer experience with Red Hat OpenShift Dev Spaces",
+      "date": "2026-01-20T00:00:00+00:00",
+      "source": "OpenShift Blog"
+    },
+    "1438eaaf1cfd": {
+      "title": "Manage clusters and applications at scale with Argo CD Agent on Red Hat OpenShift GitOps",
+      "date": "2026-01-12T00:00:00+00:00",
+      "source": "OpenShift Blog"
+    },
+    "5f24a0d5d802": {
+      "title": "Headlamp in 2025: Project Highlights",
+      "date": "2026-01-22T10:00:00+08:00",
+      "source": "Kubernetes Blog"
+    },
+    "6c3e98baaa9c": {
+      "title": "Announcing the Checkpoint/Restore Working Group",
+      "date": "2026-01-21T10:00:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "6d9a82af9b82": {
+      "title": "Uniform API server access using clientcmd",
+      "date": "2026-01-19T10:00:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "63a30958cf89": {
+      "title": "Kubernetes v1.35: Restricting executables invoked by kubeconfigs via exec plugin allowList added to kuberc",
+      "date": "2026-01-09T10:30:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "87c488a065f0": {
+      "title": "Blog: Announcing the Checkpoint/Restore Working Group",
+      "date": "2026-01-21T00:00:00+00:00",
+      "source": "Kubernetes.dev Blog"
+    },
+    "158b46ac3ce5": {
+      "title": "Kubernetes Monitoring backend 2.2: better cluster observability through new alert and recording rules",
+      "date": "2025-07-15T00:00:00+00:00",
+      "source": "Grafana Kubernetes"
+    },
+    "524b9cff5e18": {
+      "title": "Building the Bridge: Making Kubernetes Security Accessible Through MCP",
+      "date": "2026-01-21T15:25:21+00:00",
+      "source": "Nirmata Blog"
+    },
+    "3633d4754ee6": {
+      "title": "Beyond Authentication: How to Implement Strong API Authorization in Kubernetes with Kyverno Authz-Server",
+      "date": "2026-01-19T15:23:36+00:00",
+      "source": "Nirmata Blog"
+    },
+    "6d63222e1352": {
+      "title": "How Kyverno Strengthens Security, Compliance, and Reliability Across NVIDIA AI Platforms",
+      "date": "2026-01-16T15:23:01+00:00",
+      "source": "Nirmata Blog"
+    },
+    "da1a7198c8b2": {
+      "title": "Moving Beyond Kyverno to AI Platform Engineering",
+      "date": "2026-01-14T09:12:53+00:00",
+      "source": "Nirmata Blog"
+    },
+    "d99185bfa09d": {
+      "title": "Kyverno Health Checks in Nirmata Control Hub",
+      "date": "2026-01-14T09:09:22+00:00",
+      "source": "Nirmata Blog"
+    },
+    "5cfd6b4d980a": {
+      "title": "Paved Roads, Not Speed Bumps: How Platform Teams Scale AI-Speed Guardrails with Kyverno + Nirmata",
+      "date": "2026-01-13T00:00:34+00:00",
+      "source": "Nirmata Blog"
+    },
+    "22ba8761cc96": {
+      "title": "Automating Desired State Configuration using vSphere Configuration Profile APIs _ Part 1",
+      "date": "2026-01-22T09:13:05+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "2d838a0fe915": {
+      "title": "Diagnostics for VMware Cloud Foundation Operations – Newest Findings",
+      "date": "2026-01-21T21:51:56+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "c6bcf8fc0aa7": {
+      "title": "Scaling Messaging with Confidence: VMware vSphere Kubernetes Service and Tanzu RabbitMQ",
+      "date": "2026-01-21T21:41:34+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "3e68d7f46009": {
+      "title": "The 75% Productivity Gain: Moving to Policy-Based Database Management",
+      "date": "2026-01-20T16:54:33+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "b959a8890cfe": {
+      "title": "SAP HANA and SAP NetWeaver Support for vSphere in VMware Cloud Foundation 9.0 on Intel Xeon 6 CPUs with P-core and older CPUs",
+      "date": "2026-01-20T02:25:03+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "ded7c279ba10": {
+      "title": "Sustained Resource Availability Through Effective Cloud Capacity Management",
+      "date": "2026-01-19T04:31:13+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "08a0dfa193ef": {
+      "title": "Activate VCF Private AI Services",
+      "date": "2026-01-15T16:52:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "c560a8b4af68": {
+      "title": "From General to Genius: Your Strategic Guide to Domain-Specific LLMs for Enterprise Knowledge",
+      "date": "2026-01-14T21:26:24+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "13bf4221886e": {
+      "title": "Closing the Kubernetes Gap: Mastering Cloud-Native Operations with VCF 9",
+      "date": "2026-01-14T17:50:38+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "269f01f017f2": {
+      "title": "Evolution of Workload Hosting: From Virtualization to Containerization",
+      "date": "2026-01-14T14:22:01+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "ccc9ac9790a7": {
+      "title": "Why Kubernetes Is a Must-Know for Modern Engineers",
+      "date": "2026-01-19T16:42:01+00:00",
+      "source": "KodeKloud Blog (Kubernetes)"
+    },
+    "e93624dfe892": {
+      "title": "Technical Deep Dive: How DigitalOcean and AMD Delivered a 2x Production Inference Performance Increase for Character.ai",
+      "date": "2026-01-13T12:30:00.048000+00:00",
+      "source": "Digital Ocean"
+    },
+    "f8af19b1e240": {
+      "title": "Introducing Multiple Registry Support on DigitalOcean Container Registry",
+      "date": "2026-01-09T21:12:58.485000+00:00",
+      "source": "Digital Ocean"
+    },
+    "1b7eab936a28": {
+      "title": "Ingress Security for AI Workloads in Kubernetes: Protecting AI Endpoints with WAF",
+      "date": "2026-01-22T19:27:17+00:00",
+      "source": "Tigera"
+    },
+    "013febe7f6da": {
+      "title": "Ingress NGINX Project Is Retiring: A Step-by-Step Guide to Replacing the Ingress NGINX Controller",
+      "date": "2026-01-20T18:17:28+00:00",
+      "source": "Tigera"
+    },
+    "e29409f417bb": {
+      "title": "Kubernetes Networking at Scale: From Tool Sprawl to a Unified Solution",
+      "date": "2026-01-15T21:10:40+00:00",
+      "source": "Tigera"
+    },
+    "38db44c2e07e": {
+      "title": "From IPVS to NFTables: A Migration Guide for Kubernetes v1.35",
+      "date": "2026-01-13T19:28:59+00:00",
+      "source": "Tigera"
+    },
+    "851aeb60853d": {
+      "title": "January 21, 2026",
+      "date": "2026-01-21T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "495d992f91dd": {
+      "title": "January 20, 2026",
+      "date": "2026-01-20T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "dcfb93434f1e": {
+      "title": "January 15, 2026",
+      "date": "2026-01-15T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "b0f5d2dc315f": {
+      "title": "4.22.0-okd-scos.ec.1",
+      "date": "2026-01-20T03:35:46+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "0dd17171d586": {
+      "title": "4.22.0-okd-scos.ec.0",
+      "date": "2026-01-16T17:30:58+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "e66a17eaa185": {
+      "title": "4.21.0-okd-scos.1",
+      "date": "2026-01-19T05:42:18+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "9b27bea5714e": {
+      "title": "4.21.0-okd-scos.0",
+      "date": "2026-01-16T17:53:51+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "d2d404487c0c": {
+      "title": "4.21.0-okd-scos.ec.19",
+      "date": "2026-01-15T09:40:12+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "7f19f38d9105": {
+      "title": "4.21.0-okd-scos.ec.18",
+      "date": "2026-01-12T05:14:55+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "5d0e4546d62c": {
+      "title": "Pre-release v2.14.0-alpha1",
+      "date": "2026-01-21T22:16:25+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "2c2683718822": {
+      "title": "Pre-release v2.10.11-alpha2",
+      "date": "2026-01-21T14:22:39+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "cb83243c0020": {
+      "title": "v2.12.5-hotfix-9140.1",
+      "date": "2026-01-19T13:52:16+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "bfe09d5cf8c4": {
+      "title": "Pre-release v2.11.10-alpha1",
+      "date": "2026-01-19T20:51:24+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "e49bf86df204": {
+      "title": "Pre-release v2.13.2-alpha4",
+      "date": "2026-01-16T19:45:57+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "33296e5d1ece": {
+      "title": "Pre-release v2.12.6-alpha1",
+      "date": "2026-01-16T18:43:38+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "eb70bb16791e": {
+      "title": "Pre-release v2.11.9-alpha2",
+      "date": "2026-01-16T18:47:45+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "25020235c396": {
+      "title": "Pre-release v2.10.11-alpha1",
+      "date": "2026-01-16T17:32:12+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "348ff01a26c7": {
+      "title": "Pre-release v2.13.2-alpha3",
+      "date": "2026-01-13T20:14:37+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "d211a4fceca4": {
+      "title": "Pre-release v2.13.2-alpha2",
+      "date": "2026-01-12T19:47:30+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "6a291ece97f6": {
+      "title": "Release v1.8.10",
+      "date": "2026-01-21T21:37:39+00:00",
+      "source": "RKE Releases"
+    },
+    "a88abe31237c": {
+      "title": "Linux Foundation Reveals 2026 Global Events Program, Advancing Open Source AI and Enabling Community-Based Innovation",
+      "date": "2026-01-22T19:21:47+00:00",
+      "source": "Linux Foundation Events"
+    },
+    "046a04c78c5c2dd5": {
+      "title": "Lean mindset, Kubernetes skillset",
+      "date": "2026-01-22T17:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "0df42c32e7379c96": {
+      "title": "Cloud Native Days Bangladesh 2026",
+      "date": "2026-01-24T03:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "533f2256e36d4860": {
+      "title": "Navigating Cloud Engineering: Skills, Signals, and Survival",
+      "date": "2026-01-24T10:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "41972943cb9351c0": {
+      "title": "#cTENcf Birthday Bash Natal RN - 4º meetup",
+      "date": "2026-01-24T11:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "d07e0c93fb868976": {
+      "title": "Cloud Native Bhubaneswar: Jan 2026",
+      "date": "2026-01-25T05:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "ec3e17b633e5dd48": {
+      "title": "Coffee & Meet #8: Shopify Ekosistemi və App Dünyası",
+      "date": "2026-01-25T07:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "30508c9a1909aaac": {
+      "title": "Kubernetes for Business: Should Your Business Use Kubernetes?",
+      "date": "2026-01-25T14:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "08ede506e9327e1f": {
+      "title": "CKA Certification Study Group",
+      "date": "2026-01-27T01:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "1035590693d52b26": {
+      "title": "Deaf and Hard of Hearing WG: Monthly Meeting",
+      "date": "2026-01-27T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "1f36583074c1a491": {
+      "title": "Stockholm CNCG January Meetup",
+      "date": "2026-01-27T16:00:46+00:00",
+      "source": "cncf-api"
+    },
+    "7782aaefab794cd7": {
+      "title": "Container Images and Impact of Agentic DevOps",
+      "date": "2026-01-27T16:30:22+00:00",
+      "source": "cncf-api"
+    },
+    "9e974556373c5e1c": {
+      "title": "Cloud Native Community Japan - eBPF Japan Meetup #5",
+      "date": "2026-01-28T08:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "cfeb097a01a45b4a": {
+      "title": "A night of - Beyond Containers  - and -  Talos Kubernetes",
+      "date": "2026-01-28T15:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "1dc92e5e89da57ff": {
+      "title": "Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches",
+      "date": "2026-01-28T16:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "6afa49b10e29534d": {
+      "title": "Cloud Native Live: Kyverno 1.17 Release — Advancing with CEL and Supply Chain Security",
+      "date": "2026-01-28T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "419f7b6d393386ac": {
+      "title": "Cloud Native Barcelona @ERNI",
+      "date": "2026-01-28T17:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "ef0ee87442fcf97e": {
+      "title": "From Annotation Chaos to eBPF Excellence: Moving to Cilium Gateway API",
+      "date": "2026-01-29T14:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "23d18531ea5e6f02": {
+      "title": "January 2026 - Can't live without AI!",
+      "date": "2026-01-29T16:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "afd364cf3411841a": {
+      "title": "Exploring AI Agents in Kubernetes",
+      "date": "2026-01-29T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "6b140c0ada96e954": {
+      "title": "Cloud-Native & Platform Engineering Meetup January 2026 @Acronis",
+      "date": "2026-01-29T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "548be024f8bb6ee0": {
+      "title": "Cloud Native Community Group Panama - Jan 2025 Meetup",
+      "date": "2026-01-29T23:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "71ee25c0dfeb54b3": {
+      "title": "Certificaciones Kubernetes & Terraform a Gran Escala",
+      "date": "2026-01-30T00:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "939844271ae43745": {
+      "title": "ArgoCD Reconciliation - Milvus Performance Tuning",
+      "date": "2026-01-30T00:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "d8c4fe7356e5d842": {
+      "title": "Cloud Native Almaty",
+      "date": "2026-01-30T12:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }

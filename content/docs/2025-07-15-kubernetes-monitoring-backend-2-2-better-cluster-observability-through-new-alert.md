@@ -6,10 +6,12 @@ tags:
 - grafana
 - kubernetes
 source: Grafana Kubernetes
-external_url: https://grafana.com/blog/kubernetes-monitoring-backend-2.2-better-cluster-observability-through-new-alert-and-recording-rules/
+external_url: https://grafana.com/blog/kubernetes-monitoring-backend-2-2-better-cluster-observability-through-new-alert-and-recording-rules/
 post_kind: link
 draft: false
-tldr: ''
-summary: ''
+tldr: 'Visualize Salesforce data in Grafana: flexible query options, powerful data
+  correlations, and more.'
+summary: 'Visualize Salesforce data in Grafana: flexible query options, powerful data
+  correlations, and more.'
 ---
-Open the original post ↗ https://grafana.com/blog/kubernetes-monitoring-backend-2.2-better-cluster-observability-through-new-alert-and-recording-rules/
+Open the original post ↗ https://grafana.com/blog/kubernetes-monitoring-backend-2-2-better-cluster-observability-through-new-alert-and-recording-rules/
