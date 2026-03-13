@@ -11309,6 +11309,291 @@
       "title": "Spring into Containers + AI + Obsidian",
       "date": "2026-03-13T17:00:00+00:00",
       "source": "cncf-api"
+    },
+    "00e1b13ea1d6": {
+      "title": "Making etcd incidents easier to debug in production Kubernetes",
+      "date": "2026-03-12T11:04:00+00:00",
+      "source": "CNCF"
+    },
+    "4ccae911fbbe": {
+      "title": "Japan’s CNCF DevStats 2025",
+      "date": "2026-03-12T11:00:00+00:00",
+      "source": "CNCF"
+    },
+    "bab2956094a9": {
+      "title": "CNCF Unveils KubeCon + CloudNativeCon India 2026 Schedule",
+      "date": "2026-03-11T03:30:00+00:00",
+      "source": "CNCF"
+    },
+    "29c5be7ae82c": {
+      "title": "Sustaining open source in the age of generative AI",
+      "date": "2026-03-10T11:00:00+00:00",
+      "source": "CNCF"
+    },
+    "4705dfe12e88": {
+      "title": "KubeCon + CloudNativeCon Europe 2026 Co-located Event Deep Dive: OpenTofu Day",
+      "date": "2026-03-09T13:00:00+00:00",
+      "source": "CNCF"
+    },
+    "e1629dfd1b9a": {
+      "title": "Registry mirror authentication with Kubernetes secrets",
+      "date": "2026-03-09T11:00:00+00:00",
+      "source": "CNCF"
+    },
+    "0f64ccbbc8e9": {
+      "title": "KubeCon + CloudNativeCon Europe 2026 Co-located Event Deep Dive: KeycloakCon",
+      "date": "2026-03-06T12:00:00+00:00",
+      "source": "CNCF"
+    },
+    "7f8d5562770b": {
+      "title": "Friday Five — March 13, 2026",
+      "date": "2026-03-13T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "efd282563c15": {
+      "title": "Enable intelligent insights with Red Hat Satellite MCP Server",
+      "date": "2026-03-12T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "add94bb63e28": {
+      "title": "Scaling Enterprise Federated AI with Flower and Open Cluster Management",
+      "date": "2026-03-11T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "ea445c7b9f11": {
+      "title": "Safe data discovery with EDB's Data Governance Co-Pilot AI quickstart",
+      "date": "2026-03-10T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "106f0d37b941": {
+      "title": "Red Hat Summit 2026 session catalog now available",
+      "date": "2026-03-10T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "78308120cc13": {
+      "title": "Fedora 44 Beta now available",
+      "date": "2026-03-10T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "52458bfc1c07": {
+      "title": "AI quickstart: Protecting inference with F5 Distributed Cloud and Red Hat AI",
+      "date": "2026-03-10T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "1b5d543c546d": {
+      "title": "Planning the design of your production-grade RAG system",
+      "date": "2026-03-06T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "13b3cca719a3": {
+      "title": "Announcing the AI Gateway Working Group",
+      "date": "2026-03-09T10:00:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "8476638316df": {
+      "title": "Blog: Announcing the AI Gateway Working Group",
+      "date": "2026-03-09T00:00:00+00:00",
+      "source": "Kubernetes.dev Blog"
+    },
+    "cce69dbcbf8b": {
+      "title": "Cluster API, Immutability, and the Future of Kubernetes Infrastructure",
+      "date": "2026-03-12T16:53:39+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "29b74c076ada": {
+      "title": "Where Logic and Creativity Meet: Libby Shen on Building Sustainable Solutions with VMware Cloud Foundation",
+      "date": "2026-03-12T15:29:58+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "27b046abc0fe": {
+      "title": "VMware Data Services Manager – DBaaS Solution for Private Cloud",
+      "date": "2026-03-10T18:20:12+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "b35293b6ed03": {
+      "title": "Simplify Multisite PoCs Using Holodeck",
+      "date": "2026-03-10T14:53:09+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "42aa7b121f37": {
+      "title": "VMware Private AI on Consolidated VMware Cloud Foundation Architecture",
+      "date": "2026-03-10T14:22:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "9b6fb3c238b4": {
+      "title": "VMware Cloud Foundation: Workaround for Quorum-Disk Failure Scenario in 2-Node WSFC 2025 Configuration",
+      "date": "2026-03-09T20:45:18+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "d8a57d96a111": {
+      "title": "How AI Agents Communicate: Understanding the A2A Protocol for Kubernetes",
+      "date": "2026-03-10T18:11:46+00:00",
+      "source": "Tigera"
+    },
+    "46e28bd066b1": {
+      "title": "Blog: JayeX Most Valuable Contributor 2026 🏆",
+      "date": "2026-03-05T00:00:00+00:00",
+      "source": "Jenkins X"
+    },
+    "c3dc1b523c66": {
+      "title": "March 05, 2026",
+      "date": "2026-03-05T00:00:00-08:00",
+      "source": "GKE Release Notes"
+    },
+    "04f83349368c": {
+      "title": "4.22.0-okd-scos.ec.9",
+      "date": "2026-03-12T10:32:45+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "3a19825d7b35": {
+      "title": "Pre-release v2.13.4-alpha3",
+      "date": "2026-03-12T16:23:25+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "af27c2406f41": {
+      "title": "Pre-release v2.14.0-alpha12",
+      "date": "2026-03-11T20:05:01+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "e02a681cdd88": {
+      "title": "Pre-release v2.14.0-alpha11",
+      "date": "2026-03-10T20:51:44+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "180968b5502b": {
+      "title": "Pre-release v2.13.4-alpha2",
+      "date": "2026-03-11T17:43:52+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "ccc454fce782": {
+      "title": "Pre-release v2.12.8-alpha2",
+      "date": "2026-03-11T17:44:18+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "3b8953f694e3": {
+      "title": "Pre-release v2.14.0-alpha10",
+      "date": "2026-03-09T22:15:25+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "57713c538db7": {
+      "title": "Pre-release v2.13.4-alpha1",
+      "date": "2026-03-09T21:10:53+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "4cfc2d2fac62": {
+      "title": "Pre-release v2.12.8-alpha1",
+      "date": "2026-03-09T19:03:26+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "6785ce0799df": {
+      "title": "Pre-release v2.11.12-alpha1",
+      "date": "2026-03-09T19:02:35+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "41685c1ae9898d1a": {
+      "title": "Women In Cloud Native & Tech: CNCG x Docker Pune Women's Day Celebration Meetup",
+      "date": "2026-03-14T04:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "bbc345e7a20b28e2": {
+      "title": "Cloud Native Ranchi: March Meetup - Break The Pattern",
+      "date": "2026-03-14T04:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "c9e5470bc36ae064": {
+      "title": "From PR To Kubernetes: Empowering Developers with Secure Ephemeral Environments, The GitOps Way",
+      "date": "2026-03-14T11:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "64d31a2e767b23ac": {
+      "title": "Brunch - Celebrando a las Mujeres en Cloud Native y Tech Talk Café",
+      "date": "2026-03-15T14:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "22d62a3005b26834": {
+      "title": "CKA Exam Study Session & Practice",
+      "date": "2026-03-17T01:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "fca3a730ec36875f": {
+      "title": "[Hallway] Platform Engineering Virtual Meetup - APAC",
+      "date": "2026-03-17T03:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "fe86dbdd848a8067": {
+      "title": "[Community] Platform Engineering Virtual Meetup - Americas–EMEA",
+      "date": "2026-03-17T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "c5a5c86d0398e847": {
+      "title": "Cartografos Community Meeting",
+      "date": "2026-03-17T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "083abad1c55e32ee": {
+      "title": "Bottlenecks All the Way Down: Why AI Code Gets Stuck in your CI/CD pipeline",
+      "date": "2026-03-17T23:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "6ba30a8887a26826": {
+      "title": "Cloud Native Community Japan - eBPF Japan Meetup #6",
+      "date": "2026-03-18T08:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "f635b735ff84da88": {
+      "title": "[Meetup Online] Microservices vs. Monoliths: How to Choose the Right Architecture for Your Business w/ Adriano Mota",
+      "date": "2026-03-18T23:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "4c411f55250c1ac4": {
+      "title": "Cloud Native Sydney - CNCF Meetup 19th March",
+      "date": "2026-03-19T06:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "61b9cc0a8cb65795": {
+      "title": "CNCG Graz Meetup, March 2026 @ Nuki",
+      "date": "2026-03-19T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "874f48c42ff2b43d": {
+      "title": "Cloud Native MADRID @SirviendoCódigo",
+      "date": "2026-03-19T17:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "d121376f73ac399d": {
+      "title": "DevSecOps avec Trivy et l’art de contribuer efficacement",
+      "date": "2026-03-19T17:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "2e080a4ba85d9bde": {
+      "title": "CNCF March Meetup: Tech Talks at Rootly",
+      "date": "2026-03-19T21:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "d5c01cd732dd44a8": {
+      "title": "Kubernetes Sizing: A Arte de Escalar sem Quebrar o Cluster (e o Bolso)",
+      "date": "2026-03-19T22:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "f8a24f904e818383": {
+      "title": "Single agent and Multi Agent Tools & Flows in Langgraph",
+      "date": "2026-03-19T23:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "8de7dedf524529b9": {
+      "title": "Explorando la Nube: Taller de Introducción en UniRemington",
+      "date": "2026-03-19T23:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "049835c6d0f4042a": {
+      "title": "March Meetup: Microshift, Bootc, and AWS Infrastructure",
+      "date": "2026-03-20T00:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "83261f077148cf90": {
+      "title": "Blind and Visually Impaired Initiative Monthly Meeting",
+      "date": "2026-03-20T14:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
