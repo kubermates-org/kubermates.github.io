@@ -1,0 +1,52 @@
+version: 2
+updates:
+  # npm dependencies
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "03:00"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "kubermates-org/maintainers"
+    commit-message:
+      prefix: "chore(deps):"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "automated"
+
+  # GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "04:00"
+    open-pull-requests-limit: 3
+    reviewers:
+      - "kubermates-org/maintainers"
+    commit-message:
+      prefix: "chore(ci):"
+      include: "scope"
+    labels:
+      - "ci"
+      - "automated"
+
+  # Go modules
+  - package-ecosystem: "gomod"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "tuesday"
+      time: "03:00"
+    open-pull-requests-limit: 3
+    reviewers:
+      - "kubermates-org/maintainers"
+    commit-message:
+      prefix: "chore(go):"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "automated"

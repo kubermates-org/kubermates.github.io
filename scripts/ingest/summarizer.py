@@ -12,7 +12,9 @@ from bs4 import BeautifulSoup
 CACHE_PATH = pathlib.Path(".cache/summaries.json")
 CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
 
-DEFAULT_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+# Default to Haiku 4.5 for cost-effective batch summarization.
+# Override with ANTHROPIC_MODEL env var (e.g. claude-sonnet-4-6 for higher quality).
+DEFAULT_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-haiku-4-5")
 
 # Map-Reduce chunk size in characters (ensure full-page coverage)
 MAX_CHARS_PER_CHUNK = int(os.getenv("SUMMARY_CHUNK_CHARS", "12000"))
@@ -26,7 +28,7 @@ _NOISE_PATTERNS = [
     r"\bad(s|vertisement|choices)?\b",
     r"\bmanage preferences\b",
     r"\baccept all\b", r"\breject all\b",
-    r"\bThere was an error while loading\. Please reload this page\.",  # GitHub UI
+    r"\bThere was an error while loading\. Please reload this page\.",
     r"\bEnable JavaScript\b",
     r"\bSkip to content\b",
     r"\bJoin GitHub\b",
@@ -46,7 +48,6 @@ _STRIP_SELECTORS = [
     ".breadcrumbs", ".breadcrumb",
     ".pagination", ".pager",
     ".sr-only", "[aria-live]", "[role=alert]", "[role=status]",
-    # GitHub specific chrome
     "div[data-test-selector='notifications-link']",
     "div[data-test-selector='header-search']", ".flash", ".Header", ".footer",
     ".Box-header", ".js-flash-alert", ".js-notice",
@@ -77,7 +78,7 @@ def _normalize_whitespace(s: str) -> str:
     return " ".join((s or "").split())
 
 def _strip_artifacts(s: str) -> str:
-    """Remove any leftover bullet/hash markers if a model misbehaves."""
+    """Remove leftover bullet/hash markers if the model adds them."""
     lines = [ln.strip() for ln in (s or "").splitlines()]
     clean = []
     for ln in lines:
@@ -94,7 +95,6 @@ def _split_into_chunks(text: str, max_chars: int) -> List[str]:
         return []
     if len(text) <= max_chars:
         return [text]
-    # Split by paragraphs, then pack
     paras = [p.strip() for p in text.split("\n") if p.strip()]
     chunks, cur, cur_len = [], [], 0
     for p in paras:
@@ -110,17 +110,16 @@ def _split_into_chunks(text: str, max_chars: int) -> List[str]:
         chunks.append("\n".join(cur))
     return chunks
 
-def _openai_client():
-    from openai import OpenAI
-    return OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+def _anthropic_client():
+    import anthropic
+    return anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
 # -----------------------------
 # Version-string protection
 # -----------------------------
-_VERSION_RE = re.compile(r"\b(v?\d+(?:\.\d+){1,4})\b")  # v1.2, 1.2.3, 10.2.3.4
+_VERSION_RE = re.compile(r"\b(v?\d+(?:\.\d+){1,4})\b")
 
 def _protect_versions(s: str) -> str:
-    # Replace dots inside version tokens with a sentinel so sentence split won't break them
     return _VERSION_RE.sub(lambda m: m.group(1).replace(".", "§DOT§"), s)
 
 def _restore_versions(s: str) -> str:
@@ -132,17 +131,11 @@ def _restore_versions(s: str) -> str:
 _NOISE_RE = re.compile("|".join(_NOISE_PATTERNS), re.IGNORECASE)
 
 def _filter_noise_text(text: str) -> str:
-    """
-    Remove cookie banners, login prompts, reload-error lines, etc.
-    Works at sentence level; also dedupes consecutive sentences.
-    Preserves version strings like v2.10.9.
-    """
+    """Remove cookie banners, login prompts, reload-error lines, etc."""
     if not text:
         return ""
 
     protected = _protect_versions(text.replace("\u00a0", " ").strip())
-
-    # Split on sentence-ish boundaries (period/exclamation/question + space)
     parts = re.split(r"(?<=[\.\!\?])\s+", protected)
 
     filtered: List[str] = []
@@ -154,7 +147,6 @@ def _filter_noise_text(text: str) -> str:
             continue
         if _NOISE_RE.search(s_clean):
             continue
-        # Drop very short “see/read/learn more …”
         if len(s_clean) < 25 and re.search(r"\b(see|read|learn)\b", s_clean, re.I):
             continue
         if prev and s_clean.lower() == prev.lower():
@@ -169,7 +161,6 @@ def _filter_noise_text(text: str) -> str:
 # HTML fetch & clean
 # -----------------------------
 def _pick_root(soup: BeautifulSoup, url: Optional[str]) -> BeautifulSoup:
-    # GitHub releases/readme often have .markdown-body
     if url and "github.com" in url:
         gh = soup.select_one(".markdown-body")
         if gh:
@@ -188,7 +179,6 @@ def _strip_non_content(root: BeautifulSoup):
 def _extract_text_blocks(root: BeautifulSoup) -> str:
     blocks: List[str] = []
 
-    # Keep headings (context)
     for h in root.select("h1, h2, h3"):
         txt = h.get_text(" ", strip=True)
         if txt:
@@ -212,7 +202,6 @@ def _clean_html_to_text(html: str, url: Optional[str] = None) -> str:
         return ""
     soup = BeautifulSoup(html, "html.parser")
 
-    # strip hard non-content globally
     for tag in soup(["script", "style", "noscript"]):
         tag.decompose()
 
@@ -220,7 +209,6 @@ def _clean_html_to_text(html: str, url: Optional[str] = None) -> str:
     _strip_non_content(root)
     text = _extract_text_blocks(root)
 
-    # Final noise filter & whitespace normalization
     text = _filter_noise_text(text)
     return _normalize_whitespace(text)
 
@@ -240,21 +228,49 @@ def fetch_full_text(url: str, timeout: int = 20) -> str:
         return ""
 
 # -----------------------------
-# Prompts
+# JSON extraction (Claude doesn't have strict JSON mode)
+# -----------------------------
+def _extract_json(text: str) -> Optional[Dict]:
+    """Robustly extract a JSON object from text that may contain extra content."""
+    text = (text or "").strip()
+    # Try direct parse first
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        pass
+    # Find the outermost {...} block
+    match = re.search(r'\{.*\}', text, re.DOTALL)
+    if match:
+        try:
+            return json.loads(match.group())
+        except json.JSONDecodeError:
+            pass
+    return None
+
+# -----------------------------
+# Prompts (Kubernetes/cloud-native focused)
 # -----------------------------
 def _prompt_chunk(title: Optional[str], url: Optional[str], lang_hint: Optional[str], chunk_text: str) -> str:
     meta = []
     if title: meta.append(f'Title: "{title}"')
-    if url: meta.append(f"URL: {url}")
+    if url:   meta.append(f"URL: {url}")
     if lang_hint: meta.append(f"Language hint: {lang_hint}")
     meta_str = "\n".join(meta)
     return textwrap.dedent(f"""
-    You are summarizing ONE PART of a longer technical article. Read the chunk below and produce a concise bullet list of key facts ONLY from this chunk.
+    You are summarizing ONE PART of a Kubernetes / cloud-native technical article. Extract the key facts from this chunk as a concise bullet list.
+
+    Focus especially on:
+    - Version numbers, API changes, deprecations, breaking changes
+    - New features, flags, config options, CRDs, operators
+    - Performance numbers, benchmark results
+    - Security fixes, CVE references
+    - Cloud provider specifics (AKS, EKS, GKE, OpenShift, Rancher…)
+    - Tool/project names and their roles
 
     Rules:
-    - Write in the SAME LANGUAGE as the source text if clear; otherwise keep the language of the title or language hint.
-    - Avoid fluff; capture key decisions, configs, APIs, versions, trade-offs, and outcomes.
-    - Output PLAIN TEXT bullet points (use "- " per line). No markdown fences.
+    - Write in the SAME LANGUAGE as the source text (use the title or language hint if ambiguous).
+    - Be terse and factual; no fluff, no marketing language.
+    - Output PLAIN TEXT bullet points (prefix each line with "- "). No markdown fences.
 
     {meta_str}
 
@@ -266,23 +282,23 @@ def _prompt_chunk(title: Optional[str], url: Optional[str], lang_hint: Optional[
 def _prompt_reduce(title: Optional[str], url: Optional[str], lang_hint: Optional[str], bullets: str) -> str:
     meta = []
     if title: meta.append(f'Title: "{title}"')
-    if url: meta.append(f"URL: {url}")
+    if url:   meta.append(f"URL: {url}")
     if lang_hint: meta.append(f"Language hint: {lang_hint}")
     meta_str = "\n".join(meta)
     return textwrap.dedent(f"""
-    You are creating FINAL summaries from aggregated bullet points that cover ALL parts of the article.
+    You are creating final summaries for a Kubernetes / cloud-native community site. The bullets below cover the FULL article.
 
-    Output STRICT JSON with keys ONLY:
-    "tldr": string  (about 1–2 sentences, target ~350 characters, ultra concise.)
-    "summary": string (about 3–6 sentences, target ~1200 characters, crisp and complete.)
+    Produce a JSON object with exactly two keys:
+    "tldr":    1-2 sentences (~300 chars). The single most important takeaway — what changed, what it enables, or why it matters.
+    "summary": 3-6 sentences (~1000 chars). Crisp, complete overview: context, what's new, key details (versions, flags, APIs), and impact.
 
     Rules:
-    - Keep the SAME LANGUAGE as the source (use the hint/title if needed).
-    - Add some emojis to add some fun and engagement.
-    - Be faithful; use only information present in the bullets.
-    - Prefer concrete details (versions, flags, concepts) over generic advice.
-    - Do NOT include any list markers, section headers, or "# Chunk" text in either field.
-    - Do NOT exceed the spirit of the targets; aim for readability without cutting mid-sentence.
+    - Use the SAME LANGUAGE as the source (use the hint/title if needed).
+    - Add a relevant emoji at the start of each field to aid scannability.
+    - Be faithful — only use information present in the bullets.
+    - Prefer concrete details (versions, tool names, config flags) over vague descriptions.
+    - Do NOT include list markers, section headers, or "# Chunk" text in either field.
+    - Output ONLY the JSON object — no other text before or after it.
 
     {meta_str}
 
@@ -295,7 +311,7 @@ def _prompt_reduce(title: Optional[str], url: Optional[str], lang_hint: Optional
 # Fallback (no-LLM) heuristics
 # -----------------------------
 def _fallback_from_fulltext(full_text: str) -> Dict[str, str]:
-    """Heuristic fallback that never truncates mid-sentence; aims near targets; preserves versions."""
+    """Heuristic fallback that never truncates mid-sentence; preserves versions."""
     clean = _filter_noise_text(full_text)
     if not clean:
         return {"tldr": "", "summary": ""}
@@ -305,24 +321,25 @@ def _fallback_from_fulltext(full_text: str) -> Dict[str, str]:
     if not sents:
         return {"tldr": "", "summary": ""}
 
-    long = ". ".join(sents[:12]) + "."
-    short = ". ".join(sents[:2]) + "."
+    long  = ". ".join(sents[:12]) + "."
+    short = ". ".join(sents[:2])  + "."
 
-    long = _restore_versions(long)
-    short = _restore_versions(short)
-    return {"tldr": _normalize_whitespace(short), "summary": _normalize_whitespace(long)}
+    return {
+        "tldr":    _normalize_whitespace(_restore_versions(short)),
+        "summary": _normalize_whitespace(_restore_versions(long)),
+    }
 
 # -----------------------------
-# Core LLM map-reduce
+# Core LLM map-reduce (Anthropic Claude)
 # -----------------------------
 def _summarize_chunks_with_llm(chunks: List[str], title: Optional[str], url: Optional[str], lang_hint: Optional[str]) -> Dict[str, str]:
-    api_key = os.getenv("OPENAI_API_KEY")
+    api_key = os.getenv("ANTHROPIC_API_KEY")
     full_text_for_fallback = "\n\n".join(chunks)
 
     if not api_key:
         return _fallback_from_fulltext(full_text_for_fallback)
 
-    client = _openai_client()
+    client = _anthropic_client()
 
     # 1) Map: turn each chunk into bullets
     bullets_all: List[str] = []
@@ -331,15 +348,16 @@ def _summarize_chunks_with_llm(chunks: List[str], title: Optional[str], url: Opt
         ch = _filter_noise_text(ch)
         for attempt in range(4):
             try:
-                resp = client.chat.completions.create(
+                resp = client.messages.create(
                     model=DEFAULT_MODEL,
+                    max_tokens=512,
                     temperature=0.2,
+                    system="You produce faithful, dense technical notes about Kubernetes and cloud-native technologies.",
                     messages=[
-                        {"role": "system", "content": "You produce faithful, dense technical notes."},
                         {"role": "user", "content": _prompt_chunk(title, url, lang_hint, ch)},
                     ],
                 )
-                bullets = (resp.choices[0].message.content or "").strip()
+                bullets = (resp.content[0].text or "").strip()
                 bullets = _strip_artifacts(_filter_noise_text(bullets))
                 bullets_all.append(bullets)
                 break
@@ -356,26 +374,29 @@ def _summarize_chunks_with_llm(chunks: List[str], title: Optional[str], url: Opt
     backoff = 1.0
     for attempt in range(4):
         try:
-            resp = client.chat.completions.create(
+            resp = client.messages.create(
                 model=DEFAULT_MODEL,
+                max_tokens=1024,
                 temperature=0.2,
-                response_format={"type": "json_object"},
+                system="Return STRICT JSON only — no prose, no markdown fences, no text before or after the JSON object.",
                 messages=[
-                    {"role": "system", "content": "Return STRICT JSON only. Respect the character targets without truncating mid-sentence."},
                     {"role": "user", "content": _prompt_reduce(title, url, lang_hint, joined_bullets)},
                 ],
             )
-            raw = resp.choices[0].message.content
-            data = json.loads(raw)
+            raw = (resp.content[0].text or "").strip()
+            data = _extract_json(raw)
 
-            tldr = _strip_artifacts(_filter_noise_text(str(data.get("tldr", "")).strip()))
+            if not data:
+                raise ValueError(f"Could not parse JSON from response: {raw[:300]}")
+
+            tldr    = _strip_artifacts(_filter_noise_text(str(data.get("tldr",    "")).strip()))
             summary = _strip_artifacts(_filter_noise_text(str(data.get("summary", "")).strip()))
 
             if not tldr or not summary:
-                raise ValueError("Missing keys in reduce result.")
+                raise ValueError("Missing tldr or summary in model response.")
 
             return {
-                "tldr": _restore_versions(tldr),
+                "tldr":    _restore_versions(tldr),
                 "summary": _restore_versions(summary),
             }
         except Exception:
@@ -394,14 +415,11 @@ def generate_summaries_inline(
     lang_hint: Optional[str] = None,
     no_llm: bool = False,
 ) -> Dict[str, str]:
-    """
-    Summarize ALL of article_text via map-reduce. Character targets are handled in prompts only.
-    """
+    """Summarize ALL of article_text via map-reduce."""
     text = (article_text or "").strip()
     if not text:
         return {"tldr": "", "summary": ""}
 
-    # Pre-clean noise aggressively
     text = _filter_noise_text(text)
 
     cache = _load_cache()
@@ -411,10 +429,8 @@ def generate_summaries_inline(
 
     chunks = _split_into_chunks(text, MAX_CHARS_PER_CHUNK)
 
-    if no_llm:
-        result = _fallback_from_fulltext("\n\n".join(chunks))
-    else:
-        result = _summarize_chunks_with_llm(chunks, title, url, lang_hint)
+    result = _fallback_from_fulltext("\n\n".join(chunks)) if no_llm else \
+             _summarize_chunks_with_llm(chunks, title, url, lang_hint)
 
     cache[key] = result
     _save_cache(cache)
@@ -426,9 +442,7 @@ def generate_summaries_from_url(
     lang_hint: Optional[str] = None,
     no_llm: bool = False,
 ) -> Dict[str, str]:
-    """
-    Fetch URL, clean ALL content, summarize via map-reduce.
-    """
+    """Fetch URL, clean ALL content, summarize via map-reduce."""
     cache = _load_cache()
     key = _hash_key("url", title or "", url or "", str(MAX_CHARS_PER_CHUNK))
     if key in cache:
@@ -441,14 +455,11 @@ def generate_summaries_from_url(
         _save_cache(cache)
         return result
 
-    # One more pass of noise filtering for safety
     full_text = _filter_noise_text(full_text)
     chunks = _split_into_chunks(full_text, MAX_CHARS_PER_CHUNK)
 
-    if no_llm:
-        result = _fallback_from_fulltext("\n\n".join(chunks))
-    else:
-        result = _summarize_chunks_with_llm(chunks, title, url, lang_hint)
+    result = _fallback_from_fulltext("\n\n".join(chunks)) if no_llm else \
+             _summarize_chunks_with_llm(chunks, title, url, lang_hint)
 
     cache[key] = result
     _save_cache(cache)

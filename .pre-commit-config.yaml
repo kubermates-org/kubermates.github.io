@@ -1,14 +1,42 @@
 default_stages: [commit, push]
 
 repos:
+  # Basic file quality checks
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v4.5.0
     hooks:
       - id: trailing-whitespace
-        exclude: ".*\\.enc\\.json$"  # Ignore SOPS-encrypted JSON files
+        exclude: ".*\\.enc\\.json$"
       - id: end-of-file-fixer
-        exclude: ".*\\.enc\\.json$"  # Ignore SOPS-encrypted JSON files
+        exclude: ".*\\.enc\\.json$"
       - id: pretty-format-json
         args:
           - "--autofix"
           - "--indent=4"
+      - id: check-yaml
+        args: ["--unsafe"]
+      - id: check-merge-conflict
+      - id: check-case-conflict
+
+  # Markdown linting
+  - repo: https://github.com/markdownlint/markdownlint
+    rev: v0.12.0
+    hooks:
+      - id: markdownlint
+        args: ['--config', '.markdownlint.json']
+
+  # YAML linting
+  - repo: https://github.com/adrienverge/yamllint.git
+    rev: v1.35.1
+    hooks:
+      - id: yamllint
+        args: ['-c', '.yamllint']
+        types: [yaml]
+
+  # Spell check
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.3.0
+    hooks:
+      - id: codespell
+        args: ['--skip=node_modules,./themes,.git,*.lock']
+

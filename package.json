@@ -1,24 +1,42 @@
 {
   "name": "kubermates-site",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint:css": "stylelint 'assets/**/*.scss' 'static/**/*.css'",
-    "fix:css": "stylelint 'assets/**/*.scss' 'static/**/*.css' --fix"
+  "description": "Official website and documentation for Kubermates community - built with Hugo",
+  "homepage": "https://kubermates.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kubermates-org/kubermates-site"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "kubernetes",
+    "devops",
+    "cloud-native",
+    "documentation",
+    "hugo"
+  ],
+  "author": "Kubermates Community",
+  "license": "Apache-2.0",
+  "scripts": {
+    "lint": "npm run lint:css && npm run lint:md && npm run lint:yaml",
+    "lint:css": "stylelint 'assets/**/*.scss' 'static/**/*.css'",
+    "lint:md": "markdownlint-cli2 'content/**/*.md' 'README.md' 'CONTRIBUTING.md'",
+    "lint:yaml": "yamllint -c .yamllint '.github/**/*.yml' '.pre-commit-config.yaml'",
+    "fix": "npm run fix:css && npm run fix:md",
+    "fix:css": "stylelint 'assets/**/*.scss' 'static/**/*.css' --fix",
+    "fix:md": "markdownlint-cli2 --fix 'content/**/*.md' 'README.md' 'CONTRIBUTING.md'",
+    "test": "npm run lint",
+    "pre-commit": "npm run lint"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
+    "markdownlint-cli2": "^0.14.1",
     "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
     "prettier": "^3.6.2",
-    "stylelint": "^16.23.1",
+    "stylelint": "^16.24.0",
     "stylelint-config-recommended-scss": "^16.0.0",
     "stylelint-config-standard": "^39.0.0",
-    "stylelint-scss": "^6.12.1"
+    "stylelint-scss": "^6.12.1",
+    "yamllint": "^2.33.0"
   }
 }

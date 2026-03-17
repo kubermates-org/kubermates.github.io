@@ -151,68 +151,76 @@ def run():
         if s.get("type") not in ("rss", "atom"):
             continue
 
-        feed = feedparser.parse(s["url"])
+        try:
+            feed = feedparser.parse(s["url"])
+        except Exception as exc:
+            print(f"[warn] events: failed to fetch feed {s.get('name')} ({s['url']}): {exc}", file=sys.stderr)
+            continue
+
         for e in feed.entries[:80]:
-            url = e.get("link") or e.get("id")
-            if not url:
-                continue
+            try:
+                url = e.get("link") or e.get("id")
+                if not url:
+                    continue
 
-            uid = hash_id(url)
-            if already_seen(state, uid):
-                continue
+                uid = hash_id(url)
+                if already_seen(state, uid):
+                    continue
 
-            # Prefer published -> updated; if neither parsable, SKIP
-            start = (
-                parse_date(getattr(e, "published", None))
-                or parse_date(getattr(e, "updated", None))
-            )
-            if not start:
-                continue
+                # Prefer published -> updated; if neither parsable, SKIP
+                start = (
+                    parse_date(getattr(e, "published", None))
+                    or parse_date(getattr(e, "updated", None))
+                )
+                if not start:
+                    continue
 
-            title = (e.get("title") or url).strip()
+                title = (e.get("title") or url).strip()
 
-            # Basic text fields (if present in feeds)
-            city = getattr(e, "city", None) or e.get("city")
-            country = getattr(e, "country", None) or e.get("country")
-            location = getattr(e, "location", None) or e.get("location")
+                # Basic text fields (if present in feeds)
+                city = getattr(e, "city", None) or e.get("city")
+                country = getattr(e, "country", None) or e.get("country")
+                location = getattr(e, "location", None) or e.get("location")
 
-            lat, lon = _parse_geo_from_entry(e)
-            if lat is None or lon is None:
-                # fallback to approximate from city/country
-                lat2, lon2 = _approx_coords(city, country, location)
-                lat = lat if lat is not None else lat2
-                lon = lon if lon is not None else lon2
+                lat, lon = _parse_geo_from_entry(e)
+                if lat is None or lon is None:
+                    # fallback to approximate from city/country
+                    lat2, lon2 = _approx_coords(city, country, location)
+                    lat = lat if lat is not None else lat2
+                    lon = lon if lon is not None else lon2
 
-            # normalize country to lower (filters expect lower)
-            country_norm = (country or None)
-            if isinstance(country_norm, str):
-                country_norm = country_norm.strip().lower() or None
+                # normalize country to lower (filters expect lower)
+                country_norm = (country or None)
+                if isinstance(country_norm, str):
+                    country_norm = country_norm.strip().lower() or None
 
-            fm = {
-                "title": title,
-                "date": start.isoformat(),      # Hugo .Date
-                "eventDate": start.isoformat(), # mirror
-                "endDate": None,
-                "location": location or None,
-                "city": city or None,
-                "country": country_norm,
-                "region": None,
-                "lat": lat,
-                "lon": lon,
-                "organizer": None,
-                "mode": "online",
-                "tags": ["event", s.get("category", "rss")],
-                "source": s.get("name") or "rss",
-                "external_url": url,
-                "draft": False,
-                "uid": uid,
-                "provider": "rss",
-            }
+                fm = {
+                    "title": title,
+                    "date": start.isoformat(),      # Hugo .Date
+                    "eventDate": start.isoformat(), # mirror
+                    "endDate": None,
+                    "location": location or None,
+                    "city": city or None,
+                    "country": country_norm,
+                    "region": None,
+                    "lat": lat,
+                    "lon": lon,
+                    "organizer": None,
+                    "mode": "online",
+                    "tags": ["event", s.get("category", "rss")],
+                    "source": s.get("name") or "rss",
+                    "external_url": url,
+                    "draft": False,
+                    "uid": uid,
+                    "provider": "rss",
+                }
 
-            body = clean_excerpt(getattr(e, "summary", "")) or title
-            write_event_md(fm, title, start, body)
-            mark_seen(state, uid, {"title": title, "date": start.isoformat(), "source": fm["source"]})
-            wrote += 1
+                body = clean_excerpt(getattr(e, "summary", "")) or title
+                write_event_md(fm, title, start, body)
+                mark_seen(state, uid, {"title": title, "date": start.isoformat(), "source": fm["source"]})
+                wrote += 1
+            except Exception as exc:
+                print(f"[warn] events: skipping entry '{e.get('title', '')}' from {s.get('name')}: {exc}", file=sys.stderr)
 
     save_state(state)
     print(f"[info] RSS wrote {wrote} new events")

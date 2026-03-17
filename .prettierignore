@@ -1,0 +1,9 @@
+node_modules/
+public/
+resources/
+themes/
+.git/
+.hugo_build.lock
+*.lock
+go.mod
+go.sum
