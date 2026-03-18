@@ -11594,6 +11594,226 @@
       "title": "Blind and Visually Impaired Initiative Monthly Meeting",
       "date": "2026-03-20T14:00:00+00:00",
       "source": "cncf-api"
+    },
+    "43d6a54d1bc4": {
+      "title": "KubeCon + CloudNativeCon Europe 2026 Co-located Event Deep Dive: KyvernoCon",
+      "date": "2026-03-17T13:08:00+00:00",
+      "source": "CNCF"
+    },
+    "d2f8627431d1": {
+      "title": "When Kubernetes restarts your pod — And when it doesn’t",
+      "date": "2026-03-17T11:00:00+00:00",
+      "source": "CNCF"
+    },
+    "7fa9b4049a96": {
+      "title": "KubeCon + CloudNativeCon Europe 2026 Co-located Event Deep Dive: Open Sovereign Cloud Day",
+      "date": "2026-03-16T13:00:00+00:00",
+      "source": "CNCF"
+    },
+    "09599058ff50": {
+      "title": "Registry Mirror Authentication with Kubernetes Secrets",
+      "date": "2026-03-16T11:00:00+00:00",
+      "source": "CNCF"
+    },
+    "729355ceacb2": {
+      "title": "KubeCon + CloudNativeCon Europe 2026 Co-located Event Deep Dive: Observability Day",
+      "date": "2026-03-13T11:00:00+00:00",
+      "source": "CNCF"
+    },
+    "8ccb4a318282": {
+      "title": "The efficient enterprise: Scaling intelligence with Mixture of Experts",
+      "date": "2026-03-17T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "6e9ef075a7e1": {
+      "title": "Introducing OpenShift Service Mesh 3.3 with post-quantum cryptography",
+      "date": "2026-03-17T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "16ba8c3e24f2": {
+      "title": "Generate a no-cost VMware migration-readiness report with the OpenShift migration advisor",
+      "date": "2026-03-17T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "5882f66e9e5e": {
+      "title": "Red Hat and NVIDIA collaborate for a more secure foundation for the agent-ready workforce",
+      "date": "2026-03-16T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "f427db491d2e": {
+      "title": "Operationalizing \"Bring Your Own Agent\" on Red Hat AI, the OpenClaw edition",
+      "date": "2026-03-16T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "bd1c94f6cb39": {
+      "title": "Building the hybrid AI factory of the future: Red Hat achieves AI Cloud Ready status for the NVIDIA Cloud Partner (NCP) program",
+      "date": "2026-03-16T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "5b2b0ce5254d": {
+      "title": "Bringing Nemotron models to the Red Hat AI Factory with NVIDIA",
+      "date": "2026-03-16T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "28482c9807f6": {
+      "title": "Accelerate enterprise software development with NVIDIA and Model-as-a-Service (MaaS) on Red Hat AI",
+      "date": "2026-03-16T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "3ba24aed7513": {
+      "title": "The new AI stack: Choice, control, and production-ready innovation",
+      "date": "2026-03-13T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "a29890ab5882": {
+      "title": "Subscription watch: Managing your hybrid cloud estate",
+      "date": "2026-03-13T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "32abd0a5aad1": {
+      "title": "The Invisible Rewrite: Modernizing the Kubernetes Image Promoter",
+      "date": "2026-03-17T00:00:00+00:00",
+      "source": "Kubernetes Blog"
+    },
+    "2cbac649eda4": {
+      "title": "Supply Chain Security with GitHub Artifact Attestations and Kyverno",
+      "date": "2026-03-16T16:53:31+00:00",
+      "source": "Nirmata Blog"
+    },
+    "2c1bad5500a4": {
+      "title": "Identity Security for VMware Cloud Foundation – IAM, PAM, and Zero Trust Access",
+      "date": "2026-03-17T16:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "bf2db4367732": {
+      "title": "Prompt Caching for Anthropic and OpenAI Models: Building Cost-Efficient AI Systems",
+      "date": "2026-03-17T19:25:04.252000+00:00",
+      "source": "Digital Ocean"
+    },
+    "f4370b35b341": {
+      "title": "DigitalOcean at NVIDIA GTC 2026: Building the AI Factory for the Agentic Era",
+      "date": "2026-03-16T20:35:55.437000+00:00",
+      "source": "Digital Ocean"
+    },
+    "734855df91ce": {
+      "title": "Deploy Smarter with AI: Introducing App Platform Skills on DigitalOcean",
+      "date": "2026-03-16T14:00:00.006000+00:00",
+      "source": "Digital Ocean"
+    },
+    "679ea251f6d4": {
+      "title": "Scaling Autonomous Site Reliability Engineering: Architecture, Orchestration, and Validation for a 90,000+ Server Fleet",
+      "date": "2026-03-13T15:49:48.901000+00:00",
+      "source": "Digital Ocean"
+    },
+    "0e91af786363": {
+      "title": "March 12, 2026",
+      "date": "2026-03-12T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "b8ff6623d0c7": {
+      "title": "Pre-release v2.14.0-alpha13",
+      "date": "2026-03-17T19:14:39+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "cefc7364e995": {
+      "title": "Pre-release v2.13.4-alpha4",
+      "date": "2026-03-17T17:15:53+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "7678f1648fa5": {
+      "title": "Pre-release v1.8.12-rc.2",
+      "date": "2026-03-17T17:24:44+00:00",
+      "source": "RKE Releases"
+    },
+    "577a9687bd61": {
+      "title": "Pre-release v1.8.12-rc.1",
+      "date": "2026-03-13T08:59:17+00:00",
+      "source": "RKE Releases"
+    },
+    "e19d4ff688d6": {
+      "title": "v1.31.14-rc5+rke2r2",
+      "date": "2026-03-18T01:32:34+00:00",
+      "source": "RKE2 Releases"
+    },
+    "0d9d36be5d33": {
+      "title": "v1.31.14-rc4+rke2r2",
+      "date": "2026-03-18T00:07:19+00:00",
+      "source": "RKE2 Releases"
+    },
+    "533f092be60b": {
+      "title": "v1.31.14-rc3+rke2r2",
+      "date": "2026-03-17T22:00:29+00:00",
+      "source": "RKE2 Releases"
+    },
+    "cbc0bb0c3da4": {
+      "title": "v1.31.14-rc2+rke2r2",
+      "date": "2026-03-17T15:23:31+00:00",
+      "source": "RKE2 Releases"
+    },
+    "1d3583c3bd69": {
+      "title": "v1.31.14-rc1+rke2r2",
+      "date": "2026-03-16T21:56:56+00:00",
+      "source": "RKE2 Releases"
+    },
+    "ce9868ca6707db9c": {
+      "title": "AI-Assisted Code Migration & Monster-Sized GitOps",
+      "date": "2026-03-18T16:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "c8ce5e84ad5805ac": {
+      "title": "Montly event: Stuttering and Speech Diversity",
+      "date": "2026-03-20T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "f95ea67475a61e6b": {
+      "title": "Introduction to Platform Engineering",
+      "date": "2026-03-20T16:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "cf89512a792db94a": {
+      "title": "KCD Beijing + vLLM 2026",
+      "date": "2026-03-21T01:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "d84a916545cd5e4c": {
+      "title": "Kube & AI: Building the Intelligent Cloud-Native Future",
+      "date": "2026-03-21T04:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "89659ac1498d3f71": {
+      "title": "Cloud Native Thane March Meetup",
+      "date": "2026-03-21T04:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "cfbfc2617006cad5": {
+      "title": "Cloud Native Lucknow - March Meetup",
+      "date": "2026-03-21T04:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "033f73e0195bd812": {
+      "title": "Belgian Community Meetup at KubeCon EU 2026 (Amsterdam)",
+      "date": "2026-03-23T11:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "57d266ac6398e86b": {
+      "title": "Nordic Night Out at KubeCon + CloudNativeCon EU",
+      "date": "2026-03-23T17:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "c97698f19b89168a": {
+      "title": "CKA Exam Study Session & Practice",
+      "date": "2026-03-24T01:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "1e470cd02097c735": {
+      "title": "Cloud Native Melbourne Reboot: Navigating the Future of Internal Dev Platform, Open Source and Agentic AI",
+      "date": "2026-03-24T06:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "d748ee8264c0c01d": {
+      "title": "Kubernetes Kerala - Trivandrum Meetup                                 25 March 2026 (Wednesday)",
+      "date": "2026-03-25T09:30:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
