@@ -11814,6 +11814,216 @@
       "title": "Kubernetes Kerala - Trivandrum Meetup                                 25 March 2026 (Wednesday)",
       "date": "2026-03-25T09:30:00+00:00",
       "source": "cncf-api"
+    },
+    "32d4287d976f": {
+      "title": "KubeCon + CloudNativeCon Europe 2026 Co-located Event Deep Dive: Platform Engineering Day",
+      "date": "2026-03-19T13:00:00+00:00",
+      "source": "CNCF"
+    },
+    "a601cb6dcb84": {
+      "title": "Policy-as-Code: Flexible Kubernetes governance with Kyverno",
+      "date": "2026-03-19T11:00:00+00:00",
+      "source": "CNCF"
+    },
+    "ebdf5fb3bc3f": {
+      "title": "KubeCon + CloudNativeCon Europe 2026 Co-located Event Deep Dive: CiliumCon",
+      "date": "2026-03-18T13:00:00+00:00",
+      "source": "CNCF"
+    },
+    "f705bd6567a8": {
+      "title": "Understanding Kubernetes metrics: Best practices for effective monitoring",
+      "date": "2026-03-18T10:03:44+00:00",
+      "source": "CNCF"
+    },
+    "1446f226f634": {
+      "title": "Deploy production generative AI at the edge using Amazon EKS Hybrid Nodes with NVIDIA DGX",
+      "date": "2026-03-18T18:57:10+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "ec3c083f2c45": {
+      "title": "Friday Five — March 20, 2026",
+      "date": "2026-03-20T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "232737eabc97": {
+      "title": "Optimizing cluster observability: A strategic approach to selective log routing in Red Hat OpenShift",
+      "date": "2026-03-19T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "43878cf46df1": {
+      "title": "Announcing Ansible Automation Platform 2.4 end of Maintenance Support",
+      "date": "2026-03-18T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "058de6102fc9": {
+      "title": "Securing Production Debugging in Kubernetes",
+      "date": "2026-03-18T10:00:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "11f2240aebee": {
+      "title": "Shaping Her Own Story in Technology: Smriti Chopra’s Career as a VMware Cloud Foundation TAM",
+      "date": "2026-03-19T15:17:59+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "4fb8bed22cd9": {
+      "title": "Meet the New Standard for High-Performance, Low-Cost Inference: NVIDIA Dynamo 1.0 is now available to DigitalOcean Customers",
+      "date": "2026-03-19T22:13:37.480000+00:00",
+      "source": "Digital Ocean"
+    },
+    "4bc7497bfb8d": {
+      "title": "What Your EKS Flow Logs Aren’t Telling You",
+      "date": "2026-03-18T21:06:48+00:00",
+      "source": "Tigera"
+    },
+    "a695675b6e9f": {
+      "title": "v1.36.0-beta.0",
+      "date": "2026-03-20T04:33:40+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "0d39d48e09dd": {
+      "title": "v1.35.3",
+      "date": "2026-03-19T08:43:22+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "eabe6014c6f0": {
+      "title": "v1.34.6",
+      "date": "2026-03-19T08:43:32+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "2057ceefa736": {
+      "title": "v1.33.10",
+      "date": "2026-03-19T08:31:41+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "277def38c384": {
+      "title": "March 18, 2026",
+      "date": "2026-03-18T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "55c9c252711f": {
+      "title": "4.22.0-okd-scos.ec.10",
+      "date": "2026-03-18T18:18:45+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "d2cd17a54891": {
+      "title": "Pre-release v2.13.4-alpha5",
+      "date": "2026-03-18T16:29:35+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "5e1c159bbbae": {
+      "title": "Release v1.8.12",
+      "date": "2026-03-18T17:40:44+00:00",
+      "source": "RKE Releases"
+    },
+    "cbc246ae2be3": {
+      "title": "v1.35.3-rc1+rke2r1",
+      "date": "2026-03-19T20:16:00+00:00",
+      "source": "RKE2 Releases"
+    },
+    "dc948ec74166": {
+      "title": "v1.34.6-rc1+rke2r1",
+      "date": "2026-03-19T20:13:50+00:00",
+      "source": "RKE2 Releases"
+    },
+    "492ab856cecc": {
+      "title": "v1.33.10-rc1+rke2r1",
+      "date": "2026-03-19T20:13:41+00:00",
+      "source": "RKE2 Releases"
+    },
+    "2c34badd4657": {
+      "title": "v1.31.14+rke2r2",
+      "date": "2026-03-18T17:37:25+00:00",
+      "source": "RKE2 Releases"
+    },
+    "1b5e8c2608e8": {
+      "title": "v1.31.14-rc6+rke2r2",
+      "date": "2026-03-18T11:54:33+00:00",
+      "source": "RKE2 Releases"
+    },
+    "454bd221a61e": {
+      "title": "v1.35.3-rc1+k3s1",
+      "date": "2026-03-19T19:02:57+00:00",
+      "source": "K3s Releases"
+    },
+    "21f5b3707778": {
+      "title": "v1.34.6-rc1+k3s1",
+      "date": "2026-03-19T19:02:28+00:00",
+      "source": "K3s Releases"
+    },
+    "bea47ce639ed": {
+      "title": "v1.33.10-rc1+k3s1",
+      "date": "2026-03-19T19:02:28+00:00",
+      "source": "K3s Releases"
+    },
+    "5b95563ab030f5e3": {
+      "title": "Introduction to Platform Engineering",
+      "date": "2026-03-23T16:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "42818f7e144813bc": {
+      "title": "KubeCon Amsterdam 2026: A CNCF Kubernetes Book Club Gathering",
+      "date": "2026-03-26T10:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "48ffaf4db293987d": {
+      "title": "Kubernetes Sizing: A Arte de Escalar sem Quebrar o Cluster (e o Bolso)",
+      "date": "2026-03-26T22:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "1b22d4c2ef54c72f": {
+      "title": "AI RAG on K8s with NVIDIA & Modernizing a Policy Platform",
+      "date": "2026-03-26T23:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "d5e886ac35e4e50e": {
+      "title": "Cloud Native Conversations - March 2026",
+      "date": "2026-03-27T00:30:28+00:00",
+      "source": "cncf-api"
+    },
+    "6a7549e181138fc2": {
+      "title": "Building AI-Native, Kubernetes-First Platforms for PEs, SREs, and Developers",
+      "date": "2026-03-27T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "8dcb963cb891ded8": {
+      "title": "#60: Kubernetes Pune meetup March 2026",
+      "date": "2026-03-28T05:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "265ee76b04d7e7f4": {
+      "title": "Engineering the Invisible: Platforms Behind Production",
+      "date": "2026-03-28T06:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "097fa52ee66a0f1e": {
+      "title": "KEDA um estudo de caso",
+      "date": "2026-03-28T12:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "183ad253e3c89e63": {
+      "title": "CKA Exam Study Session & Practice",
+      "date": "2026-03-31T01:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "e9c9bdb3f3551dbf": {
+      "title": "Cloud Native Umeå goes AI!",
+      "date": "2026-03-31T15:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "f51a227c2602c414": {
+      "title": "Introduction to opentofu & Demos",
+      "date": "2026-03-31T15:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "2be5cbc07d5ba1a7": {
+      "title": "Cartografos Community Meeting",
+      "date": "2026-03-31T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "a8b103abf4ab93e4": {
+      "title": "Cloud Native Araraquara - Meetup #08",
+      "date": "2026-03-31T22:30:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
