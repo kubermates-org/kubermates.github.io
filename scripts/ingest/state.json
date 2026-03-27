@@ -11814,6 +11814,541 @@
       "title": "Kubernetes Kerala - Trivandrum Meetup                                 25 March 2026 (Wednesday)",
       "date": "2026-03-25T09:30:00+00:00",
       "source": "cncf-api"
+    },
+    "1745fadd430c": {
+      "title": "The platform under the model: How cloud native powers AI engineering in production",
+      "date": "2026-03-26T09:07:14+00:00",
+      "source": "CNCF"
+    },
+    "e4abc7c426ef": {
+      "title": "Announcing Kubescape 4.0 Enterprise Stability Meets the AI Era",
+      "date": "2026-03-26T08:00:00+00:00",
+      "source": "CNCF"
+    },
+    "0378adb54f53": {
+      "title": "F5 Elevates to Gold Membership in the Cloud Native Computing Foundation",
+      "date": "2026-03-26T08:00:00+00:00",
+      "source": "CNCF"
+    },
+    "2423f7baa150": {
+      "title": "CNCF Backstage Documentary Highlights Project Evolution from Development to Global Open Source Standard for Platform Engineering",
+      "date": "2026-03-25T17:15:00+00:00",
+      "source": "CNCF"
+    },
+    "010ca3a8e6d0": {
+      "title": "Higress Joins CNCF: Delivering an enterprise-grade AI gateway and a seamless path from Nginx Ingress",
+      "date": "2026-03-25T13:22:03+00:00",
+      "source": "CNCF"
+    },
+    "f1614ccbca34": {
+      "title": "CNCF Celebrates Innovators Advancing Cloud Native at KubeCon + CloudNativeCon Europe",
+      "date": "2026-03-25T09:30:00+00:00",
+      "source": "CNCF"
+    },
+    "42af823c4f78": {
+      "title": "Announcing the release of KubeVirt v1.8",
+      "date": "2026-03-25T08:00:00+00:00",
+      "source": "CNCF"
+    },
+    "a05c2d705000": {
+      "title": "Istio Brings Future Ready Service Mesh to the AI Era with New Ambient Multicluster, Gateway API Inference Extension and More",
+      "date": "2026-03-25T08:00:00+00:00",
+      "source": "CNCF"
+    },
+    "87c548340482": {
+      "title": "CNCF Welcomes 21 New Silver Members As Global Demand Surges for Observability, AI, and Secure Cloud Native Infrastructure",
+      "date": "2026-03-25T08:00:00+00:00",
+      "source": "CNCF"
+    },
+    "75c9159a9d99": {
+      "title": "Lima v2.1: macOS guests and enhanced AI agent safety",
+      "date": "2026-03-25T07:00:00+00:00",
+      "source": "CNCF"
+    },
+    "d8fa8498caa5": {
+      "title": "Session policies for Amazon EKS Pod Identity",
+      "date": "2026-03-24T18:17:32+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "1446f226f634": {
+      "title": "Deploy production generative AI at the edge using Amazon EKS Hybrid Nodes with NVIDIA DGX",
+      "date": "2026-03-18T18:57:10+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "2d4690469fb0": {
+      "title": "Friday Five — March 27, 2026",
+      "date": "2026-03-27T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "e17323713d6b": {
+      "title": "Modernize virtual machines on Google Cloud with Red Hat OpenShift Virtualization",
+      "date": "2026-03-26T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "6e0048d7e2d7": {
+      "title": "AIOps and MLOps made simple: Automating Vertex AI with Red Hat Ansible Automation Platform",
+      "date": "2026-03-26T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "a931d9e2ceea": {
+      "title": "AI security: Defending against prompt injection and unsafe actions",
+      "date": "2026-03-26T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "912b467fb3f4": {
+      "title": "Streamline your work with the new learning drawer in the migration toolkit for virtualization",
+      "date": "2026-03-25T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "63fa52a27f1d": {
+      "title": "Stop searching, start operating: Scale hybrid clusters with Red Hat Advanced Cluster Management for Kubernetes 2.16",
+      "date": "2026-03-25T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "510405e7fb0a": {
+      "title": "Red Hat Enterprise Linux is ready for AWS M9g instances, powered by Graviton5",
+      "date": "2026-03-25T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "cc334ea861a5": {
+      "title": "Mapping the AI attack surface: Vulnerabilities in the model lifecycle",
+      "date": "2026-03-25T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "9ac973328612": {
+      "title": "Accelerating innovation: Building your AI Factory for the future",
+      "date": "2026-03-25T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "b380b027ca83": {
+      "title": "Why we’re contributing llm-d to the CNCF: Standardizing the future of AI",
+      "date": "2026-03-24T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "e7a5a3db2fb6": {
+      "title": "SAS Viya Platform with Red Hat OpenShift – Part 2: Security and Storage Considerations",
+      "date": "2026-03-24T00:00:00+00:00",
+      "source": "OpenShift Blog"
+    },
+    "5286a9e9db4d": {
+      "title": "SAS Viya Platform with Red Hat OpenShift – Part 1: Reference Architecture and Deployment Considerations",
+      "date": "2026-03-24T00:00:00+00:00",
+      "source": "OpenShift Blog"
+    },
+    "a67bdc02d542": {
+      "title": "Announcing Ingress2Gateway 1.0: Your Path to Gateway API",
+      "date": "2026-03-20T11:00:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "e71ad171c927": {
+      "title": "Running Agents on Kubernetes with Agent Sandbox",
+      "date": "2026-03-20T10:00:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "058de6102fc9": {
+      "title": "Securing Production Debugging in Kubernetes",
+      "date": "2026-03-18T10:00:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "e7bcc53ef755": {
+      "title": "Kubeflow Trainer v2.2: JAX &amp; XGBoost Runtimes, Flux for HPC Support, and TrainJob progress and metrics observability",
+      "date": "2026-03-20T00:00:00-05:00",
+      "source": "Kubeflow Blog"
+    },
+    "4d35c5d943cc": {
+      "title": "Kubeflow SDK v0.4.0: Model Registry, SparkConnect, and Enhanced Developer Experience",
+      "date": "2026-03-19T00:00:00-05:00",
+      "source": "Kubeflow Blog"
+    },
+    "67c42a092efa": {
+      "title": "A Field Guide to Classifying AI Agents",
+      "date": "2026-03-26T16:21:12+00:00",
+      "source": "Nirmata Blog"
+    },
+    "bff0915d68da": {
+      "title": "Moving Beyond Kyverno to AI Platform Engineering",
+      "date": "2026-03-25T06:15:33+00:00",
+      "source": "Nirmata Blog"
+    },
+    "f7262258cbb8": {
+      "title": "GitHub Actions Under Attack. The Ultimate Defense Guide.",
+      "date": "2026-03-24T16:30:29+00:00",
+      "source": "Nirmata Blog"
+    },
+    "f245fdfa4e8f": {
+      "title": "The AI era requires closed-loop infrastructure governance",
+      "date": "2026-03-22T18:56:09+00:00",
+      "source": "Nirmata Blog"
+    },
+    "a0f6268b4673": {
+      "title": "5 Things You Didn’t Know You Can Do With Traceflow",
+      "date": "2026-03-26T18:03:05+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "34739d3d0934": {
+      "title": "Looking at Technology from a Different Perspective: Francesca Palazzo’s Approach to Customer Strategy with VMware Cloud Foundation",
+      "date": "2026-03-26T14:56:46+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "de4b9577dd3d": {
+      "title": "Transitioning to VMware vSphere Configuration Profiles from Host Profiles",
+      "date": "2026-03-25T12:53:53+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "b6f9d6981eb7": {
+      "title": "Accelerating Customer Success with Expanded Partnerships across the Kubernetes Ecosystem",
+      "date": "2026-03-23T07:01:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "278c757b533d": {
+      "title": "Strengthening the Cloud-Native Ecosystem Through Upstream Collaboration",
+      "date": "2026-03-23T07:01:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "5d8c00fc9400": {
+      "title": "VCF 9.0 Delivers 5.6X Pod Density and 4.9X Faster Pod Readiness than Red Hat OpenShift",
+      "date": "2026-03-21T16:03:48+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "5f60c9b156de": {
+      "title": "Unlocking Database Performance on Kubernetes with TuneDProfile in VKS 3.6",
+      "date": "2026-03-20T19:51:17+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "3a919591ffeb": {
+      "title": "Unlocking VMware Cloud Foundation Enterprise Value: Cloud Field Day 25",
+      "date": "2026-03-20T14:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "11f2240aebee": {
+      "title": "Shaping Her Own Story in Technology: Smriti Chopra’s Career as a VMware Cloud Foundation TAM",
+      "date": "2026-03-19T15:17:59+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "dc08fea8c165": {
+      "title": "DigitalOcean India: Inside Our Growing Hub for AI and Cloud Innovation",
+      "date": "2026-03-24T02:40:04.539000+00:00",
+      "source": "Digital Ocean"
+    },
+    "9570e17b2582": {
+      "title": "Enhancing Security with User-Specific Access Keys for DigitalOcean Functions",
+      "date": "2026-03-23T19:30:06.826000+00:00",
+      "source": "Digital Ocean"
+    },
+    "4fb8bed22cd9": {
+      "title": "Meet the New Standard for High-Performance, Low-Cost Inference: NVIDIA Dynamo 1.0 is now available to DigitalOcean Customers",
+      "date": "2026-03-19T22:13:37.480000+00:00",
+      "source": "Digital Ocean"
+    },
+    "c4da7c6c5f6b": {
+      "title": "Introducing AI Assistant for Calico, Calico Load Balancer, and Seamless VM-to-Kubernetes Migration",
+      "date": "2026-03-23T07:01:36+00:00",
+      "source": "Tigera"
+    },
+    "b68efbfa1fd4": {
+      "title": "Secure and Scale VMware VKS with Calico Kubernetes Networking",
+      "date": "2026-03-22T18:50:39+00:00",
+      "source": "Tigera"
+    },
+    "79d6bd9b51a4": {
+      "title": "Calico Load Balancer: Simplifying Network Traffic Management with eBPF",
+      "date": "2026-03-21T20:00:55+00:00",
+      "source": "Tigera"
+    },
+    "a5b9ca39e0e7": {
+      "title": "Lift-and-Shift VMs to Kubernetes with Calico L2 Bridge Networks",
+      "date": "2026-03-21T06:12:02+00:00",
+      "source": "Tigera"
+    },
+    "5fd0cbd34015": {
+      "title": "AI Assistant for Calico: Troubleshooting at the Speed of Thought",
+      "date": "2026-03-19T20:36:45+00:00",
+      "source": "Tigera"
+    },
+    "4bc7497bfb8d": {
+      "title": "What Your EKS Flow Logs Aren’t Telling You",
+      "date": "2026-03-18T07:11:22+00:00",
+      "source": "Tigera"
+    },
+    "a695675b6e9f": {
+      "title": "v1.36.0-beta.0",
+      "date": "2026-03-20T04:33:40+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "0d39d48e09dd": {
+      "title": "v1.35.3",
+      "date": "2026-03-19T08:43:22+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "eabe6014c6f0": {
+      "title": "v1.34.6",
+      "date": "2026-03-19T08:43:32+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "2057ceefa736": {
+      "title": "v1.33.10",
+      "date": "2026-03-19T08:31:41+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "f0d644cd8db4": {
+      "title": "March 25, 2026",
+      "date": "2026-03-25T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "277def38c384": {
+      "title": "March 18, 2026",
+      "date": "2026-03-18T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "55c9c252711f": {
+      "title": "4.22.0-okd-scos.ec.10",
+      "date": "2026-03-18T18:18:45+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "8cfad105fc5f": {
+      "title": "v2.14.0",
+      "date": "2026-03-26T22:04:48+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "2a498362dddc": {
+      "title": "v2.14.0-rc2",
+      "date": "2026-03-26T17:51:43+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "9f3f2b8eb439": {
+      "title": "v2.11.12",
+      "date": "2026-03-26T03:45:01+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "5315d2df10e8": {
+      "title": "v2.13.4",
+      "date": "2026-03-26T16:36:09+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "221336509544": {
+      "title": "v2.13.4-rc1: [v2.13] changing chart branch references to release (#54307)",
+      "date": "2026-03-25T01:24:11+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "0c5404cecabd": {
+      "title": "v2.12.8",
+      "date": "2026-03-26T03:45:38+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "053defffddac": {
+      "title": "v2.11.12-rc1: unrcing operator tags (#54358)",
+      "date": "2026-03-25T11:37:46+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "7cf2c11898a1": {
+      "title": "Update Dashboard refs to v2.12.8-rc1 (#54348)",
+      "date": "2026-03-24T20:32:18+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "21c01228cee0": {
+      "title": "Pre-release v2.14.0-rc1",
+      "date": "2026-03-23T16:16:19+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "d2cd17a54891": {
+      "title": "Pre-release v2.13.4-alpha5",
+      "date": "2026-03-18T16:29:35+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "1bec474c1d16": {
+      "title": "Pre-release v1.8.13-rc.1",
+      "date": "2026-03-26T05:01:48+00:00",
+      "source": "RKE Releases"
+    },
+    "5e1c159bbbae": {
+      "title": "Release v1.8.12",
+      "date": "2026-03-18T17:40:44+00:00",
+      "source": "RKE Releases"
+    },
+    "9e1528cf22f8": {
+      "title": "v1.33.10-rc3+rke2r1: [release-1.33] Make releases immutable (#10040)",
+      "date": "2026-03-26T19:15:27+00:00",
+      "source": "RKE2 Releases"
+    },
+    "c890c402801e": {
+      "title": "v1.34.6-rc2+rke2r1",
+      "date": "2026-03-23T15:11:23+00:00",
+      "source": "RKE2 Releases"
+    },
+    "00bf5bf6f01f": {
+      "title": "v1.33.10-rc2+rke2r1",
+      "date": "2026-03-23T15:11:18+00:00",
+      "source": "RKE2 Releases"
+    },
+    "a202eb0ad60f": {
+      "title": "v1.35.3-rc2+rke2r1",
+      "date": "2026-03-23T15:11:25+00:00",
+      "source": "RKE2 Releases"
+    },
+    "cbc246ae2be3": {
+      "title": "v1.35.3-rc1+rke2r1",
+      "date": "2026-03-19T20:16:00+00:00",
+      "source": "RKE2 Releases"
+    },
+    "dc948ec74166": {
+      "title": "v1.34.6-rc1+rke2r1",
+      "date": "2026-03-19T20:13:50+00:00",
+      "source": "RKE2 Releases"
+    },
+    "492ab856cecc": {
+      "title": "v1.33.10-rc1+rke2r1",
+      "date": "2026-03-19T20:13:41+00:00",
+      "source": "RKE2 Releases"
+    },
+    "2c34badd4657": {
+      "title": "v1.31.14+rke2r2",
+      "date": "2026-03-18T17:37:25+00:00",
+      "source": "RKE2 Releases"
+    },
+    "1b5e8c2608e8": {
+      "title": "v1.31.14-rc6+rke2r2",
+      "date": "2026-03-18T11:54:33+00:00",
+      "source": "RKE2 Releases"
+    },
+    "454bd221a61e": {
+      "title": "v1.35.3-rc1+k3s1",
+      "date": "2026-03-19T19:02:57+00:00",
+      "source": "K3s Releases"
+    },
+    "21f5b3707778": {
+      "title": "v1.34.6-rc1+k3s1",
+      "date": "2026-03-19T19:02:28+00:00",
+      "source": "K3s Releases"
+    },
+    "bea47ce639ed": {
+      "title": "v1.33.10-rc1+k3s1",
+      "date": "2026-03-19T19:02:28+00:00",
+      "source": "K3s Releases"
+    },
+    "931968d0816d": {
+      "title": "Open Source Summit North America 2026 Schedule Showcases Next Era of AI Infrastructure, Security and Open Ecosystems",
+      "date": "2026-03-26T23:07:08+00:00",
+      "source": "Linux Foundation Events"
+    },
+    "6410f04e8f777a91": {
+      "title": "FutureForward Conference 2026",
+      "date": "2026-03-27T03:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "6a7549e181138fc2": {
+      "title": "Building AI-Native, Kubernetes-First Platforms for PEs, SREs, and Developers",
+      "date": "2026-03-27T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "d9149dcac6f0ff26": {
+      "title": "March Meetup - Cloud Native Hyderabad",
+      "date": "2026-03-28T04:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "8dcb963cb891ded8": {
+      "title": "#60: Kubernetes Pune meetup March 2026",
+      "date": "2026-03-28T05:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "265ee76b04d7e7f4": {
+      "title": "Engineering the Invisible: Platforms Behind Production",
+      "date": "2026-03-28T06:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "cbb096e95c509d0b": {
+      "title": "CLOUD NATIVE SERIES 2026 | EPISODE 2 | CNCF KATHMANDU",
+      "date": "2026-03-28T08:15:00+00:00",
+      "source": "cncf-api"
+    },
+    "097fa52ee66a0f1e": {
+      "title": "KEDA um estudo de caso",
+      "date": "2026-03-28T12:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "e80d055296dbd6ac": {
+      "title": "Docker desde 0 con Python: Taller Práctico",
+      "date": "2026-03-28T17:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "e6b3a09f01ed20ac": {
+      "title": "CKA Exam Study Session & Practice",
+      "date": "2026-03-31T01:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "e9c9bdb3f3551dbf": {
+      "title": "Cloud Native Umeå goes AI!",
+      "date": "2026-03-31T15:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "2be5cbc07d5ba1a7": {
+      "title": "Cartografos Community Meeting",
+      "date": "2026-03-31T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "a8b103abf4ab93e4": {
+      "title": "Cloud Native Araraquara - Meetup #08",
+      "date": "2026-03-31T22:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "f6e32284f2bb8b9a": {
+      "title": "Docker Images are a Lie: The Secret Architecture of Portability",
+      "date": "2026-04-01T14:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "b21173d5ecf6b11a": {
+      "title": "Reverse Engineering AI Agents – The Mechanics Behind the Magic",
+      "date": "2026-04-01T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "740d61f65fa85007": {
+      "title": "CNCF Cluj-Napoca Meetup at RebelDot",
+      "date": "2026-04-02T14:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "63f7a79f87f97957": {
+      "title": "CNCF Community Timisoara Meet-up - Spring Edition",
+      "date": "2026-04-02T15:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "164a9815e70ed1b8": {
+      "title": "Kubernetes Sizing: A Arte de Escalar sem Quebrar o Cluster (e o Bolso)",
+      "date": "2026-04-02T22:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "9ea7c3cea8aac34a": {
+      "title": "Cloud Native Community Meetup Almaty",
+      "date": "2026-04-03T12:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "d435109c407361d0": {
+      "title": "Introduction to opentofu & Demos",
+      "date": "2026-04-03T15:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "2e316c4972af27ff": {
+      "title": "Platform Engineering Meetup Bengaluru Edition - first of 2026",
+      "date": "2026-04-04T05:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "e4046b5ac3fb64aa": {
+      "title": "Deep Dive into Container Internals: April Meetup",
+      "date": "2026-04-04T13:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "ffe181e216c32727": {
+      "title": "CKA Exam Study Session & Practice",
+      "date": "2026-04-07T01:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "2199100ad5d73297": {
+      "title": "[In Person] Cloud Native Kuala Lumpur Meetup - April 2026",
+      "date": "2026-04-07T10:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "248f5b7aa1758248": {
+      "title": "WasmEdge Community Meeting",
+      "date": "2026-04-07T15:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
