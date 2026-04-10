@@ -12474,6 +12474,271 @@
       "title": "Cartografos Community Meeting",
       "date": "2026-04-14T17:00:00+00:00",
       "source": "cncf-api"
+    },
+    "c6ac5c9deb14": {
+      "title": "Peer-to-Peer acceleration for AI model distribution with Dragonfly",
+      "date": "2026-04-06T11:00:00+00:00",
+      "source": "CNCF"
+    },
+    "1835205b6e31": {
+      "title": "Building intelligent knowledge graphs for Amazon EKS operations using AWS DevOps Agent",
+      "date": "2026-04-09T18:26:10+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "9ae18474b194": {
+      "title": "Friday Five — April 10, 2026",
+      "date": "2026-04-10T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "582416e89b2d": {
+      "title": "Planning your upgrade path to Ansible Automation Platform 2.6",
+      "date": "2026-04-09T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "fd95f7cf743c": {
+      "title": "What’s new at Red Hat Summit 2026",
+      "date": "2026-04-08T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "064122cb12a9": {
+      "title": "Navigating the Mythos-haunted world of platform security",
+      "date": "2026-04-08T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "d9c6224a205a": {
+      "title": "MCP security: Logging and runtime security measures",
+      "date": "2026-04-08T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "dfbde16ff513": {
+      "title": "Overcoming inference challenges",
+      "date": "2026-04-07T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "c4f2a3f1b6eb": {
+      "title": "Managed identity in Azure Red Hat OpenShift: Deploy in just a few clicks with the Azure portal",
+      "date": "2026-04-07T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "b844af9edcae": {
+      "title": "AI for scientific research: The power of small language models",
+      "date": "2026-04-06T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "d6f89b624e15": {
+      "title": "Refactoring at the speed of mission: An \"agent mesh\" approach to legacy system modernization with Red Hat AI",
+      "date": "2026-04-03T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "8f9cb9e7e704": {
+      "title": "Red Hat solutions for the hybrid SAP landscape",
+      "date": "2026-04-03T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "0137259b1ef5": {
+      "title": "Modernizing Kubeflow Pipelines UI",
+      "date": "2026-03-31T00:00:00-05:00",
+      "source": "Kubeflow Blog"
+    },
+    "3149f71d8a27": {
+      "title": "Policy-Driven Authorization for AI Agents with Kyverno and AWS AgentCore",
+      "date": "2026-04-08T17:06:58+00:00",
+      "source": "Nirmata Blog"
+    },
+    "3303583c096a": {
+      "title": "Your Clusters Are Unlocked. Does Your CISO Know?",
+      "date": "2026-04-08T14:31:05+00:00",
+      "source": "Nirmata Blog"
+    },
+    "4f9c2e943d07": {
+      "title": "Shadow AI Is the New Shadow IT: Governing AI Agents from Code to Runtime",
+      "date": "2026-04-06T01:36:18+00:00",
+      "source": "Nirmata Blog"
+    },
+    "faff58924f4f": {
+      "title": "How VMware Cloud Foundation (VCF) Training Helps Keep Top Tech Talent in APJ",
+      "date": "2026-04-09T18:14:43+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "43f58396b028": {
+      "title": "VMware Advanced Memory Tiering Tips for Success",
+      "date": "2026-04-07T16:02:05+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "6af2da6dc384": {
+      "title": "VMware Cloud Foundation Edge 9.0: Two-Host Edge Site Deployment with Brownfield Import",
+      "date": "2026-04-07T07:04:29+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "26b631ced584": {
+      "title": "Advanced Prompt Caching at Scale",
+      "date": "2026-04-07T19:11:40.933000+00:00",
+      "source": "Digital Ocean"
+    },
+    "a55cf5c0d910": {
+      "title": "The Hidden Cost of Complex AI Platforms: Why Developer Experience Matters",
+      "date": "2026-04-03T15:44:39.598000+00:00",
+      "source": "Digital Ocean"
+    },
+    "7d117d37c8df": {
+      "title": "Blog: JayeX Most Valuable Contributor 2026 🏆",
+      "date": "2026-04-08T00:00:00+00:00",
+      "source": "Jenkins X"
+    },
+    "6af53888e6e9": {
+      "title": "v1.37.0-alpha.0",
+      "date": "2026-04-08T17:35:57+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "e64c37127d2b": {
+      "title": "v1.36.0-rc.0",
+      "date": "2026-04-08T22:15:08+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "b5a519de14e8": {
+      "title": "Warm pool support for managed node groups",
+      "date": "2026-04-07T19:00:00+00:00",
+      "source": "EKS Release Notes"
+    },
+    "b56aa79cdc85": {
+      "title": "April 08, 2026",
+      "date": "2026-04-08T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "a3fc296bb5b4": {
+      "title": "April 02, 2026",
+      "date": "2026-04-02T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "dffee113e675": {
+      "title": "v1.35.3+rke2r3",
+      "date": "2026-04-10T03:55:27+00:00",
+      "source": "RKE2 Releases"
+    },
+    "c5d028938455": {
+      "title": "v1.35.3-rc1+rke2r3",
+      "date": "2026-04-07T19:50:30+00:00",
+      "source": "RKE2 Releases"
+    },
+    "d97907e81354": {
+      "title": "v1.34.6+rke2r3",
+      "date": "2026-04-10T03:55:32+00:00",
+      "source": "RKE2 Releases"
+    },
+    "a14fd6db82f4": {
+      "title": "v1.34.6-rc1+rke2r3",
+      "date": "2026-04-07T19:52:00+00:00",
+      "source": "RKE2 Releases"
+    },
+    "c484407d07fe": {
+      "title": "v1.33.10+rke2r3",
+      "date": "2026-04-10T03:55:38+00:00",
+      "source": "RKE2 Releases"
+    },
+    "f472179bb4e8": {
+      "title": "v1.33.10-rc1+rke2r3",
+      "date": "2026-04-07T19:48:33+00:00",
+      "source": "RKE2 Releases"
+    },
+    "18f83de26ace": {
+      "title": "v1.35.3+rke2r2",
+      "date": "2026-04-07T13:02:49+00:00",
+      "source": "RKE2 Releases"
+    },
+    "7f2d49045d50": {
+      "title": "v1.34.6+rke2r2",
+      "date": "2026-04-07T13:03:06+00:00",
+      "source": "RKE2 Releases"
+    },
+    "c7514ab6144c": {
+      "title": "v1.33.10+rke2r2",
+      "date": "2026-04-07T13:07:44+00:00",
+      "source": "RKE2 Releases"
+    },
+    "4779f4b8c8d1739a": {
+      "title": "CNTUG meetup #72",
+      "date": "2026-04-10T11:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "20081d32f6102961": {
+      "title": "Cloud Native Thane - April Meetup",
+      "date": "2026-04-11T04:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "9a3ddc25e5dd6168": {
+      "title": "Cloud Native Landscape for Students",
+      "date": "2026-04-13T08:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "20b19f268254fa90": {
+      "title": "OTel Night Berlin v2026.04",
+      "date": "2026-04-14T15:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "8b1700c846d1029d": {
+      "title": "Cloud Native and Kubernetes Edinburgh - April 2026",
+      "date": "2026-04-14T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "b92361f65080a14c": {
+      "title": "2026: April Circle 🔥",
+      "date": "2026-04-14T21:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "f464c22420b68127": {
+      "title": "Canary Analysis & Developer Experience Engineering",
+      "date": "2026-04-15T05:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "3f5e859f07deac7c": {
+      "title": "Observe Everything: Monitor, Visualize, Respond",
+      "date": "2026-04-15T08:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "719668bcafd31228": {
+      "title": "Cloud Native AI and Whys the GPUs gone?",
+      "date": "2026-04-15T14:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "263e9e6f07d770e4": {
+      "title": "Flux-Powered Bootstrapping & KubeCon Takeaways",
+      "date": "2026-04-15T14:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "d9698026b079442f": {
+      "title": "Kubestronaut & The Edge with Talos",
+      "date": "2026-04-15T15:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "f76ffb24fbaf4a13": {
+      "title": "Cloud Native Prague #30",
+      "date": "2026-04-15T15:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "39c7dbbde7f34a1d": {
+      "title": "Cloud Native April",
+      "date": "2026-04-15T17:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "49efa5a986ea2943": {
+      "title": "#9 Cloud Native Porto",
+      "date": "2026-04-15T17:30:00+00:00",
+      "source": "cncf-api"
+    },
+    "46f00677274e4ed4": {
+      "title": "CNCG Graz Meetup, April 2026 @ Trever",
+      "date": "2026-04-16T15:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "7c3dd45ee99faeb8": {
+      "title": "[CNCF-NBG v22] CNCF Meetup – Multi-Arch Kubernetes & Platform Engineering with Backstage",
+      "date": "2026-04-16T16:00:00+00:00",
+      "source": "cncf-api"
+    },
+    "935eadcf2a48304c": {
+      "title": "Cloud Native Aachen Meetup, April 2026",
+      "date": "2026-04-16T16:30:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
