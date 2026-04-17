@@ -4,7 +4,7 @@ date: '2022-10-03T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2022/10/03/hacktoberfest2022/
+external_url: https://jayex.io/blog/2022/10/03/hacktoberfest2022/
 post_kind: link
 draft: false
 tldr: Hacktoberfest 2022 Contribute to Jenkins X Ask us questions We are excited to
@@ -31,4 +31,4 @@ summary: Hacktoberfest 2022 Contribute to Jenkins X Ask us questions We are exci
   any questions. Talk to us on our slack channels, which are part of the Kubernetes
   slack.
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2022/10/03/hacktoberfest2022/
+Open the original post ↗ https://jayex.io/blog/2022/10/03/hacktoberfest2022/

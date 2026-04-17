@@ -4,7 +4,7 @@ date: '2020-09-23T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2020/09/23/hacktoberfest2020/
+external_url: https://jayex.io/blog/2020/09/23/hacktoberfest2020/
 post_kind: link
 draft: false
 tldr: Hacktoberfest Contribute to Jenkins X Contribute to jx source code Contribute
@@ -32,4 +32,4 @@ summary: 'Hacktoberfest Contribute to Jenkins X Contribute to jx source code Con
   to the Documentation has advice for getting started with contributing to the Jenkins
   X docs.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2020/09/23/hacktoberfest2020/
+Open the original post ↗ https://jayex.io/blog/2020/09/23/hacktoberfest2020/

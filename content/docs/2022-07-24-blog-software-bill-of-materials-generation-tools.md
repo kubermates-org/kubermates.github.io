@@ -4,7 +4,7 @@ date: '2022-07-24T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2022/07/24/sbom-tools/
+external_url: https://jayex.io/blog/2022/07/24/sbom-tools/
 post_kind: link
 draft: false
 tldr: Software Bill Of Materials generation tools Prerequisite Different SBOM generation
@@ -41,4 +41,4 @@ summary: 'Software Bill Of Materials generation tools Prerequisite Different SBO
   Specs: Easy to use Syft can generate a simple basic sbom by just running syft <image>
   this will only include the softwares included in the image’s final layer.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2022/07/24/sbom-tools/
+Open the original post ↗ https://jayex.io/blog/2022/07/24/sbom-tools/

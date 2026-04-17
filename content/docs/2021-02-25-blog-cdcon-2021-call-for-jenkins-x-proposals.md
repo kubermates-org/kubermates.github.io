@@ -4,7 +4,7 @@ date: '2021-02-25T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2021/02/25/cdcon-cfp/
+external_url: https://jayex.io/blog/2021/02/25/cdcon-cfp/
 post_kind: link
 draft: false
 tldr: cdCon 2021 - Call for Jenkins X Proposals Topics Hear ye! Hear ye! Jenkins X
@@ -36,4 +36,4 @@ summary: 'cdCon 2021 - Call for Jenkins X Proposals Topics Hear ye! Hear ye! Jen
   Track – Talks for leaders and decision-makers on topics such as measuring DevOps,
   build vs buy, scaling, culture, security, FinOps, and developer productivity.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2021/02/25/cdcon-cfp/
+Open the original post ↗ https://jayex.io/blog/2021/02/25/cdcon-cfp/

@@ -4,7 +4,7 @@ date: '2023-02-06T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2023/02/06/gsoc2023-ideas/
+external_url: https://jayex.io/blog/2023/02/06/gsoc2023-ideas/
 post_kind: link
 draft: false
 tldr: Project ideas for Google Summer of Code 2023 ☀️ 1. CD events integration with
@@ -23,4 +23,4 @@ summary: Project ideas for Google Summer of Code 2023 ☀️ 1. CD events integr
   Ability to send cdEvents Jenkins X, Kubernetes, golang, cdEvents Brad McCoy https://cloudevents.
   io/ https://www. youtube. com/watch?v=yg7RuDWHwV8 https://www.
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2023/02/06/gsoc2023-ideas/
+Open the original post ↗ https://jayex.io/blog/2023/02/06/gsoc2023-ideas/

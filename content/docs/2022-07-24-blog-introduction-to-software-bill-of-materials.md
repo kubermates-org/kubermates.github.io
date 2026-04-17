@@ -4,7 +4,7 @@ date: '2022-07-24T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2022/07/24/intro-to-sbom/
+external_url: https://jayex.io/blog/2022/07/24/intro-to-sbom/
 post_kind: link
 draft: false
 tldr: 'Introduction to Software Bill Of Materials Introduction Definition: What is
@@ -34,4 +34,4 @@ summary: 'Introduction to Software Bill Of Materials Introduction Definition: Wh
   (SBOM) is a complete formally structured list of the materials (components, packages,
   libraries, SDK) used to build (i.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2022/07/24/intro-to-sbom/
+Open the original post ↗ https://jayex.io/blog/2022/07/24/intro-to-sbom/

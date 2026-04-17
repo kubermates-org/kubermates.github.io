@@ -4,7 +4,7 @@ date: '2021-05-12T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2021/05/12/jx3-lts-may-21/
+external_url: https://jayex.io/blog/2021/05/12/jx3-lts-may-21/
 post_kind: link
 draft: false
 tldr: 'Jenkins X 3 - May 2021 LTS May 2001 LTS release is now available! LTS is a
@@ -28,4 +28,4 @@ summary: 'Jenkins X 3 - May 2021 LTS May 2001 LTS release is now available! LTS 
   and alerts via Stackdriver. Jenkins X Grafana dashboards updates with Lighthouse
   telemetry ← Previous.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2021/05/12/jx3-lts-may-21/
+Open the original post ↗ https://jayex.io/blog/2021/05/12/jx3-lts-may-21/

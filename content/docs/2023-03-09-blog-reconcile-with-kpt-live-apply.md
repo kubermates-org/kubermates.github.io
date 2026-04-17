@@ -4,7 +4,7 @@ date: '2023-03-09T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2023/03/09/kpt-live-apply/
+external_url: https://jayex.io/blog/2023/03/09/kpt-live-apply/
 post_kind: link
 draft: false
 tldr: Reconcile with kpt live apply Configuration Waiting for resources to be reconciled
@@ -32,4 +32,4 @@ summary: Reconcile with kpt live apply Configuration Waiting for resources to be
   KUBEAPPLY = kpt-apply to the Makefile of your cluster repository anywhere before
   include versionStream/src/Makefile.
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2023/03/09/kpt-live-apply/
+Open the original post ↗ https://jayex.io/blog/2023/03/09/kpt-live-apply/

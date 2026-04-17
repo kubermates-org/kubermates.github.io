@@ -4,7 +4,7 @@ date: '2021-01-26T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2021/01/26/jx3-walkthroughs/
+external_url: https://jayex.io/blog/2021/01/26/jx3-walkthroughs/
 post_kind: link
 draft: false
 tldr: Jenkins X 3. x walkthroughs Intro + high level architecture Installation and
@@ -32,4 +32,4 @@ summary: 'Jenkins X 3. x walkthroughs Intro + high level architecture Installati
   by the Kubernetes Cluster API ) users in the Kubernetes ecosystem leverage such
   as crossplane.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2021/01/26/jx3-walkthroughs/
+Open the original post ↗ https://jayex.io/blog/2021/01/26/jx3-walkthroughs/

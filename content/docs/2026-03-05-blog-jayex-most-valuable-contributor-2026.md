@@ -4,7 +4,7 @@ date: '2026-03-05T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2026/03/05/award-nominations/
+external_url: https://jayex.io/blog/2026/03/05/award-nominations/
 post_kind: link
 draft: false
 tldr: JayeX Most Valuable Contributor 2026 🏆 Nominate someone to the award for JayeX
@@ -22,4 +22,4 @@ summary: 'JayeX Most Valuable Contributor 2026 🏆 Nominate someone to the awar
   and will close on Thursday, April 2, 2026 The winners are announced during cdCon
   : May 18–20, 2026. More information ← Previous.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2026/03/05/award-nominations/
+Open the original post ↗ https://jayex.io/blog/2026/03/05/award-nominations/

@@ -4,7 +4,7 @@ date: '2020-12-04T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2020/12/04/jx-v3-update/
+external_url: https://jayex.io/blog/2020/12/04/jx-v3-update/
 post_kind: link
 draft: false
 tldr: Jenkins X 3. x - beta is close! It has been ‘all hands on deck’ in recent months
@@ -31,4 +31,4 @@ summary: 'Jenkins X 3. x - beta is close! It has been ‘all hands on deck’ in
   and the structure of the file has changed to be CRD like including an API version.
   Upon upgrade jx gitops upgrade will migrate your jx-requirements.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2020/12/04/jx-v3-update/
+Open the original post ↗ https://jayex.io/blog/2020/12/04/jx-v3-update/

@@ -4,7 +4,7 @@ date: '2021-01-18T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2021/01/18/jx-pipelines-visualizer-v1/
+external_url: https://jayex.io/blog/2021/01/18/jx-pipelines-visualizer-v1/
 post_kind: link
 draft: false
 tldr: New features in the pipelines visualizer UI Pipeline View Homepage Roadmap Contributing
@@ -44,4 +44,4 @@ summary: 'New features in the pipelines visualizer UI Pipeline View Homepage Roa
   pipelines : load pipelines archived in the long-term storage Thanks to all the contributors!
   All contributions are welcomed, the source code is: github. com/jenkins-x/jx-pipelines-visualizer.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2021/01/18/jx-pipelines-visualizer-v1/
+Open the original post ↗ https://jayex.io/blog/2021/01/18/jx-pipelines-visualizer-v1/

@@ -4,7 +4,7 @@ date: '2023-05-24T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2023/05/24/propagate-changelogs/
+external_url: https://jayex.io/blog/2023/05/24/propagate-changelogs/
 post_kind: link
 draft: false
 tldr: Improve your changelogs Background Overview of major improvements Example How
@@ -36,4 +36,4 @@ summary: 'Improve your changelogs Background Overview of major improvements Exam
   If you scroll past the boilerplate installation instructions you first see the changelog
   of jx itself generated from commit messages: https://github. com/jenkins-x/jx/compare/v3.10.80.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2023/05/24/propagate-changelogs/
+Open the original post ↗ https://jayex.io/blog/2023/05/24/propagate-changelogs/

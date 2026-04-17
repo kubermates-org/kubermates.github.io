@@ -4,7 +4,7 @@ date: '2021-04-08T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2021/04/08/jx3-pipeline-trace/
+external_url: https://jayex.io/blog/2021/04/08/jx3-pipeline-trace/
 post_kind: link
 draft: false
 tldr: 'Traces for your pipelines How can you benefit from it in your own Jenkins X
@@ -30,4 +30,4 @@ summary: 'Traces for your pipelines How can you benefit from it in your own Jenk
   the “Trace” button on the top-right. That’s it! This is only the first step of native
   tracing support in Jenkins X. Stay tuned for more! ← Previous.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2021/04/08/jx3-pipeline-trace/
+Open the original post ↗ https://jayex.io/blog/2021/04/08/jx3-pipeline-trace/

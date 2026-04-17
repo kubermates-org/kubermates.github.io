@@ -4,7 +4,7 @@ date: '2021-11-22T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2021/11/22/hacktoberfestconclusion2021/
+external_url: https://jayex.io/blog/2021/11/22/hacktoberfestconclusion2021/
 post_kind: link
 draft: false
 tldr: 'Hacktoberfest conclusion 2021 Ask us questions Hacktoberfest 2021 is over,
@@ -29,4 +29,4 @@ summary: 'Hacktoberfest conclusion 2021 Ask us questions Hacktoberfest 2021 is o
   for users of Jenkins X We look forward to participating in the next hacktoberfest!
   ← Previous.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2021/11/22/hacktoberfestconclusion2021/
+Open the original post ↗ https://jayex.io/blog/2021/11/22/hacktoberfestconclusion2021/

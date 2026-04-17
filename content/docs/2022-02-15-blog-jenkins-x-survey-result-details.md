@@ -4,7 +4,7 @@ date: '2022-02-15T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2022/02/15/survey-1-result-details-2022/
+external_url: https://jayex.io/blog/2022/02/15/survey-1-result-details-2022/
 post_kind: link
 draft: false
 tldr: Jenkins X Survey Result Details What do you enjoy the most with Jenkins X? What
@@ -31,4 +31,4 @@ summary: Jenkins X Survey Result Details What do you enjoy the most with Jenkins
   to security policies, Proper guide on installing into existing cluster without using
   terraform.
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2022/02/15/survey-1-result-details-2022/
+Open the original post ↗ https://jayex.io/blog/2022/02/15/survey-1-result-details-2022/
