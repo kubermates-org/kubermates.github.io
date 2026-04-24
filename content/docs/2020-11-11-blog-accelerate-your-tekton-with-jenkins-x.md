@@ -4,7 +4,7 @@ date: '2020-11-11T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2020/11/11/accelerate-tekton/
+external_url: https://jayex.io/blog/2020/11/11/accelerate-tekton/
 post_kind: link
 draft: false
 tldr: Accelerate your Tekton with Jenkins X Version 2. x Vision Version 3.
@@ -27,4 +27,4 @@ summary: Accelerate your Tekton with Jenkins X Version 2. x Vision Version 3. x 
   pipelines from reuable pipeline library and then use a composition DSL above Tekton
   which lets you add/remove/replace steps. jenkins-x.
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2020/11/11/accelerate-tekton/
+Open the original post ↗ https://jayex.io/blog/2020/11/11/accelerate-tekton/

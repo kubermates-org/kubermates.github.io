@@ -4,7 +4,7 @@ date: '2021-05-17T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2021/05/17/dont-use-docker/
+external_url: https://jayex.io/blog/2021/05/17/dont-use-docker/
 post_kind: link
 draft: false
 tldr: Don't use docker, use kubernetes Why use kubernetes instead of docker? How to
@@ -45,4 +45,4 @@ summary: 'Don''t use docker, use kubernetes Why use kubernetes instead of docker
   5 minutes later you’ll have a fully managed kubernetes cluster ready to use. Its
   easy to enable auto-scaling too.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2021/05/17/dont-use-docker/
+Open the original post ↗ https://jayex.io/blog/2021/05/17/dont-use-docker/

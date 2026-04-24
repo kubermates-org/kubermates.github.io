@@ -4,7 +4,7 @@ date: '2021-06-22T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2021/06/22/jx-cdcon-2021/
+external_url: https://jayex.io/blog/2021/06/22/jx-cdcon-2021/
 post_kind: link
 draft: false
 tldr: 'Jenkins X at cdCon Tuesday, June 22 GitOps Summit Wednesday, June 23 Thursday,
@@ -39,4 +39,4 @@ summary: 'Jenkins X at cdCon Tuesday, June 22 GitOps Summit Wednesday, June 23 T
   release pipeline in Cloud environments, using the library of ML template projects
   provided with Jenkins-X.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2021/06/22/jx-cdcon-2021/
+Open the original post ↗ https://jayex.io/blog/2021/06/22/jx-cdcon-2021/

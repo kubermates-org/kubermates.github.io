@@ -4,7 +4,7 @@ date: '2023-02-09T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2023/02/09/foreign-aliases/
+external_url: https://jayex.io/blog/2023/02/09/foreign-aliases/
 post_kind: link
 draft: false
 tldr: Foreign aliases Background Foreign aliases OWNERS and OWNERS_ALIASES in new
@@ -32,4 +32,4 @@ summary: 'Foreign aliases Background Foreign aliases OWNERS and OWNERS_ALIASES i
   files in the extensions directory of your cluster repository. These files will then
   be used as the default content of the files in new repositories. extensions ← Previous.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2023/02/09/foreign-aliases/
+Open the original post ↗ https://jayex.io/blog/2023/02/09/foreign-aliases/

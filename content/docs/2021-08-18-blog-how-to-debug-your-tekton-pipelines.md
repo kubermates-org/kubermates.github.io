@@ -4,7 +4,7 @@ date: '2021-08-18T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2021/08/18/debug-tekton/
+external_url: https://jayex.io/blog/2021/08/18/debug-tekton/
 post_kind: link
 draft: false
 tldr: 'How to debug your Tekton pipelines How to debug Tekton Pipelines Prerequisites
@@ -45,4 +45,4 @@ summary: 'How to debug your Tekton pipelines How to debug Tekton Pipelines Prere
   The easiest way to do this is via the Lens UI , click on the Pipeline action menu
   then Shell -> latest step and a shell will open.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2021/08/18/debug-tekton/
+Open the original post ↗ https://jayex.io/blog/2021/08/18/debug-tekton/

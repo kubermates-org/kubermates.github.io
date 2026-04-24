@@ -4,7 +4,7 @@ date: '2021-04-01T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2021/04/01/jx3-builtin-observability/
+external_url: https://jayex.io/blog/2021/04/01/jx3-builtin-observability/
 post_kind: link
 draft: false
 tldr: 'Jenkins X v3: now with built-in observability Platform Observability Continuous
@@ -42,4 +42,4 @@ summary: 'Jenkins X v3: now with built-in observability Platform Observability C
   cluster and the git repositories, and store pull requests, pipelines, releases,
   and deployments data in the PostgreSQL database.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2021/04/01/jx3-builtin-observability/
+Open the original post ↗ https://jayex.io/blog/2021/04/01/jx3-builtin-observability/

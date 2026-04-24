@@ -4,7 +4,7 @@ date: '2022-03-23T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2022/03/23/gsod2022-proposal/
+external_url: https://jayex.io/blog/2022/03/23/gsod2022-proposal/
 post_kind: link
 draft: false
 tldr: Project proposal for Google Season of Docs 2022 📄 Project proposal Timeline
@@ -54,4 +54,4 @@ summary: 'Project proposal for Google Season of Docs 2022 📄 Project proposal 
   case, as well as used by the Jenkins X maintainers to plan the roadmap for improving
   Jenkins X.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2022/03/23/gsod2022-proposal/
+Open the original post ↗ https://jayex.io/blog/2022/03/23/gsod2022-proposal/

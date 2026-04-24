@@ -4,7 +4,7 @@ date: '2021-04-01T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2021/04/01/jx3-osiris-preview-envs/
+external_url: https://jayex.io/blog/2021/04/01/jx3-osiris-preview-envs/
 post_kind: link
 draft: false
 tldr: 'Scaling Preview Environments with Osiris Osiris How can you benefit from it
@@ -37,4 +37,4 @@ summary: 'Scaling Preview Environments with Osiris Osiris How can you benefit fr
   around 50 preview environments active at any time, and… 0 pods from these environments
   running at night - or on weekends.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2021/04/01/jx3-osiris-preview-envs/
+Open the original post ↗ https://jayex.io/blog/2021/04/01/jx3-osiris-preview-envs/

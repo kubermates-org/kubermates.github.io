@@ -4,7 +4,7 @@ date: '2021-12-28T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2021/12/28/kanikoacrandjenkinsx/
+external_url: https://jayex.io/blog/2021/12/28/kanikoacrandjenkinsx/
 post_kind: link
 draft: false
 tldr: 'Incident: Kaniko and ACR So what happened? So what are you going to do about
@@ -29,4 +29,4 @@ summary: 'Incident: Kaniko and ACR So what happened? So what are you going to do
   indicating to an authorization issues with the terraform module. Other users were
   seemingly unaffected by this issue.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2021/12/28/kanikoacrandjenkinsx/
+Open the original post ↗ https://jayex.io/blog/2021/12/28/kanikoacrandjenkinsx/

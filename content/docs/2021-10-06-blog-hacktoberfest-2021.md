@@ -4,7 +4,7 @@ date: '2021-10-06T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2021/10/06/hacktoberfest2021/
+external_url: https://jayex.io/blog/2021/10/06/hacktoberfest2021/
 post_kind: link
 draft: false
 tldr: Hacktoberfest 2021 Contribute to Jenkins X docs Ask us questions We are excited
@@ -26,4 +26,4 @@ summary: 'Hacktoberfest 2021 Contribute to Jenkins X docs Ask us questions We ar
   X Find out more about becoming involved in the Jenkins X community here. We look
   forward to seeing you in open source, fixing all the things! ← Previous.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2021/10/06/hacktoberfest2021/
+Open the original post ↗ https://jayex.io/blog/2021/10/06/hacktoberfest2021/

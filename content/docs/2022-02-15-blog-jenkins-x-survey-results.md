@@ -4,7 +4,7 @@ date: '2022-02-15T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2022/02/15/survey-1-results-2022/
+external_url: https://jayex.io/blog/2022/02/15/survey-1-results-2022/
 post_kind: link
 draft: false
 tldr: Jenkins X Survey Results The Jenkins X survey was active for four weeks and
@@ -30,4 +30,4 @@ summary: Jenkins X Survey Results The Jenkins X survey was active for four weeks
   surveys on Jenkins X is planning to attend Jenkins X Office hours, which is great!
   See you there next week then! ← Previous.
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2022/02/15/survey-1-results-2022/
+Open the original post ↗ https://jayex.io/blog/2022/02/15/survey-1-results-2022/

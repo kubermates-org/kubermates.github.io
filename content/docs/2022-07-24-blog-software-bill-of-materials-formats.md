@@ -4,7 +4,7 @@ date: '2022-07-24T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2022/07/24/sbom-formats/
+external_url: https://jayex.io/blog/2022/07/24/sbom-formats/
 post_kind: link
 draft: false
 tldr: Software Bill Of Materials Formats Prerequisite Different SBOM formats comparison
@@ -31,4 +31,4 @@ summary: 'Software Bill Of Materials Formats Prerequisite Different SBOM formats
   the requirements of NTIA. The SPDX project started in 2010 and was initially dedicated
   to solving the issues around open source licensing compliance.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2022/07/24/sbom-formats/
+Open the original post ↗ https://jayex.io/blog/2022/07/24/sbom-formats/

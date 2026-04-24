@@ -4,7 +4,7 @@ date: '2021-06-25T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2021/06/25/jx-cd-databases-2021/
+external_url: https://jayex.io/blog/2021/06/25/jx-cd-databases-2021/
 post_kind: link
 draft: false
 tldr: Continuous microservices with databases in Jenkins X Before you start Create
@@ -33,4 +33,4 @@ summary: 'Continuous microservices with databases in Jenkins X Before you start 
   jx gitops helmfile add --chart commonground/postgres-operator --repository https://charts.
   commonground. nl/ --namespace postgres --version 1.6.2 This will modify the helmfile.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2021/06/25/jx-cd-databases-2021/
+Open the original post ↗ https://jayex.io/blog/2021/06/25/jx-cd-databases-2021/

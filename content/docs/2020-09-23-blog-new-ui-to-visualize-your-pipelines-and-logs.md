@@ -4,7 +4,7 @@ date: '2020-09-23T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2020/09/23/jx-pipelines-visualizer/
+external_url: https://jayex.io/blog/2020/09/23/jx-pipelines-visualizer/
 post_kind: link
 draft: false
 tldr: 'New UI to visualize your pipelines and logs Why a new UI? Features Roadmap
@@ -32,4 +32,4 @@ summary: 'New UI to visualize your pipelines and logs Why a new UI? Features Roa
   where the logs are stored. it has URLs compatible with the old JXUI - so it’s very
   easy to replace the old JXUI with this new UI and keep all the links working.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2020/09/23/jx-pipelines-visualizer/
+Open the original post ↗ https://jayex.io/blog/2020/09/23/jx-pipelines-visualizer/

@@ -4,7 +4,7 @@ date: '2022-04-22T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2022/04/22/kubernetes-1.22-tekton/
+external_url: https://jayex.io/blog/2022/04/22/kubernetes-1.22-tekton/
 post_kind: link
 draft: false
 tldr: Kubernetes 1.22 - Breaking change! To allow Jenkins X to support Kubernetes
@@ -35,4 +35,4 @@ summary: 'Kubernetes 1.22 - Breaking change! To allow Jenkins X to support Kuber
   : cpu : 400m memory : 512Mi To see examples of what changes you need to apply to
   your custom pipelines you may investigate this PR on The Jenkins X pipeline catalog.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2022/04/22/kubernetes-1.22-tekton/
+Open the original post ↗ https://jayex.io/blog/2022/04/22/kubernetes-1.22-tekton/
