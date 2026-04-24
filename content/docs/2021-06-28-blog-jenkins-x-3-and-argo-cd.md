@@ -4,7 +4,7 @@ date: '2021-06-28T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2021/06/28/argo/
+external_url: https://jayex.io/blog/2021/06/28/argo/
 post_kind: link
 draft: false
 tldr: Jenkins X 3 and Argo CD Install Argo CD with Jenkins X Conclusion There have
@@ -36,4 +36,4 @@ summary: 'Jenkins X 3 and Argo CD Install Argo CD with Jenkins X Conclusion Ther
   wish) upgrades whereas today Argo CD uses a manual kubectl apply to manage the Argo
   installation itself.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2021/06/28/argo/
+Open the original post ↗ https://jayex.io/blog/2021/06/28/argo/

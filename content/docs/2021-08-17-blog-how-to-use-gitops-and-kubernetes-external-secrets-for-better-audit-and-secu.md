@@ -5,7 +5,7 @@ date: '2021-08-17T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2021/08/17/gitops-secrets/
+external_url: https://jayex.io/blog/2021/08/17/gitops-secrets/
 post_kind: link
 draft: false
 tldr: 'How to use GitOps and Kubernetes External Secrets for better audit and security
@@ -36,4 +36,4 @@ summary: 'How to use GitOps and Kubernetes External Secrets for better audit and
   Jenkins X defaults to using helmfile to manage installing, upgrading and configuring
   multiple helm charts.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2021/08/17/gitops-secrets/
+Open the original post ↗ https://jayex.io/blog/2021/08/17/gitops-secrets/

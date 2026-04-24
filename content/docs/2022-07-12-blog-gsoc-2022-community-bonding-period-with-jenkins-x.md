@@ -4,7 +4,7 @@ date: '2022-07-12T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2022/07/12/gsoc2022-community-bonding-period/
+external_url: https://jayex.io/blog/2022/07/12/gsoc2022-community-bonding-period/
 post_kind: link
 draft: false
 tldr: GSoC 2022 Community Bonding Period with Jenkins X Introduction How I started
@@ -29,4 +29,4 @@ summary: 'GSoC 2022 Community Bonding Period with Jenkins X Introduction How I s
   is not common because mentors have a very busy schedule. But my mentors helped me
   a lot.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2022/07/12/gsoc2022-community-bonding-period/
+Open the original post ↗ https://jayex.io/blog/2022/07/12/gsoc2022-community-bonding-period/

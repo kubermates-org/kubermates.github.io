@@ -4,7 +4,7 @@ date: '2020-12-09T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2020/12/09/jx-v3-beta/
+external_url: https://jayex.io/blog/2020/12/09/jx-v3-beta/
 post_kind: link
 draft: false
 tldr: 'Jenkins X 3. x beta is here! User Changes Platform Changes Getting started
@@ -47,4 +47,4 @@ summary: 'Jenkins X 3. x beta is here! User Changes Platform Changes Getting sta
   and continuously upgrading our cluster in the standard way and it’s been much simpler
   and easier to use, operate and configure.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2020/12/09/jx-v3-beta/
+Open the original post ↗ https://jayex.io/blog/2020/12/09/jx-v3-beta/

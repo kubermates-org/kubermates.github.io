@@ -4,7 +4,7 @@ date: '2022-04-05T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2022/04/05/gsoc2022-proposal-template/
+external_url: https://jayex.io/blog/2022/04/05/gsoc2022-proposal-template/
 post_kind: link
 draft: false
 tldr: 'Google Summer of Code 2022 project proposal template ☀️ Proposal template Full
@@ -40,4 +40,4 @@ summary: 'Google Summer of Code 2022 project proposal template ☀️ Proposal t
   Include any milestones and deadlines Include time for investigation, coding and
   documentation ← Previous.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2022/04/05/gsoc2022-proposal-template/
+Open the original post ↗ https://jayex.io/blog/2022/04/05/gsoc2022-proposal-template/

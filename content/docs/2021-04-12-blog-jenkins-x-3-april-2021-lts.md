@@ -4,7 +4,7 @@ date: '2021-04-12T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2021/04/12/jx3-lts-apr-21/
+external_url: https://jayex.io/blog/2021/04/12/jx3-lts-apr-21/
 post_kind: link
 draft: false
 tldr: Jenkins X 3 - April 2021 LTS This is the second LTS release for Jenkins X 3.
@@ -24,4 +24,4 @@ summary: 'Jenkins X 3 - April 2021 LTS This is the second LTS release for Jenkin
   using Vault move it outside of being managed by Jenkins X GitOps important notes
   ← Previous.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2021/04/12/jx3-lts-apr-21/
+Open the original post ↗ https://jayex.io/blog/2021/04/12/jx3-lts-apr-21/

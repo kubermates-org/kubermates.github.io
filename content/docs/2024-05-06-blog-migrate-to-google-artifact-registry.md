@@ -4,7 +4,7 @@ date: '2024-05-06T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2024/05/06/migrating-artifact-registry/
+external_url: https://jayex.io/blog/2024/05/06/migrating-artifact-registry/
 post_kind: link
 draft: false
 tldr: Migrate to Google Artifact Registry Google has announced that container registry
@@ -21,4 +21,4 @@ summary: Migrate to Google Artifact Registry Google has announced that container
   requirement roles/artifactregistry. admin. See our guide regarding Google Service
   Account for details. ← Previous.
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2024/05/06/migrating-artifact-registry/
+Open the original post ↗ https://jayex.io/blog/2024/05/06/migrating-artifact-registry/

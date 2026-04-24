@@ -4,7 +4,7 @@ date: '2022-11-08T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2022/11/08/gsoc-2022/
+external_url: https://jayex.io/blog/2022/11/08/gsoc-2022/
 post_kind: link
 draft: false
 tldr: 'GSoC 2022 Final Report: Improving Supply Chain Security Project Description
@@ -39,4 +39,4 @@ summary: 'GSoC 2022 Final Report: Improving Supply Chain Security Project Descri
   for integrating Chains with Jenkins X. To integrate the chart and added support
   for it on jx3-versions to make installation of helm chart easy for our users.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2022/11/08/gsoc-2022/
+Open the original post ↗ https://jayex.io/blog/2022/11/08/gsoc-2022/

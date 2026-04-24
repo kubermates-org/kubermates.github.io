@@ -4,7 +4,7 @@ date: '2022-03-12T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2022/03/12/gsoc2022-followup/
+external_url: https://jayex.io/blog/2022/03/12/gsoc2022-followup/
 post_kind: link
 draft: false
 tldr: Google Summer of Code 2022 ☀️ How many contributors are we looking for? What
@@ -42,4 +42,4 @@ summary: 'Google Summer of Code 2022 ☀️ How many contributors are we looking
   you use k3s for this, as it’s less resource intensive and can be installed locally
   on your workstation (linux).'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2022/03/12/gsoc2022-followup/
+Open the original post ↗ https://jayex.io/blog/2022/03/12/gsoc2022-followup/

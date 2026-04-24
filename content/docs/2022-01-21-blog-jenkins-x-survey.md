@@ -4,7 +4,7 @@ date: '2022-01-21T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2022/01/21/survey-1-2022/
+external_url: https://jayex.io/blog/2022/01/21/survey-1-2022/
 post_kind: link
 draft: false
 tldr: Jenkins X Survey We have made a short survey where we try to gain insight into
@@ -18,4 +18,4 @@ summary: Jenkins X Survey We have made a short survey where we try to gain insig
   11 2022 midnight UTC. All submissions are anonymous and the results will be published.
   So don’t hesitate, fill in the Jenkins X survey today ← Previous.
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2022/01/21/survey-1-2022/
+Open the original post ↗ https://jayex.io/blog/2022/01/21/survey-1-2022/

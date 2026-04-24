@@ -4,7 +4,7 @@ date: '2022-02-02T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2022/02/02/january2022updates/
+external_url: https://jayex.io/blog/2022/02/02/january2022updates/
 post_kind: link
 draft: false
 tldr: January 2022 updates from the JX community Community effort Features Bug fixes
@@ -17,8 +17,8 @@ summary: 'January 2022 updates from the JX community Community effort Features B
   This monthly blog post series is an attempt to showcase all the incredible work
   being done by the Jenkins X community to the wider audience. Lot of exciting features,
   bug fixes and documentation improvements were made. We restarted the office hours
-  this month ( https://jenkins-x. io/community/#office-hours). Drop by to say hello,
-  we are a friendly group! First Jenkins X survey was also created this month ( https://jenkins-x.
+  this month ( https://jayex. io/community/#office-hours). Drop by to say hello, we
+  are a friendly group! First Jenkins X survey was also created this month ( https://jayex.
   io/blog/2022/01/21/survey-1-2022/). We have extended the deadline by 2 weeks (Feb
   11, 2022 midnight UTC), so fill it out if you have not yet. We will use this for
   the roadmap moving forward. Monthly blog post update series to keep up with all
@@ -49,6 +49,6 @@ summary: 'January 2022 updates from the JX community Community effort Features B
   Fix jx project rendering invalid chart. yaml files on import for custom packs in
   catalog Fix jx project rendering invalid chart. yaml files on import for custom
   packs in catalog Guides on configuring Azure service principle and GCP service account
-  for terraform users ( https://jenkins-x.'
+  for terraform users ( https://jayex.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2022/02/02/january2022updates/
+Open the original post ↗ https://jayex.io/blog/2022/02/02/january2022updates/

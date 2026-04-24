@@ -4,7 +4,7 @@ date: '2022-02-20T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2022/02/20/gsoc2022-ideas/
+external_url: https://jayex.io/blog/2022/02/20/gsoc2022-ideas/
 post_kind: link
 draft: false
 tldr: Project ideas for Google Summer of Code 2022 ☀️ 1. Cloud events integration
@@ -27,4 +27,4 @@ summary: 'Project ideas for Google Summer of Code 2022 ☀️ 1. Cloud events in
   lighthouse would be great, but not required Ankit D Mohapatra Christopher Vig Tom
   Hobson https://cloudevents.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2022/02/20/gsoc2022-ideas/
+Open the original post ↗ https://jayex.io/blog/2022/02/20/gsoc2022-ideas/

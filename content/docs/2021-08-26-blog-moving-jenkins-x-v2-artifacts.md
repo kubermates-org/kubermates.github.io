@@ -4,7 +4,7 @@ date: '2021-08-26T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2021/08/26/moving-v2-artifacts/
+external_url: https://jayex.io/blog/2021/08/26/moving-v2-artifacts/
 post_kind: link
 draft: false
 tldr: Moving Jenkins X v2 artifacts ACTION REQUIRED Why the disruption? What is changing?
@@ -39,4 +39,4 @@ summary: Moving Jenkins X v2 artifacts ACTION REQUIRED Why the disruption? What 
   we want to switch to using GitHub for all v2 plus v3 users, then shutdown the GCP
   services which are causing unnecessary cost.
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2021/08/26/moving-v2-artifacts/
+Open the original post ↗ https://jayex.io/blog/2021/08/26/moving-v2-artifacts/

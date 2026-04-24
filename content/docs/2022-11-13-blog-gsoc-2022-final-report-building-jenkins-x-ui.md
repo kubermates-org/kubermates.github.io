@@ -4,7 +4,7 @@ date: '2022-11-13T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2022/11/13/gsoc-2022-work-report/
+external_url: https://jayex.io/blog/2022/11/13/gsoc-2022-work-report/
 post_kind: link
 draft: false
 tldr: 'GSoC 2022 Final Report: Building Jenkins X UI Jenkins X New UI Why need a new
@@ -29,4 +29,4 @@ summary: 'GSoC 2022 Final Report: Building Jenkins X UI Jenkins X New UI Why nee
   Security and a Superb User Experience. This is NOT GA (General Availability) yet.
   Visit the project repo here to try it.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2022/11/13/gsoc-2022-work-report/
+Open the original post ↗ https://jayex.io/blog/2022/11/13/gsoc-2022-work-report/

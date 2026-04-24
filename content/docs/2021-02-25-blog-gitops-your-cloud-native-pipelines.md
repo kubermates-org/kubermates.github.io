@@ -4,7 +4,7 @@ date: '2021-02-25T00:00:00+00:00'
 tags:
 - jenkins-x
 source: Jenkins X
-external_url: https://jenkins-x.io/blog/2021/02/25/gitops-pipelines/
+external_url: https://jayex.io/blog/2021/02/25/gitops-pipelines/
 post_kind: link
 draft: false
 tldr: 'GitOps your cloud native pipelines The problem Previous solutions GitOps your
@@ -56,4 +56,4 @@ summary: 'GitOps your cloud native pipelines The problem Previous solutions GitO
   front of every parameterisation that may be required by downstream repositories.
   e.'
 ---
-Open the original post ↗ https://jenkins-x.io/blog/2021/02/25/gitops-pipelines/
+Open the original post ↗ https://jayex.io/blog/2021/02/25/gitops-pipelines/
