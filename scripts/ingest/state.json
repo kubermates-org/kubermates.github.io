@@ -14434,6 +14434,446 @@
       "title": "KCD Panama 2026",
       "date": "2027-01-22T13:00:00+00:00",
       "source": "cncf-api"
+    },
+    "46fcc0f1e637": {
+      "title": "CNCF Strengthens Partnership with Broadcom as a Platinum Member to Advance AI-Ready Cloud Native Infrastructure",
+      "date": "2026-07-16T16:00:00+00:00",
+      "source": "CNCF"
+    },
+    "df9356e2a56d": {
+      "title": "Running a self-hosted LLM in Kubernetes with vLLM",
+      "date": "2026-07-16T11:00:00+00:00",
+      "source": "CNCF"
+    },
+    "3ad7d4e19aed": {
+      "title": "HAMi becomes a CNCF incubating project",
+      "date": "2026-07-15T16:00:00+00:00",
+      "source": "CNCF"
+    },
+    "77108111a950": {
+      "title": "On-prem DBaaS in 2026: Platforms, standards, and gaps",
+      "date": "2026-07-15T11:00:00+00:00",
+      "source": "CNCF"
+    },
+    "7f9251b02743": {
+      "title": "KeycloakCon Japan 2026: Navigating cloud native identity and the AI frontier",
+      "date": "2026-07-14T21:34:55+00:00",
+      "source": "CNCF"
+    },
+    "2bfd1390b7fd": {
+      "title": "Is a Pod the right deployment unit for an AI agent?",
+      "date": "2026-07-14T11:20:00+00:00",
+      "source": "CNCF"
+    },
+    "24854b9a8199": {
+      "title": "Operating OpenTelemetry at scale with OpAMP",
+      "date": "2026-07-13T11:30:00+00:00",
+      "source": "CNCF"
+    },
+    "a2d5ef7a3832": {
+      "title": "Where should AI workloads run? A sovereign and sensible approach",
+      "date": "2026-07-10T23:00:00+00:00",
+      "source": "CNCF"
+    },
+    "1d73c4ed9aba": {
+      "title": "Navigating the ingress-NGINX retirement",
+      "date": "2026-07-09T20:45:02+00:00",
+      "source": "CNCF"
+    },
+    "f455a7aeb6cd": {
+      "title": "The CNCF Data Storage in Cloud Native AI White Paper",
+      "date": "2026-07-08T17:35:54+00:00",
+      "source": "CNCF"
+    },
+    "bcac26e954bd": {
+      "title": "Accessing private Git repositories from Amazon EKS capability for Argo CD",
+      "date": "2026-07-13T16:46:33+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "6ebdbd4cb1c9": {
+      "title": "Migrate Amazon EC2 to EKS Auto Mode using Kiro CLI and MCP servers",
+      "date": "2026-07-09T16:24:54+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "49273755ac15": {
+      "title": "Full request and response compliance logging on Amazon EKS",
+      "date": "2026-07-07T16:35:30+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "d891c68eb558": {
+      "title": "Diagnose Kubernetes Control Plane Performance Issues with AWS DevOps Agent",
+      "date": "2026-07-02T17:03:59+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "055c34d58ad0": {
+      "title": "Announcing Amazon EKS Rollback for safe and reliable management of cluster upgrades",
+      "date": "2026-07-01T17:32:29+00:00",
+      "source": "AWS Containers Blog (EKS)"
+    },
+    "35c00616b958": {
+      "title": "Friday Five — July 17, 2026",
+      "date": "2026-07-17T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "3bb1c39c1221": {
+      "title": "Why Operational Resilience and Digital Sovereignty Top the CIO Agenda - by Martin Lentle",
+      "date": "2026-07-16T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "dae584846f7f": {
+      "title": "Interactive labs: Enterprise lab environments, ready in minutes at no cost",
+      "date": "2026-07-16T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "b94ff02ca990": {
+      "title": "How Red Hat solves the toughest challenges in agentless infrastructure scanning",
+      "date": "2026-07-16T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "2a1382e3ca58": {
+      "title": "Moving from PoC to production: Delivering real business value with Red Hat AI 3.4",
+      "date": "2026-07-15T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "74720a946361": {
+      "title": "Two-node OpenShift with fencing improves reliability at the edge",
+      "date": "2026-07-15T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "8d590f42a27a": {
+      "title": "Physical AI: Physical operations are broken, a new kind of intelligence is needed",
+      "date": "2026-07-15T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "d200633750b8": {
+      "title": "How insurance organizations balance strict compliance with data agility",
+      "date": "2026-07-15T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "e628a4fd5e55": {
+      "title": "Demystifying agentic AI: How to build production-ready AIOps with open source models",
+      "date": "2026-07-15T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "dcc777d33296": {
+      "title": "Zero trust workload identity manager version 1.1 generally available on Red Hat OpenShift",
+      "date": "2026-07-14T00:00:00+00:00",
+      "source": "Redhat Blog"
+    },
+    "919e34a87f81": {
+      "title": "Why the future of telco depends on open, ecosystem-led architectures",
+      "date": "2026-07-14T00:00:00+00:00",
+      "source": "OpenShift Blog"
+    },
+    "e91f9c9eed19": {
+      "title": "Storage processing accelerates VM migrations in the migration toolkit for virtualization 2.12",
+      "date": "2026-07-14T00:00:00+00:00",
+      "source": "OpenShift Blog"
+    },
+    "197631798f04": {
+      "title": "Navigate AI and scale with Red Hat OpenShift 4.22",
+      "date": "2026-07-14T00:00:00+00:00",
+      "source": "OpenShift Blog"
+    },
+    "eb3ab2b5558a": {
+      "title": "How Red Hat OpenShift 4.22 impacts enterprise AI’s bottom line",
+      "date": "2026-07-14T00:00:00+00:00",
+      "source": "OpenShift Blog"
+    },
+    "0b1a7c5de1ef": {
+      "title": "Building a Custom Metrics Exporter for Kubernetes",
+      "date": "2026-07-14T10:00:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "5c9674c56222": {
+      "title": "Operating AI/ML Workloads on Kubernetes: A Headlamp Plugin for Kubeflow",
+      "date": "2026-07-13T12:00:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "4df1441b65e7": {
+      "title": "Kubernetes Dashboard to Headlamp: A Step-by-Step Guide",
+      "date": "2026-07-13T10:00:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "4d784cb50ba4": {
+      "title": "Announcing etcd v3.7.0",
+      "date": "2026-07-08T20:00:00+08:00",
+      "source": "Kubernetes Blog"
+    },
+    "99dd9b0bb40a": {
+      "title": "Open source maintainership in the age of AI",
+      "date": "2026-06-26T10:00:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "d1d40c7f7a99": {
+      "title": "Introducing the Cluster API plugin for Headlamp",
+      "date": "2026-06-25T14:00:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "ee676b54de8e": {
+      "title": "Inspect Volcano workloads faster with Headlamp",
+      "date": "2026-06-25T12:00:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "a135271c86b6": {
+      "title": "See your serverless: introducing the Headlamp plugin for Knative",
+      "date": "2026-06-25T10:00:00-08:00",
+      "source": "Kubernetes Blog"
+    },
+    "e6b43a97c13f": {
+      "title": "Blog: Human-Centered Automation for Kubernetes Localization in the AI Era",
+      "date": "2026-06-26T14:00:00-08:00",
+      "source": "Kubernetes.dev Blog"
+    },
+    "fee67d0062e5": {
+      "title": "Blog: Open source maintainership in the age of AI",
+      "date": "2026-06-26T10:00:00-08:00",
+      "source": "Kubernetes.dev Blog"
+    },
+    "87e0212545d8": {
+      "title": "Before You Deploy AIControls",
+      "date": "2026-07-13T06:05:52+00:00",
+      "source": "Nirmata Blog"
+    },
+    "17d9eb466fb3": {
+      "title": "Govern the Request, Not Just the Model",
+      "date": "2026-07-06T04:35:45+00:00",
+      "source": "Nirmata Blog"
+    },
+    "f22a3ebb44cc": {
+      "title": "Introducing AIControls from Nirmata!",
+      "date": "2026-07-02T04:40:17+00:00",
+      "source": "Nirmata Blog"
+    },
+    "438ba4953a99": {
+      "title": "Modernize Your Recovery Infrastructure with VMware Cloud Foundation 9.1",
+      "date": "2026-07-15T15:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "4f26a3cf0c31": {
+      "title": "Sustainable Intelligence: Singapore’s AI-Driven Future with Green Plan 2030",
+      "date": "2026-07-14T23:34:32+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "cef9b9d237bc": {
+      "title": "Securing the Foundation: VMware Cloud Foundation 9.1 STIG Compliance",
+      "date": "2026-07-14T21:32:16+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "8b361d00c116": {
+      "title": "Broadcom Named a Leader in the 2026 IDC MarketScape for Worldwide Private and Hybrid Cloud Management and Automation",
+      "date": "2026-07-14T13:00:00+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "a13ba008daad": {
+      "title": "Load Balancing in vSphere 9.0+ and VMware Cloud Foundation 9.0+",
+      "date": "2026-07-13T22:48:52+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "104e631212a8": {
+      "title": "Securing Your Database Estate Against AI-Driven Threats with VMware Data Services Manager",
+      "date": "2026-07-13T22:23:45+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "42a269de630c": {
+      "title": "Performance Best Practices for VMware vSphere 9.1",
+      "date": "2026-07-13T16:22:16+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "e7223128f220": {
+      "title": "The Complete Guide to Workload Mobility with VMware Cloud Foundation Operations HCX 9.1 (Part 2: HCX Service Mesh)",
+      "date": "2026-07-13T11:39:48+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "923349f3b11e": {
+      "title": "Inside Audi’s Factory Transformation: What ARC’s Research Reveals",
+      "date": "2026-07-08T15:09:45+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "b6c19a146fe6": {
+      "title": "Beyond Benchmarks: Engineering a Science-Grounded Validation for the Envoy AI Gateway",
+      "date": "2026-07-02T22:07:43+00:00",
+      "source": "VMware Cloud Foundation Blog"
+    },
+    "e79c853966cf": {
+      "title": "Kubernetes Tutorial: Deploy Your First App on Kubernetes Today",
+      "date": "2026-07-06T08:25:48+00:00",
+      "source": "KodeKloud Blog (Kubernetes)"
+    },
+    "d71f73674f0a": {
+      "title": "How AI Reshapes the CKS Exam and Kubernetes Security in 2026",
+      "date": "2026-06-29T18:40:36+00:00",
+      "source": "KodeKloud Blog (Kubernetes)"
+    },
+    "67a21800cdb1": {
+      "title": "Kubernetes Certifications 2026: A Complete Guide",
+      "date": "2026-06-28T17:17:41+00:00",
+      "source": "KodeKloud Blog (Kubernetes)"
+    },
+    "a7e53eb3970c": {
+      "title": "Scale Faster with Managed Weaviate: Now in Public Preview on DigitalOcean",
+      "date": "2026-07-09T19:08:52.853000+00:00",
+      "source": "Digital Ocean"
+    },
+    "25d3f6979d34": {
+      "title": "Built for Mass Scale: Hard-Won Lessons from Teams Running High Volume Inference Workloads in Production",
+      "date": "2026-07-02T10:00:00.013000+00:00",
+      "source": "Digital Ocean"
+    },
+    "3f42cc469b18": {
+      "title": "DigitalOcean Evaluations: Production Model and Router Testing for the Inference Stack",
+      "date": "2026-07-01T15:41:47.311000+00:00",
+      "source": "Digital Ocean"
+    },
+    "7e19452cb7e8": {
+      "title": "NVIDIA OpenShell Secures the Agent. Who Governs the Fleet?",
+      "date": "2026-07-15T14:41:56+00:00",
+      "source": "Tigera"
+    },
+    "d0677d26275d": {
+      "title": "Tiered Network Policy: Scaling Kubernetes Security",
+      "date": "2026-07-10T16:12:22+00:00",
+      "source": "Tigera"
+    },
+    "801d2b51f4b0": {
+      "title": "Save the Address, Save the Cloud: A Hands-on KubeVirt Live Migration Workshop",
+      "date": "2026-07-09T13:58:26+00:00",
+      "source": "Tigera"
+    },
+    "90c51b99a5dd": {
+      "title": "Save the Address, Save the Cloud (KubeVirt VM Migration Story)",
+      "date": "2026-07-08T20:45:58+00:00",
+      "source": "Tigera"
+    },
+    "fadd906410cb": {
+      "title": "Six AI agent SDKs for enterprise Kubernetes, compared",
+      "date": "2026-07-03T20:44:49+00:00",
+      "source": "Tigera"
+    },
+    "a811f298992c": {
+      "title": "Kubernetes Operational Maturity: Why You Should Modernize Your Ingress with Gateway API",
+      "date": "2026-06-10T19:12:12+00:00",
+      "source": "Tigera"
+    },
+    "b2f2804c8663": {
+      "title": "v1.37.0-alpha.3",
+      "date": "2026-07-08T18:11:06+00:00",
+      "source": "Kubernetes Releases"
+    },
+    "9080826b355d": {
+      "title": "July 16, 2026",
+      "date": "2026-07-16T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "641e2771859d": {
+      "title": "July 14, 2026",
+      "date": "2026-07-14T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "1d547f2acc00": {
+      "title": "July 10, 2026",
+      "date": "2026-07-10T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "0ec92979afb6": {
+      "title": "July 09, 2026",
+      "date": "2026-07-09T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "93c45657e640": {
+      "title": "July 07, 2026",
+      "date": "2026-07-07T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "62674a2ea276": {
+      "title": "June 29, 2026",
+      "date": "2026-06-29T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "6f434f927e3c": {
+      "title": "June 26, 2026",
+      "date": "2026-06-26T00:00:00-07:00",
+      "source": "GKE Release Notes"
+    },
+    "48a46c5a6dbd": {
+      "title": "5.0.0-okd-scos.ec.5",
+      "date": "2026-07-13T15:34:28+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "c2959af37d9a": {
+      "title": "5.0.0-okd-scos.ec.4",
+      "date": "2026-06-29T10:01:11+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "957c43574a33": {
+      "title": "4.22.0-okd-scos.7",
+      "date": "2026-07-13T14:36:30+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "d79e11cff803": {
+      "title": "4.22.0-okd-scos.6",
+      "date": "2026-06-29T10:00:55+00:00",
+      "source": "OKD/OpenShift Docs feed"
+    },
+    "cf5ae503f9b6": {
+      "title": "v2.13.8-alpha5",
+      "date": "2026-07-16T03:56:10+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "258aa8acc35a": {
+      "title": "v2.12.12-alpha5",
+      "date": "2026-07-16T03:55:55+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "b5d80f1fd7b1": {
+      "title": "v2.11.16-alpha4",
+      "date": "2026-07-16T03:56:04+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "37c2b51fa1af": {
+      "title": "v2.15.0-alpha21",
+      "date": "2026-07-15T23:17:15+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "1976c7abe64b": {
+      "title": "v2.15.0-alpha20",
+      "date": "2026-07-15T16:05:26+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "fcfb370e46be": {
+      "title": "v2.14.4-alpha4",
+      "date": "2026-07-16T17:30:12+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "e32eacd2090b": {
+      "title": "v2.14.4-alpha3",
+      "date": "2026-07-15T22:52:06+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "2dc6b6d60820": {
+      "title": "v2.13.8-alpha4",
+      "date": "2026-07-15T23:17:18+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "7fa77b64b015": {
+      "title": "v2.12.12-alpha4",
+      "date": "2026-07-15T23:17:27+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "d3fdbe228b06": {
+      "title": "v2.15.0-alpha19",
+      "date": "2026-07-15T16:05:36+00:00",
+      "source": "Rancher (Manager) Releases"
+    },
+    "cd64d887a0a1f054": {
+      "title": "ChatLoopBackOff Episode 79: Capsule with Thomas and Oliver",
+      "date": "2026-07-23T16:00:28+00:00",
+      "source": "cncf-api"
+    },
+    "1dde4eddac832c06": {
+      "title": "KCD Suisse Romande 2026",
+      "date": "2026-12-09T08:00:00+00:00",
+      "source": "cncf-api"
     }
   }
 }
